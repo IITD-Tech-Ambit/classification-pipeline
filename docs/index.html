@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research Ambit — Robust Classification Architecture (Final Plan)</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.1/mermaid.min.js"></script>
+<style>
+  :root{
+    --ink:#1a1f2e; --muted:#5a6472; --accent:#0f4c81; --accent2:#b45309;
+    --bg:#ffffff; --panel:#f5f7fa; --border:#d9dee6; --good:#166534; --bad:#991b1b;
+  }
+  *{box-sizing:border-box}
+  body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+       color:var(--ink); background:var(--bg); margin:0; line-height:1.55; font-size:15.5px;}
+  .wrap{max-width:960px; margin:0 auto; padding:48px 32px 96px;}
+  h1{font-size:30px; line-height:1.2; margin:0 0 4px; letter-spacing:-.5px;}
+  .subtitle{color:var(--muted); font-size:16px; margin-bottom:28px;}
+  h2{font-size:22px; margin:52px 0 12px; padding-bottom:8px; border-bottom:2px solid var(--accent); letter-spacing:-.3px;}
+  h3{font-size:17px; margin:28px 0 8px; color:var(--accent);}
+  p{margin:10px 0;}
+  table{border-collapse:collapse; width:100%; margin:16px 0; font-size:14px;}
+  th{background:var(--accent); color:#fff; text-align:left; padding:8px 10px; font-weight:600;}
+  td{border:1px solid var(--border); padding:8px 10px; vertical-align:top;}
+  tr:nth-child(even) td{background:var(--panel);}
+  .meta{display:grid; grid-template-columns:repeat(auto-fit,minmax(210px,1fr)); gap:12px; margin:20px 0 8px;}
+  .meta div{background:var(--panel); border:1px solid var(--border); border-radius:8px; padding:12px 14px; font-size:13.5px;}
+  .meta b{display:block; color:var(--accent); font-size:12px; text-transform:uppercase; letter-spacing:.6px; margin-bottom:4px;}
+  .callout{border-left:4px solid var(--accent2); background:#fff8f0; padding:12px 16px; margin:16px 0; border-radius:0 8px 8px 0; font-size:14.5px;}
+  .callout.blue{border-left-color:var(--accent); background:#f0f6fc;}
+  .mermaid{background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:18px; margin:20px 0; text-align:center;}
+  .figcap{text-align:center; color:var(--muted); font-size:13px; margin:-10px 0 24px;}
+  code{background:var(--panel); border:1px solid var(--border); border-radius:4px; padding:1px 6px; font-size:13px;}
+  pre{background:#10141c; color:#dbe4f0; border-radius:10px; padding:16px 18px; overflow-x:auto; font-size:13px; line-height:1.5;}
+  ul,ol{margin:8px 0 8px 22px; padding:0;}
+  li{margin:5px 0;}
+  .toc{background:var(--panel); border:1px solid var(--border); border-radius:10px; padding:18px 24px; columns:2; column-gap:36px; font-size:14px;}
+  .toc a{color:var(--accent); text-decoration:none;}
+  .tag{display:inline-block; font-size:11px; font-weight:700; letter-spacing:.5px; padding:2px 8px; border-radius:20px; margin-right:6px; vertical-align:middle;}
+  .tag.human{background:#fde9d9; color:var(--accent2);}
+  .tag.gpu{background:#dcebf7; color:var(--accent);}
+  .tag.cpu{background:#e5e7eb; color:#374151;}
+  a{color:var(--accent);}
+  @media print{.mermaid{break-inside:avoid} h2{break-after:avoid}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<h1>Robust Research-Paper Classification — Final Architecture</h1>
+<div class="subtitle">Research Ambit · IIT Delhi · Self-hosted two-laptop GPU cluster · Quality-first design</div>
+
+<div class="meta">
+  <div><b>Corpus</b>69,677 Scopus papers (title + abstract) in <code>researchmetadatascopus</code></div>
+  <div><b>Fixed layer</b>9 thematic areas (human-approved, unchangeable)</div>
+  <div><b>Generated layers</b>Domains, subdomains &amp; topics — rebuilt bottom-up from the corpus</div>
+  <div><b>Hardware</b>2× laptops, RTX 3050-class (4–6 GB VRAM), 1 Gbps wired Ethernet</div>
+  <div><b>Constraints</b>No LLM APIs · runtime acceptable · no quality compromise</div>
+  <div><b>Outcome</b><code>classification_v2</code>: primary path + secondary themes + topics + confidence + provenance</div>
+</div>
+
+<h2 id="toc">Contents</h2>
+<div class="toc">
+  <a href="#s1">1 · Executive summary</a><br>
+  <a href="#s2">2 · Why v1 failed (evidence)</a><br>
+  <a href="#s3">3 · Architecture at a glance</a><br>
+  <a href="#s4">4 · P0 — Data hygiene &amp; embedding foundation</a><br>
+  <a href="#s5">5 · P1 — Theme scope notes</a><br>
+  <a href="#s6">6 · P2 — Theme assignment pass</a><br>
+  <a href="#s7">7 · P3 — Taxonomy induction</a><br>
+  <a href="#s8">8 · P4 — Gold set &amp; acceptance bar</a><br>
+  <a href="#s9">9 · P5 — Classification funnel</a><br>
+  <a href="#s10">10 · Compute topology</a><br>
+  <a href="#s11">11 · Data model changes</a><br>
+  <a href="#s12">12 · P6 — Evaluation &amp; rollout</a><br>
+  <a href="#s13">13 · P7 — Production steady state</a><br>
+  <a href="#s14">14 · Timeline &amp; runtime math</a><br>
+  <a href="#s15">15 · Risks &amp; mitigations</a><br>
+  <a href="#s16">16 · Sources</a>
+</div>
+
+<h2 id="s1">1 · Executive summary</h2>
+<p>The existing classification (66,235 of 69,677 papers labeled) is unreliable because it was produced by a single unconstrained model pass over an unvalidated taxonomy: 50,758 distinct free-text topics (≈ one per paper), editorials and abstract-less items force-labeled, overlapping theme definitions, and no confidence or audit trail. Critically, the domain/subdomain/topic layers themselves came out of that same noisy process — only the <b>9 thematic areas are trustworthy human-approved structure</b>.</p>
+<p>This plan therefore does two jobs in strict order. First it <b>regenerates the taxonomy bottom-up from the corpus</b>: papers are assigned to the 9 fixed themes by a multi-model ensemble, then domains and subdomains are <i>discovered</i> by clustering within each theme — a node exists only if enough papers, cluster stability, and separation tests justify it, and a human curator approves every node. Topics become a small controlled vocabulary extracted from member papers; free text is structurally impossible. Second, it <b>classifies every paper against that frozen taxonomy by independent agreement</b>: an embedding classifier and two LLMs of different families must agree before a label is written; disagreements escalate to a much larger pooled model; survivors of all four go to a small human review queue. "Unclassifiable" is a legitimate, stored outcome.</p>
+<p>On compute: the main passes run <b>data-parallel</b> — each laptop independently runs a 30B-class Mixture-of-Experts model (feasible at ~30 tok/s on 6 GB VRAM via llama.cpp expert-offloading) against a shared MongoDB job queue. The two GPUs are <b>pooled over the 1 Gbps backbone only for the escalation model</b> that cannot fit on one machine (prima.cpp, fallback llama.cpp RPC). Nothing runs on the full corpus until it clears a measured accuracy bar on a human-verified gold set, and a 200-paper benchmark run fixes the real schedule before any multi-week job starts.</p>
+
+<h2 id="s2">2 · Why v1 failed — evidence from the database</h2>
+<table>
+  <tr><th>Failure</th><th>Evidence (measured in <code>research_ambit</code>)</th><th>Design answer</th></tr>
+  <tr><td>Topic explosion</td><td>50,758 distinct free-text topics across 66k papers; topics are title fragments ("Tagboard", "Reverse Endowment Effect")</td><td>Controlled vocabulary, extracted not generated; LLMs never emit topic strings (§7, §9-F)</td></tr>
+  <tr><td>No abstain path</td><td>2,477 papers with "(No abstract available)"; "Editorial note" classified into Literature &amp; Media Studies</td><td>Rule gate before any compute; <code>unclassifiable(reason)</code> is a first-class outcome (§4)</td></tr>
+  <tr><td>Ambiguous theme boundaries</td><td>"AI/ML, Supercomputing &amp; Quantum Computing" overlaps "Quantum Technologies &amp; Semiconductor Technology"</td><td>Written scope notes with exclusion rules, injected into every prompt (§5)</td></tr>
+  <tr><td>Unvalidated middle layers</td><td>35 domains / 177 subdomains machine-generated; <code>domains</code> lack <code>thematic_area_id</code>; subdomains with 38 papers</td><td>Regenerate by clustering + stability + minimum-mass tests + SME approval (§7)</td></tr>
+  <tr><td>Single forced label, no provenance</td><td>One <code>classification</code> object, no confidence, no model version</td><td>Ensemble vote pattern, confidence tier, model + taxonomy versions stored per paper (§11)</td></tr>
+</table>
+
+<h2 id="s3">3 · Architecture at a glance</h2>
+<div class="mermaid">
+flowchart TD
+  P0["P0 · Data hygiene, gating &amp; embeddings<br/><i>rules + GPU-light · ~2 days</i>"]
+  P1["P1 · Theme scope notes + theme mini-gold set<br/><i>human · ~1 week, parallel with P0</i>"]
+  P2["P2 · Theme assignment pass<br/>ensemble at theme level over ~65k papers"]
+  P3["P3 · Taxonomy induction<br/>cluster → test → name → curate<br/>domains → subdomains → topics"]
+  P4["P4 · Full-path gold set (400–500 papers)<br/>+ calibration + acceptance bar"]
+  P5["P5 · Full classification funnel<br/>3-voter ensemble → escalation → review"]
+  P6["P6 · Evaluation, v1/v2 diff audit, rollout"]
+  P7["P7 · Production steady state<br/>ingest funnel · drift watch · flywheel"]
+  P0 --> P2
+  P1 --> P2
+  P2 --> P3
+  P3 --> P4
+  P4 --> P5
+  P5 --> P6
+  P6 --> P7
+  style P1 fill:#fde9d9,stroke:#b45309
+  style P4 fill:#fde9d9,stroke:#b45309
+  style P3 fill:#e8f0e8,stroke:#166534
+</div>
+<div class="figcap">Fig. 1 — Phase flow. Orange = human-in-the-loop phases; green = taxonomy generation.</div>
+
+<p>Two structural decisions define everything downstream:</p>
+<ol>
+  <li><b>Themes before structure.</b> Because only the 9 themes are trusted, papers get a high-confidence theme label <i>first</i> (a 9-way choice small models handle reliably), and taxonomy discovery then happens <i>inside</i> each theme pool. Noise never shapes structure: papers that fail the gate or get no ensemble agreement are excluded from clustering.</li>
+  <li><b>Agreement, not confidence.</b> A small self-hosted model's self-reported confidence is worthless; agreement between independent systems is not. Every label is the product of a vote between an embedding classifier and two LLMs from different training lineages, with a bigger model adjudicating disagreements.</li>
+</ol>
+
+<h2 id="s4">4 · P0 — Data hygiene &amp; embedding foundation <span class="tag cpu">RULES</span><span class="tag gpu">GPU-LIGHT</span></h2>
+<h3>4.1 Gate (before any GPU cycle is spent)</h3>
+<ul>
+  <li><code>document_type</code> ∈ {Editorial, Erratum, Note, Letter, Book review} → <code>unclassifiable(non_research)</code></li>
+  <li>Abstract missing or "(No abstract available)" <b>and</b> title &lt; ~6 words → <code>unclassifiable(insufficient_text)</code>. Papers with a substantive title but no abstract stay in, flagged <code>title_only</code> (voters see the flag; thresholds for auto-accept are stricter for them).</li>
+  <li>Deduplicate on <code>document_eid</code>; normalize whitespace/HTML entities in abstracts; drop copyright boilerplate suffixes ("© 2009 IEEE").</li>
+  <li>Non-English detection (fast heuristic) → route to a small translated-title pass or <code>unclassifiable(language)</code>.</li>
+</ul>
+<p>Expected removal: roughly 4–6% of the corpus — exactly the slice that produced v1's most visible junk.</p>
+
+<h3>4.2 Embedding bake-off, then embed everything once</h3>
+<p>Two candidates: <b>bge-large-en</b> (strong general retrieval; already measured on this hardware — 70k docs ≈ 1 hour) and <b>SPECTER2</b> (trained specifically on scientific papers with citation signal — often better for clustering research abstracts). Run both on the theme mini-gold set (§6.1) and on a clustering silhouette check; keep the winner as the <i>single</i> embedding space used everywhere (theme profiles, clustering, candidate pruning, topic matching). Embeddings are computed once, stored, and reused by every later phase.</p>
+
+<h2 id="s5">5 · P1 — Theme scope notes <span class="tag human">HUMAN</span></h2>
+<p>For each of the 9 themes, a one-paragraph scope statement with explicit <b>inclusion and exclusion rules</b> plus 3–5 boundary examples. The known collision must be resolved in writing: e.g. <i>quantum algorithms / quantum ML → AI-ML theme; quantum hardware, qubits, photonics, semiconductor fabrication → Quantum Technologies theme</i>. Similar boundary contracts are needed for at least: AI-applied-to-X vs X (an ML-for-drug-discovery paper → Healthcare or AI?), materials-for-energy vs materials science, and embedded/IoT vs communication.</p>
+<div class="callout">These scope notes are the <b>single highest-leverage artifact in the whole system</b>. They are injected verbatim into every LLM prompt, they brief the human labelers, and they are the thing that gets edited (instead of prompts or models) whenever a confusion pair shows up in evaluation. Budget real faculty time here.</div>
+
+<h2 id="s6">6 · P2 — Theme assignment pass <span class="tag gpu">GPU-HEAVY</span></h2>
+<h3>6.1 Theme mini-gold set first</h3>
+<p>~180 papers (20 per theme, stratified by department) labeled by the team against the scope notes. Cheap (themes are a 9-way choice) and done in a day. It calibrates the theme-level ensemble and settles the embedding bake-off <i>before</i> any big run.</p>
+<h3>6.2 Adaptive three-voter ensemble at theme level</h3>
+<ul>
+  <li><b>Voter 1 — embeddings:</b> similarity to theme profiles (name + scope note + boundary examples) plus a logistic head trained on the mini-gold; a hand-written Scopus <code>subject_area</code>→theme prior and an <code>iitd_authors</code> department prior enter as <i>features</i>, never as hard rules.</li>
+  <li><b>Voter 2 — LLM A:</b> 30B-class MoE (Qwen3-A3B family, Q4), constrained choice over 9 themes with scope notes, self-consistency ×3 (temperature ≈ 0.7, majority).</li>
+  <li><b>Voter 3 — LLM B:</b> different-family model (Phi-4-14B class, Q4), same task, greedy.</li>
+  <li><b>Adaptive compute:</b> where Voter 1's calibrated margin is very high (tuned so that slice is ≥98% correct on mini-gold), LLM voters are skipped. Expect 50–60% of papers to short-circuit — this halves the pass without touching quality, because the skipped slice is <i>measured</i>, not assumed.</li>
+</ul>
+<p>Outputs per paper: primary theme, optional secondary themes (high absolute score + one LLM confirmation), or <code>theme_undecided</code> → these papers sit out of taxonomy induction and re-enter at P5 escalation.</p>
+
+<h2 id="s7">7 · P3 — Taxonomy induction: domains, subdomains, topics <span class="tag gpu">GPU-LIGHT</span><span class="tag human">HUMAN CURATION</span></h2>
+<p>The core principle: <b>node count is an output of evidence, not an input.</b> A node exists only if it passes mass, stability, and separation tests — then a human approves it. The LLM's only job is to <i>name</i> what the data found.</p>
+
+<div class="mermaid">
+flowchart TD
+  A["Theme pool<br/>(papers with agreed primary theme)"] --> B["Cluster embeddings<br/>HDBSCAN / hierarchical (BERTopic)"]
+  B --> C{"Mass test<br/>≥ ~500 papers?"}
+  C -- no --> M["Merge into nearest sibling<br/>or theme-level 'Other' bucket"]
+  C -- yes --> D{"Stability test<br/>survives re-clustering across<br/>seeds &amp; algorithms?"}
+  D -- no --> M
+  D -- yes --> E{"Separation test<br/>centroid distance &amp; low<br/>cross-membership vs siblings?"}
+  E -- no --> F["Merge overlapping candidates"]
+  F --> D
+  E -- yes --> G["LLM names cluster from<br/>c-TF-IDF keyterms + 10 representative<br/>+ 5 boundary titles"]
+  G --> H["SME curation pass<br/>rename / merge / drop"]
+  H --> I["Approved DOMAIN<br/>(with centroid + auto-drafted scope description)"]
+  I --> J["Recurse inside domain<br/>mass bar ≥ ~100–150 → SUBDOMAINS<br/>(zero subdomains is allowed)"]
+  J --> K["Topic extraction per subdomain<br/>KeyBERT keyphrases → phrase clustering<br/>keep if in ≥5 papers · cap 10–15 · SME skim"]
+  K --> L["Freeze taxonomy_v2<br/>versioned · valid-path set materialized"]
+  style H fill:#fde9d9,stroke:#b45309
+  style L fill:#e8f0e8,stroke:#166534
+</div>
+<div class="figcap">Fig. 2 — Taxonomy induction loop, run independently per theme.</div>
+
+<h3>Design details that keep it strict</h3>
+<ul>
+  <li><b>Primary-theme pools only.</b> Interdisciplinary papers cluster in their primary theme; secondary membership is handled at classification time, so it never duplicates structure.</li>
+  <li><b>HDBSCAN noise points don't shape structure.</b> Outlier papers simply don't vote on the taxonomy; they still get classified in P5 (into approved nodes, or unclassifiable).</li>
+  <li><b>Expected shape:</b> ~4–7 domains per theme (likely fewer than the current 35 overall) and realistically 80–130 subdomains instead of 177 — every one backed by a real paper population. The current pathology (subdomains with 38 papers) cannot recur.</li>
+  <li><b>Every node ships with artifacts:</b> centroid vector, auto-drafted scope description (SME-edited), keyterm list, example papers. These become the profiles used for candidate pruning in P5 — the taxonomy and the classifier share one geometry.</li>
+  <li><b>SME effort is bounded:</b> reviewing ~50 domain candidates and ~120 subdomain candidates with names, keyterms and examples pre-attached is days of work, not a relabeling project. Faculty review the final tree per theme; the team does the first curation pass.</li>
+  <li><b>Topics are extracted, never generated:</b> a phrase enters the vocabulary only if it appears in ≥5 distinct member papers; hard cap 10–15 per subdomain; total vocabulary lands ~800–1,800 versus 50,758 today.</li>
+</ul>
+
+<h2 id="s8">8 · P4 — Gold set &amp; acceptance bar <span class="tag human">HUMAN</span></h2>
+<p>Stratified sample of 400–500 papers (department × document type × abstract presence × theme), labeled against the frozen taxonomy_v2 with full paths. Because the categories were derived from the corpus, labelers should find choices natural — friction during labeling is itself an early warning that a node is bad.</p>
+<p>The gold set serves three separate functions: <b>training</b> (the embedding voter's calibrated head), <b>threshold tuning</b> (ensemble margins, adaptive short-circuit cutoffs, secondary-theme bar), and <b>acceptance</b>:</p>
+<div class="callout blue"><b>Hard rule:</b> nothing runs on the full corpus until, on held-out gold data, the auto-accepted slice reaches <b>≥95% at theme level and ≥85% at full-path level</b>, with everything below the bar routed to escalation or review — routed doubt is a feature; silent error is the failure mode.</div>
+
+<h2 id="s9">9 · P5 — Classification funnel <span class="tag gpu">GPU-HEAVY</span></h2>
+<div class="mermaid">
+flowchart TD
+  A["All papers · 69,677"] --> B{"A · Rule gate"}
+  B -- "~4–6%" --> Z1["unclassifiable(reason)<br/>stored, never guessed"]
+  B -- "~65k" --> C["B · Candidate pruning<br/>nearest node centroids + Scopus prior<br/>→ top 5–8 valid paths"]
+  C --> D["C · Three-voter ensemble<br/>V1 embeddings+head · V2 MoE-30B ×3 · V3 14B other family<br/>+ cluster-origin prior as 4th signal"]
+  D --> E{"D · Decision rule"}
+  E -- "full agreement<br/>~80–85%" --> F["AUTO-ACCEPT<br/>write classification_v2"]
+  E -- "partial / none<br/>~10–15%" --> G["E · Escalation<br/>pooled 32B-class adjudicator<br/>sees abstract + all votes + rationales"]
+  G --> H{"Critic pass<br/>defensible under scope rules?"}
+  H -- yes --> F
+  H -- no · "~2–5% of corpus" --> I["H · Human review queue<br/>corrections feed gold set"]
+  F --> J["F · Topic assignment<br/>embedding match vs subdomain vocabulary<br/>floor threshold · 0–3 topics"]
+  J --> K["G · Write-back with provenance<br/>votes · confidence tier · model + taxonomy versions"]
+  I --> K
+  style Z1 fill:#fbe9e9,stroke:#991b1b
+  style F fill:#e8f0e8,stroke:#166534
+  style I fill:#fde9d9,stroke:#b45309
+</div>
+<div class="figcap">Fig. 3 — Per-paper funnel with expected volumes.</div>
+
+<h3>Decision rule (where strictness lives)</h3>
+<table>
+  <tr><th>Vote pattern</th><th>Action</th></tr>
+  <tr><td>All three voters agree on full path</td><td>Auto-accept</td></tr>
+  <tr><td>2-of-3 agree at theme + domain; split at subdomain</td><td>Accept theme+domain and majority subdomain, flagged <code>subdomain_soft</code></td></tr>
+  <tr><td>No majority at theme or domain, or any voter abstains</td><td>Escalate</td></tr>
+  <tr><td>Escalation verdict passes critic</td><td>Accept, tier <code>adjudicated</code></td></tr>
+  <tr><td>Critic rejects, or adjudicator abstains</td><td>Human review queue</td></tr>
+  <tr><td><code>title_only</code> papers</td><td>Same funnel, but auto-accept requires unanimous vote; otherwise escalate</td></tr>
+</table>
+<p>Secondary themes: any non-primary theme crossing a high calibrated Voter-1 threshold <i>and</i> confirmed by at least one LLM voter. Stats/counters are recomputed from primary labels only, so faculty and paper counts stop double-counting; secondary labels live in the facet-count collections.</p>
+
+<h3>Voter prompt contract (all LLM calls)</h3>
+<pre>INPUT:  title · abstract · scopus subject_areas · candidate paths (5–8, with node
+        scope descriptions) · theme scope notes for candidate themes
+OUTPUT (strict JSON, validated in code, 1 retry then escalate):
+{ "path": "&lt;candidate id&gt;" | "unclassifiable",
+  "secondary_themes": [ids], "confidence": "high|medium|low",
+  "rationale": "&lt;one line&gt;" }
+RULES:  choose only from candidates · abstain if evidence is thin ·
+        secondary only for substantive contribution, not mention</pre>
+
+<h2 id="s10">10 · Compute topology</h2>
+<div class="mermaid">
+flowchart LR
+  subgraph L1["Laptop 1 · RTX 3050 (4–6 GB) · ≥32 GB RAM"]
+    A1["LLM A · Qwen3-30B-A3B MoE Q4<br/>llama.cpp --n-cpu-moe · ~30 tok/s"]
+    A2["Embedding model (bge / SPECTER2)"]
+  end
+  subgraph L2["Laptop 2 · RTX 3050 (4–6 GB) · ≥32 GB RAM"]
+    B1["LLM B · Phi-4-14B-class Q4<br/>llama.cpp · partial offload"]
+    B2["Voter-1 head training / clustering (CPU)"]
+  end
+  Q[("MongoDB<br/>classification_jobs queue<br/>lease · heartbeat · checkpoint")]
+  A1 <-->|"lease batches ~100"| Q
+  B1 <-->|"lease batches ~100"| Q
+  subgraph POOL["Escalation only · pooled over wired 1 GbE"]
+    P1["prima.cpp (fallback: llama.cpp RPC)<br/>32B-class dense Q4 adjudicator<br/>layer-split across both GPUs + RAM"]
+  end
+  L1 -.-> POOL
+  L2 -.-> POOL
+  Q <--> P1
+  style POOL fill:#f0f6fc,stroke:#0f4c81
+</div>
+<div class="figcap">Fig. 4 — Data-parallel for the big passes; GPU pooling only where a model cannot fit on one machine.</div>
+
+<h3>Why this shape (research-backed)</h3>
+<ul>
+  <li><b>If a model fits on one node, never split it.</b> Community benchmarks show RPC workers <i>slow down</i> a model that already fits locally; RPC's value is capacity, not speed. Classifying 70k independent papers is embarrassingly parallel — two full model copies on a shared queue is a true 2×.</li>
+  <li><b>The MoE unlock:</b> 30B-class MoE models (~3B active) run at ~30 tok/s on a 6 GB card with expert tensors in system RAM (<code>--n-cpu-moe</code> / <code>-ot ".ffn_.*_exps.=CPU"</code>) — near-30B quality per laptop with zero network dependence. Hard requirement: ≥32 GB system RAM per laptop (~20 GB for Q4 expert weights). If one laptop has 16 GB, that machine runs a smaller MoE or an 8B dense voter instead.</li>
+  <li><b>Pooling tier:</b> the adjudicator is a 32B-class <i>dense</i> model (different lineage and scale than both voters) split across both machines. prima.cpp is purpose-built for low-VRAM home clusters (pipelined-ring parallelism, 5–17× lower time-per-token than llama.cpp RPC on such setups; ~26 tok/s reported for 32B with speculative decoding on four devices); llama.cpp RPC is the mature fallback. On 1 GbE expect meaningful decode overhead versus 10 GbE — acceptable because this tier sees only the ~10–15% disagreement slice and outputs are short. Wired Ethernet always; never Wi-Fi. A 70B adjudicator is an optional stretch goal if benchmarks show acceptable ms/token.</li>
+  <li><b>Both voters visit every paper:</b> the queue alternates model batches across laptops (or papers swap machines halfway) so V2 and V3 each see the whole corpus regardless of which laptop leased the job.</li>
+  <li><b>Fault tolerance:</b> jobs carry status/lease/worker/attempts; leases expire and return orphaned work to the pool; every model output is checkpointed on production. Multi-week runs on laptops <i>will</i> be interrupted (reboots, thermals) — the design assumes it.</li>
+  <li><b>Reproducibility:</b> model files pinned by hash; sampling seeds recorded; every output row stores model version + prompt template version + taxonomy version.</li>
+</ul>
+
+<h2 id="s11">11 · Data model changes</h2>
+<div class="mermaid">
+erDiagram
+  THEMATICAREAS ||--o{ DOMAINS_V2 : contains
+  DOMAINS_V2 ||--o{ SUBDOMAINS_V2 : contains
+  SUBDOMAINS_V2 ||--o{ TOPICS_V2 : "owns vocabulary"
+  RESEARCHMETADATASCOPUS ||--o| CLASSIFICATION_V2 : "embedded subdoc"
+  CLASSIFICATION_V2 }o--|| SUBDOMAINS_V2 : "primary path"
+  CLASSIFICATION_V2 }o--o{ TOPICS_V2 : "topic ids"
+  RESEARCHMETADATASCOPUS ||--o{ CLASSIFICATION_JOBS : "queue rows"
+  CLASSIFICATION_JOBS ||--o| REVIEW_QUEUE : "escalation failures"
+  TAXONOMY_VERSIONS ||--o{ DOMAINS_V2 : versions
+  THEMATICAREAS {
+    ObjectId _id
+    string name "9 fixed"
+    string scope_note "NEW - inclusion and exclusion rules"
+  }
+  DOMAINS_V2 {
+    ObjectId thematic_area_id "restored tree link"
+    string scope_description
+    vector centroid
+    string status "candidate|approved"
+  }
+  SUBDOMAINS_V2 {
+    ObjectId domain_id
+    vector centroid
+    int paper_mass "must exceed floor"
+  }
+  TOPICS_V2 {
+    ObjectId subdomain_id
+    string phrase "extracted, capped 10-15 per subdomain"
+  }
+  CLASSIFICATION_V2 {
+    ObjectId theme_domain_subdomain "primary path"
+    ObjectId[] secondary_theme_ids
+    ObjectId[] topic_ids
+    string vote_pattern "V1/V2/V3/adjudicator"
+    string confidence_tier "auto|adjudicated|human|unclassifiable"
+    string model_versions
+    string taxonomy_version
+    string rationale
+  }
+  CLASSIFICATION_JOBS {
+    string status "pending|leased|done|failed"
+    date lease_expires
+    string worker_id
+    int attempts
+  }
+</div>
+<div class="figcap">Fig. 5 — Collections and links. v1 <code>classification</code> stays untouched for diffing; <code>stats</code> counters recompute from primary labels only.</div>
+
+<h2 id="s12">12 · P6 — Evaluation &amp; rollout</h2>
+<ol>
+  <li><b>Gold-set run:</b> full pipeline on held-out gold; per-theme confusion matrices for each voter and the ensemble.</li>
+  <li><b>Fix by editing scope notes, not prompts or models.</b> The worst confusion pairs get sharper exclusion rules; persistent offenders trigger taxonomy review (maybe two nodes should be one). Iterate until the §8 bar is met.</li>
+  <li><b>200-paper benchmark run</b> on both laptops with real prompts and batch settings → measured tok/s, per-paper latency, projected completion date, and a dry run of queue/checkpoint/write-back. <i>Never extrapolate a multi-week job from theory.</i></li>
+  <li><b>Backfill</b> the full corpus. Bonus signal: each backfill paper's <i>cluster of origin</i> from P3 acts as a prior — ensemble-vs-cluster disagreement is itself a review-queue trigger.</li>
+  <li><b>Diff v1 vs v2.</b> Expect large disagreement (that is the point). Spot-check the biggest movers per theme; publish a short change report so stakeholders understand why counts shifted.</li>
+  <li><b>Flip the application</b> to read <code>classification_v2</code>; keep v1 one release cycle, then archive.</li>
+</ol>
+
+<h2 id="s13">13 · P7 — Production steady state</h2>
+<div class="mermaid">
+flowchart LR
+  N["New papers<br/>(Scopus ingest)"] --> F["Same funnel<br/>gate → prune → ensemble"]
+  F -->|"agreement"| W["classification_v2"]
+  F -->|"disagreement"| ESC["Escalation<br/>(occasional, one machine can host)"]
+  ESC --> W
+  ESC -->|"critic fail"| RQ["Review queue"]
+  RQ -->|"human corrections"| GS["Gold set grows"]
+  GS -->|"retrain minutes-scale"| V1H["Voter-1 head + thresholds"]
+  V1H --> F
+  W --> DR["Monthly drift audit<br/>~50-paper human sample"]
+  DR -->|"accuracy dip"| SN["Scope-note or taxonomy fix"]
+  SN --> F
+  OB["Theme 'Other' buckets"] -->|"grows past threshold"| TX["Quarterly taxonomy review:<br/>candidate new domain/subdomain<br/>(same mass + stability tests)"]
+  TX --> SN
+  style RQ fill:#fde9d9,stroke:#b45309
+  style DR fill:#fde9d9,stroke:#b45309
+</div>
+<div class="figcap">Fig. 6 — The flywheel: corrections retrain the cheap voter; drift and "Other" growth drive controlled taxonomy evolution.</div>
+<ul>
+  <li><b>Ingest volume is small</b> — steady state runs on one laptop; escalation is rare.</li>
+  <li><b>Taxonomy evolution is governed, not ad-hoc:</b> new nodes must pass the same mass/stability tests as P3; every node change bumps <code>taxonomy_version</code> and triggers reclassification only of affected papers (their embeddings are cached, so this is cheap).</li>
+  <li><b>Quarterly:</b> threshold re-tune on the grown gold set; model refresh evaluated on gold before adoption (the small-model landscape moves fast — any swap must <i>prove</i> itself on your data first).</li>
+</ul>
+
+<h2 id="s14">14 · Timeline &amp; runtime math</h2>
+<div class="mermaid">
+gantt
+  title Indicative schedule (superseded by the 200-paper benchmark)
+  dateFormat YYYY-MM-DD
+  axisFormat %d %b
+  section Foundation
+  P0 hygiene + embeddings + bake-off      :p0, 2026-07-13, 4d
+  P1 scope notes + theme mini-gold (human):p1, 2026-07-13, 7d
+  section Theme layer
+  P2 theme pass (adaptive ensemble)       :p2, after p1, 8d
+  section Taxonomy
+  P3 clustering + tests + naming          :p3, after p2, 5d
+  P3 SME curation (human)                 :p3b, after p3, 7d
+  section Calibration
+  P4 gold-set labeling (human)            :p4, after p3b, 8d
+  Calibration + gold-set iteration        :p4b, after p4, 4d
+  200-paper benchmark run                 :bm, after p4b, 2d
+  section Backfill
+  P5 main ensemble pass                   :p5, after bm, 14d
+  P5 escalation + critic (pooled)         :p5b, after p5, 6d
+  Review queue + diff audit (human)       :p6, after p5b, 7d
+  Rollout flip                            :milestone, after p6, 0d
+</div>
+<div class="figcap">Fig. 7 — ~10–11 weeks end-to-end; human phases dominate the critical path as much as GPU time.</div>
+
+<h3>Runtime arithmetic (planning figures — the benchmark replaces them)</h3>
+<table>
+  <tr><th>Pass</th><th>Volume</th><th>Basis</th><th>Estimate</th></tr>
+  <tr><td>Embeddings (all phases, computed once)</td><td>70k docs</td><td>Measured on this hardware</td><td>~1 hour</td></tr>
+  <tr><td>P2 theme pass</td><td>~26–33k papers hit LLMs (adaptive short-circuit skips the rest)</td><td>4 calls/paper · ~6–8 s/call · 2 laptops</td><td>~5–8 days</td></tr>
+  <tr><td>P3 clustering + naming</td><td>~65k vectors; a few hundred LLM naming calls</td><td>CPU minutes-scale + hours of LLM</td><td>~1 day compute</td></tr>
+  <tr><td>P5 voting pass</td><td>~65k papers, full 3-voter (no shortcuts at path level — quality-first)</td><td>4 calls/paper · ~6–8 s/call · 2 laptops</td><td>~10–14 days</td></tr>
+  <tr><td>P5 escalation + critic</td><td>~7–10k papers</td><td>~400 output tokens at 8–15 tok/s pooled 32B</td><td>~4–8 days</td></tr>
+</table>
+
+<h2 id="s15">15 · Risks &amp; mitigations</h2>
+<table>
+  <tr><th>Risk</th><th>Mitigation</th></tr>
+  <tr><td>1 GbE bottlenecks pooled decode</td><td>Priced in: pooling is escalation-only with short outputs; prima.cpp targets weak links by design; llama.cpp RPC fallback; wired Ethernet mandatory</td></tr>
+  <tr><td>Laptop RAM insufficient for MoE expert offload</td><td>Verify ≥32 GB up front; per-machine fallback to smaller MoE or 8B dense voter</td></tr>
+  <tr><td>Thermal throttling across multi-day runs</td><td>Benchmark surfaces sustained (not peak) throughput; cap power/clocks; queue tolerates slow workers</td></tr>
+  <tr><td>Clusters don't match how faculty think about fields</td><td>SME curation is a hard gate — clustering proposes, humans dispose; labeling friction in P4 is a designed tripwire</td></tr>
+  <tr><td>Voters share blind spots (correlated errors)</td><td>Three signal types (embedding, MoE family A, dense family B) + cluster-origin prior; gold-set confusion matrices expose residual correlation</td></tr>
+  <tr><td>Theme errors in P2 poison taxonomy induction</td><td>Only agreement-labeled papers cluster; undecided papers are excluded; theme bar is ≥98% on the short-circuit slice and ensemble-gated elsewhere</td></tr>
+  <tr><td>Run interruption mid-backfill</td><td>Lease-based Mongo queue, heartbeats, per-output checkpointing — any machine resumes any stage</td></tr>
+  <tr><td>Scope creep back to free-text topics</td><td>Topics are IDs with schema validation; generation path simply doesn't exist in the pipeline</td></tr>
+  <tr><td>Stakeholder shock at v1→v2 count shifts</td><td>Diff report per theme with examples before the flip; v1 retained for one cycle</td></tr>
+</table>
+
+<h2 id="s16">16 · Sources</h2>
+<ul>
+  <li><a href="https://github.com/ggml-org/llama.cpp/blob/master/tools/rpc/README.md">llama.cpp RPC documentation</a></li>
+  <li><a href="https://github.com/kjaiswal/llama-cpp-distributed-benchmarks">Real-world llama.cpp RPC distributed benchmarks (mixed backends)</a></li>
+  <li><a href="https://github.com/ggml-org/llama.cpp/discussions/9136">llama.cpp RPC over Ethernet — performance discussion (1 GbE vs 10 GbE overhead)</a></li>
+  <li><a href="https://arxiv.org/abs/2504.08791">prima.cpp: Fast 30–70B LLM inference on low-resource home clusters (ICLR 2026)</a></li>
+  <li><a href="https://mychen76.medium.com/run-qwen3-6-35b-a3b-on-6gb-vram-using-llama-cpp-30-tps-a89032e5a60c">Running Qwen3.6-35B-A3B on 6 GB VRAM at ~30 tok/s (llama.cpp expert offload)</a></li>
+  <li><a href="https://unsloth.ai/docs/models/tutorials/qwen3-how-to-run-and-fine-tune">Qwen3 run &amp; fine-tune guide (Unsloth)</a></li>
+  <li><a href="https://www.bentoml.com/blog/the-best-open-source-small-language-models">Best open-source small language models, 2026 (BentoML)</a></li>
+  <li><a href="https://sharedllm.org/blog/sharedllm-vs-petals-vs-exo.html">Distributed LLM mesh comparison — exo ruled out for Linux/NVIDIA (2026)</a></li>
+  <li><a href="https://docs.vllm.ai/en/stable/serving/parallelism_scaling/">vLLM parallelism &amp; scaling documentation (why multi-node vLLM was rejected here)</a></li>
+</ul>
+
+</div>
+<script>
+  mermaid.initialize({ startOnLoad: true, theme: 'neutral', flowchart: { curve: 'basis' }, gantt: { barHeight: 18, fontSize: 12 } });
+</script>
+</body>
+</html>
