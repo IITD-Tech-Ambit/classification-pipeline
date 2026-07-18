@@ -1,0 +1,23 @@
+{
+  "source_collection": "researchmetadatascopus",
+  "hygiene_flags": "outputs/work/hygiene_flags.jsonl",
+  "output_file": "outputs/work/papers_for_embedding.jsonl",
+  "rows": 68644,
+  "rows_ok": 67023,
+  "rows_title_only": 1621,
+  "rows_with_empty_text": 0,
+  "id_field": "stringified Mongo _id",
+  "text_construction_rule": {
+    "ok": "text = title + \"\\n\\n\" + abstract",
+    "title_only": "text = title (abstract omitted)",
+    "separator": "\\n\\n",
+    "notes": "no query prefix; documents embedded plain for similarity classification"
+  },
+  "sha256": "00942f4283d1232403617cfc167e2fd28458975345834174d3e413a1c1c5495f",
+  "bytes": 89151721,
+  "mb": 85.02,
+  "embedding_model_target": "BAAI/bge-large-en-v1.5",
+  "embedding_dim": 1024,
+  "normalize_embeddings": true,
+  "query_prefix": null
+}

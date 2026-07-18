@@ -1,0 +1,820 @@
+
+==========================================================================================
+PAIR (3):  Power Systems & Grid Control => Grid Integration & Smart Microgrids
+==========================================================================================
+
+[69deca104e2d2a5b77ed2398] conf=0.75 band=0.5-0.8 src=haiku
+  TITLE: Improvements in the performance of self-excited induction generator through series compensation
+  PROD:   Smart & Sustainable Infrastructure / Power Systems & Grid Control
+          reason: The paper investigates self-excited induction generator performance through series compensation, addressing voltage regulation and power generation stability—core power systems analysis; while generator design could relate to energy conversion, the focus is on system performance and control in the context of power generation infrastructure.
+  SONNET: Energy, Sustainability & Climate Change / Grid Integration & Smart Microgrids
+          reason: The paper addresses performance improvement of a self-excited induction generator through series compensation techniques, which concerns power generation and control systems for electrical energy infrastructure.
+  ABSTRACT: Improvements in the performance of a three-phase self-excited induction generator (SEIG) through series compensation are investigated. Both methods, namely short-shunt and long-shunt configurations, of capacitive series compensation for the SEIG are analysed and compared for the selection of capacitive elements. Computed results are compared with experimental results for resistive and inductive loads to verify the developed algorithm and design of such a system. © IEE, 1999.
+
+[69deca5f4e2d2a5b77edd341] conf=0.92 band=>=0.8 src=haiku
+  TITLE: Efficient power sharing approach for photovoltaic generation based microgrids
+  PROD:   Smart & Sustainable Infrastructure / Power Systems & Grid Control
+          reason: The paper addresses control strategies for microgrid operation, power sharing among distributed photovoltaic generators, voltage-frequency control, and seamless transitions between grid-connected and islanded modes—core power systems and grid control infrastructure challenges, not energy generation technology or renewable energy conversion materials.
+  SONNET: Energy, Sustainability & Climate Change / Grid Integration & Smart Microgrids
+          reason: The paper develops control strategies for power sharing and synchronization in photovoltaic-based microgrids, focusing on grid integration, droop control methods, and seamless mode transitions between isolated and grid-connected operation.
+  ABSTRACT: A control strategy is formulated for photovoltaic generators (PVG) operating in parallel in a Microgrid. A radial microgrid is considered and when it is isolated from the utility grid, the PVG's must operate in the voltage-frequency control mode in the absence of a storage or a diesel generator unit. It is observed that the conventional P-f and Q-v droop control method fails to deliver correct power references for inverters operating in parallel when network impedance is unequal, and therefore an active power-reactive power-frequency-derivative (PQFD) droop control is proposed to achieve an er
+
+[69deca5f4e2d2a5b77edd34b] conf=0.78 band=0.5-0.8 src=haiku
+  TITLE: Dynamic response of nonlinear electrical analogue hydroelectric turbine model
+  PROD:   Smart & Sustainable Infrastructure / Power Systems & Grid Control
+          reason: The paper develops nonlinear dynamic models of hydroelectric turbines for analyzing their response characteristics in power generation systems, which is fundamental to power system stability and control in grid operations.
+  SONNET: Energy, Sustainability & Climate Change / Grid Integration & Smart Microgrids
+          reason: The paper develops an electrical analogue model for hydroelectric turbine dynamics with penstock elasticity and water compressibility effects, addressing turbine-grid integration and control system design for hydroelectric power generation.
+  ABSTRACT: Nonlinear model of hydroelectric turbine model with elastic water column in penstock consider the effects which cause travelling waves: pressure and flow due to elasticity of steel in penstock and compressibility of water. This paper proposes two nonlinear electrical analogue turbine models of hydroelectric plants, non-dissipative model and approximated model. Dynamic response of the proposed model is compared with the nonlinear travelling wave model. Frequency response analysis of approximated electrical analogue turbine model for different diameter to length ratio is studied.
+
+==========================================================================================
+PAIR (2):  Next-Generation Photovoltaic Materials => Grid Integration & Smart Microgrids
+==========================================================================================
+
+[69deca4e4e2d2a5b77edb227] conf=0.75 band=0.5-0.8 src=haiku
+  TITLE: A Grid-Connected Single-Phase Transformerless Inverter Controlling Two Solar PV Arrays Operating under Different Atmospheric Conditions
+  PROD:   Energy, Sustainability & Climate Change / Next-Generation Photovoltaic Materials
+          reason: The paper proposes a grid-connected inverter for operating solar PV arrays at maximum power points under different atmospheric conditions. While the primary contribution is the inverter control topology and power electronics design, the context and application focus on photovoltaic energy conversion and grid integration. However, this could also be classified under 'Grid Integration & Smart Microg
+  SONNET: Energy, Sustainability & Climate Change / Grid Integration & Smart Microgrids
+          reason: The paper's primary contribution is a grid-connected inverter control system for integrating solar PV arrays with differential atmospheric conditions into the power grid, addressing maximum power point tracking and leakage current management for reliable renewable energy distribution.
+  ABSTRACT: A grid-connected single-phase transformerless inverter that can operate two serially connected solar photovoltaic (PV) subarrays at their respective maximum power points while each one of them is exposed to different atmospheric conditions is proposed in this paper. As two subarrays are connected in series, the number of serially connected modules within a subarray is reduced to half. Reduction in the number of serially connected PV modules within a subarray leads to an overall improvement in the magnitude of power that can be abstracted from a subarray while the modules of the subarray are ex
+
+[69deca5f4e2d2a5b77edd31c] conf=0.75 band=0.5-0.8 src=haiku
+  TITLE: Techno-economical analysis for PV based water pumping system under partial shading/mismatching phenomena
+  PROD:   Energy, Sustainability & Climate Change / Next-Generation Photovoltaic Materials
+          reason: The paper focuses on optimization and performance analysis of PV-based water pumping systems under partial shading, including power electronics and system configuration design; while the primary contribution is system-level engineering and techno-economic analysis of photovoltaic power extraction rather than material discovery, this belongs in the energy theme's photovoltaic domain as it addresses
+  SONNET: Energy, Sustainability & Climate Change / Grid Integration & Smart Microgrids
+          reason: The paper addresses power electronics, DC-DC converter architectures, and maximum power point tracking for photovoltaic systems in standalone water pumping applications, which falls under renewable energy integration and management technologies.
+  ABSTRACT: Partial shading and/or mismatching phenomena in Photovoltaic (PV) based system cause reduced extraction of PV power and thus adversely impact the performance of PV based system; especially in case of stand-alone PV systems. In this paper four different configurations namely single stage PV system, centralized DC-DC converter based PV system, PV panel level Distributed maximum power point tracking (DMPPT) based PV system and PV module level DMPPT based PV system are considered for water pumping application. Impact of partial shading and mismatching for the considered four configurations is simu
+
+==========================================================================================
+PAIR (2):  Materials, Joining & Mechanical Behavior => Structural Dynamics & Seismic Engineering
+==========================================================================================
+
+[69deca5e4e2d2a5b77edd13b] conf=0.72 band=0.5-0.8 src=haiku
+  TITLE: A COMPARATIVE ASSESSMENT OF THE DYNAMIC RESPONSES OF SOLID PLATE, STIFFENED PLATE, AND SANDWICH PLATE OF EQUAL MASSES UNDER EXPLOSIVE LOADINGS
+  PROD:   Manufacturing & Industry 4.0 / Materials, Joining & Mechanical Behavior
+          reason: The paper's primary contribution is a comparative numerical and experimental analysis of material mechanical behavior (deflection, strain-rate dependent plasticity) under blast loading conditions using the Johnson-Cook model, focusing on structural material characterization rather than fundamental advances in materials science or computational methods.
+  SONNET: Smart & Sustainable Infrastructure / Structural Dynamics & Seismic Engineering
+          reason: Primary contribution is finite element analysis of protective structural plates (solid, stiffened, sandwich) under explosive blast loading using Johnson-Cook plasticity and CONWEP module, focusing on dynamic structural response and deformation behavior.
+  ABSTRACT: For making a protective structure, the AL6XN steel has high ductility and excellent strength, and in the current study, it is used for making protective structures. The present work deals with a cost-effective numerical analysis of the protective structures’ blast performance. To investigate the significant effects on the air blast mitigation of a solid plate, a stiffened plate, and a sandwich plate of equal masses, their quarter parts are modeled. The use of quarter models significantly reduces the computation cost in terms of storage and computation time. The finite element models of a solid
+
+[69deca5e4e2d2a5b77edd119] conf=0.42 band=<0.5 src=sonnet
+  TITLE: Parametric Optimization of Joints and Links of Space Deployable Antenna Truss Structure
+  PROD:   Manufacturing & Industry 4.0 / Materials, Joining & Mechanical Behavior
+          reason: The paper addresses parametric optimization and mechanical design of deployable truss structures, hinge joints, and links for space antenna systems, focusing on structural analysis and component behavior under deployment constraints, which aligns with mechanical characterization and structural analysis under manufacturing and engineering considerations.
+  SONNET: Smart & Sustainable Infrastructure / Structural Dynamics & Seismic Engineering
+          reason: The paper focuses on structural design and optimization of a deployable truss mechanism for space antennas, involving mechanical joint and link parameter optimization for compact volume, which aligns with structural system analysis and dynamic mechanism design typical of infrastructure engineering.
+  ABSTRACT: With the volcanic proliferation in high bandwidth communication, space-borne antennas are required to have Large Diameter Reflectors (LDR) of size 6 m or more which will cater to the requirements of high bandwidth data transmission. Space deployable antenna structures are a buzzword today which are required to occupy compact volume during launching due to space crunch in, state-of-the-art, contemporary launch vehicles. These compact geometric topologies are later deployable to the full configuration after orbit insertion. The antenna deployable mechanism consists of a truss ring structure and 
+
+==========================================================================================
+PAIR (2):  Grid Integration & Smart Microgrids => Solar Thermal Energy & Heat Transfer Systems
+==========================================================================================
+
+[69deca264e2d2a5b77ed589c] conf=0.35 band=<0.5 src=sonnet
+  TITLE: Optimal criteria based on the ecological function of an irreversible intercooled regenerative modified Brayton cycle
+  PROD:   Energy, Sustainability & Climate Change / Grid Integration & Smart Microgrids
+          reason: This paper on thermodynamic cycle optimization for a Brayton cycle heat engine relates to energy conversion systems, but does not fit cleanly into any Energy domain; Grid Integration is chosen as the least-misfit option for power generation optimization, though confidence is low given the theoretical thermodynamic focus.
+  SONNET: Energy, Sustainability & Climate Change / Solar Thermal Energy & Heat Transfer Systems
+          reason: The paper optimizes thermodynamic cycle performance (regenerative intercooled Brayton cycle) based on ecological function for heat engine efficiency, which addresses thermal energy conversion systems central to this domain.
+  ABSTRACT: The optimal criterion of an irreversible regenerative intercooled modified Brayton cycle heat engine based on the ecological function is presented in this paper. The ecological function defined as the power output minus the dissipation due to irreversibility has been optimised with respect to the cycle temperatures and the optimum performance parameters are calculated for a typical set of operating conditions. It is found that there are optimal values of the intercooling and cycle pressure ratios as well as the turbine outlet temperature at which the cycle attains the maximum performance but t
+
+[69deca254e2d2a5b77ed5877] conf=0.35 band=<0.5 src=sonnet
+  TITLE: Theoretical analysis of LiBr/H2O absorption refrigeration systems
+  PROD:   Energy, Sustainability & Climate Change / Grid Integration & Smart Microgrids
+          reason: Absorption refrigeration systems are thermal energy conversion/cooling technologies, but the available Energy theme domains focus on biomass, solar thermal, photovoltaics, grids, carbon conversion, environmental assessment, climate modeling, and EV batteries—none perfectly match refrigeration cycle thermodynamics; assigning to Energy theme with Grid Integration as the closest proxy for energy syst
+  SONNET: Energy, Sustainability & Climate Change / Solar Thermal Energy & Heat Transfer Systems
+          reason: The paper analyzes thermal energy conversion and heat transfer in absorption refrigeration systems, focusing on thermodynamic performance optimization including COP and exergetic efficiency—core topics in thermal energy systems.
+  ABSTRACT: A computational model is developed for the parametric investigation of single-effect and series flow double-effect LiBr/H<inf>2</inf>O absorption refrigeration systems. The effects of generator, absorber, condenser, evaporator and dead state temperatures are examined on the performance of these systems. The parameters computed are coefficient of performance (COP), exergy destruction rates, thermal exergy loss rates, irreversibility and exergetic efficiency. The results indicate that COP and exergetic efficiency of both the systems increase with increase in the generator temperature. There exis
+
+==========================================================================================
+PAIR (1):  Clinical Diagnostics & Biomarkers => Neuroscience & Neurophysiology
+==========================================================================================
+
+[69deca284e2d2a5b77ed5d6c] conf=0.72 band=0.5-0.8 src=haiku
+  TITLE: Assessment of Interaction Between Cardio-Respiratory Signals Using Directed Coherence on Healthy Subjects During Postural Change
+  PROD:   Healthcare & MedTech / Clinical Diagnostics & Biomarkers
+          reason: This paper develops a signal processing method (directed coherence / Granger causality) to analyze cardio-respiratory interactions as physiological biomarkers and diagnostic indicators of autonomic regulation during postural change in healthy subjects, placing it in clinical diagnostics and physiological measurement rather than pure signal processing methods.
+  SONNET: Healthcare & MedTech / Neuroscience & Neurophysiology
+          reason: Study analyzes physiological coupling between cardiac and respiratory signals during postural change using Granger causality, investigating neural autonomic regulation and cardiovascular-respiratory system interactions in healthy human subjects.
+  ABSTRACT: Purpose: To detect and quantify the directional interaction changes between cardio-respiratory system during postural change. Method: Traditional frequency domain analysis based on power spectrum and coherence are insufficient to quantify nonlinear structures and complexity of physiological subsystems. Recently, Granger causality is found as preferable method for evaluation of causality i.e., directional interaction. Frequency domain Granger causality based on directed coherence has been used in this study to identify directional interaction between cardiac and respiratory signal during postur
+
+==========================================================================================
+PAIR (1):  Spintronics & Magnetic Devices => Wide Bandgap Semiconductors & Devices
+==========================================================================================
+
+[69deca504e2d2a5b77edb4b8] conf=0.72 band=0.5-0.8 src=haiku
+  TITLE: Structural, magnetic, and superconducting properties of pulsed-laser-deposition-grown la 1.85 Sr 0.15 CuO 4 / la 2 / 3 Ca 1 / 3 MnO 3 superlattices on (001)-oriented LaSrAlO 4 substrates
+  PROD:   Quantum Technologies & Semiconductor Technology / Spintronics & Magnetic Devices
+          reason: Paper focuses on epitaxial growth, structural characterization, and magnetic/superconducting device properties of oxide superlattices using PLD; while superconductivity is present, the primary contribution is device-level characterization of magnetic heterostructures (LSCO/LCMO) with emphasis on strain engineering, magnetic properties, and thin-film fabrication—central to quantum device physics ra
+  SONNET: Quantum Technologies & Semiconductor Technology / Wide Bandgap Semiconductors & Devices
+          reason: Epitaxial thin film superlattice fabrication using pulsed laser deposition with detailed structural characterization and device physics analysis of superconducting oxide heterostructures fits semiconductor/quantum device technology, though the superconducting oxide materials and epitaxial heterostructure focus could alternatively suggest Advanced Materials domain.
+  ABSTRACT: Epitaxial La1.85Sr0.15CuO4/La2/3Ca1/3MnO3 (LSCO/LCMO) superlattices on (001)-oriented LaSrAlO4 substrates have been grown with pulsed laser deposition technique. Their structural, magnetic, and superconducting properties have been determined with in situ reflection high-energy electron diffraction, x-ray diffraction, specular neutron reflectometry, scanning transmission electron microscopy, electric transport, and magnetization measurements. We find that despite the large mismatch between the in-plane lattice parameters of LSCO (a=0.3779 nm) and LCMO (a=0.387 nm) these superlattices can be gro
+
+==========================================================================================
+PAIR (1):  Ferroelectric & Magnetic Ceramics => Energy Storage Materials
+==========================================================================================
+
+[6a26bf1d2b6042b76389bc4d] conf=0.92 band=>=0.8 src=haiku
+  TITLE: Order-disorder transition and Na-ion redistribution in NASICON-type NaFeCr(PO)
+  PROD:   Advanced Materials & Devices / Ferroelectric & Magnetic Ceramics
+          reason: Paper reports synchrotron X-ray diffraction and calorimetric characterization of a NASICON-type polyanion ceramic material, analyzing structural phase transitions, ion ordering, and structure-property relationships—core to ceramic materials science and characterization.
+  SONNET: Energy, Sustainability & Climate Change / Energy Storage Materials
+          reason: The paper investigates the structural phase transition and Na-ion redistribution in a NASICON-type sodium-ion conductor material, focusing on the material's crystal structure, Na sublattice ordering, and temperature-dependent behavior—core contributions to understanding sodium-ion battery electrode/electrolyte materials.
+  ABSTRACT: We report the temperature-dependent synchrotron based X-ray diffraction analysis of NASICON type Na$_3$FeCr(PO$_4$)$_3$ sample, which undergoes a symmetry-lowering structural transition from a monoclinic ($C2/c$) phase with long-range Na-vacancy order to a rhombohedral ($R\bar{3}c$) phase with statistical disordered Na ions. The [FeCr(PO$_4$)$_3$] polyanionic framework remains essentially unchanged, confirming that the transition is governed by redistribution of the Na sublattice rather than by reconstruction of the host framework. The structural evolution is accompanied by a discontinuous inc
+
+==========================================================================================
+PAIR (1):  Digital Transformation & IT Applications => Algorithms & Computational Complexity
+==========================================================================================
+
+[69deca264e2d2a5b77ed59d4] conf=0.72 band=0.5-0.8 src=haiku
+  TITLE: Apache Wayang: A Unified Data Analytics Framework
+  PROD:   Social Sciences, Humanities & Management / Digital Transformation & IT Applications
+          reason: Apache Wayang is presented as a systems integration and organizational IT framework that abstracts platform choice and optimizes data pipeline deployment—a managerial and enterprise information systems problem rather than a core algorithmic or computational methodology contribution.
+  SONNET: AI/ML, Supercomputing & Quantum Computing / Algorithms & Computational Complexity
+          reason: The paper presents a data analytics framework architecture with optimization algorithms for platform selection and pipeline execution, focusing on algorithmic integration and optimization methods across heterogeneous processing platforms rather than developing new ML methods or infrastructure management systems.
+  ABSTRACT: The large variety of specialized data processing platforms and the increased complexity of data analytics has led to the need for unifying data analytics within a single framework. Such a framework should free users from the burden of (i) choosing the right platform( s) and (ii) gluing code between the different parts of their pipelines. Apache Wayang (Incubating) is the only open-source framework that provides a systematic solution to unified data analytics by integrating multiple heterogeneous data processing platforms. It achieves that by decoupling applications from the underlying platform
+
+==========================================================================================
+PAIR (1):  Hydrology & Water Resources Management => Monsoon Dynamics & Regional Climate Modeling
+==========================================================================================
+
+[6a26bf072b6042b76389bb89] conf=0.42 band=<0.5 src=sonnet
+  TITLE: Map of Incoherent Internal Tides in the World's Oceans
+  PROD:   Smart & Sustainable Infrastructure / Hydrology & Water Resources Management
+          reason: Study of oceanographic internal tide dynamics and energy flux variability driven by mesoscale eddies using moored measurement data falls under water systems analysis, though the focus on open-ocean physical oceanography is peripheral to typical infrastructure-centric water resources research.
+  SONNET: Energy, Sustainability & Climate Change / Monsoon Dynamics & Regional Climate Modeling
+          reason: Study of oceanic internal tides, their temporal variability, and interaction with mesoscale eddies relates to ocean-atmosphere dynamics and regional oceanic processes relevant to climate systems, though the fit is imperfect as this is primarily physical oceanography.
+  ABSTRACT: Abstract                Moored current, temperature, and conductivity measurements are used to study the temporal variability of M2 internal tide generation above the Kaena Ridge, between the Hawaiian islands of Oahu and Kauai. The energy conversion from the barotropic to baroclinic tide measured near the ridge crest varies by a factor of 2 over the 6-month mooring deployment (0.5–1.1 W m−2). The energy flux measured just off the ridge undergoes a similar modulation as the ridge conversion. The energy conversion varies largely because of changes in the phase of the perturbation pressure, sugge
+
+==========================================================================================
+PAIR (1):  Fluid-Particle Flow & Multiphase Systems => Transportation Systems & Traffic Management
+==========================================================================================
+
+[69deca4d4e2d2a5b77edaeb4] conf=0.45 band=<0.5 src=sonnet
+  TITLE: A conceptual method to assess ship-helicopter dynamic interface
+  PROD:   Manufacturing & Industry 4.0 / Fluid-Particle Flow & Multiphase Systems
+          reason: Ship-helicopter dynamic interface involves complex flow phenomena analysis (airwakes, velocity gradients, turbulence) using computational and experimental fluid dynamics techniques for naval design applications.
+  SONNET: Smart & Sustainable Infrastructure / Transportation Systems & Traffic Management
+          reason: Ship-helicopter dynamic interface modeling for naval operations is a transportation system design problem involving coupled flow phenomena analysis, though the computational fluid mechanics component creates ambiguity with AI/ML theme's CFD domain.
+  ABSTRACT: The combined operation of a ship and a helicopter is ubiquitous in every naval organization. The operation of a ship in combination with the landing and take-off operations of a helicopter results in a very complex flow phenomenon. This is due to the presence of ship airwakes, strong velocity gradients and widely varying turbulence length scales. An accurate assessment of the resultant flow phenomena is an outstanding challenge for naval architects as well as researchers. A conceptual method to gain insight into the combined ship-helo flow phenomena over a helodeck is presented. The prime obje
+
+==========================================================================================
+PAIR (1):  Supply Chain & Operations Management => Development Economics & Social Welfare
+==========================================================================================
+
+[69deca4c4e2d2a5b77edacc4] conf=0.45 band=<0.5 src=sonnet
+  TITLE: Self-implementation of social choice correspondences in Nash equilibrium
+  PROD:   Social Sciences, Humanities & Management / Supply Chain & Operations Management
+          reason: This paper addresses mechanism design and game-theoretic implementation in social choice theory, which involves decision modeling for collective outcomes; while not a perfect fit, it best aligns with operations management's decision-theoretic foundations over purely computational or technical themes.
+  SONNET: Social Sciences, Humanities & Management / Development Economics & Social Welfare
+          reason: The paper develops theoretical results in social choice theory characterizing Nash self-implementable correspondences under unanimity and anonymity conditions, which belongs to the broader domain of welfare economics and mechanism design within development economics and social welfare studies.
+  ABSTRACT: A social choice correspondence is Nash self-implementable if it can be implemented in Nash equilibrium by a social choice function that selects from it as the game form. We provide a complete characterization of all unanimous and anonymous Nash self-implementable social choice correspondences when there are two agents or two alternatives. For the case of three agents and three alternatives, only the top correspondence is Nash self-implementable. In all other cases, every Nash self-implementable social choice correspondence contains the top correspondence and is contained in the Pareto correspo
+
+==========================================================================================
+PAIR (1):  Bio-based Materials & Polymers => Rare-Earth Doped Luminescent Materials
+==========================================================================================
+
+[69deca0c4e2d2a5b77ed19ae] conf=0.72 band=0.5-0.8 src=haiku
+  TITLE: Exploration of UV absorbing functional materials and their advanced applications
+  PROD:   Advanced Materials & Devices / Bio-based Materials & Polymers
+          reason: The paper focuses on the discovery, synthesis, and characterization of UV-absorbing functional materials (inorganic filters, nanoparticles, organic molecules, antioxidants) for sunscreen and UV-protective applications, with emphasis on material properties and nanotechnology approaches to overcome aesthetic limitations—fitting Advanced Materials & Devices; Bio-based Materials & Polymers is the clos
+  SONNET: Advanced Materials & Devices / Rare-Earth Doped Luminescent Materials
+          reason: The paper explores UV-absorbing materials including inorganic filters, nanoparticles, and photostable compounds for broad-spectrum UV protection applications, focusing on material discovery and characterization rather than a specific clinical therapeutic use, thus fitting Advanced Materials; however, the domain assignment is uncertain as the work spans multiple materials classes (organic molecules
+  ABSTRACT: Nowadays, concern over skin cancer has been growing more and more, especially in tropical countries where the incidence of UVA/B radiation is higher. The correct use of sunscreen is the most efficient way to prevent the development of this disease. The ingredients of sunscreen can be organic and/or inorganic sun filters. Inorganic filters present some advantages over organic filters, such as photo stability, nonirritability, and broad-spectrum protection. Nevertheless, inorganic filters have a whitening effect in sunscreen formulations owing to the high refractive index, decreasing their esthe
+
+==========================================================================================
+PAIR (1):  Plasma-Wave & Electromagnetic Interactions => Antenna Design & RF Systems
+==========================================================================================
+
+[6a26be772b6042b76389b6bb] conf=0.15 band=<0.5 src=sonnet
+  TITLE: On the use of leading-edge serrations for noise control in a tandem airfoil configuration
+  PROD:   Next-Gen Communication / Plasma-Wave & Electromagnetic Interactions
+          reason: Aeroacoustic noise control through passive flow modification on tandem airfoils does not fit any provided domain; closest by physical wave phenomena is plasma-wave interactions, though this is clearly a fluid mechanics/aeroacoustics problem absent from the taxonomy.
+  SONNET: Next-Gen Communication / Antenna Design & RF Systems
+          reason: Experimental study of passive noise control in tandem airfoil configuration using leading-edge serrations does not align with any defined theme; closest alternative would be AI/ML's Computational Fluid Dynamics domain, but the work is aeroacoustics and experimental flow-noise control which is not explicitly covered in the taxonomy.
+  ABSTRACT: Passive noise control for a tandem NACA 65-710 airfoil configuration is experimentally investigated by applying leading-edge serrations on the rear airfoil. With a sliding side-plate mechanism that allows the rear airfoil to move in the vertical direction relative to the front airfoil, the position of maximum turbulence interaction noise is first identified from the far-field noise measurements. Subsequently, detailed static surface pressure distribution and unsteady surface pressure fluctuations are acquired to shed more light on the physical …
+
+==========================================================================================
+PAIR (1):  Building Energy & Thermal Performance => Bio-based Materials & Polymers
+==========================================================================================
+
+[69deca194e2d2a5b77ed398f] conf=0.72 band=0.5-0.8 src=haiku
+  TITLE: A Comparative performance simulation of natural and synthetic sound absorbers in room acoustic applications
+  PROD:   Smart & Sustainable Infrastructure / Building Energy & Thermal Performance
+          reason: Paper addresses room acoustic design and building performance simulation using waste jute fibers as a sustainable material for improving acoustic quality in lecture halls, which is a building infrastructure application; while jute fiber material is involved, the primary contribution is acoustic performance in buildings rather than material discovery.
+  SONNET: Advanced Materials & Devices / Bio-based Materials & Polymers
+          reason: Primary contribution is characterization and performance evaluation of waste jute fibers as a bio-based sound-absorbing material compared to synthetic alternatives, focusing on material properties rather than building infrastructure design.
+  ABSTRACT: This is an initial study of performance simulation of waste jute fibers in room acoustic applications. A ray acoustic simulation of a small lecture hall is performed in COMSOL multiphysics. The response of the lecture hall is simulated without any sound-absorbing materials. After that, the walls of the lecture hall are treated with waste jute fibers and commercial glass wool. The performance of the materials is quantified by the resultant field sound pressure level, sound intensity level, and sound power level. The consequent response for all the conditions is compared. The obtained results sh
+
+==========================================================================================
+PAIR (1):  Environmental Assessment & Land Use Management => Organometallic & Chalcogenide Synthesis
+==========================================================================================
+
+[69deca3d4e2d2a5b77ed86a4] conf=0.65 band=0.5-0.8 src=haiku
+  TITLE: Facile low temperature synthesis of bismuth molybdate stabilized ferricyanide and ferrocyanide nanocomposites for the degradation of organic pollutants
+  PROD:   Energy, Sustainability & Climate Change / Environmental Assessment & Land Use Management
+          reason: The paper develops nanocomposite materials for photocatalytic degradation of organic pollutants (methyl orange and phenol) in water, addressing environmental remediation and water resource pollution—a core sustainability and environmental assessment application.
+  SONNET: Advanced Materials & Devices / Organometallic & Chalcogenide Synthesis
+          reason: Primary contribution is the synthesis and characterization of bismuth molybdate coordination complex nanocomposites with novel structural and photocatalytic properties, representing materials discovery rather than an environmental remediation application.
+  ABSTRACT: Recently, the development of environment friendly and green solutions to remediate water resource pollution has received global attention. Bismuth molybdates are considered among the most intriguing materials, due to their unique characteristics and emerging demands, such as ion conductors, photoconductors, sensors and photocatalysts. Owing to their outstanding employment, we aimed to fabricate the visible light active bismuth molybdate stabilized ferricyanide and ferrocyanide nanocomposites. The structural and spectrophotometric results indicated that, as fabricated composites possessed an or
+
+==========================================================================================
+PAIR (1):  Fiber Photonic Devices & Engineering => Plasmonic & Fiber Optic Sensors
+==========================================================================================
+
+[69deca324e2d2a5b77ed7471] conf=0.85 band=>=0.8 src=haiku
+  TITLE: EDF-Based edge-filter interrogation scheme for FBG sensors
+  PROD:   Quantum Technologies & Semiconductor Technology / Fiber Photonic Devices & Engineering
+          reason: The paper presents design and experimental demonstration of a fiber Bragg grating sensor system using erbium-doped fiber edge-filter interrogation, which is a fiber-based photonic device and sensing application.
+  SONNET: Quantum Technologies & Semiconductor Technology / Plasmonic & Fiber Optic Sensors
+          reason: The paper develops a fiber Bragg grating sensor interrogation scheme using erbium-doped fiber edge filters for optical sensing applications, which falls under fiber optic sensor technologies.
+  ABSTRACT: A fiber Bragg grating (FBG) sensor employing an interrogation scheme based on erbium-doped fiber (EDF) edge detection filter, with enhanced detection bandwidth and intrinsic temperature insensitivity, is proposed and experimentally demonstrated. The edge filter is based on the spectral dependence of absorption in EDF with the possibility of tailoring the absorption profile using appropriate lengths of EDF. A wide filter bandwidth of about 10 nm and a slope detection sensitivity of 1.0 dB/nm in the C-band is demonstrated and validated by simulation results. The proposed scheme is versatile and 
+
+==========================================================================================
+PAIR (1):  Carbon Utilization & Chemical Conversion => Biomass & Biofuel Technologies
+==========================================================================================
+
+[69deca604e2d2a5b77edd4ac] conf=0.35 band=<0.5 src=sonnet
+  TITLE: Thermodynamics of Nath's 2-ion model for ATP synthesis
+  PROD:   Energy, Sustainability & Climate Change / Carbon Utilization & Chemical Conversion
+          reason: The paper addresses thermodynamic mechanisms of biological ATP synthesis and catabolic reactions in prokaryotes, but does not fit cleanly into any domain; as a biochemical thermodynamics study without clear engineering application, Healthcare (cellular/molecular biology) or Energy (bioenergy conversion) are both weak matches, with Energy slightly preferred for its focus on energy conversion mechan
+  SONNET: Energy, Sustainability & Climate Change / Biomass & Biofuel Technologies
+          reason: This thermodynamics study of ATP synthesis mechanisms in anaerobic prokaryotes relates to bioenergy conversion, though it is primarily biochemical theory without direct materials, device, or clinical application, making classification uncertain between energy biochemistry and molecular biology.
+  ABSTRACT: A major finding of studies of organic acid ionization was that substituents on an aliphatic chain attached to a carboxyl group have large effects on the equilibrium constant but very little effect on Δ<inf>ioniz</inf>H which is in the range 0 ± 4 kJ/mol for all carboxylic acids of this type. According to Nath's 2-ion mechanism for ATP synthesis, succinic acid was selected by biological evolution because an acid that could be ionized with no energy input was required, i.e., with Δ<inf>ioniz</inf>H near zero. In support of this, ATP synthesis evolved in prokaryotes in a world without oxygen in t
+
+==========================================================================================
+PAIR (1):  Algorithms & Computational Complexity => Wireless Network Access & Resource Allocation
+==========================================================================================
+
+[69deca0a4e2d2a5b77ed1477] conf=0.75 band=0.5-0.8 src=haiku
+  TITLE: Path diminution in node-disjoint multipath routing for mobile ad hoc networks is unavoidable with single route discovery
+  PROD:   AI/ML, Supercomputing & Quantum Computing / Algorithms & Computational Complexity
+          reason: The paper presents a theoretical analysis of the computational complexity and algorithmic limitations of discovering node-disjoint paths in ad hoc networks, proving that an efficient algorithm cannot guarantee finding all such paths in single route discovery—this is fundamentally an algorithmic complexity and graph algorithm contribution.
+  SONNET: Next-Gen Communication / Wireless Network Access & Resource Allocation
+          reason: The paper addresses multipath routing protocol design and route discovery mechanisms for mobile ad hoc wireless networks, which falls under network resource allocation and protocol design for wireless systems.
+  ABSTRACT: In an ad hoc network, identification of all node-disjoint paths between a given pair of nodes is a challenging task. The phenomena that a protocol is not able to identify all node-disjoint paths that exist between a given pair of nodes is called path diminution. In this paper, we discuss that path diminution is unavoidable when a protocol discovers multiple node-disjoint paths in a single route discovery. We discuss schemes to mitigate path diminution. However, no such scheme is guaranteed to discover all node-disjoint paths that exist between a given pair of nodes. We have proved that one can
+
+==========================================================================================
+PAIR (1):  Algorithms & Computational Complexity => Monsoon Dynamics & Regional Climate Modeling
+==========================================================================================
+
+[69deca634e2d2a5b77eddd49] conf=0.35 band=<0.5 src=sonnet
+  TITLE: Prospecting bipartite dark matter through gravitational waves
+  PROD:   AI/ML, Supercomputing & Quantum Computing / Algorithms & Computational Complexity
+          reason: Theoretical physics paper on dark matter and gravitational waves does not match any domain in the taxonomy; assigned to computational methods as best available fit for cosmological simulation work, though this represents a significant taxonomy gap for fundamental physics research.
+  SONNET: Energy, Sustainability & Climate Change / Monsoon Dynamics & Regional Climate Modeling
+          reason: This paper on theoretical particle physics and cosmology (dark matter models, gravitational waves, electroweak phase transition) does not fit the frozen taxonomy focused on engineering, applied sciences, and computational methods; it belongs to fundamental physics outside the defined scope.
+  ABSTRACT: We explore the gravitational wave probes of a two-component dark matter framework, consisting of an SU(2) <inf>L</inf> triplet scalar and a Standard Model singlet fermion. The triplet scalar dark matter typically remains underabundant in the region below ∼ 1.9 TeV, due to the strong SU(2) <inf>L</inf> gauge mediated interactions. We introduce a second dark matter component, an SU(2) <inf>L</inf> singlet vector-like Dirac fermion, to address this deficit in the dark matter relic abundance within a sub-TeV range. A key aspect of the proposed setup is the potential dark matter inter-conversion be
+
+==========================================================================================
+PAIR (1):  Energy Storage Materials => Grid Integration & Smart Microgrids
+==========================================================================================
+
+[69deca154e2d2a5b77ed2dcd] conf=0.42 band=<0.5 src=sonnet
+  TITLE: Analysis of nonlinear spring arm for improved performance of vibrational energy harvesting devices
+  PROD:   Energy, Sustainability & Climate Change / Energy Storage Materials
+          reason: Electromagnetic vibrational energy harvester design with nonlinear spring mechanics for power generation belongs to energy harvesting devices; although device physics is involved, the primary contribution is energy conversion system performance rather than semiconductor device fabrication or novel material synthesis.
+  SONNET: Energy, Sustainability & Climate Change / Grid Integration & Smart Microgrids
+          reason: Electromagnetic energy harvester design with nonlinear spring dynamics for improved power output and bandwidth represents energy conversion device research, fitting best within energy domain despite limited alignment with grid/microgrid focus.
+  ABSTRACT: Recently, a number of attempts have been made to increase the operational bandwidth of the energy harvesting devices. Nonlinear mechanisms are one of them. In this paper, we report design and analytical formulation of stretching strain of an electromagnetic energy harvester on FR4 material under large deformation of the spring arms. It is found that nonlinearity has an inverse square dependence on thickness of the arms. Numerical solution of a monostable Duffing oscillator that governs the dynamics of such a large deformed nonlinear energy harvester showed that with decrease of load resistance
+
+==========================================================================================
+PAIR (1):  Free Space Optical Communication => Wireless Network Access & Resource Allocation
+==========================================================================================
+
+[69deca134e2d2a5b77ed2942] conf=0.6 band=0.5-0.8 src=haiku
+  TITLE: Power Optimised Segment Based Shared Path Protection in optical packet switched networks
+  PROD:   Next-Gen Communication / Free Space Optical Communication
+          reason: Paper addresses optical packet-switched networks with focus on power optimization and protection mechanisms; while the domain assignment is uncertain due to limited abstract detail, the core contribution concerns optical communication system design and resource allocation, best fitting Next-Gen Communication theme.
+  SONNET: Next-Gen Communication / Wireless Network Access & Resource Allocation
+          reason: The paper addresses network resource optimization (sleep mode strategy, power allocation, contention resolution) in optical packet switched networks, which aligns with resource allocation and MAC-layer mechanisms in communication networks.
+  ABSTRACT: This paper presents sleep mode strategy to achieve minimal power consumption with Segment Based Shared Path Protection. Saved power is used for enhancing the data rate incorporating a contention resolution algorithm. © 2012 OSA.
+
+==========================================================================================
+PAIR (1):  Building Energy & Thermal Performance => Structural Dynamics & Seismic Engineering
+==========================================================================================
+
+[6a5418345ac95135d3b18763] conf=0.45 band=<0.5 src=sonnet
+  TITLE: Effect of Limestone on Electrical Properties of Cementitious Systems
+  PROD:   Smart & Sustainable Infrastructure / Building Energy & Thermal Performance
+          reason: The paper addresses the durability and transport properties of cementitious building materials with limestone addition, which relates to infrastructure performance and building construction specifications, although it shares characteristics with materials research.
+  SONNET: Smart & Sustainable Infrastructure / Structural Dynamics & Seismic Engineering
+          reason: The paper investigates porosity, pore connectivity, and electrical transport properties of cement-limestone systems for infrastructure durability and performance assessment, which is central to civil engineering materials for structural applications.
+  ABSTRACT: The composition of ordinary portland cement (OPC) changed in North America with the addition of ground limestone in 2004 (since the adoption of ASTM C150-04a), which reacts to form carboaluminate hydration products. This paper discusses the potential influence of limestone addition on the porosity, pore connectivity, formation factor, and electrical properties of cementitious systems. The carboaluminate reaction products can result in a system with limestone that has an equivalent water-powder ratio (w/p) approximately 0.07 lower than the system without limestone (occurring at the minimum poro
+
+==========================================================================================
+PAIR (1):  Biomechanics & Musculoskeletal Systems => Tissue Engineering & Regenerative Medicine
+==========================================================================================
+
+[69deca294e2d2a5b77ed5fee] conf=0.92 band=>=0.8 src=haiku
+  TITLE: Assessment of bone ingrowth around beaded coated tibial implant for total ankle replacement using mechanoregulatory algorithm
+  PROD:   Healthcare & MedTech / Biomechanics & Musculoskeletal Systems
+          reason: The paper develops finite element models to assess bone ingrowth and implant-bone interactions for a total ankle replacement device, directly addressing the biomechanical analysis of musculoskeletal implant performance in a clinical orthopedic application.
+  SONNET: Healthcare & MedTech / Tissue Engineering & Regenerative Medicine
+          reason: Primary contribution is computational modeling of bone tissue ingrowth and osseointegration at porous-coated orthopedic implant interfaces for total ankle replacement, a tissue engineering and regenerative medicine application.
+  ABSTRACT: The long-term performance of porous coated tibial implants for total ankle replacement (TAR) primarily depends on the extent of bone ingrowth at the bone-implant interface. Although attempts were made for primary fixation for immediate post-operative stability, no investigation was conducted on secondary fixation. The aim of this study is to assess bone ingrowth around the porous beaded coated tibial implant for TAR using a mechanoregulatory algorithm. A realistic macroscale finite element (FE) model of the implanted tibia was developed based on computer tomography (CT) data to assess implant-
+
+==========================================================================================
+PAIR (1):  Hydrology & Water Resources Management => Computational Fluid Dynamics & Flow Analysis
+==========================================================================================
+
+[6a26bf2f2b6042b76389bd0b] conf=0.92 band=>=0.8 src=haiku
+  TITLE: zeroInertiaFlowFOAM–a OpenFOAM®-based computationally efficient, mass-conservative, implicit zero-inertia flow model for flood inundation problems on collocated grid-systems.
+  PROD:   Smart & Sustainable Infrastructure / Hydrology & Water Resources Management
+          reason: The paper develops a computational model for flood inundation simulation using finite volume methods on OpenFOAM, addressing water resource management and flood hazard analysis at the infrastructure systems level.
+  SONNET: AI/ML, Supercomputing & Quantum Computing / Computational Fluid Dynamics & Flow Analysis
+          reason: The paper presents a numerical method (finite volume, implicit time discretization, Picard iteration) for solving zero-inertia flood flow equations using OpenFOAM, which is a computational fluid dynamics contribution focused on efficient simulation of subcritical flows.
+  ABSTRACT: … The ZI model is computationally efficient and highly accurate compared to the SW models for modeling low subcritical (Froude number < 0.5) flood propagation problems. The current study presents a Finite Volume (FV) method-based ZI flow model - zeroInertiaFlowFOAM, developed using the OpenFOAM® framework [1]. The model utilizes the implicit time discretization scheme and the Picard iteration scheme for the linearization of the non-linear momentum equation. The stabilized and adaptive time-stepping algorithm implemented in the present …
+
+==========================================================================================
+PAIR (1):  Carbon Utilization & Chemical Conversion => Grid Integration & Smart Microgrids
+==========================================================================================
+
+[69deca5e4e2d2a5b77edcfc4] conf=0.45 band=<0.5 src=sonnet
+  TITLE: Experimental investigation on effects of exhaust gas recirculation on flame kernel growth rate in a hydrogen fuelled spark ignition engine
+  PROD:   Energy, Sustainability & Climate Change / Carbon Utilization & Chemical Conversion
+          reason: Experimental study of combustion dynamics in a hydrogen-fueled spark ignition engine with exhaust gas recirculation, investigating flame kernel growth rates and developing correlations for engine optimization, which relates to alternative fuel combustion and energy conversion technologies.
+  SONNET: Energy, Sustainability & Climate Change / Grid Integration & Smart Microgrids
+          reason: This paper investigates hydrogen combustion in spark ignition engines with EGR effects on flame kernel growth, which is primarily an internal combustion engine research topic focused on alternative fuel (hydrogen) utilization for energy conversion, but does not fit cleanly into any provided domain—it represents engine combustion research rather than grid systems, photovoltaics, biomass conversion,
+  ABSTRACT: This paper describes the experimental investigation on effects of exhaust gas recirculation (EGR) on flame kernel growth rate (FKGR) in a hydrogen fuelled spark ignition (SI) engine and correlation development for FKGR. A single cylinder, four-stroke, forced air cooled, bi-fuelled (i.e., gasoline and hydrogen) SI engine was selected for this study. The engine was fuelled by gasoline in carbureted mode and by hydrogen using timed manifold injection. The study was carried out for evaluation of FKGR in engine cylinder using gasoline fuel (brake power variation (1.0–2.1) kW), hydrogen fuel (equiva
+
+==========================================================================================
+PAIR (1):  Drug Delivery & Molecular Therapeutics => Organometallic & Chalcogenide Synthesis
+==========================================================================================
+
+[69deca514e2d2a5b77edb869] conf=0.75 band=0.5-0.8 src=haiku
+  TITLE: Synthesis of 1-methyl-4-nitro-5-substituted-imidazole and substituted imidazolothiazole derivates as possible antiparasitic agents
+  PROD:   Healthcare & MedTech / Drug Delivery & Molecular Therapeutics
+          reason: The paper synthesizes imidazole and imidazolothiazole compounds designed as antiparasitic agents, which represents molecular therapeutic development targeting disease treatment.
+  SONNET: Advanced Materials & Devices / Organometallic & Chalcogenide Synthesis
+          reason: Synthesis of substituted imidazole and imidazolothiazole derivatives represents discovery of new organometallic/heterocyclic compounds; although intended for antiparasitic application, the primary contribution is chemical synthesis and compound discovery rather than clinical validation or drug delivery system development.
+  ABSTRACT: 
+
+==========================================================================================
+PAIR (1):  Composite & Laminate Structures => Materials, Joining & Mechanical Behavior
+==========================================================================================
+
+[69deca064e2d2a5b77ed0ac5] conf=0.85 band=>=0.8 src=haiku
+  TITLE: Upcycling Textile Waste to Fiber Reinforced Polymer Composites
+  PROD:   Advanced Materials & Devices / Composite & Laminate Structures
+          reason: The paper focuses on upcycling textile waste into fiber-reinforced polymer composites, which is a materials processing and composite fabrication contribution centered on structure, properties, and engineering of composite materials rather than on manufacturing process optimization or textile production itself.
+  SONNET: Manufacturing & Industry 4.0 / Materials, Joining & Mechanical Behavior
+          reason: Paper focuses on upcycling textile waste into fiber-reinforced polymer composites, which involves materials processing, composite fabrication, and characterization of mechanical behavior—core manufacturing activities rather than fundamental materials discovery.
+  ABSTRACT: 
+
+==========================================================================================
+PAIR (1):  Advanced Surface Finishing & Processing => Bio-based Materials & Polymers
+==========================================================================================
+
+[69deca144e2d2a5b77ed2b8d] conf=0.65 band=0.5-0.8 src=haiku
+  TITLE: Extraction and characterization of silk sericin
+  PROD:   Manufacturing & Industry 4.0 / Advanced Surface Finishing & Processing
+          reason: Sericin extraction from textile and silk waste sources using conventional and IR heating methods focuses on processing technique optimization and characterization of extracted material in industrial context, aligning with advanced processing and material characterization in manufacturing.
+  SONNET: Advanced Materials & Devices / Bio-based Materials & Polymers
+          reason: Primary contribution is the extraction, yield comparison, and comprehensive characterization (physical, morphological, thermal, molecular) of sericin protein from natural silk sources using different methods, which represents bio-based material development rather than a specific clinical/therapeutic application.
+  ABSTRACT: Study compares the quality and quantity of sericin obtained from four sources, namely mulberry silk cocoons, silk flats, reeling silk waste and woven silk fabric. Sericin has been extracted using the conventional HTHP machine as well as IR heating machine. Results show that among the four sources, the maximum yield of sericin (28%) is obtained from silk fabric followed by 25% sericin obtained from silk flats. IR machine extraction gives ∼13 times higher yield of sericin as compared to that obtained by HTHP at 1000C for 60 min. Sample obtained from IR extraction is also compared with the standa
+
+==========================================================================================
+PAIR (1):  Environmental Assessment & Land Use Management => Biomass & Biofuel Technologies
+==========================================================================================
+
+[69dec9fe4e2d2a5b77ecf71c] conf=0.72 band=0.5-0.8 src=haiku
+  TITLE: A rapid method for fungal assisted algal flocculation: Critical parameters & mechanism insights
+  PROD:   Energy, Sustainability & Climate Change / Environmental Assessment & Land Use Management
+          reason: The paper develops a bioprocess for algal harvesting from wastewater using fungal-assisted flocculation, addressing environmental remediation and wastewater treatment as part of sustainable resource recovery; while biomanufacturing would apply if this were purely fermentation optimization for production, the focus on algal harvest from wastewater treatment places it in environmental assessment and
+  SONNET: Energy, Sustainability & Climate Change / Biomass & Biofuel Technologies
+          reason: The paper develops a fungal-assisted flocculation method for harvesting microalgae (Chlorella pyrenoidosa) grown in wastewater, addressing algal biomass recovery for biofuel and bioenergy applications through sustainable bioprocess optimization.
+  ABSTRACT: A method for rapid flocculation of Chlorella pyrenoidosa cells with Aspergillus fumigatus pellets was developed. The process could flocculate 99% algal cells within 3 h. In order to identify the critical parameters, apart from the flocculation conditions (different fungal-algal ratios, flocculation temperature and agitation), the effect of cultivation time and various pretreatments (autoclaving, Cycloheximide exposure) for A. fumigatus was also investigated. Results revealed that 24 h old fungal pellets flocculated at 38 °C and 1:5 fungal-algal ratio showed the best flocculation efficiency. Th
+
+==========================================================================================
+PAIR (1):  Digital Transformation & IT Applications => Supply Chain & Operations Management
+==========================================================================================
+
+[69deca5b4e2d2a5b77edcac1] conf=0.35 band=<0.5 src=sonnet
+  TITLE: Understanding effects of analogical distance on performance of ideation: Key observations and findings
+  PROD:   Social Sciences, Humanities & Management / Digital Transformation & IT Applications
+          reason: This paper investigates design ideation and concept generation methodology in an engineering education context, examining how analogical distance between stimuli and design problems affects creativity outcomes, which falls within management science and organizational decision-making processes rather than technical innovation itself.
+  SONNET: Social Sciences, Humanities & Management / Supply Chain & Operations Management
+          reason: The paper studies design process and decision modeling for operations (ideation methodology and stimulus selection) rather than computational methods or material/device innovation, fitting operations management focus on process optimization.
+  ABSTRACT: The effect of analogical distance between design stimuli and design problem on novelty and quality of generated concepts is investigated in this research. Data from a design project involving 105 student designers, divided into 21 teams and individually generating 226 concepts of spherical rolling robots, is collected. From this data, 138 concepts generated with patents as stimuli and the patents used as stimuli are analyzed. Analogical distance of a patent is measured in terms of the knowledge distance of the technology classes constituting this patent from the technology classes constituting
+
+==========================================================================================
+PAIR (1):  Algorithms & Computational Complexity => Social Media Analytics & Online Networks
+==========================================================================================
+
+[69deca624e2d2a5b77edd973] conf=0.75 band=0.5-0.8 src=haiku
+  TITLE: Discovering and leveraging communities in dark multi-layered networks for network disruption
+  PROD:   AI/ML, Supercomputing & Quantum Computing / Algorithms & Computational Complexity
+          reason: The paper presents a community detection algorithm for multilayered networks with interactive parameter tuning, which is fundamentally an algorithmic contribution to graph analysis and network science.
+  SONNET: Social Sciences, Humanities & Management / Social Media Analytics & Online Networks
+          reason: The paper's primary contribution is a methodology for analyzing community structure in dark multi-layered networks with interactive community detection algorithms, focusing on network analysis and online network dynamics rather than computational method development.
+  ABSTRACT: In this paper we introduce a methodology to identify communities in dark multilayered networks, taking into account that the main challenges of these networks are incompleteness, fuzzy boundaries, and dynamic behavior. To account for these characteristics, we create knowledge sharing communities (KSC) that determine the community detection. KSC is driven by weighing the edge attributes as desired for the application that the communities are used. We provide an interactive algorithm that allows the operator to decide on the weights and the thresholds applied to create the communities. By choosi
+
+==========================================================================================
+PAIR (1):  Polymer Nanocomposites & Blends => Rare-Earth Doped Luminescent Materials
+==========================================================================================
+
+[69deca384e2d2a5b77ed7e2f] conf=0.75 band=0.5-0.8 src=haiku
+  TITLE: Ultrafast Charge Transfer and Trapping Dynamics in a Colloidal Mixture of Similarly Charged CdTe Quantum Dots and Silver Nanoparticles
+  PROD:   Advanced Materials & Devices / Polymer Nanocomposites & Blends
+          reason: The paper investigates nanoparticle composites (CdTe QDs and Ag NPs) with focus on their microstructure, charge-transfer mechanisms, and property characterization via spectroscopic methods; while energy applications are mentioned, the primary contribution is material synthesis and characterization of nanocomposite interactions.
+  SONNET: Advanced Materials & Devices / Rare-Earth Doped Luminescent Materials
+          reason: Primary contribution is the synthesis and optical characterization of colloidal quantum dot-metal nanoparticle systems with investigation of photoluminescence quenching, charge transfer dynamics, and transient absorption properties of luminescent semiconductor nanocrystals.
+  ABSTRACT: The interaction between colloidal CdTe quantum dots (QDs) and silver nanoparticles (Ag NPs), both in their negatively charged state, is studied to determine the importance of surface charge and epitaxial coupling of the two components to achieve the potential activity of the metal-semiconductor nanocomposites. An unexpected strong interaction between the two similarly charged species is evident from dramatic quenching of the excitonic emission of the QDs by the Ag NPs. Direct evidence of electron transfer from the photoexcited QDs to Ag NPs is obtained from an accelerated bleach recovery of th
+
+==========================================================================================
+PAIR (1):  Transportation Systems & Traffic Management => Urban Air Quality & Emissions Monitoring
+==========================================================================================
+
+[69deca244e2d2a5b77ed5375] conf=0.45 band=<0.5 src=sonnet
+  TITLE: Towards agent-based GRID-enabled and sensor-driven fire dynamics simulation harnessed over Bluetooth and Wi-Fi devices
+  PROD:   Smart & Sustainable Infrastructure / Transportation Systems & Traffic Management
+          reason: Agent-based simulation infrastructure integrating GRID computing, sensor networks, and wireless communication for crisis management decision support primarily addresses infrastructure resilience and emergency response coordination.
+  SONNET: Smart & Sustainable Infrastructure / Urban Air Quality & Emissions Monitoring
+          reason: Fire hazard prediction and disaster management system integrating sensor networks, GRID computing, and agent middleware for crisis decision support represents infrastructure resilience, though the computational integration across heterogeneous devices and the distributed system architecture could alternatively place this in AI/ML if the primary contribution were the agent-based coordination algori
+  ABSTRACT: The present paper is motivated by the need to develop technological infrastructure for informed and reliable decision support in various crisis and disaster management situations. It describes our prototype data-driven fire hazard simulator capable of predicting fire propagation dynamics that allows the user to take decisions based on reliable micro-future predictions of fire propagation based on potential personnel actions. Several heterogeneous technologies are integrated to achieve this goal. The GRID is utilized for running legacy codes enabling fire-propagation prediction. Sensor networks
+
+==========================================================================================
+PAIR (1):  Rotor Dynamics & Vibration Analysis => Advanced Surface Finishing & Processing
+==========================================================================================
+
+[69deca234e2d2a5b77ed50b9] conf=0.45 band=<0.5 src=sonnet
+  TITLE: A genetic algorithm based scheduling for a flexible system
+  PROD:   Manufacturing & Industry 4.0 / Rotor Dynamics & Vibration Analysis
+          reason: This paper addresses production scheduling optimization in a flexible flow line manufacturing system using genetic algorithms, which is a manufacturing operations and control problem; however, none of Manufacturing & Industry 4.0's domains directly cover production scheduling, so the best available fit among the listed domains is uncertain, making this a challenging classification with reduced con
+  SONNET: Manufacturing & Industry 4.0 / Advanced Surface Finishing & Processing
+          reason: The paper addresses production scheduling optimization for flexible manufacturing flow lines using genetic algorithms, which falls under Manufacturing & Industry 4.0's scope of industrial production process optimization and control, though the specific domain assignment is uncertain as no exact 'production scheduling' domain exists in the taxonomy.
+  ABSTRACT: Based on the rapid technical development in the last decade, the automation in many areas of production and distribution has developed significantly. This leads to complex situations where decisions have to be taken within a short time and among several alternatives - often without the human intervention. This paper considers flexible system as a mixed model flexible flow line, where 'n' independent jobs are required to be processed on 'm' different machines, where all the jobs have the same processing order on the machines. Here the objective is to find the ordering of the jobs on the machine
+
+==========================================================================================
+PAIR (1):  Signal Modulation, Detection & Channel Equalization => Wireless Network Access & Resource Allocation
+==========================================================================================
+
+[69deca4b4e2d2a5b77edaa6e] conf=0.45 band=<0.5 src=sonnet
+  TITLE: An axiomatic basis for communication
+  PROD:   Next-Gen Communication / Signal Modulation, Detection & Channel Equalization
+          reason: This paper presents an axiomatic formulation of fundamental forwarding mechanisms and network protocols in communication systems, focusing on communication network architecture and protocol design; although primarily architectural/theoretical, it belongs to Next-Gen Communication as the best fit among available domains, though no domain perfectly captures network architecture theory.
+  SONNET: Next-Gen Communication / Wireless Network Access & Resource Allocation
+          reason: The paper presents an axiomatic framework for communication network protocols, addressing forwarding mechanisms, naming, addressing, and control patterns—core architectural concerns of network systems that align with Next-Gen Communication's coverage of network architecture, MAC protocols, and resource allocation.
+  ABSTRACT: The de facto service architecture of today's communication networks, in particular the Internet, is heterogeneous, complex, ad hoc, and not particularly well understood. With layering as the only means for functional abstraction, and even this violated by middle-boxes, the diversity of current technologies can barely be expressed, let alone analyzed. As a first step to remedying this problem, we present an axiomatic formulation of fundamental forwarding mechanisms in communication networks. This formulation allows us to express precisely and abstractly the concepts of naming and addressing and
+
+==========================================================================================
+PAIR (1):  Transportation Systems & Traffic Management => Machine Learning & Neural Networks
+==========================================================================================
+
+[69deca4b4e2d2a5b77edab7a] conf=0.45 band=<0.5 src=sonnet
+  TITLE: FPGA-based smart camera system for real-time automated video surveillance
+  PROD:   Smart & Sustainable Infrastructure / Transportation Systems & Traffic Management
+          reason: FPGA-based video surveillance system with motion detection and object tracking is primarily a hardware implementation for monitoring infrastructure environments, most commonly applied in traffic and public safety contexts.
+  SONNET: AI/ML, Supercomputing & Quantum Computing / Machine Learning & Neural Networks
+          reason: The paper's primary contribution is the algorithmic implementation of real-time motion detection, object tracking, and automated video filtering on FPGA hardware for intelligent surveillance, which constitutes a machine learning/computer vision application rather than a hardware fabrication or sensor device study.
+  ABSTRACT: Automated video surveillance is a rapidly evolving area and has been gaining importance in the research community in recent years due to its capabilities of performing more efficient and effective surveillance by employing smart cameras. In this article, we present the design and implementation of an FPGA-based smart camera system for automated video surveillance. The complete system is prototyped on Xilinx ML510 FPGA platform and meets the real-time requirements of video surveillance applications while aiming at FPGA resource reduction. The implemented smart camera system is capable of automa
+
+==========================================================================================
+PAIR (1):  Biomanufacturing & Fermentation Processes => Environmental Assessment & Land Use Management
+==========================================================================================
+
+[69deca504e2d2a5b77edb6fa] conf=0.75 band=0.5-0.8 src=haiku
+  TITLE: Next generation bioformulation prepared by amalgamating Bradyrhizobium, cell free culture supernatant, and exopolysaccharides enhances the indigenous rhizospheric rhizobial population, nodulation, and productivity of pigeon pea
+  PROD:   Manufacturing & Industry 4.0 / Biomanufacturing & Fermentation Processes
+          reason: Paper develops and optimizes bioformulation processes (fermentation-derived cell-free supernatants, exopolysaccharides, and microbial blends) for agricultural application, focusing on scaling, optimization, and characterization of biological production systems rather than plant physiology or crop genetics.
+  SONNET: Energy, Sustainability & Climate Change / Environmental Assessment & Land Use Management
+          reason: Primary contribution is sustainable agricultural practice through bioformulation to enhance crop productivity and soil microbial ecology, addressing agricultural sustainability and ecosystem services in the context of natural resource management.
+  ABSTRACT: Addition of living cells for plant growth promotion has several constraints including erratic and inconsistent field performance, poor shelf life, and reduced population due to tough competition with resident microbes. Due to the focus on employing cell-based formulation, bacterial cell free culture supernatant (CFCS), and metabolites produced by them, have been largely ignored. Hence, present study aimed to enhance productivity and nodulation of Cajanus cajan (pigeon pea) by using diverse formulations developed from Bradyrhizobium strain IC-4059 (cell based formulation), its CFCS (supernatant
+
+==========================================================================================
+PAIR (1):  Solar Thermal Energy & Heat Transfer Systems => Grid Integration & Smart Microgrids
+==========================================================================================
+
+[69dec9f64e2d2a5b77ece682] conf=0.45 band=<0.5 src=sonnet
+  TITLE: Energy Harvesting from Water Droplet Motion Confined on A Hydrophobic-Hydrophilic Stripped Surface
+  PROD:   Energy, Sustainability & Climate Change / Solar Thermal Energy & Heat Transfer Systems
+          reason: Droplet-based electrostatic energy harvester converts mechanical motion into electrical energy using hydrophobic-hydrophilic surface engineering, representing an energy conversion technology focused on small-scale power generation from environmental sources.
+  SONNET: Energy, Sustainability & Climate Change / Grid Integration & Smart Microgrids
+          reason: Energy harvesting device converting mechanical motion to electrical energy via variable capacitor mechanism, though the assignment between energy harvesting systems and fundamental device physics domains is uncertain.
+  ABSTRACT: This paper reports a water droplet-based electrostatic energy harvester which is based on rolling of droplet on a well-defined hydrophilic channel (SiO2) having precharged hydrophobic film of CYTOP as side walls. CYTOP is a hydrophobic material which has high charge trapping potential because of high breakdown voltage in the range 132 V/m, The developed device works on the variable capacitor model, and converts mechanical motion of droplet into electrical energy. Design and developed of the reported device is ple and relatively faster than conventional energy harvesters and MEMS devices. Peak 
+
+==========================================================================================
+PAIR (1):  Resistive Memory & Neuromorphic Computing => Ultra-Low Voltage Analog Circuits
+==========================================================================================
+
+[69dec9fd4e2d2a5b77ecf525] conf=0.35 band=<0.5 src=sonnet
+  TITLE: Sensitivity analysis of MEMS gyroscope for radar-based true north finding application
+  PROD:   Quantum Technologies & Semiconductor Technology / Resistive Memory & Neuromorphic Computing
+          reason: MEMS gyroscope device design with electrostatic actuation and capacitive sensing for navigation/radar application belongs to semiconductor-based sensor technologies, but the best-fit domain is unclear—no MEMS-specific domain exists and the device is not resistive memory/neuromorphic, yet it is a microfabricated sensor system closest to semiconductor device engineering.
+  SONNET: Quantum Technologies & Semiconductor Technology / Ultra-Low Voltage Analog Circuits
+          reason: The paper focuses on MEMS gyroscope device design with comb drive electrostatic actuation and differential capacitance sensing—a micro-electromechanical sensor system at the device physics and circuit level, best fitting analog/mixed-signal circuit domains in semiconductor technology.
+  ABSTRACT: True north alignment plays an important role in radar tracking performance as it affects the target's azimuth measurement. Existing conventional methods to find out the true north consume more time and resources with poor accuracy which is not preferable during wartime as well as in online data monitoring scenarios. To overcome such problems, a MEMS-based gyroscope is one of the potential tools to assist in determining the true north with limited resources and a short period with high accuracy. In this paper, the design of a single mass MEMS gyroscope is proposed in which a comb drive operated
+
+==========================================================================================
+PAIR (1):  Fluid-Particle Flow & Multiphase Systems => Solar Thermal Energy & Heat Transfer Systems
+==========================================================================================
+
+[69deca154e2d2a5b77ed2e2c] conf=0.75 band=0.5-0.8 src=haiku
+  TITLE: Study on flow and heat transfer characteristics of Encapsulated Phase Change Material (EPCM) slurry in Double-Pipe Heat Exchanger
+  PROD:   Manufacturing & Industry 4.0 / Fluid-Particle Flow & Multiphase Systems
+          reason: The paper investigates multiphase flow (MPCM slurry-water) and heat transfer in a double-pipe heat exchanger using Eulerian-Eulerian modeling, which is a computational and experimental study of particle-laden multiphase systems in industrial processing equipment.
+  SONNET: Energy, Sustainability & Climate Change / Solar Thermal Energy & Heat Transfer Systems
+          reason: Primary contribution is heat transfer enhancement in a thermal energy storage system using microencapsulated phase change material slurry, directly addressing thermal energy conservation through advanced heat exchanger design and analysis.
+  ABSTRACT: Microencapsulated phase change material (MPCM) slurry as a working fluid was numerically investigated for thermal energy conservation systems due to its high heat capacity associated with the PCM. A mathematical model of a double pipe heat exchanger was developed to conduct the numerical analysis based on the Eulerian-Eulerian flow model. During simulation, it was considered that MPCM slurry flows through the inside pipe of the heat exchanger, whereas high-temperature plain water flows at the annulus side of the heat exchanger. The accuracy of the model was verified with experimental data and 
+
+==========================================================================================
+PAIR (1):  Organometallic & Chalcogenide Synthesis => Composite & Laminate Structures
+==========================================================================================
+
+[69deca474e2d2a5b77eda10a] conf=0.72 band=0.5-0.8 src=sonnet
+  TITLE: Quantifying Packing Efficiency in Molecular Crystals: A Close Packing Index Based on Hirshfeld Surfaces
+  PROD:   Advanced Materials & Devices / Organometallic & Chalcogenide Synthesis
+          reason: This paper develops a structural descriptor for characterizing molecular crystal packing efficiency and correlates it with material properties such as melting point, cohesive energy, and mechanical moduli, representing fundamental materials characterization research on molecular crystalline systems.
+  SONNET: Advanced Materials & Devices / Composite & Laminate Structures
+          reason: This paper develops a structural descriptor (close packing index) for characterizing molecular crystal packing efficiency and its correlations with mechanical and physical properties, representing fundamental materials characterization and structure-property relationships in crystalline materials, though the best fit within Advanced Materials taxonomy is imperfect as it focuses on crystallographic
+  ABSTRACT: The degree of close packing in molecular crystals can dictate their mechanical, chemical, and photophysical properties. Here, we present a simple descriptor of close packing in molecular crystals, based on Spackman’s intermolecular boundary surfaces, known as Hirshfeld surfaces. In comparison to Kitaigorodskii’s packing index (KPI), the values of this close packing index (CP<inf>i</inf>) offer a more accurate description of packing efficiency and demonstrate stronger correlations with properties such as melting point and lattice cohesive energy examined in two different series of crystal struc
+
+==========================================================================================
+PAIR (1):  Tribology & Bearing Performance => Polymer Nanocomposites & Blends
+==========================================================================================
+
+[69deca1c4e2d2a5b77ed3e54] conf=0.92 band=>=0.8 src=haiku
+  TITLE: Influence of reinforcement and lubrication on abrasive wear performance of polyamide
+  PROD:   Manufacturing & Industry 4.0 / Tribology & Bearing Performance
+          reason: The paper investigates wear performance of polymer composites under sliding conditions with focus on friction, lubrication, and material behavior during abrasive wear—core tribology research applied to industrial wear characterization.
+  SONNET: Advanced Materials & Devices / Polymer Nanocomposites & Blends
+          reason: Primary contribution is characterization of polymer composite material properties (polyamide with carbon fiber reinforcement and PTFE lubrication) including wear behavior and mechanical properties, which is materials science rather than a manufacturing process application.
+  ABSTRACT: This paper presents the results of studies on the wear performance of various composites of polyamide (nylon 6,6) reinforced with short carbon fibres and lubricated with a solid lubricant, PTFE, under adverse sliding conditions (abrasive wear). The effects of increasing amounts of fillers, fibre orientation, and experimental parameters such as load, and abrading particle size were investigated. The studies revealed that fillers that are very much suitable for adhesive wear applications are detrimental for the abrasive wear mode. Moreover, wear performance showed deterioration with increasing a
+
+==========================================================================================
+PAIR (1):  Carbon Utilization & Chemical Conversion => Solar Thermal Energy & Heat Transfer Systems
+==========================================================================================
+
+[69deca3c4e2d2a5b77ed85f7] conf=0.35 band=<0.5 src=sonnet
+  TITLE: Realization of an advanced nozzle concept for compact chemical oxygen iodine laser
+  PROD:   Energy, Sustainability & Climate Change / Carbon Utilization & Chemical Conversion
+          reason: Chemical oxygen-iodine laser system with advanced nozzle design for pressure recovery and gas dynamics optimization does not fit cleanly into the taxonomy; tentatively assigned to energy conversion domain due to chemical energy system, though a dedicated photonics/laser systems domain would be more appropriate.
+  SONNET: Energy, Sustainability & Climate Change / Solar Thermal Energy & Heat Transfer Systems
+          reason: Chemical oxygen-iodine laser nozzle design involves gas dynamics and heat transfer optimization for energy conversion systems, but lacks a strong fit to any domain; assigned to thermal energy systems as closest match for fluid mechanics and pressure recovery engineering.
+  ABSTRACT: Conventional supersonic chemical oxygen-iodine lasers (SCOIL) are not only low-pressure systems, with cavity pressure of 2-3 Torr and Mach number of approximately 1.5, but also are high-throughput systems with a typical laser power per unit evacuation capacity of nearly 1 J/l, thus demanding high capacity vacuum systems which mainly determine the compactness of the system. These conventional nozzle-based systems usually require a minimum of a two-stage ejector system for realization of atmospheric pressure recovery in a SCOIL. Typically for a 500 W class SCOIL, a first stage requires a motive 
+
+==========================================================================================
+PAIR (1):  Semiconductor Photovoltaic & Photodetection Devices => Next-Generation Photovoltaic Materials
+==========================================================================================
+
+[69deca574e2d2a5b77edc768] conf=0.75 band=0.5-0.8 src=haiku
+  TITLE: CoSP approach for the synthesis of blue MoO3 nanoparticles for application as hole transport layer (HTL) in organic solar cells
+  PROD:   Quantum Technologies & Semiconductor Technology / Semiconductor Photovoltaic & Photodetection Devices
+          reason: The paper synthesizes MoO₃ nanoparticles for use as a hole transport layer in organic solar cells, demonstrating device-level implementation and performance characterization of a photovoltaic component material.
+  SONNET: Energy, Sustainability & Climate Change / Next-Generation Photovoltaic Materials
+          reason: The paper describes synthesis and characterization of MoO3 nanoparticles specifically engineered and demonstrated as a hole transport layer component in organic solar cell devices, focusing on photovoltaic energy conversion application.
+  ABSTRACT: The synthesis of MoO<inf>3</inf> nanoparticles is reported using a Continuous Spray Pyrolysis (CoSP) reactor and the influence of zone temperature, precursor concentration on the structural and morphological properties is investigated. The collected nanoparticles are utilized to prepare thin films by spin coating and further annealing at various temperatures. The improvement in morphology, crystallinity and the band gap shift shows the effectiveness of the annealing treatment in creating a proper hole transport layer for device applications. The technique thus allows the film formation using a
+
+==========================================================================================
+PAIR (1):  Algorithms & Computational Complexity => Control Systems & Linear Dynamical Systems
+==========================================================================================
+
+[69deca634e2d2a5b77edddb6] conf=0.45 band=<0.5 src=sonnet
+  TITLE: Characterization of an Overlooked Kinematical Descriptor in the Second-Gradient Hyperelastic Theory for Thin Shells
+  PROD:   AI/ML, Supercomputing & Quantum Computing / Algorithms & Computational Complexity
+          reason: This paper presents a mathematical analysis of kinematical descriptors in hyperelastic shell theory, focusing on tensor characterization and geometric decomposition, which aligns best with mathematical algorithms and computational methods, though it could arguably belong to structural mechanics if such a domain existed in the taxonomy.
+  SONNET: AI/ML, Supercomputing & Quantum Computing / Control Systems & Linear Dynamical Systems
+          reason: This paper presents mathematical analysis of kinematical descriptors and tensor decompositions in second-gradient hyperelastic shell theory, fitting the theme's scope on mathematical foundations for dynamical systems, though the application to structural mechanics creates classification ambiguity.
+  ABSTRACT: In 1978, Murdoch presented a direct second-gradient hyperelastic theory for thin shells in which the strain-energy density associated with a deformation η of a surface S is allowed to depend constitutively on the three kinematical descriptors C, H, and F⊤G, where F=GradSη, C=F⊤F, H=F⊤LS′F is the covariant pullback of the curvature tensor LS′ of the deformed surface S′, and G=GradSF. On the other hand, in Koiter’s direct thin-shell theory, the strain-energy density depends constitutively on only C and H. Due to the popularity of Koiter’s theory, the second-order tensors C and H are well underst
+
+==========================================================================================
+PAIR (1):  Advanced Surface Finishing & Processing => Biomanufacturing & Fermentation Processes
+==========================================================================================
+
+[69deca454e2d2a5b77ed98d2] conf=0.45 band=<0.5 src=sonnet
+  TITLE: Sustainability 4.0 and its applications in the field of manufacturing
+  PROD:   Manufacturing & Industry 4.0 / Advanced Surface Finishing & Processing
+          reason: This review paper discusses Industry 4.0 technologies (IoT, AI, ML, additive manufacturing) applied to sustainable manufacturing processes and optimization, fitting the Manufacturing & Industry 4.0 theme's focus on production processes and equipment, though the domain assignment is uncertain due to the paper's broad scope across multiple manufacturing technologies.
+  SONNET: Manufacturing & Industry 4.0 / Biomanufacturing & Fermentation Processes
+          reason: Paper reviews Sustainability 4.0 technologies (IoT, AI, ML, additive manufacturing) applied to manufacturing optimization and resource utilization; belongs in Manufacturing & Industry 4.0 though no single domain perfectly fits this broad review, defaulting to the available domain list.
+  ABSTRACT: Sustainability 4.0 is being enabled through the effective adoption of modern technologies such as the Internet of Things (IoT), Artificial Intelligence (AI), Machine Learning (ML), Machine Vision (MV), Data Analytics (DA), Additive Manufacturing (AM) and other modern technologies. These technologies enable services at significantly lower prices due to the effective use of energy and resources with lesser wastage. Manufacturers are constantly looking for methods to lower the operating expenses associated with production processes. Manufacturers might optimise their value chain's production and 
+
+==========================================================================================
+PAIR (1):  Spintronics & Magnetic Devices => Semiconductor Photovoltaic & Photodetection Devices
+==========================================================================================
+
+[6a25fe522b6042b763867403] conf=0.75 band=0.5-0.8 src=haiku
+  TITLE: Hybridization energy oscillations of Majorana and Andreev bound states in semiconductor-superconductor nanowire heterostructures
+  PROD:   Quantum Technologies & Semiconductor Technology / Spintronics & Magnetic Devices
+          reason: Paper investigates Majorana and Andreev bound states in semiconductor-superconductor nanowire heterostructures, focusing on the physical mechanisms and device-level behavior of topological quantum states in magnetic nanowire systems, which falls within quantum device physics and spintronic/magnetic phenomena in nanostructures.
+  SONNET: Quantum Technologies & Semiconductor Technology / Semiconductor Photovoltaic & Photodetection Devices
+          reason: This paper addresses Majorana zero modes and Andreev bound states in semiconductor-superconductor nanowire heterostructures, which are quantum device physics phenomena in semiconductor systems, placing it in Quantum Technologies & Semiconductor Technology theme, though the specific domain mapping is imperfect as this concerns topological quantum states rather than photodetection.
+  ABSTRACT: The recent experimental observations of decaying energy oscillations in semiconductor-superconductor Majorana nanowires is in contrast with the typical expectations based on the presence of Majorana zero modes localized at the ends of the system, when the amplitude of the hybridization energy oscillations is predicted to increase with the applied magnetic field. These observations have been theoretically justified recently by considering a position-dependent, step-like spin-orbit coupling near end of the nanowire, which could arise due to the presence of tunnel gates in a standard tunneling co
+
+==========================================================================================
+PAIR (1):  Digital Transformation & IT Applications => Digital Culture & Consumer Experience
+==========================================================================================
+
+[69deca014e2d2a5b77ecfeb4] conf=0.92 band=>=0.8 src=haiku
+  TITLE: Understanding students’ technology acceptance behaviour: A meta-analytic study
+  PROD:   Social Sciences, Humanities & Management / Digital Transformation & IT Applications
+          reason: This meta-analytic study examines organizational/educational adoption of information technology through the Technology Acceptance Model framework, focusing on student behavioral acceptance as a managerial and institutional phenomenon rather than as a technological innovation itself.
+  SONNET: Social Sciences, Humanities & Management / Digital Culture & Consumer Experience
+          reason: Meta-analysis of students' technology acceptance behavior examining user adoption factors, enjoyment, and cultural moderators in educational technology contexts falls under digital culture and user experience research.
+  ABSTRACT: Students' acceptance of various technologies in their learning process has long been of interest to academics and practitioners. Amongst other models, the Technology Acceptance Model (TAM) has predominated in this area. Nevertheless, there has not been a single empirical study that has analyzed and compiled the results of all these TAM-based studies. As a result, we perform a comprehensive meta-analysis and apply Meta-Analytic Structural Equation Modelling (MASEM) for a conceptual framework to assess an effect size of 2462 and a total sample size of 158,096 from 299 primary studies. Our findin
+
+==========================================================================================
+PAIR (1):  Clinical Diagnostics & Biomarkers => Clinical AI & Medical Imaging Analytics
+==========================================================================================
+
+[69deca5f4e2d2a5b77edd3f5] conf=0.92 band=>=0.8 src=haiku
+  TITLE: Shape features as biomarkers in early Parkinson's disease
+  PROD:   Healthcare & MedTech / Clinical Diagnostics & Biomarkers
+          reason: The paper develops shape-based biomarkers from medical imaging (SPECT) for early Parkinson's disease diagnosis, which is a clinical diagnostic and biomarker discovery application in healthcare.
+  SONNET: Healthcare & MedTech / Clinical AI & Medical Imaging Analytics
+          reason: Primary contribution is quantification and analysis of SPECT medical imaging for early Parkinson's disease diagnosis using shape-based biomarkers, which is a clinical diagnostic application of image analysis.
+  ABSTRACT: In vivo dopaminergic imaging through [123I]FP-CIT Single Photon Emission Computerized Tomography (SPECT) provide useful information which enhances the accuracy of diagnosis of PD. Such imaging techniques have given rise to new class of subjects termed scans without evidence of dopaminergic Deficit (SWEDD) subjects, who are clinically diagnosed as PD but show normal dopaminergic scans. Although it is now established that the appearance of striatal uptake patterns, as seen in the SPECT images, change in shape during PD as compared to Normal or SWEDD subjects, as per our knowledge, there have bee
+
+==========================================================================================
+PAIR (1):  Signal Modulation, Detection & Channel Equalization => Ultra-Low Voltage Analog Circuits
+==========================================================================================
+
+[69deca4c4e2d2a5b77edac0b] conf=0.45 band=<0.5 src=sonnet
+  TITLE: Biometrics based asymmetric cryptosystem design using modified fuzzy vault scheme
+  PROD:   Next-Gen Communication / Signal Modulation, Detection & Channel Equalization
+          reason: This cryptosystem design using biometric fingerprints for secure information transmission involves signal processing and detection techniques for communication security, though it bridges multiple domains including security protocols and biometric signal processing.
+  SONNET: Quantum Technologies & Semiconductor Technology / Ultra-Low Voltage Analog Circuits
+          reason: This paper on biometric cryptosystems using fuzzy vault scheme and fingerprint-based security does not fit cleanly into any provided domain; it is primarily a security/cryptography work combining biometric feature matching with encryption protocols, which is not adequately represented in the frozen taxonomy—AI/ML domains focus on learning algorithms rather than cryptographic protocols, and no them
+  ABSTRACT: We propose a novel biometrics cryptosystem where one can send and receive secure information using just the fingerprints. This cryptosystem is a judicious blend of the asymmetric cryptosystem like RSA and the symmetric Fuzzy Vault Scheme having the advantages of both the aforementioned cryptosystems. We have proposed a modification of the Fuzzy Vault Scheme to make it more robust against variations in the values of biometric features. Finally we propose the use of invariant features as a key to producing a hierarchical security system where the same key (fingerprint) can be used to generate en
+
+==========================================================================================
+PAIR (1):  Power Systems & Grid Control => Wireless Network Access & Resource Allocation
+==========================================================================================
+
+[69deca144e2d2a5b77ed2d70] conf=0.72 band=0.5-0.8 src=haiku
+  TITLE: Analytical survivability model for fault tolerant cellular networks supporting multiple services
+  PROD:   Smart & Sustainable Infrastructure / Power Systems & Grid Control
+          reason: The paper develops analytical models for survivability and fault tolerance in cellular networks, focusing on system performance under failures and recovery metrics—directly aligned with infrastructure resilience and control; although cellular networks could touch Next-Gen Communication, the primary contribution is infrastructure-level survivability analysis and system modeling rather than physical
+  SONNET: Next-Gen Communication / Wireless Network Access & Resource Allocation
+          reason: The paper develops an analytical Markov model for evaluating call blocking probabilities and resource allocation performance in fault-tolerant cellular networks supporting multiple services, which is a core wireless network resource allocation and performance analysis problem.
+  ABSTRACT: Survivability analysis measure the degree of functionality remaining in a system after failures. It consists of evaluating metrics which quantify the system performance during failure scenarios as well as in normal operation. Existing research work in this area discusses fault tolerant architecture of cellular networks and analyze impact of failures on the network performance through simulation models. In order to quantitatively assess the effect of failures on cellular networks, we develop analytical model to determine performance oriented survivability metrics in terms of call blocking proba
+
+==========================================================================================
+PAIR (1):  Organometallic & Chalcogenide Synthesis => Drug Delivery & Molecular Therapeutics
+==========================================================================================
+
+[69deca024e2d2a5b77ed0078] conf=0.72 band=0.5-0.8 src=haiku
+  TITLE: BF3·Et2O Catalysed 4-Aryl-3-phenyl-benzopyrones, Pro-SERMs, and Their Characterization
+  PROD:   Advanced Materials & Devices / Organometallic & Chalcogenide Synthesis
+          reason: The paper focuses on novel synthesis of benzopyrone compounds using Lewis acid catalysis (BF3·Et2O), demonstrating synthetic methodology and product characterization for organometallic/organic synthesis rather than a specific clinical or therapeutic application despite the SERM (selective estrogen receptor modulator) terminology.
+  SONNET: Healthcare & MedTech / Drug Delivery & Molecular Therapeutics
+          reason: Paper describes synthesis and characterization of benzopyrone compounds as SERM (Selective Estrogen Receptor Modulator) precursors, which are molecular therapeutics for clinical application.
+  ABSTRACT: We have synthesized the novel 4-(4-hydroxy-benzyl)-3-phenyl-chromen-2-one which is a precursor of SERMs with a smaller number of steps and good yield. Two methodologies for the synthesis have been worked out. Anhydrous BF<inf>3</inf>·Et<inf>2</inf>O catalyzed reaction was found to be selective for product formation while anhydrous AlCl<inf>3</inf>, FeCl<inf>3</inf>, and SnCl<inf>4</inf> catalyzed ones were nonselective.
+
+==========================================================================================
+PAIR (1):  Rotor Dynamics & Vibration Analysis => Precision Manufacturing & Microfabrication
+==========================================================================================
+
+[69deca5e4e2d2a5b77edd128] conf=0.45 band=<0.5 src=sonnet
+  TITLE: Vision Based Manipulation of a Regular Shaped Object
+  PROD:   Manufacturing & Industry 4.0 / Rotor Dynamics & Vibration Analysis
+          reason: Vision-based robotic manipulation with delta robots and real-time control for object handling represents industrial automation and production systems, though the fit is imperfect as none of Manufacturing's domains perfectly capture robotic manipulation—Rotor Dynamics is selected as the closest match for dynamic mechanical systems analysis in industrial equipment.
+  SONNET: Manufacturing & Industry 4.0 / Precision Manufacturing & Microfabrication
+          reason: Vision-guided robotic manipulation using delta robots for precision object handling with real-time camera feedback belongs to advanced manufacturing robotics and precision manufacturing systems.
+  ABSTRACT: This paper proposes to attempted is to manipulate an object by a set of three contacts (fingers) i.e. Three end effector of the delta robots. As the point of contact with the finger and object changes dynamically, making the problem to have a large degree of variability.This proposal is limited to direct feedback of the object position with respect to the world coordinates and interfacing with the delta robot controlling in real time environment.Detection of markers by three cameras is achieved using ArUco augmented reality library. Experimental results are presented to support the approach in
+
+==========================================================================================
+PAIR (1):  Materials, Joining & Mechanical Behavior => Composite & Laminate Structures
+==========================================================================================
+
+[69dec9f74e2d2a5b77ece743] conf=0.72 band=0.5-0.8 src=haiku
+  TITLE: Uniformly strained anisotropic elastoplastic rods: Determination of elastoplastic constitutive relations and yield surface in terms of rod's variables
+  PROD:   Manufacturing & Industry 4.0 / Materials, Joining & Mechanical Behavior
+          reason: The paper develops elastoplastic constitutive models and yield surfaces for anisotropic rod materials under combined loading (extension, torsion, bending, shearing), characterizing material mechanical behavior and deformation under manufacturing-relevant loading conditions.
+  SONNET: Advanced Materials & Devices / Composite & Laminate Structures
+          reason: Primary contribution is the mechanical analysis and constitutive modeling of anisotropic elastoplastic rods under combined loading, including warping and plasticity evolution in cross-sections, which falls under structural mechanics of composite and functionally graded materials.
+  ABSTRACT: This work presents a formulation for the elastoplastic deformation of the rod's cross-section wherein the rod material can obey an arbitrary three-dimensional stored energy density model together with a rate-independent arbitrary phenomenological plasticity model. In order to do so, we impose a uniform strain field along the rod's arc-length which reduces the three-dimensional nonlinear elastoplastic rod problem to just its cross-section. To solve this elastoplastic cross-sectional deformation problem, a three-dimensional elastoplastic moduli tensor is first derived along with a return map alg
+
+==========================================================================================
+PAIR (1):  Quantum Photonics & Entanglement => Spintronics & Magnetic Devices
+==========================================================================================
+
+[69deca384e2d2a5b77ed7dc0] conf=0.72 band=0.5-0.8 src=haiku
+  TITLE: Observation of rf SQUID characteristics in YBCO bulk at 77 K
+  PROD:   Quantum Technologies & Semiconductor Technology / Quantum Photonics & Entanglement
+          reason: RF SQUID (superconducting quantum interference device) is a quantum device for sensitive magnetic flux measurement; characterization of SQUID performance in YBCO superconductors belongs in quantum device physics rather than quantum algorithms or general materials science.
+  SONNET: Quantum Technologies & Semiconductor Technology / Spintronics & Magnetic Devices
+          reason: RF SQUID (superconducting quantum interference device) characteristics in YBCO bulk involve quantum coherence and magnetic flux quantization phenomena in superconducting materials, fitting quantum device physics and magnetic measurement technologies under Quantum Technologies.
+  ABSTRACT: 
+
+==========================================================================================
+PAIR (1):  Rare-Earth Doped Luminescent Materials => Ferroelectric & Magnetic Ceramics
+==========================================================================================
+
+[69deca384e2d2a5b77ed7da4] conf=0.45 band=<0.5 src=sonnet
+  TITLE: Study of harmonic generation in Hg(Tl)BaCaCuO thin film
+  PROD:   Advanced Materials & Devices / Rare-Earth Doped Luminescent Materials
+          reason: High-Tc superconducting thin film synthesis and characterization of electromagnetic response (harmonic generation) under applied fields represents materials property investigation, but none of the Advanced Materials domains are ideal fits; the spray pyrolysis fabrication and property measurement suggest materials focus over device application.
+  SONNET: Advanced Materials & Devices / Ferroelectric & Magnetic Ceramics
+          reason: The paper reports on the electromagnetic response and harmonic generation behavior of a high-temperature superconducting thin film, focusing on material characterization and property analysis under applied magnetic fields, which aligns with ceramic material physics and structure-property relationships in oxide systems.
+  ABSTRACT: The generation of higher harmonics in Hg(Tl)BaCaCuO high-T<inf>c</inf> thin film is reported, when an ac magnetic field is applied to it. The film has been prepared by the spray pyrolysis technique using two step process and exhibits T<inf>c</inf>(R = 0) = 123 K. Application of an ac magnetic field (H<inf>ac</inf> > H<inf>c1</inf>) on the film leads to generation of higher odd harmonics. Further, application of the dc field (H<inf>dc</inf>) in addition to the ac field causes generation of even harmonics also. Variations of amplitude of these harmonics as a function of H<inf>ac</inf>, H<inf>dc<
+
+==========================================================================================
+PAIR (1):  Clinical AI & Medical Imaging Analytics => Machine Learning & Neural Networks
+==========================================================================================
+
+[69deca204e2d2a5b77ed4a80] conf=0.72 band=0.5-0.8 src=haiku
+  TITLE: EEG signal classification
+  PROD:   Healthcare & MedTech / Clinical AI & Medical Imaging Analytics
+          reason: The paper applies Hidden Markov Models to classify motor movements from EEG signals for clinical neuroscience applications; while HMM is a machine learning technique, the primary contribution is a clinical diagnostic/monitoring system for movement classification from brain signals in a healthcare context.
+  SONNET: AI/ML, Supercomputing & Quantum Computing / Machine Learning & Neural Networks
+          reason: The primary contribution is a Hidden Markov Model-based classification algorithm for EEG signal patterns, representing an advance in machine learning methodology rather than a clinical application.
+  ABSTRACT: The article describes the classification of simple movements using a system based on Hidden Markov Models (HMM). Brisk extensions and flexions of the index finger, and movements of the proximal arm (shoulder) and distal arm (finger) were classified using scalp EEG signals. The aim of our study was to develop a system for the classification of movements which show EEG changes at identical scalp electrodes of one hemisphere. The classification of EEG patterns related to movements of one hand is difficult because the disentanglement of movements can only rely on the temporal evolution of EEG chan
+
+==========================================================================================
+PAIR (1):  Signal Modulation, Detection & Channel Equalization => Machine Learning & Neural Networks
+==========================================================================================
+
+[69deca274e2d2a5b77ed5ba8] conf=0.72 band=0.5-0.8 src=haiku
+  TITLE: Improving measurement geometry for accurate classification of scattered field data
+  PROD:   Next-Gen Communication / Signal Modulation, Detection & Channel Equalization
+          reason: The paper addresses microwave scattering field measurement and classification using signal processing and machine learning; while it applies SVM (a ML method), the primary scientific contribution is understanding scattered electromagnetic field data for object recognition through measurement geometry optimization, which is fundamentally a signal detection and electromagnetic sensing problem centra
+  SONNET: AI/ML, Supercomputing & Quantum Computing / Machine Learning & Neural Networks
+          reason: Primary contribution is the application of SVM for classification of scattered field data combined with a correlation-based measure to assess data diversity for improving machine learning performance in object recognition.
+  ABSTRACT: We study the problem of object recognition/ classification using microwave scattering by examining the non-redundant information content in the scattered field data. A broad synthetic forward data is generated using the finite-difference frequency-domain (FDFD) method. A simple correlation coefficient based (CCB) measure is introduced to examine the diversity in the measured data from objects of different shapes and dielectric permittivity. This scattered data is further fed directly to a support vector machine (SVM) for binary classification. The classification results are seen to be consiste
+
+==========================================================================================
+PAIR (1):  Electric Vehicle Battery & Charging Systems => Electric Motor Drives & Power Electronics
+==========================================================================================
+
+[6a26bb922b6042b76389a04b] conf=0.92 band=>=0.8 src=sonnet
+  TITLE: Analysis of Different Transition Techniques for Non-isolated Bidirectional DC-DC Converters
+  PROD:   Energy, Sustainability & Climate Change / Electric Vehicle Battery & Charging Systems
+          reason: The paper focuses on bidirectional DC-DC converter mode transition techniques and power flow reversal for battery charging systems, which is central to electric vehicle power electronics and battery management systems.
+  SONNET: Manufacturing & Industry 4.0 / Electric Motor Drives & Power Electronics
+          reason: The paper analyzes mode transition techniques in bidirectional DC-DC converters with power electronic control for industrial power conversion applications, which is a core topic in power electronics for industrial equipment.
+  ABSTRACT: This work is aimed at making an objective comparison of the mode transition techniques reported for the non-isolated bidirectional dc-dc converters (BDCs) such as synchronous buck converter, non-inverting buck-boost converter, dual active bridge (DAB), etc. The analysis is carried out by creating a mathematical models for these transition techniques. A comparison has been made based on the type of transition technique, time requirement, and other important factors to achieve a smooth transient response during start-up and mode transition (i.e., during reversal of power flow) operations. The an
+
+==========================================================================================
+PAIR (1):  Plasmonic & Fiber Optic Sensors => Fiber Photonic Devices & Engineering
+==========================================================================================
+
+[69deca604e2d2a5b77edd59b] conf=0.72 band=0.5-0.8 src=sonnet
+  TITLE: SPICE Simulation of Surface Acoustic Wave Interdigital Transducers
+  PROD:   Quantum Technologies & Semiconductor Technology / Plasmonic & Fiber Optic Sensors
+          reason: The paper develops an electrical macromodel for interdigital transducers (IDT) used in Surface Acoustic Wave devices, which are electromechanical sensors compatible with circuit simulation; IDT and SAW devices belong to sensor and RF device technology.
+  SONNET: Quantum Technologies & Semiconductor Technology / Fiber Photonic Devices & Engineering
+          reason: The paper develops an electrical macromodel and SPICE simulation methodology for surface acoustic wave interdigital transducers, contributing to device-level modeling and characterization of photonic/acoustic wave devices.
+  ABSTRACT: Surface Acoustic Wave (SAW) devices, are not normally amenable to simulation through circuit simulators. In this letter, an electrical macromodel of Mason's Equivalent Circuit for an interdigital transducer (IDT) is proposed which is compatible to a widely used general purpose circuit simulator SPICE endowed with the capability to handle negative capacitances and inductances. Illustrations have been given to demonstrate the simplicity of ascertaining the frequency and time domain characteristics of IDT and amenability to simulate the IDT along with other external circuit elements. © 1995 IEEE.
+
+==========================================================================================
+PAIR (1):  Composite & Laminate Structures => Ferroelectric & Magnetic Ceramics
+==========================================================================================
+
+[69deca504e2d2a5b77edb647] conf=0.45 band=<0.5 src=sonnet
+  TITLE: Why Low-Grade Calcined Clays Are the Ideal for the Production of Limestone Calcined Clay Cement (LC3)
+  PROD:   Advanced Materials & Devices / Composite & Laminate Structures
+          reason: Characterization of cementitious composite material systems (limestone calcined clay cement) focusing on clinker substitution effects and material performance, though could also fit Energy theme if climate mitigation aspect dominates.
+  SONNET: Advanced Materials & Devices / Ferroelectric & Magnetic Ceramics
+          reason: Paper investigates composition, reactivity, and hydration behavior of limestone calcined clay cements as cementitious ceramic materials, though assignment is uncertain as cement chemistry intersects materials science and sustainable construction infrastructure.
+  ABSTRACT: Clinker substitution by a combining multiple supplementary cementitious materials has been established as the most promising solution for combating the greenhouse gas emissions from the cement industry. Limestone calcined clay cement is a ternary cement in which clinker is partially replaced using calcined clay and limestone. This paper discusses the importance of using low-grade kaolinite clay for producing limestone calcined clay cements. While it appears that higher grade clay would be more beneficial at higher substitution levels, it is seen that the availability of portlandite becomes the
+
+==========================================================================================
+PAIR (1):  Biomass & Biofuel Technologies => Grid Integration & Smart Microgrids
+==========================================================================================
+
+[69dec9f64e2d2a5b77ece58b] conf=0.25 band=<0.5 src=sonnet
+  TITLE: Characterization of Hydrogen Plasma in an ECR based Large Volume Plasma Chamber
+  PROD:   Energy, Sustainability & Climate Change / Biomass & Biofuel Technologies
+          reason: This paper focuses on hydrogen plasma generation for fusion applications using ECR plasma sources, which does not fit cleanly into the provided taxonomy; the closest match by elimination is energy-related research, though the specific domain assignment is uncertain given the fusion/plasma physics subject matter not explicitly covered in any domain list.
+  SONNET: Energy, Sustainability & Climate Change / Grid Integration & Smart Microgrids
+          reason: Hydrogen plasma production for fusion applications primarily concerns energy generation technology, though the experimental plasma physics could also relate to Next-Gen Communication's plasma-wave domain; the ECR source development and magnetic field configuration for H- beam generation is most aligned with energy research despite low confidence due to cross-theme overlap.
+  ABSTRACT: Hydrogen plasma characterization was carried out in a large volume (dia∼1.0 m, h∼1.0 m) plasma chamber to evaluate the efficacy of production of uniform, large-area H- beam for fusion applications. Up to seven Compact ECR Plasma Sources (CEPS; Indian Patent #301583, Patentee: IIT Delhi) can be mounted on the top dome of the chamber (one in centre and six on a 1/460 cm dia circle). Axially poled permanent ring magnets provide the magnetic field for each CEPS and the total field in the chamber is the combined field of all CEPS. Separate experiments were conducted with: (i) six CEPS with opposite
+
+==========================================================================================
+PAIR (1):  Semiconductor Photovoltaic & Photodetection Devices => Fiber Photonic Devices & Engineering
+==========================================================================================
+
+[69deca274e2d2a5b77ed5bbf] conf=0.45 band=<0.5 src=sonnet
+  TITLE: Accurate efficient carrier estimation for single-shot digital holographic imaging
+  PROD:   Quantum Technologies & Semiconductor Technology / Semiconductor Photovoltaic & Photodetection Devices
+          reason: Digital holographic imaging involves optical detection and reconstruction methods for imaging applications, fitting photonic sensing and detection systems, though the computational signal processing aspect creates ambiguity with AI/ML theme.
+  SONNET: Quantum Technologies & Semiconductor Technology / Fiber Photonic Devices & Engineering
+          reason: The paper develops computational signal processing methods for digital holographic imaging using Fourier-domain carrier frequency estimation and reconstruction algorithms, which aligns with photonic device and optical system engineering for imaging applications.
+  ABSTRACT: Off-axis digital holograms are commonly processed using the Fourier transform method. This method requires estimation of the carrier frequency peak in the two-dimensional Fourier domain. The accuracy of peak location information using the standard fast Fourier transform (FFT) routines is limited by the pixel size, thus giving rise to a residual carrier component in the reconstructed image. In this Letter, we use an efficient two-step process for cross-term peak location to sub-pixel accuracy where the standard FFT-based peak finding procedure is followed by a high-resolution discrete Fourier t
+
+==========================================================================================
+PAIR (1):  Ultra-Low Voltage Analog Circuits => Algorithms & Computational Complexity
+==========================================================================================
+
+[69dec9fe4e2d2a5b77ecf5c7] conf=0.45 band=<0.5 src=sonnet
+  TITLE: Multi-hop routing of multi-terminal nets for evaluation of hybrid multi-FPGA boards
+  PROD:   Quantum Technologies & Semiconductor Technology / Ultra-Low Voltage Analog Circuits
+          reason: This paper addresses FPGA board architecture and inter-chip routing optimization for digital circuit implementation, which falls under hardware design and electronic systems engineering; while not a perfect fit, it belongs closest to semiconductor/electronic design domains within Quantum Technologies theme.
+  SONNET: AI/ML, Supercomputing & Quantum Computing / Algorithms & Computational Complexity
+          reason: The paper presents a multi-hop routing algorithm for multi-terminal nets in multi-FPGA systems, focusing on algorithmic optimization of routing under constraints—this is fundamentally an algorithm design and computational problem addressing graph-like routing on hardware architectures.
+  ABSTRACT: In rapid prototyping system application, any large digital circuit can be implemented onto Multi-FPGA Board(MFB). Key MFB architectural feature is its inter-FPGA connections consisting of fixed connections(FC) i.e. FPGA-FPGA connections and programmable connections(PC) i.e. FPGA-programmable switch like FPID-FPGA. MFBs consisting of both the types of connections are known as hybrid MFBs. Since, PC requires two wires as against one wire in FC, MFB must have minimum number of PCs to keep fabrication easy. In partitioned circuit, multi-terminal nets (MTNs) are distributed over one or more circuit
+
+==========================================================================================
+PAIR (1):  Semiconductor Photovoltaic & Photodetection Devices => Quantum Photonics & Entanglement
+==========================================================================================
+
+[69deca184e2d2a5b77ed3729] conf=0.72 band=0.5-0.8 src=haiku
+  TITLE: Laser-driven phosphor-converted green photonic technology based solid state lighting device for high-brightness illumination
+  PROD:   Quantum Technologies & Semiconductor Technology / Semiconductor Photovoltaic & Photodetection Devices
+          reason: Paper develops and characterizes a laser-driven phosphor-converted solid-state lighting device using rare-earth doped phosphors (Eu-doped materials) and laser diodes; the primary contribution is device physics, phosphor material integration, and light generation technology rather than general material synthesis or energy infrastructure.
+  SONNET: Quantum Technologies & Semiconductor Technology / Quantum Photonics & Entanglement
+          reason: The paper describes laser-driven phosphor-converted solid-state lighting using rare-earth-doped phosphors for high-brightness illumination, which fits better in Advanced Materials (Rare-Earth Doped Luminescent Materials) as the primary contribution is phosphor material characterization and device demonstration for lighting applications, not quantum photonics or semiconductor device physics.
+  ABSTRACT: The laser-based phosphor-converted white light sources have gained significant attention due to their high energy efficiency, even at high current densities and no-efficiency droop. Nonetheless, the issue of low colour rendering index (CRI) persists. This study explores a novel approach to generating high-quality white light using a combination of red (SrAlSiN3:Eu) and green (SrBaSiO3:Eu) phosphors. These phosphors, known for their efficiency and brightness, were combined in a single film deposited on a diffuse glass substrate using a cost-effective screen-printing technique. This approach, mi

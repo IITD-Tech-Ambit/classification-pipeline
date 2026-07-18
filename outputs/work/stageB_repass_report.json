@@ -1,0 +1,70 @@
+{
+  "repass_set_size": 34037,
+  "results_written": 34037,
+  "duplicate_result_rows": 0,
+  "covered": 34037,
+  "missing": [],
+  "missing_count": 0,
+  "unexpected_extra_ids": 0,
+  "schema_violations": 66,
+  "schema_violation_ids_sample": [
+    "69dec9f54e2d2a5b77ece1c2",
+    "69dec9f54e2d2a5b77ece25c",
+    "69dec9f74e2d2a5b77ece795",
+    "69dec9f74e2d2a5b77ece7a9",
+    "69dec9f74e2d2a5b77ece7a5",
+    "69dec9fd4e2d2a5b77ecf2e6",
+    "69dec9fd4e2d2a5b77ecf2e5",
+    "69dec9fd4e2d2a5b77ecf436",
+    "69deca034e2d2a5b77ed03db",
+    "69deca044e2d2a5b77ed0431",
+    "69deca034e2d2a5b77ed0412",
+    "69deca034e2d2a5b77ed03dc",
+    "69deca034e2d2a5b77ed0406",
+    "69deca034e2d2a5b77ed0420",
+    "69deca044e2d2a5b77ed0432",
+    "69deca064e2d2a5b77ed08b8",
+    "69deca074e2d2a5b77ed0c4c",
+    "69deca084e2d2a5b77ed0f58",
+    "69deca0a4e2d2a5b77ed1514",
+    "69deca0a4e2d2a5b77ed15b6"
+  ],
+  "changed_theme": 4737,
+  "changed_domain": 13163,
+  "became_unclassifiable": 4430,
+  "of_which_out_of_scope": 4429,
+  "new_confidence_distribution": {
+    "0.5-0.8": 19759,
+    ">=0.8": 9287,
+    "<0.5": 561
+  },
+  "sink_domains_within_repass": {
+    "Algorithms & Computational Complexity": {
+      "before": 3317,
+      "after": 2405,
+      "delta": -912
+    },
+    "Grid Integration & Smart Microgrids": {
+      "before": 1848,
+      "after": 2142,
+      "delta": 294
+    },
+    "Materials, Joining & Mechanical Behavior": {
+      "before": 2210,
+      "after": 1466,
+      "delta": -744
+    },
+    "Power Systems & Grid Control": {
+      "before": 2039,
+      "after": 1615,
+      "delta": -424
+    },
+    "Semiconductor Photovoltaic & Photodetection Devices": {
+      "before": 1626,
+      "after": 871,
+      "delta": -755
+    }
+  },
+  "moved_out_of_sink_total": 3859,
+  "pass": true
+}

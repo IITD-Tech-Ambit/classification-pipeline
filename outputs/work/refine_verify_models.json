@@ -1,0 +1,26 @@
+{
+  "claude-haiku-4-5": {
+    "resolved": true,
+    "stop_reason": "max_tokens",
+    "usage": {
+      "input_tokens": 14,
+      "output_tokens": 1,
+      "cache_write": 0,
+      "cache_read": 0
+    },
+    "cost_usd": 1.9e-05
+  },
+  "claude-sonnet-4-5": {
+    "resolved": true,
+    "stop_reason": "max_tokens",
+    "usage": {
+      "input_tokens": 14,
+      "output_tokens": 1,
+      "cache_write": 0,
+      "cache_read": 0
+    },
+    "cost_usd": 5.7e-05
+  },
+  "verify_cost_usd": 7.6e-05,
+  "updated": "2026-07-18 11:06:21"
+}

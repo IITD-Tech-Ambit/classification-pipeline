@@ -1,0 +1,3074 @@
+{
+  "n_unclassified_sampled": 500,
+  "nearest_theme_distribution": {
+    "Social Sciences, Humanities & Management": 102,
+    "Quantum Technologies & Semiconductor Technology": 61,
+    "Healthcare & MedTech": 45,
+    "AI/ML, Supercomputing & Quantum Computing": 70,
+    "Advanced Materials & Devices": 39,
+    "Energy, Sustainability & Climate Change": 46,
+    "Manufacturing & Industry 4.0": 40,
+    "Smart & Sustainable Infrastructure": 65,
+    "Next-Gen Communication": 32
+  },
+  "similarity_median": 0.7818498611450195,
+  "similarity_p10": 0.647601306438446,
+  "low_fit_threshold": 0.6899943947792053,
+  "n_low_fit": 75,
+  "gaps": [
+    {
+      "gap": "Library Science, Information Science & Knowledge Management",
+      "evidence_titles": [
+        "MOOCs: An Overwhelming Opportunity for Librarians",
+        "Collection Development with Special Reference to eBooks",
+        "Cloud Computing and Its Application in Libraries",
+        "Gamification for Digital Humanities in Libraries: A Survey of the Web based Games on Digital Literacy",
+        "Emerging Technology Trends for Libraries and Library Professionals",
+        "Preservation and Conservation of Library Material with Special Reference to Digital Contents",
+        "Electronic Resource Management: A workflow Approach",
+        "Core Competencies for 21st Century Library and Information Science Professionals",
+        "Book bank service@ IIT Delhi: A case study",
+        "Exploring Information Services at Delhi Public Library (DPL): A Survey"
+      ],
+      "recommendation": "Add domain 'Library Science & Information Management' to Social Sciences, Humanities & Management theme. This domain addresses information organization, digital literacy, institutional knowledge services, and professional competencies in library/information contexts."
+    },
+    {
+      "gap": "Front Matter, Editorial, and Metadata Content (Non-Research)",
+      "evidence_titles": [
+        "EDITORIAL",
+        "Preface (×34 instances)",
+        "Scanning the Issue (×20 instances)",
+        "Foreword (×3 instances)",
+        "Guest editorial",
+        "Introduction (×3 instances)"
+      ],
+      "recommendation": "These are editorial/administrative documents, not research contributions. Recommend filtering at data ingestion stage rather than taxonomic placement, or create a separate 'Non-Research Content' filter category outside the taxonomy."
+    },
+    {
+      "gap": "Applied Information Technology & Digital Transformation (Non-Communications, Non-Computing)",
+      "evidence_titles": [
+        "Cloud Computing and Its Application in Libraries",
+        "Open source tools for information visualization: a comparative study",
+        "The Impact of Whatsapp Messenger usage on Students Performance",
+        "Research Support Services: An Analysis of top Science and Technology Institutions"
+      ],
+      "recommendation": "Add domain 'Digital Transformation & IT Applications' to Social Sciences, Humanities & Management theme, covering organizational IT adoption, information systems, and digital service delivery (distinct from both NLP/IR and Next-Gen Communication)."
+    },
+    {
+      "gap": "Environmental Science & Land Use Management",
+      "evidence_titles": [
+        "Assessment of land use change in riverine ecosystem and utilizing it for socioeconomic benefit"
+      ],
+      "recommendation": "Add domain 'Environmental Assessment & Land Use Management' to Energy, Sustainability & Climate Change theme, complementing existing Atmospheric Science & Air Quality domain with terrestrial/watershed-level environmental monitoring and ecosystem services."
+    },
+    {
+      "gap": "Neuroscience & Clinical Neurology",
+      "evidence_titles": [
+        "Spatial calcium kinetics after a traumatic brain injury"
+      ],
+      "recommendation": "Add domain 'Neuroscience & Neurophysiology' to Healthcare & MedTech theme, covering cellular/molecular mechanisms of neurological conditions (distinct from existing Computational Biomechanics & Physiology)."
+    }
+  ],
+  "assignments": [
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Religious structures on traffic lanes: Production of informality in New Delhi",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.7438509464263916
+    },
+    {
+      "title": "Tamm-plasmon resonance based temperature sensor in a Ta2O5/SiO2 based distributed Bragg reflector",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Photonic Sensing & Biosensors",
+      "sim": 0.8214173316955566
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Scientometric analyses and visualization of scientific outcome on Nipah virus",
+      "theme": "Healthcare & MedTech",
+      "domain": "Infectious Disease & Virology",
+      "sim": 0.7523279190063477
+    },
+    {
+      "title": "Stable fractional matchings",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.818808913230896
+    },
+    {
+      "title": "Appraising efficacy of existing and advanced technologies for the remediation of beta-blockers from wastewater: A review",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Biomaterial Synthesis & Characterization",
+      "sim": 0.7665829658508301
+    },
+    {
+      "title": "Introduction",
+      "theme": "Healthcare & MedTech",
+      "domain": "Medical Devices & Wearable Sensing",
+      "sim": 0.7180874943733215
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "National CO2 budgets (2015-2020) inferred from atmospheric CO2 observations in support of the global stocktake",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Atmospheric Science & Air Quality",
+      "sim": 0.7725197076797485
+    },
+    {
+      "title": "Feasibility analysis of megawatt scale solar thermal power plants",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Thermal Systems & Heat Recovery",
+      "sim": 0.8233299255371094
+    },
+    {
+      "title": "Anisotropic metamaterial optical fibers",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Metamaterials & Wave Engineering",
+      "sim": 0.7745024561882019
+    },
+    {
+      "title": "Optimization and prediction of overall moisture management capacity of cut-protective fabric",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Textile & Fiber Engineering",
+      "sim": 0.857271671295166
+    },
+    {
+      "title": "STEADY STATE ANALYSIS OF CAPACITOR SELF-EXCITED INDUCTION GENERATORS.",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Power Electronics & Drives",
+      "sim": 0.8157975673675537
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Synthesis and antibacterial evaluation of some N-(p-substituted benzylidene)-5-ethyl-1,3,4-thiadiazole-2-amines",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Molecular Photonics & Organic Optoelectronics",
+      "sim": 0.7779332399368286
+    },
+    {
+      "title": "Humidity sensing properties of (Ba, Sr) TiO3 thin films grown by hydrothermal-electrochemical method",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Ferroelectric & Multiferroic Ceramics",
+      "sim": 0.833596408367157
+    },
+    {
+      "title": "Novel optical fibers for mid-infrared single-photon sources",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.8126489520072937
+    },
+    {
+      "title": "Reaching High Piezoelectric Performance with Rotating Directional-Field-Aligned PVDF–MoS2 Piezo-Polymer Applicable for Large-Area Flexible Electronics",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Polymer Nanocomposites & Functional Coatings",
+      "sim": 0.8247172832489014
+    },
+    {
+      "title": "Cost effective Fe/NG/PMMA nanocomposites for high-performance microwave absorbing applications",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Polymer Nanocomposites & Functional Coatings",
+      "sim": 0.8225588798522949
+    },
+    {
+      "title": "Evaporation of sessile droplets on nano-porous alumina surfaces",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Plasmonic Nanostructures & Optical Materials",
+      "sim": 0.7764236927032471
+    },
+    {
+      "title": "Impact of Connected Automated Buses in a Mixed Fleet Scenario with Connected Automated Cars",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Renewable Energy Economics & Policy",
+      "sim": 0.7482984066009521
+    },
+    {
+      "title": "Trench-assisted all-solid large-mode-area fiber for robust single-mode operation",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.7682974338531494
+    },
+    {
+      "title": "FOLIO: The Future of Library is Open",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "International Business & Strategy",
+      "sim": 0.7102181911468506
+    },
+    {
+      "title": "Divergent Synthesis of Oxindole Derivatives via Cascade Deoxygenative Friedel–Crafts Cyclization of α-Ketoamides",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Molecular Photonics & Organic Optoelectronics",
+      "sim": 0.8033403158187866
+    },
+    {
+      "title": "Recycled wastes as vertical drain aggregates: a critical review and feasibility assessment",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Materials & Sustainability in Construction",
+      "sim": 0.805893063545227
+    },
+    {
+      "title": "Cayley-Dixon projection operator for multi-univariate composed polynomials",
+      "theme": "Next-Gen Communication",
+      "domain": "Signal Processing for Communications",
+      "sim": 0.8149819374084473
+    },
+    {
+      "title": "Maintaining Security and Privacy in Health Care System Using Learning Based Deep-Q-Networks",
+      "theme": "Next-Gen Communication",
+      "domain": "Wireless Network Access & MAC Protocols",
+      "sim": 0.7325899600982666
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "Anomalous Net Biome Exchange Over Amazonian Rainforests Induced by the 2015/16 El Niño: Soil Dryness-Shaped Spatial Pattern but Temperature-dominated Total Flux",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Atmospheric Science & Air Quality",
+      "sim": 0.8232523202896118
+    },
+    {
+      "title": "Highly sensitive biochemical sensor utilizing Bragg grating in submicron Si/SiO2 waveguides",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Photonic Sensing & Biosensors",
+      "sim": 0.8546062707901001
+    },
+    {
+      "title": "Emerging Technology Trends for Libraries and Library Professionals",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Sustainable Supply Chain & Circular Economy",
+      "sim": 0.6310247182846069
+    },
+    {
+      "title": "Heavy metal bioleaching and sludge stabilization in a single-stage reactor using indigenous acidophilic heterotrophs",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Bioprocess Manufacturing & Scale-Up",
+      "sim": 0.787351131439209
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "REFRACTIVE-INDEX PROFILE AND MODAL DISPERSION PREDICTION FOR A SINGLE-MODE OPTICAL WAVEGUIDE FROM ITS FAR-FIELD RADIATION PATTERN.",
+      "theme": "Next-Gen Communication",
+      "domain": "Plasma Wave & Electromagnetic Phenomena",
+      "sim": 0.8111772537231445
+    },
+    {
+      "title": "Fiber Bragg gratings in soft glass fibers",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Photonic Sensing & Biosensors",
+      "sim": 0.7555269598960876
+    },
+    {
+      "title": "Higher order discontinuous Galerkin finite element methods for the contact problems",
+      "theme": "Healthcare & MedTech",
+      "domain": "Computational Biomechanics & Physiology",
+      "sim": 0.74120032787323
+    },
+    {
+      "title": "Unmanned aerial vehicles and low-cost sensors for air quality monitoring: A comprehensive review of applications across diverse emission sources",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.7676053047180176
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "Generalized intuitionistic fuzzy soft set and its application in practical medical diagnosis problem",
+      "theme": "Healthcare & MedTech",
+      "domain": "Clinical AI & Decision Support",
+      "sim": 0.7333517074584961
+    },
+    {
+      "title": "Dimensionless groups as scale-up parameter for wastewater and wastewater sludge treatment in a stirred tank reactor",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Bioprocess Manufacturing & Scale-Up",
+      "sim": 0.7838770747184753
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Impact of heat treatment on microstructure and mechanical properties of additively manufactured aluminum bronze",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Additive Manufacturing & Welding",
+      "sim": 0.8379659652709961
+    },
+    {
+      "title": "Unsteady three-dimensional turbine aerodynamics",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Metal Processing & Forming",
+      "sim": 0.7855722904205322
+    },
+    {
+      "title": "Golden geese or white elephants? The paradoxes of world heritage sites and community-based tourism development in Agra, India",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.7755311131477356
+    },
+    {
+      "title": "Structurally engineered textile-based triboelectric nanogenerator for energy harvesting application",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Polymer Nanocomposites & Functional Coatings",
+      "sim": 0.8331829905509949
+    },
+    {
+      "title": "Bridgeless Isolated Positive Output Luo Converter Based High Power Factor Single Stage Charging Solution for Light Electric Vehicles",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Grid-Integrated Solar & Wind Systems",
+      "sim": 0.8001683354377747
+    },
+    {
+      "title": "Subpixel-Resolution in Digital Lensless Microscopy",
+      "theme": "Healthcare & MedTech",
+      "domain": "Medical Imaging & Diagnostics",
+      "sim": 0.809790313243866
+    },
+    {
+      "title": "Quantum field theory in de Sitter and quasi-de Sitter spacetimes revisited",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Quantum Computing & Algorithms",
+      "sim": 0.7167447805404663
+    },
+    {
+      "title": "Transport and health on the path to a net zero carbon world",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.7298450469970703
+    },
+    {
+      "title": "A Long-Period Waveguide Grating Sensor for Accurate Simultaneous Detection of Dual Analytes",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Photonic Sensing & Biosensors",
+      "sim": 0.8360419273376465
+    },
+    {
+      "title": "Structural correlations and cooperative dynamics in supercooled liquids",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Materials Informatics & ML for Physics",
+      "sim": 0.7879829406738281
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "Enhancing productivity and profitability of spring maize (Zea mays) in Uttarakhand's Tarai region through effective weed management practices and irrigation scheduling",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.7117291688919067
+    },
+    {
+      "title": "PREDICTION OF PEAK FLOODS IN INDIAN RIVERS USING INTERPRETABLE MACHINE-LEARNING",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Atmospheric Science & Air Quality",
+      "sim": 0.7810368537902832
+    },
+    {
+      "title": "Conditions for exact resultants using the Dixon formulation",
+      "theme": "Next-Gen Communication",
+      "domain": "Signal Processing for Communications",
+      "sim": 0.8009930849075317
+    },
+    {
+      "title": "Effect of structural deformation on performance of marine propeller",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Metal Processing & Forming",
+      "sim": 0.7775779366493225
+    },
+    {
+      "title": "Leakage of CO2 from geological storage and its impacts on fresh soil–water systems: a review",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Materials & Sustainability in Construction",
+      "sim": 0.789079487323761
+    },
+    {
+      "title": "Energy-Efficient Parity Time-Symmetry Broken Electrically Controlled Thermo-Optic Devices",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.8179895281791687
+    },
+    {
+      "title": "Being Positive about Negative Queries: Exclusion Aware Multimodal Retrieval using Disentangled Representations",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Natural Language Processing & Information Retrieval",
+      "sim": 0.8053196668624878
+    },
+    {
+      "title": "SCHOLARLY SOCIAL NETWORKING FOR EARLY CAREER RESEARCHER",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Natural Language Processing & Information Retrieval",
+      "sim": 0.7136789560317993
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "HEAT TRANSFER ANALYSIS IN HUMAN SKIN SUBJECTED TO FLASH FIRE: INVESTIGATION OF DUAL PHASE LAG PHENOMENON",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Thermal Systems & Heat Recovery",
+      "sim": 0.8015041351318359
+    },
+    {
+      "title": "A family of large language models for materials research with insights into model adaptability in continued pretraining",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Natural Language Processing & Information Retrieval",
+      "sim": 0.8152347207069397
+    },
+    {
+      "title": "Exceptional-point dynamics in photonic time crystals for enhanced optical sensing",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.8299579620361328
+    },
+    {
+      "title": "Repositioning the human body lower extremity FE model",
+      "theme": "Healthcare & MedTech",
+      "domain": "Medical Devices & Wearable Sensing",
+      "sim": 0.7483074069023132
+    },
+    {
+      "title": "Performance studies of self-acting oil-lubricated bump journal bearing under lightly loaded conditions employing pocketed top foils",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Metal Processing & Forming",
+      "sim": 0.7594961524009705
+    },
+    {
+      "title": "Superbase ionic liquid mediated solubilization of curcumin for improved bioavailability and anticancer efficacy",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Biomaterial Synthesis & Characterization",
+      "sim": 0.8027938604354858
+    },
+    {
+      "title": "A review on the progress and prospects of oxy-fuel carbon capture and sequestration (CCS) technology",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Thermal Systems & Heat Recovery",
+      "sim": 0.8066251277923584
+    },
+    {
+      "title": "Examining the macro-level factors affecting vehicle breakdown duration",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.7615076303482056
+    },
+    {
+      "title": "Emerging technologies for phthalate removal from wastewater: a critical review with techno-economic and life cycle considerations",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Biomaterial Synthesis & Characterization",
+      "sim": 0.7881861925125122
+    },
+    {
+      "title": "Foreword",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.6566725969314575
+    },
+    {
+      "title": "Supercontinuum generation in angle-etched diamond waveguides",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.8153156042098999
+    },
+    {
+      "title": "Effect of Geogrid Reinforcement in Improving the Soaked CBR Values of Local Subgrade Soil",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Structural Resilience & Seismic Design",
+      "sim": 0.7920933961868286
+    },
+    {
+      "title": "Light Activated Charge-Ionic Transport in Cs2AgBi2I9 for Self-Powered Synaptic Photodetection",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Dots & Nanocrystals",
+      "sim": 0.8541054129600525
+    },
+    {
+      "title": "Integrating Artificial Intelligence-Driven Wearable Technology in Oncology Decision-Making: A Narrative Review",
+      "theme": "Healthcare & MedTech",
+      "domain": "Clinical AI & Decision Support",
+      "sim": 0.7839144468307495
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "Indian Contribution to Open Access Scholarly Publishing in Science and Technology: A Critical Study of Directory of Open Access Journals (DOAJ)",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.7350377440452576
+    },
+    {
+      "title": "Study of water quality in Hindon River using pollution index and environmetrics, India.",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.742341160774231
+    },
+    {
+      "title": "An Exploratory Analysis of Online Discussion of Library and Information Science Professionals in India using Text Mining",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Natural Language Processing & Information Retrieval",
+      "sim": 0.7889506220817566
+    },
+    {
+      "title": "An analytical study of research excellence in last ten year at Jaypee Group of institutions",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "International Business & Strategy",
+      "sim": 0.7420815229415894
+    },
+    {
+      "title": "Air Quality Data Collection in Hyderabad Using Low-Cost Sensors: Initial Experiences",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.8226258754730225
+    },
+    {
+      "title": "A holistic review on trend, occurrence, factors affecting pesticide concentration, and ecological risk assessment",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.8022952675819397
+    },
+    {
+      "title": "Matter-geometry entanglement in quantum cosmology",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Quantum Computing & Algorithms",
+      "sim": 0.7430368065834045
+    },
+    {
+      "title": "EDITORIAL",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.6377473473548889
+    },
+    {
+      "title": "MOOCs: An Overwhelming Opportunity for Librarians",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Natural Language Processing & Information Retrieval",
+      "sim": 0.5841641426086426
+    },
+    {
+      "title": "How does the Funding Status of Defined Benefit Pension Plans Affect Investment Decisions of Firms in the United States?",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "International Business & Strategy",
+      "sim": 0.7801824808120728
+    },
+    {
+      "title": "Robust and Efficient 3D Gaussian Splatting for Diagnostic Imaging",
+      "theme": "Healthcare & MedTech",
+      "domain": "Medical Imaging & Diagnostics",
+      "sim": 0.769066572189331
+    },
+    {
+      "title": "Significance of Paste Content on Workability, Mechanical Performance, and Microstructure of Ultra-High-Performance Concrete",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Materials & Sustainability in Construction",
+      "sim": 0.8075397610664368
+    },
+    {
+      "title": "Faster and simpler algorithms for multicommodity flow and other fractional packing problems",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.8406360149383545
+    },
+    {
+      "title": "Kernel lower bounds using co-nondeterminism: Finding induced hereditary subgraphs",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.8069252967834473
+    },
+    {
+      "title": "Novel optical fibers for mid-infrared single-photon sources",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.8126489520072937
+    },
+    {
+      "title": "Proving equivalence of different axiomatizations of free groups",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Game Theory & Market Design",
+      "sim": 0.7894700169563293
+    },
+    {
+      "title": "Journal of Automated Reasoning: Preface",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Natural Language Processing & Information Retrieval",
+      "sim": 0.7467070817947388
+    },
+    {
+      "title": "Economic dispatch accounting line flow constraints using functional link network",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Smart Grids & Energy Networks",
+      "sim": 0.8033493757247925
+    },
+    {
+      "title": "Fair division through information withholding",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Game Theory & Market Design",
+      "sim": 0.8023138046264648
+    },
+    {
+      "title": "Low-loss THz waveguide bragg grating using a two-wire waveguide and a micromachined paper grating",
+      "theme": "Next-Gen Communication",
+      "domain": "Plasma Wave & Electromagnetic Phenomena",
+      "sim": 0.7215553522109985
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Choquet integral vs. TOPSIS: An intuitionistic fuzzy approach",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Supply Chain & Operations Management",
+      "sim": 0.7960628867149353
+    },
+    {
+      "title": "Hydrogen production from glucose using Ru/Al2O3 catalyst in supercritical water",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Catalysis for Clean Energy & Carbon Utilization",
+      "sim": 0.7971665263175964
+    },
+    {
+      "title": "Foreword",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.6566725969314575
+    },
+    {
+      "title": "Collusion resistant traitor tracing from learning with errors",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.7463546991348267
+    },
+    {
+      "title": "Analysis of Conventional Non-isolated Bidirectional Converters with Smooth Transient Operation",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Grid-Integrated Solar & Wind Systems",
+      "sim": 0.8474793434143066
+    },
+    {
+      "title": "Surface and mass fractals in patchy particle aggregation",
+      "theme": "Healthcare & MedTech",
+      "domain": "Protein Engineering & Molecular Biophysics",
+      "sim": 0.8069101572036743
+    },
+    {
+      "title": "Real-time visualization of nonlinear processes",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.7998574376106262
+    },
+    {
+      "title": "Modeling of Solar Thermal-Based Adsorption Cooling System for Residential Building",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Thermal Systems & Heat Recovery",
+      "sim": 0.7967357635498047
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Silicon Waveguides for Single-Photon Sensing of Toxic NO2 and Flammable CH4 through Correlated Photon Pairs Interconnecting Telecommunication and Mid-Infrared Bands",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.8273651599884033
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "On the Dynamics of Time-varying Fiscal Multipliers",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Game Theory & Market Design",
+      "sim": 0.7091894149780273
+    },
+    {
+      "title": "Prediction and Validation of Mechanical Flexibility in Molecular Crystals: Dispersion Interactions Dictate Bending",
+      "theme": "Healthcare & MedTech",
+      "domain": "Protein Engineering & Molecular Biophysics",
+      "sim": 0.8155388236045837
+    },
+    {
+      "title": "Bioleaching of Heavy Metals from Textile Sludge by Indigenous Sulfur-and-Iron-Oxidizing Microorganisms Using Elemental Sulfur and Ferrous Sulfate as Energy Sources: A Comparative Study",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Materials & Sustainability in Construction",
+      "sim": 0.763809084892273
+    },
+    {
+      "title": "Development of a drag coefficient model for non-spherical particles using semi-empirical and machine learning approaches",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Metal Processing & Forming",
+      "sim": 0.8287478089332581
+    },
+    {
+      "title": "A New Labeled Flow-based DNS Dataset for Anomaly Detection: PUF Dataset",
+      "theme": "Next-Gen Communication",
+      "domain": "Wireless Network Access & MAC Protocols",
+      "sim": 0.7503079771995544
+    },
+    {
+      "title": "Novel highly stable wavelength independent quantitative phase microscope",
+      "theme": "Healthcare & MedTech",
+      "domain": "Medical Imaging & Diagnostics",
+      "sim": 0.8054561614990234
+    },
+    {
+      "title": "Biodegradation of Polymers",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Bioprocess Manufacturing & Scale-Up",
+      "sim": 0.7669446468353271
+    },
+    {
+      "title": "A framework for computationally efficient process simulation with machine learning aided flash calculations",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Energy Storage & Battery Technologies",
+      "sim": 0.8047078847885132
+    },
+    {
+      "title": "Pool boiling of water on nano-structured micro wires at sub-atmospheric conditions",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Energy Storage & Battery Technologies",
+      "sim": 0.7877737879753113
+    },
+    {
+      "title": "Concomitant production of bioelectricity and hydrogen peroxide leading to the holistic treatment of wastewater in microbial fuel cell",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Bioprocess Manufacturing & Scale-Up",
+      "sim": 0.7401381134986877
+    },
+    {
+      "title": "Development of shape-memory stocking for smart compression management",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Polymer Nanocomposites & Functional Coatings",
+      "sim": 0.7698259353637695
+    },
+    {
+      "title": "Crash and disengagement data of autonomous vehicles on public roads in California",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Neural Networks & Deep Learning",
+      "sim": 0.7457117438316345
+    },
+    {
+      "title": "Development of a comprehensive irreversible gas dynamic model for the design of the mixing section in supersonic ejectors",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Thermal Systems & Heat Recovery",
+      "sim": 0.8112079501152039
+    },
+    {
+      "title": "Use of marble dust as clinker replacement in cements",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Materials & Sustainability in Construction",
+      "sim": 0.7689504623413086
+    },
+    {
+      "title": "Conditions for determinantal formula for resultant of a polynomial system",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Quantum Computing & Algorithms",
+      "sim": 0.7353948950767517
+    },
+    {
+      "title": "Microwave Polar Brightening and Its Connection to Polar Coronal Holes",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Atmospheric Science & Air Quality",
+      "sim": 0.778960645198822
+    },
+    {
+      "title": "Si-photonics assisted optical single side band generation, transmission and reception",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.7804622650146484
+    },
+    {
+      "title": "Dynamics of Tree-Type Robotic Systems",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Control Systems & Dynamics",
+      "sim": 0.7909551858901978
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "The Role of Helicity Injection and Poloidal Magnetic Field in a Breakout CME",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Plasma Physics & Computational Fluid Dynamics",
+      "sim": 0.7840334177017212
+    },
+    {
+      "title": "A mechanizable induction principle for equational specifications",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.7553730607032776
+    },
+    {
+      "title": "Dependency pairs for equational rewriting",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Quantum Computing & Algorithms",
+      "sim": 0.757440984249115
+    },
+    {
+      "title": "Uncertainty principles for the Strichartz Fourier transform on the Heisenberg group",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Quantum Computing & Algorithms",
+      "sim": 0.8115265369415283
+    },
+    {
+      "title": "Exact resultants for corner-cut unmixed multivariate polynomial systems using the Dixon formulation",
+      "theme": "Next-Gen Communication",
+      "domain": "Signal Processing for Communications",
+      "sim": 0.7855631113052368
+    },
+    {
+      "title": "Cloud computing in libraries: Its needs, applications, issues and best practices",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Sustainable Supply Chain & Circular Economy",
+      "sim": 0.7007144093513489
+    },
+    {
+      "title": "Preprint Repositories in India: A Case Study",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Language, Linguistics & Computation",
+      "sim": 0.7134256362915039
+    },
+    {
+      "title": "Water, sanitation, and hygiene practices among rural households and related health impacts: a case study from some North Indian villages",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.8131152391433716
+    },
+    {
+      "title": "High-power frequency-doubled Yb-fiber laser",
+      "theme": "Next-Gen Communication",
+      "domain": "Plasma Wave & Electromagnetic Phenomena",
+      "sim": 0.7297781109809875
+    },
+    {
+      "title": "Synthesis and antibacterial activities of some N-(p-substituted benzylidene)-5-pentyl-1,3,4-thiadiazole-2-amines",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Molecular Photonics & Organic Optoelectronics",
+      "sim": 0.7775274515151978
+    },
+    {
+      "title": "The Accuracy of Physical Examination to Diagnose Anemia Among Patients Five Years or Older: A Systematic Review",
+      "theme": "Healthcare & MedTech",
+      "domain": "Medical Devices & Wearable Sensing",
+      "sim": 0.7637403011322021
+    },
+    {
+      "title": "Mobile based in situ detection of live/dead and antibiotic resistant bacteria by silver nanorods array sensor fabricated by glancing angle deposition",
+      "theme": "Healthcare & MedTech",
+      "domain": "Electrochemical Biosensors & Lab-on-Chip",
+      "sim": 0.8276457786560059
+    },
+    {
+      "title": "Co-optimization of nanotube tunnel FET performance for implementation in low-power complementary ternary inverter",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "CMOS & Device Engineering",
+      "sim": 0.8343628644943237
+    },
+    {
+      "title": "Data-driven health-aware battery fast charging using adaptive neuro-fuzzy inference system-based optimized end-charging strategy for battery life extension",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Grid-Integrated Solar & Wind Systems",
+      "sim": 0.7771536707878113
+    },
+    {
+      "title": "Global Retracted Research Publications: A Bibliometric Study",
+      "theme": "Healthcare & MedTech",
+      "domain": "Infectious Disease & Virology",
+      "sim": 0.7801713347434998
+    },
+    {
+      "title": "Damage assessment of tensegrity structures using piezo transducers",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Structural Resilience & Seismic Design",
+      "sim": 0.8295745253562927
+    },
+    {
+      "title": "Electronic Resource Management: A workflow Approach",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Supply Chain & Operations Management",
+      "sim": 0.6509867906570435
+    },
+    {
+      "title": "Mix Design of Ultra-High Performance Concrete Using Particle Packing Optimization",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Materials & Sustainability in Construction",
+      "sim": 0.7762650847434998
+    },
+    {
+      "title": "Tunable wavelength-stabilized mode-locked thulium-doped fiber laser beyond 2000 nm",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.7270097732543945
+    },
+    {
+      "title": "In-situ Observation and Nitrate-N Load Assessment in Madhubani District, Bihar, India",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.8124614953994751
+    },
+    {
+      "title": "Wavelength-stabilized figure-of-9 thulium-doped all-fiber laser emitting 560 fs pulses",
+      "theme": "Next-Gen Communication",
+      "domain": "Plasma Wave & Electromagnetic Phenomena",
+      "sim": 0.7579271793365479
+    },
+    {
+      "title": "Piezoelectric nanogenerator based on nanofibrous PVDF-TrFE",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Polymer Nanocomposites & Functional Coatings",
+      "sim": 0.7944807410240173
+    },
+    {
+      "title": "Studies on Friction Mechanism of NAO Brake-Pads Containing Potassium Titanate Powder as a Theme Ingredient",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Materials & Sustainability in Construction",
+      "sim": 0.7846969366073608
+    },
+    {
+      "title": "A smart orthopedic compression device based on a polymeric stress memory actuator",
+      "theme": "Healthcare & MedTech",
+      "domain": "Medical Devices & Wearable Sensing",
+      "sim": 0.7839368581771851
+    },
+    {
+      "title": "Climate resilient development for sustainable water security for India",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.815296471118927
+    },
+    {
+      "title": "Discontinuous Galerkin methods for a contact problem with Tresca friction arising in linear elasticity",
+      "theme": "Healthcare & MedTech",
+      "domain": "Computational Biomechanics & Physiology",
+      "sim": 0.7480016946792603
+    },
+    {
+      "title": "Supramolecular Recognition and Energy Frameworks in Host-Guest Complexes of 18-Crown-6 and Sulfonamides",
+      "theme": "Healthcare & MedTech",
+      "domain": "Protein Engineering & Molecular Biophysics",
+      "sim": 0.8163207173347473
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "From Quantum to Classical in the Sky",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Quantum Computing & Algorithms",
+      "sim": 0.7175260186195374
+    },
+    {
+      "title": "Flexible pipe body and method of providing same",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Metal Processing & Forming",
+      "sim": 0.6601591110229492
+    },
+    {
+      "title": "Marketing of library resources, services and products: A case study of IIT Delhi",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "International Business & Strategy",
+      "sim": 0.7307453155517578
+    },
+    {
+      "title": "In-situ observation and transport modelling of arsenic in Gangetic plain, India",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.8074566721916199
+    },
+    {
+      "title": "Discrete simulation optimization for tuning machine learning method hyperparameters",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Neural Networks & Deep Learning",
+      "sim": 0.7937798500061035
+    },
+    {
+      "title": "Assessment of traffic noise scenarios using conventional and psychoacoustic approaches",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.7931856513023376
+    },
+    {
+      "title": "Interpolation and amalgamation for arrays with maxdiff",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.80565345287323
+    },
+    {
+      "title": "On demand data dissemination for differentiated levels of priorities in VANETS",
+      "theme": "Next-Gen Communication",
+      "domain": "Wireless Network Access & MAC Protocols",
+      "sim": 0.7983024716377258
+    },
+    {
+      "title": "DEVELOPMENT OF ARTIFICIAL NEURAL NETWORK MODEL FOR THERMO-HYDRAULIC PERFORMANCE PREDICTION OF POROUS VOLUMETRIC SOLAR RECEIVERS",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Thermal Systems & Heat Recovery",
+      "sim": 0.834574818611145
+    },
+    {
+      "title": "Photonics Breakthroughs 2025: Parallel Photonic Machine Learning With a Nonlinear Amplifying Loop Mirror",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.8238544464111328
+    },
+    {
+      "title": "Buying (into) sustainability: Technocratic environmentalism in Abu Dhabi",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Sustainable Supply Chain & Circular Economy",
+      "sim": 0.720677375793457
+    },
+    {
+      "title": "New basis for earthwork specification for clay soil",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Structural Resilience & Seismic Design",
+      "sim": 0.7887157797813416
+    },
+    {
+      "title": "Harmonic generation in magnetized plasma for electromagnetic wave propagating parallel to external magnetic field",
+      "theme": "Next-Gen Communication",
+      "domain": "Plasma Wave & Electromagnetic Phenomena",
+      "sim": 0.8554339408874512
+    },
+    {
+      "title": "Integrated optical directional coupler based refractive index sensor",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Photonic Sensing & Biosensors",
+      "sim": 0.7722286581993103
+    },
+    {
+      "title": "On The Stability of Moral Preferences: A Problem with Computational Elicitation Methods",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Natural Language Processing & Information Retrieval",
+      "sim": 0.7715451717376709
+    },
+    {
+      "title": "Large Mode Area Multi-Trench Fiber With Delocalization of Higher Order Modes",
+      "theme": "Next-Gen Communication",
+      "domain": "Plasma Wave & Electromagnetic Phenomena",
+      "sim": 0.7974002361297607
+    },
+    {
+      "title": "Rpb4 and Puf3 imprint and post-transcriptionally control the stability of a common set of mRNAs in yeast",
+      "theme": "Healthcare & MedTech",
+      "domain": "Microbiology & Genetic Engineering",
+      "sim": 0.7719730734825134
+    },
+    {
+      "title": "A new stochastic simulation algorithm for updating robust reliability of linear structural dynamic systems",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Structural Resilience & Seismic Design",
+      "sim": 0.8175566792488098
+    },
+    {
+      "title": "Multifunctional β-Ketoenamine Covalent Organic Framework Filler for Dendrite-Free, Flexible, High-Performance All-Solid-State Lithium Batteries",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Molecular Photonics & Organic Optoelectronics",
+      "sim": 0.810714840888977
+    },
+    {
+      "title": "System modeling for flexibility in IT policy - A case study of NIIT Limited",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Supply Chain & Operations Management",
+      "sim": 0.7970170974731445
+    },
+    {
+      "title": "An E-unification algorithm for analyzing protocols that use modular exponentiation",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Quantum Computing & Algorithms",
+      "sim": 0.7739669680595398
+    },
+    {
+      "title": "PROTEUS: Proactive Latency-Constrained Enhanced Ubiquitous Surveillance",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.7650167942047119
+    },
+    {
+      "title": "Thermo-hydrodynamic modeling of flow boiling through the horizontal tube using Eulerian two-fluid modeling approach",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Thermal Systems & Heat Recovery",
+      "sim": 0.8233610987663269
+    },
+    {
+      "title": "Cultural construction: Design aesthetics, semiotics and semantics associated with masks in Namghar—the study of its design aspects in the Island of Majuli, India",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.7795467972755432
+    },
+    {
+      "title": "Provable Guarantees in Approximate Synthesis",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.8196226358413696
+    },
+    {
+      "title": "Identifying and characterising flexible crystals",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Materials Informatics & ML for Physics",
+      "sim": 0.8217776417732239
+    },
+    {
+      "title": "Introduction",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.6910145878791809
+    },
+    {
+      "title": "Long period fiber grating based temperature-compensated high performance sensor for bio-chemical sensing applications",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Photonic Sensing & Biosensors",
+      "sim": 0.8685992956161499
+    },
+    {
+      "title": "Are integrated bioelectrochemical technologies feasible for wastewater management?",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Bioprocess Manufacturing & Scale-Up",
+      "sim": 0.767814576625824
+    },
+    {
+      "title": "Automatic generation of peephole superoptimizers",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.8277274370193481
+    },
+    {
+      "title": "Algorithms and Recidivism: A Multi-disciplinary Systematic Review",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "International Business & Strategy",
+      "sim": 0.7506797909736633
+    },
+    {
+      "title": "Skew circuits of small width",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.821748673915863
+    },
+    {
+      "title": "Thermo-hydraulic analysis of direct steam generation in a 500 m long row of parabolic trough solar collector using Eulerian two-fluid modeling approach",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Thermal Systems & Heat Recovery",
+      "sim": 0.827964723110199
+    },
+    {
+      "title": "A tight upper bound on the PEP of a space-time coded system",
+      "theme": "Next-Gen Communication",
+      "domain": "MIMO & Beamforming Systems",
+      "sim": 0.8426952958106995
+    },
+    {
+      "title": "Surface plasmon resonance based tapered fiber optic sensor with different taper profiles",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Photonic Sensing & Biosensors",
+      "sim": 0.8441657423973083
+    },
+    {
+      "title": "Repeated thermally deposited and annealed gold thin films as SERS-active substrate",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Plasmonic Nanostructures & Optical Materials",
+      "sim": 0.8199900984764099
+    },
+    {
+      "title": "Evaluation of cabbage (Brassica oleracea) hybrids for round the year production in low hill conditions of Himachal Pradesh",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.7321624755859375
+    },
+    {
+      "title": "Balanced Performance of Three-phase SEIG Supplying Off-grid Single-phase Power Using a Passive Excitation Scheme",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Grid-Integrated Solar & Wind Systems",
+      "sim": 0.8208857774734497
+    },
+    {
+      "title": "Four years of global carbon cycle observed from the Orbiting Carbon Observatory 2 (OCO-2) version 9 and in situ data and comparison to OCO-2 version 7",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Atmospheric Science & Air Quality",
+      "sim": 0.8014400005340576
+    },
+    {
+      "title": "Fluorescence Blinking and Photoactivation of All-Inorganic Perovskite Nanocrystals CsPbBr3 and CsPbBr2I",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Dots & Nanocrystals",
+      "sim": 0.8940598964691162
+    },
+    {
+      "title": "Characterization of errors in satellite-based HCHO / NO2 tropospheric column ratios with respect to chemistry, column-to-PBL translation, spatial representation, and retrieval uncertainties",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Atmospheric Science & Air Quality",
+      "sim": 0.8194093108177185
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "Introduction",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.6910146474838257
+    },
+    {
+      "title": "Groundwater System Modelling and Sensitivity of Groundwater Level Prediction in Indo-Gangatic Alluvial Plains",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.7687702775001526
+    },
+    {
+      "title": "Application of hybrid anaerobic reactor: Treatment of increasing cyanide containing effluents and microbial composition identification",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Bioprocess Manufacturing & Scale-Up",
+      "sim": 0.781280517578125
+    },
+    {
+      "title": "A Queueing Network-Based Distributed Laplacian Solver",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.8442418575286865
+    },
+    {
+      "title": "Gamification for Digital Humanities in Libraries: A Survey of the Web based Games on Digital Literacy",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Natural Language Processing & Information Retrieval",
+      "sim": 0.6279429197311401
+    },
+    {
+      "title": "Estimating clay liner and cover permeability using computational neural networks",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Materials & Sustainability in Construction",
+      "sim": 0.7608246803283691
+    },
+    {
+      "title": "Fractalization route to strange nonchaotic dynamics",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Quantum Computing & Algorithms",
+      "sim": 0.7886976003646851
+    },
+    {
+      "title": "Modelling the structure of woven fabrics",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Textile & Fiber Engineering",
+      "sim": 0.7734408974647522
+    },
+    {
+      "title": "Green Polymer-Based Biodegradable Packaging",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Bioprocess Manufacturing & Scale-Up",
+      "sim": 0.7651172876358032
+    },
+    {
+      "title": "Block phase-precoding for blind multiuser detection of BPSK/DS-CDMA signals",
+      "theme": "Next-Gen Communication",
+      "domain": "MIMO & Beamforming Systems",
+      "sim": 0.8387573957443237
+    },
+    {
+      "title": "Complete genome sequence of Thermoanaerobacterium sp. strain RBIITD, a butyrate- and butanol-producing thermophile",
+      "theme": "Healthcare & MedTech",
+      "domain": "Microbiology & Genetic Engineering",
+      "sim": 0.7499762773513794
+    },
+    {
+      "title": "Network Pharmacology and Molecular Docking-based Analysis of Berberis aristata DC. (Daruharidra): Elucidating Multitarget Mechanisms and Therapeutic Pathways in Type 2 Diabetes Mellitus",
+      "theme": "Healthcare & MedTech",
+      "domain": "Cancer Biology & Molecular Oncology",
+      "sim": 0.8100265860557556
+    },
+    {
+      "title": "Deuteration of Arenes in Pharmaceuticals by SEAr Mechanism with Heavy Water Using pTSA Catalyst",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Catalysis for Clean Energy & Carbon Utilization",
+      "sim": 0.8319026231765747
+    },
+    {
+      "title": "Multimode Interference Based Temperature Insensitive Strain Sensor Using Two Multimode Fibers in Series",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Photonic Sensing & Biosensors",
+      "sim": 0.7486393451690674
+    },
+    {
+      "title": "Combined economic and emission dispatch using improved backpropagation neural network",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Smart Grids & Energy Networks",
+      "sim": 0.8143042325973511
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "'Quasi-isostructural polymorphism' in molecular crystals: Inputs from interaction hierarchy and energy frameworks",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Molecular Photonics & Organic Optoelectronics",
+      "sim": 0.8201874494552612
+    },
+    {
+      "title": "Anisotropic metamaterial optical fibers: Bessel modes with imaginary orders and nanporous alumina microtubes",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Metamaterials & Wave Engineering",
+      "sim": 0.7700769901275635
+    },
+    {
+      "title": "Research Support Services: An Analysis of top Science and Technology Institutions",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "International Business & Strategy",
+      "sim": 0.674089252948761
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "A study of daylight in the planning of single-storey buildings",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Sustainable Supply Chain & Circular Economy",
+      "sim": 0.7760518193244934
+    },
+    {
+      "title": "Assessment of liquid metals as heat transfer fluid for parabolic trough solar collector",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Thermal Systems & Heat Recovery",
+      "sim": 0.8115328550338745
+    },
+    {
+      "title": "Optimum interaction length for a SPR based optical waveguide biosensor to work around a given wavelength",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Photonic Sensing & Biosensors",
+      "sim": 0.8226674795150757
+    },
+    {
+      "title": "Gamification for Digital Humanities in Libraries: A Survey of the Web-based Games on Digital Literacy",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Sustainable Supply Chain & Circular Economy",
+      "sim": 0.6889855861663818
+    },
+    {
+      "title": "Complete genome assembly of Candida auris representative strains of three geographical clades",
+      "theme": "Healthcare & MedTech",
+      "domain": "Microbiology & Genetic Engineering",
+      "sim": 0.7043027877807617
+    },
+    {
+      "title": "Scanning the issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "Minimal pseudo-triangulation of the Hopf map and its uniqueness",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Quantum Computing & Algorithms",
+      "sim": 0.7832406163215637
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "Analysis of Thompson sampling for stochastic sleeping bandits",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.800361156463623
+    },
+    {
+      "title": "Biopolymers in energy harvesting and generation",
+      "theme": "Healthcare & MedTech",
+      "domain": "Drug Delivery & Biomaterials",
+      "sim": 0.794755220413208
+    },
+    {
+      "title": "Molecular signature of postmortem lung tissue from COVID-19 patients suggests distinct trajectories driving mortality",
+      "theme": "Healthcare & MedTech",
+      "domain": "Infectious Disease & Virology",
+      "sim": 0.8037499189376831
+    },
+    {
+      "title": "Hydrological Responses Simulation and Parameters Optimization Using Arc SWAT and SWAT CUP",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Optimization & Network Systems",
+      "sim": 0.7063157558441162
+    },
+    {
+      "title": "Nitrogen-Doped Iron-Rich Biocarbon-Mediated Electro-Fenton System for Atenolol Removal",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Catalysis for Clean Energy & Carbon Utilization",
+      "sim": 0.7939625978469849
+    },
+    {
+      "title": "Operational termination of conditional rewriting with built-in numbers and semantic data structures",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.7509530186653137
+    },
+    {
+      "title": "Correlation Between Double-Pulse Signal Characteristics and Brillouin Backscatter Spectrum in Optical Fibers",
+      "theme": "Next-Gen Communication",
+      "domain": "Plasma Wave & Electromagnetic Phenomena",
+      "sim": 0.760127067565918
+    },
+    {
+      "title": "Switcheable strong-coupling microcavities of inorganic-organic perovskite natural quantum wells",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.8222265243530273
+    },
+    {
+      "title": "Closing the Loop in LLM-Based Hardware Generation: An Autonomous Agentic Workflow for Robust TPU Design",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.7866220474243164
+    },
+    {
+      "title": "Enzymatic cell disruption followed by application of imposed potential for enhanced lipid extraction from wet algal biomass employing photosynthetic microbial fuel cell",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Bioprocess Manufacturing & Scale-Up",
+      "sim": 0.8027820587158203
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Next-Gen Communication",
+      "domain": "MIMO & Beamforming Systems",
+      "sim": 0.8203604221343994
+    },
+    {
+      "title": "Deployment and calibration considerations for large-scale regional dynamic traffic assignment: Case study for Sydney, Australia",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Optimization & Network Systems",
+      "sim": 0.7887977957725525
+    },
+    {
+      "title": "Core Competencies for 21st Century Library and Information Science Professionals",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Sustainable Supply Chain & Circular Economy",
+      "sim": 0.688179075717926
+    },
+    {
+      "title": "Ultrafast spintronic THz emitters and their optical damage limit",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Magnetic Materials & Spintronics",
+      "sim": 0.809311032295227
+    },
+    {
+      "title": "Highly Comfortable and Durable Single-Layer Knitted Textile-Based Triboelectric Nanogenerator for Smart Wearable Applications",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Polymer Nanocomposites & Functional Coatings",
+      "sim": 0.8186876773834229
+    },
+    {
+      "title": "Effects of Surface Textures on the Tribological Performance of Lubricated Concentrated Point Contacts",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Surface Finishing & Polishing",
+      "sim": 0.7674669027328491
+    },
+    {
+      "title": "Global Sources of Fine Particulate Matter: Interpretation of PM2.5 Chemical Composition Observed by SPARTAN using a Global Chemical Transport Model",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Atmospheric Science & Air Quality",
+      "sim": 0.8575277924537659
+    },
+    {
+      "title": "A Dearomative Domino Approach for Stereoselective Construction of Functionalized Bridged [4.3.1] Bicycles",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Molecular Photonics & Organic Optoelectronics",
+      "sim": 0.8215872645378113
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Hardness of approximation for orienteering with multiple time windows",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.795324444770813
+    },
+    {
+      "title": "Seamless Operation and Improved Control of a Standalone Solar-Wind-BES Driven 3P4W System Designed for Remote Onshore Island Applications",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Grid-Integrated Solar & Wind Systems",
+      "sim": 0.852293848991394
+    },
+    {
+      "title": "Assessment of land use change in riverine ecosystem and utilizing it for socioeconomic benefit",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.6869729161262512
+    },
+    {
+      "title": "Cloud Computing and Its Application in Libraries",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Sustainable Supply Chain & Circular Economy",
+      "sim": 0.6184630990028381
+    },
+    {
+      "title": "Experimental study on the performanace of an acetylene aspirated diesel engine using EGR",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Thermal Systems & Heat Recovery",
+      "sim": 0.8003014326095581
+    },
+    {
+      "title": "Proclaiming Electrochemical Oxidation as a Potent Technology for the Treatment of Wastewater Containing Xenobiotic Compounds: A Mini Review",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Catalysis for Clean Energy & Carbon Utilization",
+      "sim": 0.7713977694511414
+    },
+    {
+      "title": "Model reduction-based Bayesian updating of non-classically damped systems using modal data from multiple setups",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Rotordynamics & Machinery Diagnostics",
+      "sim": 0.821199357509613
+    },
+    {
+      "title": "Bridging policies and practice: Integrated pathways for cleaner urban air and climate co-benefits from road transport",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.8262880444526672
+    },
+    {
+      "title": "Impairment of monetary policy independence by global financial cycles and the mitigating role of macroprudential policies",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "International Business & Strategy",
+      "sim": 0.7184361815452576
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "Digital divide and digital unity in E-governance: Indian perspective",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.7281693816184998
+    },
+    {
+      "title": "Failure mechanism in schistose rocks",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Metal Processing & Forming",
+      "sim": 0.7536084055900574
+    },
+    {
+      "title": "Dispersion properties of dual Bragg cladding waveguides",
+      "theme": "Next-Gen Communication",
+      "domain": "Plasma Wave & Electromagnetic Phenomena",
+      "sim": 0.8048537969589233
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Behavior of Elastic Therapeutic Tapes under Dynamic and Static Conditions",
+      "theme": "Healthcare & MedTech",
+      "domain": "Computational Biomechanics & Physiology",
+      "sim": 0.7696772217750549
+    },
+    {
+      "title": "Quantifying Mechanical Properties of Molecular Crystals: A Critical Overview of Experimental Elastic Tensors",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Materials Informatics & ML for Physics",
+      "sim": 0.7880217432975769
+    },
+    {
+      "title": "Freight mode choice: Results from a nationwide qualitative and quantitative research effort",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Sustainable Supply Chain & Circular Economy",
+      "sim": 0.7982481718063354
+    },
+    {
+      "title": "Thin nanoporous anodic alumina film on aluminium for passive radiative cooling",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Plasmonic Nanostructures & Optical Materials",
+      "sim": 0.8390803337097168
+    },
+    {
+      "title": "Low-loss terahertz waveguide Bragg grating using a two-wire waveguide and a paper grating",
+      "theme": "Next-Gen Communication",
+      "domain": "Plasma Wave & Electromagnetic Phenomena",
+      "sim": 0.7733182907104492
+    },
+    {
+      "title": "Uncertainty-aware prediction of mechanical properties in graphene using random forest and Monte Carlo simulations",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Materials Informatics & ML for Physics",
+      "sim": 0.7912706136703491
+    },
+    {
+      "title": "Computing singularly perturbed differential equations",
+      "theme": "Next-Gen Communication",
+      "domain": "Signal Processing for Communications",
+      "sim": 0.744561493396759
+    },
+    {
+      "title": "A Review of CFD-DEM Coupling Approaches for Modelling of Mineral Processing Unit Operations",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Metal Processing & Forming",
+      "sim": 0.8043286204338074
+    },
+    {
+      "title": "Overview of the CLAIMSCAN-2023: Uncovering Truth in Social Media through Claim Detection and Identification of Claim Spans",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Natural Language Processing & Information Retrieval",
+      "sim": 0.7914577722549438
+    },
+    {
+      "title": "Introduction",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.6910145878791809
+    },
+    {
+      "title": "Exploring Information Services at Delhi Public Library (DPL): A Survey",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.6809216737747192
+    },
+    {
+      "title": "Second harmonic generation of femtosecond laser pulses of central wavelength 1000 nm, 1100 nm and 1300 nm using ZnO nanorods",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Plasmonic Nanostructures & Optical Materials",
+      "sim": 0.7803541421890259
+    },
+    {
+      "title": "Tuning Exciton Dynamics and Energy Transfer in PM6:Y6-Based Ternary Organic Solar Cells via a Noncondensed Acceptor as a Guest Component",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Molecular Photonics & Organic Optoelectronics",
+      "sim": 0.8157452344894409
+    },
+    {
+      "title": "Preservation and Conservation of Library Material with Special Reference to Digital Contents",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Natural Language Processing & Information Retrieval",
+      "sim": 0.6489201784133911
+    },
+    {
+      "title": "A systematic comparison of human mitochondrial genome assembly tools",
+      "theme": "Healthcare & MedTech",
+      "domain": "Microbiology & Genetic Engineering",
+      "sim": 0.7778689861297607
+    },
+    {
+      "title": "SHG in lithium niobate based Bragg reflection waveguides",
+      "theme": "Next-Gen Communication",
+      "domain": "Plasma Wave & Electromagnetic Phenomena",
+      "sim": 0.7901570200920105
+    },
+    {
+      "title": "Optimising tm-doped silica fibres for high lasing efficiency",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.7186232209205627
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Estimating the entropy of liquids from atom-atom radial distribution functions: Silica, beryllium fluoride and water",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Materials Informatics & ML for Physics",
+      "sim": 0.8241519927978516
+    },
+    {
+      "title": "Selenium and naturally occurring radioactive contaminants in soil-water systems",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.7612676620483398
+    },
+    {
+      "title": "Human response to traffic noise: Insights from psychophysiological signals",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.7906781435012817
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Neural model for the operational control of activated sludge processes",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Neural Networks & Deep Learning",
+      "sim": 0.7677658200263977
+    },
+    {
+      "title": "Biosorption and biodegradation of chromium complex dye using Aspergillus species",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Bioprocess Manufacturing & Scale-Up",
+      "sim": 0.7708074450492859
+    },
+    {
+      "title": "Probing nanoscopic cell surface areas for rapid and labelfree plasmon enhanced Raman detection",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Plasmonic Nanostructures & Optical Materials",
+      "sim": 0.7825698852539062
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Globally Injective Geometry Optimization with Non-Injective Steps",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.8219863772392273
+    },
+    {
+      "title": "Research Data Management: An Evaluation of Indian Research Funding Agencies' Policies and Guidelines",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "International Business & Strategy",
+      "sim": 0.7675943374633789
+    },
+    {
+      "title": "Proficient Sanitary Wastewater Treatment in Laboratory and Field-Scale Microbial Fuel Cell with Anti-Biofouling Cu0.5Mn0.5Fe2O4as Cathode Catalyst",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Catalysis for Clean Energy & Carbon Utilization",
+      "sim": 0.767602801322937
+    },
+    {
+      "title": "A path ordering for proving termination of AC rewrite systems",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.7971888184547424
+    },
+    {
+      "title": "Groundwater System Modelling with Parametric Uncertainty Characterization for Sai-Gomti Inter-fluvial Plain",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Optimization & Network Systems",
+      "sim": 0.7139003872871399
+    },
+    {
+      "title": "Third special issue on techniques for automated termination proofs",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.7351630926132202
+    },
+    {
+      "title": "Surface imprinted carbon nanotubes as sensing matrix for a plasmonic SMX sensor",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Photonic Sensing & Biosensors",
+      "sim": 0.8052231669425964
+    },
+    {
+      "title": "Scanning the issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "Improved Identification of Extreme Rainfall Events in the Himalayan Foothills Using an Observation-Based Ensemble Precipitation Dataset",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Atmospheric Science & Air Quality",
+      "sim": 0.7946584224700928
+    },
+    {
+      "title": "INDOFLOODS: A Comprehensive Database for Flood Events in India Enhanced with Catchment Attributes",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.7811384201049805
+    },
+    {
+      "title": "Role of boundary wall conditions in shaping EEDF and plasma parameters in a thermionically driven low-pressure DC plasma",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Plasma Physics & Computational Fluid Dynamics",
+      "sim": 0.7768191695213318
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "Can renewable energy drive industrial growth in developing economies? Evidence from India",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Renewable Energy Economics & Policy",
+      "sim": 0.8238353729248047
+    },
+    {
+      "title": "A Power Quality Improved EV Charger with Bridgeless Cuk Converter",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Grid-Integrated Solar & Wind Systems",
+      "sim": 0.8345170021057129
+    },
+    {
+      "title": "A cradle-to-gate assessment of environmental impacts for production of mustard oil using life cycle assessment approach",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Bioprocess Manufacturing & Scale-Up",
+      "sim": 0.7553919553756714
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "A data intensive reputation management scheme for vehicular ad hoc networks",
+      "theme": "Next-Gen Communication",
+      "domain": "Wireless Network Access & MAC Protocols",
+      "sim": 0.7906785607337952
+    },
+    {
+      "title": "Rapid Identification of Counterfeit Biopharmaceuticals using Portable Fourier Transform Infrared Spectroscopy",
+      "theme": "Healthcare & MedTech",
+      "domain": "Biopharmaceutical Manufacturing & Analytics",
+      "sim": 0.8206486701965332
+    },
+    {
+      "title": "Analysis of rake reception with multiple symbol weight estimation for antipodal signaling",
+      "theme": "Next-Gen Communication",
+      "domain": "MIMO & Beamforming Systems",
+      "sim": 0.8505300283432007
+    },
+    {
+      "title": "Synthesis of novel β-aryl-β-(methylthio)acroleins via Vilsmeier-Haack protocol as potential 1,3-dielectrophilic three-carbon building blocks",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Molecular Photonics & Organic Optoelectronics",
+      "sim": 0.8015633821487427
+    },
+    {
+      "title": "Author Correction: Programmable 200 GOPS Hopfield-inspired photonic Ising machine",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.8174830675125122
+    },
+    {
+      "title": "Optoplasmonic Whispering Gallery Mode (WGM) Sensors For the Detection of GABA",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Photonic Sensing & Biosensors",
+      "sim": 0.8126052618026733
+    },
+    {
+      "title": "Severity and mortality prediction models to triage Indian COVID-19 patients",
+      "theme": "Healthcare & MedTech",
+      "domain": "Clinical AI & Decision Support",
+      "sim": 0.7512891888618469
+    },
+    {
+      "title": "A Temperature-Tolerant, Ultrafast Fault Protection Scheme for GaN HEMTs with PCB-Integrated Rogowski Coil Current Sensors",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "CMOS & Device Engineering",
+      "sim": 0.8090643882751465
+    },
+    {
+      "title": "Optimizing Bendable 'ARC' Optical Fibers for Comparable Performance to Rod-Type Fibers in Ultra-High-Power Lasers",
+      "theme": "Next-Gen Communication",
+      "domain": "Plasma Wave & Electromagnetic Phenomena",
+      "sim": 0.7991618514060974
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "A unification algorithm for analysis of protocols with blinded signatures",
+      "theme": "Next-Gen Communication",
+      "domain": "Wireless Network Access & MAC Protocols",
+      "sim": 0.7338463068008423
+    },
+    {
+      "title": "Hybrid wavelength and code division multiple access in optical networks",
+      "theme": "Next-Gen Communication",
+      "domain": "MIMO & Beamforming Systems",
+      "sim": 0.793433666229248
+    },
+    {
+      "title": "A comprehensive review on optical analysis of parabolic trough solar collector",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Thermal Systems & Heat Recovery",
+      "sim": 0.790975034236908
+    },
+    {
+      "title": "High-power, Broadband, Continuous-wave, Mid-infrared Optical Parametric Oscillator based on MgO: PPLN",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.7745373249053955
+    },
+    {
+      "title": "Scanning the issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "Covering orthogonal polygons with star polygons: The perfect graph approach",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.7782045006752014
+    },
+    {
+      "title": "Usage and subscription patterns in eBooks",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Natural Language Processing & Information Retrieval",
+      "sim": 0.693062961101532
+    },
+    {
+      "title": "Mid-infrared OCT imaging in highly scattering samples using real-Time upconversion of broadband supercontinuum covering from 3.6-4.6 μm",
+      "theme": "Healthcare & MedTech",
+      "domain": "Medical Imaging & Diagnostics",
+      "sim": 0.8153499364852905
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "A Simulation Model of Breast Cancer Incidence, Progression, Diagnosis and Survival in India",
+      "theme": "Healthcare & MedTech",
+      "domain": "Clinical AI & Decision Support",
+      "sim": 0.7875581383705139
+    },
+    {
+      "title": "Determination of watershed features for surface runoff models",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Optimization & Network Systems",
+      "sim": 0.8181109428405762
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Sensitivity of simulated mesoscale atmospheric circulations resulting from landscape heterogeneity to aspects of model configuration",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Atmospheric Science & Air Quality",
+      "sim": 0.8451612591743469
+    },
+    {
+      "title": "Smart textile actuator using stress memory polymer",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Polymer Nanocomposites & Functional Coatings",
+      "sim": 0.7350366115570068
+    },
+    {
+      "title": "Modeling, Nonlinear Analysis, and Design of LLC Converter under Digital Impedance Shaping Frequency Adaptation Control",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Power Electronics & Drives",
+      "sim": 0.8254672288894653
+    },
+    {
+      "title": "A guide to value of information methods for prioritising research in health impact modelling",
+      "theme": "Healthcare & MedTech",
+      "domain": "Clinical AI & Decision Support",
+      "sim": 0.7488664984703064
+    },
+    {
+      "title": "Analysis and implementation of a new method to retain the original speed and torque of synchronous reluctance motor during sustained voltage dip",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Power Electronics & Drives",
+      "sim": 0.8293781280517578
+    },
+    {
+      "title": "RNA sequencing reveals differential expression of circular RNAs in human small cell lung cancer",
+      "theme": "Healthcare & MedTech",
+      "domain": "Cancer Biology & Molecular Oncology",
+      "sim": 0.7524084448814392
+    },
+    {
+      "title": "Bayesian Model Updating Using Modal Data Based on Dynamic Condensation",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Rotordynamics & Machinery Diagnostics",
+      "sim": 0.8076368570327759
+    },
+    {
+      "title": "Hierarchical Bayesian Model Updating Using Modal Data Based on Dynamic Condensation",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Structural Resilience & Seismic Design",
+      "sim": 0.8212117552757263
+    },
+    {
+      "title": "Scanning the issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "Spatial calcium kinetics after a traumatic brain injury",
+      "theme": "Healthcare & MedTech",
+      "domain": "Protein Engineering & Molecular Biophysics",
+      "sim": 0.6721723079681396
+    },
+    {
+      "title": "Skilling the Library and Information Science Professionals",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "International Business & Strategy",
+      "sim": 0.7086535096168518
+    },
+    {
+      "title": "Novel Dopant Tailored Fibers Using Vapor Phase Chelate Delivery Technique",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.7899307012557983
+    },
+    {
+      "title": "Deciding inductive validity of equations",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Quantum Computing & Algorithms",
+      "sim": 0.7449164390563965
+    },
+    {
+      "title": "Recycled materials as a potential replacement to synthetic sound absorbers: A study on denim shoddy and waste jute fibers",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Materials & Sustainability in Construction",
+      "sim": 0.8052600622177124
+    },
+    {
+      "title": "Fuzzy logic decision support system for in situ remediation of contaminated aquifer",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Optimization & Network Systems",
+      "sim": 0.7426210045814514
+    },
+    {
+      "title": "Open source tools for information visualization: a comparative study",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Natural Language Processing & Information Retrieval",
+      "sim": 0.6623189449310303
+    },
+    {
+      "title": "Design of minimum seepage loss canal sections",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Metal Processing & Forming",
+      "sim": 0.7877514958381653
+    },
+    {
+      "title": "Broadband, high-power, continuous-wave, mid-infrared source using extended phase-matching bandwidth in MgO:PPLN",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.7902853488922119
+    },
+    {
+      "title": "Is waste-derived catalyst mediated electro-Fenton a sustainable option for mitigating emerging contaminants from wastewater?",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Catalysis for Clean Energy & Carbon Utilization",
+      "sim": 0.8030308485031128
+    },
+    {
+      "title": "A donor-acceptor-donor structured organic conductor with S···S chalcogen bonding",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Molecular Photonics & Organic Optoelectronics",
+      "sim": 0.8386312127113342
+    },
+    {
+      "title": "Effect of porous disc receiver configurations on performance of solar parabolic trough concentrator",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Thermal Systems & Heat Recovery",
+      "sim": 0.8162440657615662
+    },
+    {
+      "title": "Narrow band bolometric response from ultra-thin gold microwires",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Plasmonic Nanostructures & Optical Materials",
+      "sim": 0.815174400806427
+    },
+    {
+      "title": "Electricity generation from rice husk in Indian rice mills: Potential and financial viability",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Thermal Systems & Heat Recovery",
+      "sim": 0.7980891466140747
+    },
+    {
+      "title": "A reduced-order framework for three-dimensional-equivalent confined groundwater modeling with emphasis on well-boundary implementation",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Optimization & Network Systems",
+      "sim": 0.7107045650482178
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "Large mode area hybrid multi-trench fiber for anomalous dispersion",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.7683634757995605
+    },
+    {
+      "title": "Non-cyclic geometric phase-induced output coupler for optimum out-couple power in optical parametric oscillators",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.798791229724884
+    },
+    {
+      "title": "Data preprocessing to mitigate bias: A maximum entropy based approach",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Natural Language Processing & Information Retrieval",
+      "sim": 0.8039889335632324
+    },
+    {
+      "title": "Physiology: Looking for leadership roles",
+      "theme": "Healthcare & MedTech",
+      "domain": "Clinical AI & Decision Support",
+      "sim": 0.6970424652099609
+    },
+    {
+      "title": "Inflation targeting and its spillover effects on financial stability in emerging market economies",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "International Business & Strategy",
+      "sim": 0.7446408867835999
+    },
+    {
+      "title": "An advanced fabrication method for Yb3+-Doped optical fibers featuring AlPO4 core glass",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.7855808734893799
+    },
+    {
+      "title": "Scanning the issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "On the performance of β-BaB2O4 and BiB3O6 as an intra-cavity frequency-doubling element in optical parametric oscillators",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.807876467704773
+    },
+    {
+      "title": "Editorial: Exploring the rise of AI-based smart water management systems",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Neural Networks & Deep Learning",
+      "sim": 0.7076687812805176
+    },
+    {
+      "title": "Cloud storage broker: A novel framework to provide cloud storage service using security aware optimal resource allocation",
+      "theme": "Next-Gen Communication",
+      "domain": "Wireless Network Access & MAC Protocols",
+      "sim": 0.73575758934021
+    },
+    {
+      "title": "Smart Energy Management and Recovery Towards Sustainable Bioenergy",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Renewable Energy Economics & Policy",
+      "sim": 0.766485869884491
+    },
+    {
+      "title": "Open science in India: Democratizing research and innovation",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.7626870274543762
+    },
+    {
+      "title": "Unpacking the Penetration Gap: Stakeholder Perspectives Behind Low Penetration of Sustainability Measurement Scheme Among Indian Micro, Small and Medium Enterprises",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "International Business & Strategy",
+      "sim": 0.8537225723266602
+    },
+    {
+      "title": "Development of mutants of Melanocarpus albomyces for hyperproduction of xylanase",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Bioprocess Manufacturing & Scale-Up",
+      "sim": 0.7772548794746399
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Crystallizations of small covers over the n-simplex Δn and the prism Δn−1 × I",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Quantum Computing & Algorithms",
+      "sim": 0.7724327445030212
+    },
+    {
+      "title": "Wavelength-stabilized mode-locked thulium-doped fiber laser operating between 1958 and 2008 nm",
+      "theme": "Next-Gen Communication",
+      "domain": "Plasma Wave & Electromagnetic Phenomena",
+      "sim": 0.6957981586456299
+    },
+    {
+      "title": "Earnings quality, business group affiliation, and investment efficiency",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "International Business & Strategy",
+      "sim": 0.7931646704673767
+    },
+    {
+      "title": "Dark Excitons of the Perovskites and Sensitization of Molecular Triplets",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Dots & Nanocrystals",
+      "sim": 0.8625496625900269
+    },
+    {
+      "title": "Automating induction over mutually recursive functions",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.7433195114135742
+    },
+    {
+      "title": "Rigid spacecraft fault-tolerant control using adaptive fast terminal sliding mode",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Control Systems & Dynamics",
+      "sim": 0.7931734323501587
+    },
+    {
+      "title": "Analyzing and Modeling Network Travel Patterns During the Ukraine Invasion Using Crowd-Sourced Pervasive Traffic Data",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Optimization & Network Systems",
+      "sim": 0.7697334289550781
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Cost ejficient PMMA/NG nanocomposites for electromagnetic interference shielding applications",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Polymer Nanocomposites & Functional Coatings",
+      "sim": 0.8543248772621155
+    },
+    {
+      "title": "Coupling loss attributes of large mode-area hexagonal photonic crystal fibers in presence of misalignments: an alternative optical model",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.8107267618179321
+    },
+    {
+      "title": "Pavement engineering: Principles and practice",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Structural Resilience & Seismic Design",
+      "sim": 0.7897295951843262
+    },
+    {
+      "title": "Design of optimum support parameters for minimum rotor response and maximum stability limit",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Rotordynamics & Machinery Diagnostics",
+      "sim": 0.8311022520065308
+    },
+    {
+      "title": "Effectiveness of Bacillus paramycoides for Improving Zinc Nutrition of Rice Irrigated with Alkali Water",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Bioprocess Manufacturing & Scale-Up",
+      "sim": 0.798140823841095
+    },
+    {
+      "title": "Fundamentally mode-locked Yb3+-doped glass waveguide lasers with repetition rate of up to 15.2 GHz",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.7480508685112
+    },
+    {
+      "title": "Protocol for low-cost quantification of microplastics through electrochemical impedance spectroscopy from aqueous matrices",
+      "theme": "Healthcare & MedTech",
+      "domain": "Electrochemical Biosensors & Lab-on-Chip",
+      "sim": 0.8412774205207825
+    },
+    {
+      "title": "Geometric manifestation led optical beam shaping in one-dimensional photonic crystals",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.8408831357955933
+    },
+    {
+      "title": "Assessment of Ambient Multipollutant Exposure and Health Impacts Over India Using the Novel Satellite-Based Multi-Pollutant Index",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.875988245010376
+    },
+    {
+      "title": "Conceptualization of electrostatic potential: resource theory perspective",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Metamaterials & Wave Engineering",
+      "sim": 0.7784624099731445
+    },
+    {
+      "title": "Coplanar Waveguide (CPW) Integrated Sub-THz (94 GHz) Modulator Based on Pulsed Laser Deposited Germanium Selenide (GeSe)",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Semiconductor Materials & Devices",
+      "sim": 0.760692298412323
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Some recent developments in the theory of boundary layer instability",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Plasma Physics & Computational Fluid Dynamics",
+      "sim": 0.8081214427947998
+    },
+    {
+      "title": "Follow the Flow: Fine-grained Flowchart Attribution with Neurosymbolic Agents",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Natural Language Processing & Information Retrieval",
+      "sim": 0.783571183681488
+    },
+    {
+      "title": "Introduction",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Neural Networks & Deep Learning",
+      "sim": 0.7892959117889404
+    },
+    {
+      "title": "Geometries, interaction energies and complexation free energies of 18-crown-6 with neutral molecules",
+      "theme": "Healthcare & MedTech",
+      "domain": "Protein Engineering & Molecular Biophysics",
+      "sim": 0.7891649603843689
+    },
+    {
+      "title": "coTherapist: A Behavior-Aligned Small Language Model Framework to Support Mental Healthcare Experts",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Natural Language Processing & Information Retrieval",
+      "sim": 0.8065873980522156
+    },
+    {
+      "title": "Understanding Teachers’ Perceptions of Legibility and Readability Parameters for Odia Handwriting Instruction and Assessment",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Language, Linguistics & Computation",
+      "sim": 0.7479749917984009
+    },
+    {
+      "title": "Identification of heap-carried data dependence via explicit store heap models",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.7905898094177246
+    },
+    {
+      "title": "Synthesis and characterization of sulfonated polyimide composite membranes for fuel cells",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Catalysis for Clean Energy & Carbon Utilization",
+      "sim": 0.7808110117912292
+    },
+    {
+      "title": "Response of Cushioned Disconnected Piled Raft System: Numerical Investigation Using Finite Element Method",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Structural Resilience & Seismic Design",
+      "sim": 0.812812328338623
+    },
+    {
+      "title": "Book bank service@ IIT Delhi: A case study",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "International Business & Strategy",
+      "sim": 0.6906067728996277
+    },
+    {
+      "title": "Situating climate change narrative for conceptualizing adaptation strategies: a case study of coffee growers in South India",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.7604516744613647
+    },
+    {
+      "title": "Advances in single-cell long-read sequencing technologies",
+      "theme": "Healthcare & MedTech",
+      "domain": "Microbiology & Genetic Engineering",
+      "sim": 0.7811939716339111
+    },
+    {
+      "title": "Rewrite-based automated reasoning: Challenges ahead",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.7691940665245056
+    },
+    {
+      "title": "Growth and Development of Scholarly Research University of Keladi Shivappa Nayaka Agricultural and Horticultural Sciences, Shivamogga, Karnataka: A Scientometric Study",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.7214169502258301
+    },
+    {
+      "title": "Vortex breakdown and vortex-core topologies in turbulent flows within a typical swirl combustor geometry",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Plasma Physics & Computational Fluid Dynamics",
+      "sim": 0.8225557208061218
+    },
+    {
+      "title": "Large Language Model: Future of Healthcare Research With Challenges",
+      "theme": "Healthcare & MedTech",
+      "domain": "Clinical AI & Decision Support",
+      "sim": 0.8210175633430481
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "A novel machine learning framework for stroke type identification in resource constrained settings with robustness to missing data",
+      "theme": "Healthcare & MedTech",
+      "domain": "Clinical AI & Decision Support",
+      "sim": 0.8565363883972168
+    },
+    {
+      "title": "Carcinogenic risk from exposure to PM2.5 bound polycyclic aromatic hydrocarbons in rural settings",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.8034825921058655
+    },
+    {
+      "title": "Optical attributes of mode-field expansion in solid-core hexagonal microstructured optical fibers",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Metamaterials & Wave Engineering",
+      "sim": 0.7824192643165588
+    },
+    {
+      "title": "Plural climate storylines to foster just urban futures",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.7001287341117859
+    },
+    {
+      "title": "Shear behavior of rock under different normal stiffness",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Structural Resilience & Seismic Design",
+      "sim": 0.7379376292228699
+    },
+    {
+      "title": "Start-up and performance of a hybrid anoxic reactor for biological denitrification",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Bioprocess Manufacturing & Scale-Up",
+      "sim": 0.7747089266777039
+    },
+    {
+      "title": "Tamm Plasmon polaritons in photonic quasi-crystals",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.7887462973594666
+    },
+    {
+      "title": "An analytical study of research excellence in last ten year at Jaypee Group of institutions",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Sustainable Supply Chain & Circular Economy",
+      "sim": 0.6819401979446411
+    },
+    {
+      "title": "Effective interactions between nanoparticles: Creating temperature-independent solvation environments for self-assembly",
+      "theme": "Healthcare & MedTech",
+      "domain": "Protein Engineering & Molecular Biophysics",
+      "sim": 0.8316997289657593
+    },
+    {
+      "title": "A hybrid honeyfarm based technique for defense against worm attacks",
+      "theme": "Next-Gen Communication",
+      "domain": "Wireless Network Access & MAC Protocols",
+      "sim": 0.7582172751426697
+    },
+    {
+      "title": "Can LLMs reason over extended multilingual contexts? Towards long-context evaluation beyond retrieval from haystacks",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Natural Language Processing & Information Retrieval",
+      "sim": 0.8260395526885986
+    },
+    {
+      "title": "Collection Development with Special Reference to eBooks",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Natural Language Processing & Information Retrieval",
+      "sim": 0.6046575307846069
+    },
+    {
+      "title": "The Impact of Whatsapp Messenger usage on Students Performance",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "International Business & Strategy",
+      "sim": 0.6901724338531494
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Implications of SBS Assisted Slow-Light in One-rod Core Chalcogenide MOF",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.8027949929237366
+    },
+    {
+      "title": "Stand-off Fabrication of Heat Resistive Superhydrophilic Silicon Using Nd:YAG Laser",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Semiconductor Materials & Devices",
+      "sim": 0.8152782917022705
+    },
+    {
+      "title": "Effects of Surface Textures on Tribological and Dynamic Characteristic Variables of Lubricated Line Contacts",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Surface Finishing & Polishing",
+      "sim": 0.7604509592056274
+    },
+    {
+      "title": "Hybrid coherent/energy detection for cognitive radio networks",
+      "theme": "Next-Gen Communication",
+      "domain": "MIMO & Beamforming Systems",
+      "sim": 0.8250762224197388
+    },
+    {
+      "title": "Mapping the Knowledge Landscape and Disaster Risk Reductions Narratives in Kathmandu, Nepal.",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Sustainable Supply Chain & Circular Economy",
+      "sim": 0.7291396856307983
+    },
+    {
+      "title": "Development and Validation of the Pursuit of Happiness Scale",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "International Business & Strategy",
+      "sim": 0.7711256742477417
+    },
+    {
+      "title": "Cavity-assisted enhanced and dephasing-immune squeezing in the resonance fluorescence of a single quantum dot",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.8034278154373169
+    },
+    {
+      "title": "Role of a Tunable σ-Hole-Mediated Chalcogen Bond in the Substrate Specificity of Methionyl-tRNA Synthetase",
+      "theme": "Healthcare & MedTech",
+      "domain": "Protein Engineering & Molecular Biophysics",
+      "sim": 0.780052900314331
+    },
+    {
+      "title": "On the performance of Tamm-plasmon and surface-plasmon hybrid-mode refractive-index sensor in metallo-dielectric heterostructure configuration",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Photonic Sensing & Biosensors",
+      "sim": 0.8168302178382874
+    },
+    {
+      "title": "Highly sensitive refractive index sensor based on cladding mode interference in microtapered SMF",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Photonic Sensing & Biosensors",
+      "sim": 0.8273032903671265
+    },
+    {
+      "title": "Two-stage ejector based pressure recovery system for small scale SCOIL",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Thermal Systems & Heat Recovery",
+      "sim": 0.7731344103813171
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Effect of chalcogenide glass and plasmonic metal on electric field enhancement in surface plasmon resonance sensor",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Photonic Sensing & Biosensors",
+      "sim": 0.7742327451705933
+    },
+    {
+      "title": "Highly sensitive B2O3-doped photonic crystal fiber sensor for fuel adulteration monitoring",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Photonic Sensing & Biosensors",
+      "sim": 0.8285115361213684
+    },
+    {
+      "title": "Tax aggressiveness and idiosyncratic volatility",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "International Business & Strategy",
+      "sim": 0.7030906081199646
+    },
+    {
+      "title": "Impact of shortwave radiation parameterization schemes in predicting global horizontal irradiance for various climatic zones by WRF-Solar: A case study in India",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Atmospheric Science & Air Quality",
+      "sim": 0.825344979763031
+    },
+    {
+      "title": "Unexplored potential of acacia and guar gum to develop bio-based greases with impressive tribological performance: A possible alternative to mineral oil-based greases",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Polymer Nanocomposites & Functional Coatings",
+      "sim": 0.7858337163925171
+    },
+    {
+      "title": "Equitable allocations of indivisible goods",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Game Theory & Market Design",
+      "sim": 0.8220935463905334
+    },
+    {
+      "title": "Non-Hermitian Phase Transition in All-Dielectric Apodized One-Dimensional Photonic Crystals",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.8403037786483765
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "Bi-directional high-order orbital angular momentum mode generation using gratings in high numerical aperture fiber",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.7971158027648926
+    },
+    {
+      "title": "Neuromorphic computing via fission‐based broadband frequency generation",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.8122149705886841
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Modelling and experimental validation of fluorescence modulation in mid-infrared photothermal microscopy",
+      "theme": "Healthcare & MedTech",
+      "domain": "Medical Imaging & Diagnostics",
+      "sim": 0.8075482249259949
+    },
+    {
+      "title": "Convergence Analysis of Non-conforming Finite Element Method for a Quasi-static Contact Problem",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Composite Materials & Structures",
+      "sim": 0.7808709740638733
+    },
+    {
+      "title": "Investigations of thermo-hydrodynamics, structural stability, and thermal energy storage for direct steam generation in parabolic trough solar collector: A comprehensive review",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Thermal Systems & Heat Recovery",
+      "sim": 0.8395140171051025
+    },
+    {
+      "title": "Monotonic behavior of RC beams with high-strength steel shear stirrups",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Structural Resilience & Seismic Design",
+      "sim": 0.7950954437255859
+    },
+    {
+      "title": "Experimental measurement of phase distributions in disordered systems",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.7936386466026306
+    },
+    {
+      "title": "A simple D 2-sampling based PTAS for k-means and other clustering problems",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Game Theory & Market Design",
+      "sim": 0.7902253866195679
+    },
+    {
+      "title": "Laboratory evaluation of dynamic shear response of sand-geomembrane interface",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Structural Resilience & Seismic Design",
+      "sim": 0.8273746967315674
+    },
+    {
+      "title": "Impact of air pollutants from surface transport sources on human health: A modeling and epidemiological approach",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.8850317001342773
+    },
+    {
+      "title": "Ab-initio investigation of the interfacial structural, electronic, and magnetic properties in Co2MnAl/X (X = MgO and GaAs) heterostructures",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Magnetic Materials & Spintronics",
+      "sim": 0.8383455276489258
+    },
+    {
+      "title": "AEFormer: A Hybrid Conv1D-Transformer Model for Concrete Damage Classification via Acoustic Emission Signals",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Neural Networks & Deep Learning",
+      "sim": 0.7936224341392517
+    },
+    {
+      "title": "A Posteriori Error Analysis of Hybrid High-Order Methods for the Elliptic Obstacle Problem",
+      "theme": "Next-Gen Communication",
+      "domain": "Signal Processing for Communications",
+      "sim": 0.7732679843902588
+    },
+    {
+      "title": "Electron heating in bulk overdense plasma aided by time dependent external magnetic field",
+      "theme": "Next-Gen Communication",
+      "domain": "Plasma Wave & Electromagnetic Phenomena",
+      "sim": 0.8246006369590759
+    },
+    {
+      "title": "Unified analysis of discontinuous Galerkin methods for frictional contact problem with normal compliance",
+      "theme": "Healthcare & MedTech",
+      "domain": "Computational Biomechanics & Physiology",
+      "sim": 0.774702250957489
+    },
+    {
+      "title": "Rotordynamics of an accelerating rotor supported on aerodynamic journal bearings",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Rotordynamics & Machinery Diagnostics",
+      "sim": 0.7407838106155396
+    },
+    {
+      "title": "Auction algorithms for market equilibrium",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Game Theory & Market Design",
+      "sim": 0.839725136756897
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "Third-order nonlinear optical manifestations in an intramolecular proton transfer fluorophore due to Tamm-plasmon based broadband optical absorbers",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Molecular Photonics & Organic Optoelectronics",
+      "sim": 0.8177726864814758
+    },
+    {
+      "title": "A station-based 0.1-degree daily gridded ensemble precipitation dataset for India",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Atmospheric Science & Air Quality",
+      "sim": 0.816527247428894
+    },
+    {
+      "title": "Coherence-mediated squeezing of a cavity field coupled to a coherently driven single quantum dot",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.7991302013397217
+    },
+    {
+      "title": "Large Deformation Modeling of McKibben Actuators With Helical Inextensibility and End Effects",
+      "theme": "Healthcare & MedTech",
+      "domain": "Computational Biomechanics & Physiology",
+      "sim": 0.8248799443244934
+    },
+    {
+      "title": "Athermal Micro-ring Resonator with Large Free Spectral Range using Wide Ring Waveguide",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Photonic Sensing & Biosensors",
+      "sim": 0.8021253347396851
+    },
+    {
+      "title": "Using Machine Learning to Predict Freight Vehicles’ Demand for Loading Zones in Urban Environments",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Neural Networks & Deep Learning",
+      "sim": 0.7489522695541382
+    },
+    {
+      "title": "Spectrally-Pure Visible-Telecom Photon Pairs via SiN Waveguide",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.810553252696991
+    },
+    {
+      "title": "Mixing enhancement in a compact trapped vortex combustor",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Thermal Systems & Heat Recovery",
+      "sim": 0.7683830261230469
+    },
+    {
+      "title": "Understanding the Perception of MENA Region Students Towards Sustainable Education Courses",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.7410973310470581
+    },
+    {
+      "title": "Silica-based thulium doped fiber amplifiers for wavelengths beyond the L-band",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.725439190864563
+    },
+    {
+      "title": "Scanning the Issue",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647601306438446
+    },
+    {
+      "title": "On the improvement of design space subsets formulation for iteratively optimizing structural systems",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Structural Resilience & Seismic Design",
+      "sim": 0.782539963722229
+    },
+    {
+      "title": "Femtosecond nonlinear optical properties of as grown and annealed Phthalocyanines thin films",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Molecular Photonics & Organic Optoelectronics",
+      "sim": 0.8066418170928955
+    },
+    {
+      "title": "Governance in rural India: An empirical study",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.7810329794883728
+    },
+    {
+      "title": "Shape analysis with reference set relations",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.7621791958808899
+    },
+    {
+      "title": "Metal–Organic Framework Node-Supported Single-Site Iron(III)-Hydroxyl Catalyst for Regioselective Hydroxylation of Arenes",
+      "theme": "Energy, Sustainability & Climate Change",
+      "domain": "Catalysis for Clean Energy & Carbon Utilization",
+      "sim": 0.8234254717826843
+    },
+    {
+      "title": "Paraben as an emerging global concern: A comprehensive review on remediation by conventional and advanced technologies encompassing techno-economic and life cycle assessment",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Biomaterial Synthesis & Characterization",
+      "sim": 0.7734323740005493
+    },
+    {
+      "title": "Designing of advanced smart medical stocking using stress-memory polymeric filaments for pressure control and massaging",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Polymer Nanocomposites & Functional Coatings",
+      "sim": 0.7830836772918701
+    },
+    {
+      "title": "Nonlinear polynomials, interpolants and invariant generation for system analysis",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Quantum Computing & Algorithms",
+      "sim": 0.8072143793106079
+    },
+    {
+      "title": "Low-loss hollow core plastic photonic band-gap fiber for efficient THz transmission",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "Quantum Devices & Photonics",
+      "sim": 0.7635961771011353
+    },
+    {
+      "title": "The Relevance of Experimental Charge Density Analysis in Unraveling Noncovalent Interactions in Molecular Crystals",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Molecular Photonics & Organic Optoelectronics",
+      "sim": 0.8257321119308472
+    },
+    {
+      "title": "Deciphering the work function induced local charge regulation towards activating an octamolybdate cluster-based solid for acidic water oxidation",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Plasmonic Nanostructures & Optical Materials",
+      "sim": 0.8005644083023071
+    },
+    {
+      "title": "Foreword",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.6566725969314575
+    },
+    {
+      "title": "Building back better from COVID-19: Knowledge, emergence and social contracts",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.734666109085083
+    },
+    {
+      "title": "Dominating induced matching in some subclasses of bipartite graphs",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.7750577926635742
+    },
+    {
+      "title": "Greedy algorithms for maximizing nash social welfare",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Game Theory & Market Design",
+      "sim": 0.8191500902175903
+    },
+    {
+      "title": "Parametric studies on seismic response of buried pipelines.",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Structural Resilience & Seismic Design",
+      "sim": 0.7672616839408875
+    },
+    {
+      "title": "The concept of svasaṃvedana in Dignāga and Candrakīrti",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.730554461479187
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "Kinetics of heavy metal bioleaching from sewage sludge-I. Effects of process parameters",
+      "theme": "Manufacturing & Industry 4.0",
+      "domain": "Bioprocess Manufacturing & Scale-Up",
+      "sim": 0.7684945464134216
+    },
+    {
+      "title": "An automated tool for analyzing completeness of equational specifications",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "domain": "Parallel & Distributed Algorithms",
+      "sim": 0.721149742603302
+    },
+    {
+      "title": "Outage probability of BPSK subcarrier intensity modulated multihop free space optical communication system",
+      "theme": "Next-Gen Communication",
+      "domain": "MIMO & Beamforming Systems",
+      "sim": 0.8021405339241028
+    },
+    {
+      "title": "Role of urban growth, technology, and judicial interventions on vehicle exhaust emissions in Delhi for 1991-2014 and 2014-2030 periods",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.8425211310386658
+    },
+    {
+      "title": "Preface",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.647404134273529
+    },
+    {
+      "title": "A facile approach to fabricate a UV/heat dual-responsive triple shape memory polymer",
+      "theme": "Healthcare & MedTech",
+      "domain": "Drug Delivery & Biomaterials",
+      "sim": 0.8259506225585938
+    },
+    {
+      "title": "Impact of α→ β Transition in the Ultrafast High-Order Nonlinear Optical Properties of Metal-Free Phthalocyanine Thin Films",
+      "theme": "Advanced Materials & Devices",
+      "domain": "Plasmonic Nanostructures & Optical Materials",
+      "sim": 0.816741406917572
+    },
+    {
+      "title": "Investigations on Performance Parameters of Phakic Intraocular Lens using a Wavefront Sensor",
+      "theme": "Healthcare & MedTech",
+      "domain": "Medical Imaging & Diagnostics",
+      "sim": 0.749592661857605
+    },
+    {
+      "title": "Travel Patterns in India: Association with Development and Development Pattern",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.8214818835258484
+    },
+    {
+      "title": "e-Governance in rural India: An empirical study",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.7448349595069885
+    },
+    {
+      "title": "Guest editorial",
+      "theme": "Social Sciences, Humanities & Management",
+      "domain": "Development Economics & Social Welfare",
+      "sim": 0.6657004356384277
+    },
+    {
+      "title": "CMOS-compatible Er:Ta2O5 chip for ultrashort pulse amplification",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "domain": "CMOS & Device Engineering",
+      "sim": 0.7367480397224426
+    },
+    {
+      "title": "A preliminary assessment of spatiotemporal properties of urban heat island and urban morphology at Gautam Buddha Nagar, India",
+      "theme": "Smart & Sustainable Infrastructure",
+      "domain": "Urban Air Quality & Environmental Monitoring",
+      "sim": 0.8320220112800598
+    }
+  ]
+}

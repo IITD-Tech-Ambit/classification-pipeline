@@ -1,0 +1,158 @@
+{
+  "pass": true,
+  "per_theme_domain_counts": {
+    "AI/ML, Supercomputing & Quantum Computing": 5,
+    "Advanced Materials & Devices": 9,
+    "Energy, Sustainability & Climate Change": 10,
+    "Healthcare & MedTech": 10,
+    "Manufacturing & Industry 4.0": 9,
+    "Next-Gen Communication": 8,
+    "Quantum Technologies & Semiconductor Technology": 9,
+    "Smart & Sustainable Infrastructure": 9,
+    "Social Sciences, Humanities & Management": 10
+  },
+  "total_domains": 79,
+  "duplicate_domain_names": [],
+  "checks": [
+    {
+      "check": "json_parses",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "nine_themes",
+      "pass": true,
+      "detail": "9 themes"
+    },
+    {
+      "check": "domain_count_5_10::AI/ML, Supercomputing & Quantum Computing",
+      "pass": true,
+      "detail": "5"
+    },
+    {
+      "check": "domain_count_5_10::Advanced Materials & Devices",
+      "pass": true,
+      "detail": "9"
+    },
+    {
+      "check": "domain_count_5_10::Energy, Sustainability & Climate Change",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "domain_count_5_10::Healthcare & MedTech",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "domain_count_5_10::Manufacturing & Industry 4.0",
+      "pass": true,
+      "detail": "9"
+    },
+    {
+      "check": "domain_count_5_10::Next-Gen Communication",
+      "pass": true,
+      "detail": "8"
+    },
+    {
+      "check": "domain_count_5_10::Quantum Technologies & Semiconductor Technology",
+      "pass": true,
+      "detail": "9"
+    },
+    {
+      "check": "domain_count_5_10::Smart & Sustainable Infrastructure",
+      "pass": true,
+      "detail": "9"
+    },
+    {
+      "check": "domain_count_5_10::Social Sciences, Humanities & Management",
+      "pass": true,
+      "detail": "10"
+    },
+    {
+      "check": "zero_duplicate_domain_names",
+      "pass": true,
+      "detail": "dupes=[]"
+    },
+    {
+      "check": "FIX1_grid_integration",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "FIX1_power_systems",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "FIX2_new_domain",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "FIX2_narrowed_grid",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "FIX2_narrowed_solar",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "FIX3_materials_joining",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "FIX3_structural_dynamics",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "FIX3_composite",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "FIX4_new_domain",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "FIX4_ferroelectric_guard",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "FIX5_algorithms",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "FIX6_organometallic",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "FIX7_method_vs_application_global",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "FIX8_semiconductor_pv",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "out_of_scope_rule_global",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "check": "new_domains_recorded",
+      "pass": true,
+      "detail": ""
+    }
+  ]
+}

@@ -1,0 +1,259 @@
+{
+  "papers_total": 70298,
+  "with_theme_id": 68090,
+  "with_domain_id": 68090,
+  "with_subdomain_id": 0,
+  "unclassifiable_true": 2208,
+  "with_iitd_authors": 66235,
+  "theme_and_domain_both_set": 68090,
+  "distinct_theme_ids_used": 9,
+  "distinct_domain_ids_used": 77,
+  "theme_ids_all_resolve": true,
+  "domain_ids_all_resolve": true,
+  "per_theme_db_vs_jsonl": {
+    "Manufacturing & Industry 4.0": {
+      "db": 9920,
+      "jsonl": 9920,
+      "match": true
+    },
+    "Advanced Materials & Devices": {
+      "db": 9623,
+      "jsonl": 9623,
+      "match": true
+    },
+    "Energy, Sustainability & Climate Change": {
+      "db": 9418,
+      "jsonl": 9418,
+      "match": true
+    },
+    "AI/ML, Supercomputing & Quantum Computing": {
+      "db": 8787,
+      "jsonl": 8787,
+      "match": true
+    },
+    "Healthcare & MedTech": {
+      "db": 7376,
+      "jsonl": 7376,
+      "match": true
+    },
+    "Smart & Sustainable Infrastructure": {
+      "db": 6944,
+      "jsonl": 6944,
+      "match": true
+    },
+    "Quantum Technologies & Semiconductor Technology": {
+      "db": 6404,
+      "jsonl": 6404,
+      "match": true
+    },
+    "Social Sciences, Humanities & Management": {
+      "db": 5123,
+      "jsonl": 5123,
+      "match": true
+    },
+    "Next-Gen Communication": {
+      "db": 4495,
+      "jsonl": 4495,
+      "match": true
+    }
+  },
+  "all_themes_match": true,
+  "sample20_mismatches": 0,
+  "sample20": [
+    {
+      "id": "69dec9f24e2d2a5b77ecde95",
+      "title": "Tagboards for video tagging",
+      "db_theme": "AI/ML, Supercomputing & Quantum Computing",
+      "db_domain": "Natural Language Processing & Information Retrieval",
+      "jsonl_theme": "AI/ML, Supercomputing & Quantum Computing",
+      "jsonl_domain": "Natural Language Processing & Information Retrieval",
+      "ok": true
+    },
+    {
+      "id": "69dec9f24e2d2a5b77ecde97",
+      "title": "Reverse Endowment Effect for a New Product",
+      "db_theme": "Social Sciences, Humanities & Management",
+      "db_domain": "Agricultural Economics & Consumer Behavior",
+      "jsonl_theme": "Social Sciences, Humanities & Management",
+      "jsonl_domain": "Agricultural Economics & Consumer Behavior",
+      "ok": true
+    },
+    {
+      "id": "69dec9f24e2d2a5b77ecde98",
+      "title": "Eliciting Willingness-to-Pay through Multiple Expe",
+      "db_theme": "Social Sciences, Humanities & Management",
+      "db_domain": "Agricultural Economics & Consumer Behavior",
+      "jsonl_theme": "Social Sciences, Humanities & Management",
+      "jsonl_domain": "Agricultural Economics & Consumer Behavior",
+      "ok": true
+    },
+    {
+      "id": "69dec9f24e2d2a5b77ecde99",
+      "title": "Information, branding, certification, and consumer",
+      "db_theme": "Social Sciences, Humanities & Management",
+      "db_domain": "Agricultural Economics & Consumer Behavior",
+      "jsonl_theme": "Social Sciences, Humanities & Management",
+      "jsonl_domain": "Agricultural Economics & Consumer Behavior",
+      "ok": true
+    },
+    {
+      "id": "69dec9f34e2d2a5b77ecde9a",
+      "title": "Information and consumer willingness to pay for bi",
+      "db_theme": "Social Sciences, Humanities & Management",
+      "db_domain": "Agricultural Economics & Consumer Behavior",
+      "jsonl_theme": "Social Sciences, Humanities & Management",
+      "jsonl_domain": "Agricultural Economics & Consumer Behavior",
+      "ok": true
+    },
+    {
+      "id": "69dec9f34e2d2a5b77ecde9b",
+      "title": "Detection, identification, and estimation of loss ",
+      "db_theme": "Social Sciences, Humanities & Management",
+      "db_domain": "Agricultural Economics & Consumer Behavior",
+      "jsonl_theme": "Social Sciences, Humanities & Management",
+      "jsonl_domain": "Agricultural Economics & Consumer Behavior",
+      "ok": true
+    },
+    {
+      "id": "69dec9f34e2d2a5b77ecde9c",
+      "title": "Auctions in grain markets and farmer welfare",
+      "db_theme": "Social Sciences, Humanities & Management",
+      "db_domain": "Agricultural Economics & Consumer Behavior",
+      "jsonl_theme": "Social Sciences, Humanities & Management",
+      "jsonl_domain": "Agricultural Economics & Consumer Behavior",
+      "ok": true
+    },
+    {
+      "id": "69dec9f34e2d2a5b77ecde9d",
+      "title": "Groundwater markets, irrigation efficiency and sus",
+      "db_theme": "Energy, Sustainability & Climate Change",
+      "db_domain": "Environmental Assessment & Land Use Management",
+      "jsonl_theme": "Energy, Sustainability & Climate Change",
+      "jsonl_domain": "Environmental Assessment & Land Use Management",
+      "ok": true
+    },
+    {
+      "id": "69dec9f34e2d2a5b77ecde9e",
+      "title": "Social contracts, markets and efficiency: Groundwa",
+      "db_theme": "Social Sciences, Humanities & Management",
+      "db_domain": "Agricultural Economics & Consumer Behavior",
+      "jsonl_theme": "Social Sciences, Humanities & Management",
+      "jsonl_domain": "Agricultural Economics & Consumer Behavior",
+      "ok": true
+    },
+    {
+      "id": "69dec9f34e2d2a5b77ecde9f",
+      "title": "Groundwater Markets, Irrigation Efficiency and Sus",
+      "db_theme": "Social Sciences, Humanities & Management",
+      "db_domain": "Agricultural Economics & Consumer Behavior",
+      "jsonl_theme": "Social Sciences, Humanities & Management",
+      "jsonl_domain": "Agricultural Economics & Consumer Behavior",
+      "ok": true
+    },
+    {
+      "id": "69dec9f34e2d2a5b77ecdea0",
+      "title": "Using a discrete choice experiment to elicit the d",
+      "db_theme": "Social Sciences, Humanities & Management",
+      "db_domain": "Agricultural Economics & Consumer Behavior",
+      "jsonl_theme": "Social Sciences, Humanities & Management",
+      "jsonl_domain": "Agricultural Economics & Consumer Behavior",
+      "ok": true
+    },
+    {
+      "id": "69dec9f34e2d2a5b77ecdea1",
+      "title": "Local network externalities and market segmentatio",
+      "db_theme": "Social Sciences, Humanities & Management",
+      "db_domain": "International Business & Finance",
+      "jsonl_theme": "Social Sciences, Humanities & Management",
+      "jsonl_domain": "International Business & Finance",
+      "ok": true
+    },
+    {
+      "id": "69dec9f34e2d2a5b77ecdea2",
+      "title": "Millers, commission agents and collusion in grain ",
+      "db_theme": "Social Sciences, Humanities & Management",
+      "db_domain": "Supply Chain & Operations Management",
+      "jsonl_theme": "Social Sciences, Humanities & Management",
+      "jsonl_domain": "Supply Chain & Operations Management",
+      "ok": true
+    },
+    {
+      "id": "69dec9f34e2d2a5b77ecdea3",
+      "title": "The unsupportable support price: An analysis of co",
+      "db_theme": "Social Sciences, Humanities & Management",
+      "db_domain": "Agricultural Economics & Consumer Behavior",
+      "jsonl_theme": "Social Sciences, Humanities & Management",
+      "jsonl_domain": "Agricultural Economics & Consumer Behavior",
+      "ok": true
+    },
+    {
+      "id": "69dec9f34e2d2a5b77ecdea4",
+      "title": "Buyer collusion and efficiency of government inter",
+      "db_theme": "Social Sciences, Humanities & Management",
+      "db_domain": "Agricultural Economics & Consumer Behavior",
+      "jsonl_theme": "Social Sciences, Humanities & Management",
+      "jsonl_domain": "Agricultural Economics & Consumer Behavior",
+      "ok": true
+    },
+    {
+      "id": "69dec9f34e2d2a5b77ecdea5",
+      "title": "Sequencing strategically: Wage negotiations under ",
+      "db_theme": "Social Sciences, Humanities & Management",
+      "db_domain": "Supply Chain & Operations Management",
+      "jsonl_theme": "Social Sciences, Humanities & Management",
+      "jsonl_domain": "Supply Chain & Operations Management",
+      "ok": true
+    },
+    {
+      "id": "69dec9f34e2d2a5b77ecdea6",
+      "title": "Leveling Up Leadership: Emerging Voices and Evolvi",
+      "db_theme": "Social Sciences, Humanities & Management",
+      "db_domain": "Digital Culture & Consumer Experience",
+      "jsonl_theme": "Social Sciences, Humanities & Management",
+      "jsonl_domain": "Digital Culture & Consumer Experience",
+      "ok": true
+    },
+    {
+      "id": "69dec9f34e2d2a5b77ecdea7",
+      "title": "Theory as Design Material: How Design Researchers ",
+      "db_theme": "Social Sciences, Humanities & Management",
+      "db_domain": "Digital Culture & Consumer Experience",
+      "jsonl_theme": "Social Sciences, Humanities & Management",
+      "jsonl_domain": "Digital Culture & Consumer Experience",
+      "ok": true
+    },
+    {
+      "id": "69dec9f34e2d2a5b77ecdea8",
+      "title": "Voice User Interface for Designing Inclusive Games",
+      "db_theme": "Social Sciences, Humanities & Management",
+      "db_domain": "Digital Culture & Consumer Experience",
+      "jsonl_theme": "Social Sciences, Humanities & Management",
+      "jsonl_domain": "Digital Culture & Consumer Experience",
+      "ok": true
+    },
+    {
+      "id": "69dec9f34e2d2a5b77ecdea9",
+      "title": "Impact of Body Language on Design Students—A Case ",
+      "db_theme": "Social Sciences, Humanities & Management",
+      "db_domain": "Cultural Studies & Ethnography",
+      "jsonl_theme": "Social Sciences, Humanities & Management",
+      "jsonl_domain": "Cultural Studies & Ethnography",
+      "ok": true
+    }
+  ],
+  "CHECKS": {
+    "classified_is_68090": true,
+    "unclassifiable_is_2208": true,
+    "touched_is_70298": true,
+    "no_subdomains": true,
+    "theme_domain_equal_counts": true,
+    "no_orphan_theme_ids": true,
+    "no_orphan_domain_ids": true,
+    "domains_node_count_77": true,
+    "themes_node_count_9": true,
+    "iitd_authors_preserved": true,
+    "all_themes_match_distribution": true,
+    "sample20_all_ok": true
+  },
+  "STAGE2_PASS": true
+}

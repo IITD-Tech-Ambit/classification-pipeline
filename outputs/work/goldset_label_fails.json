@@ -1,0 +1,54 @@
+{
+  "missing_from_mongo": [],
+  "never_labeled": [],
+  "schema_invalid_labels": [
+    {
+      "id": "69deca434e2d2a5b77ed9638",
+      "note": "domain_not_in_theme:'Supply Chain & Operations Management'"
+    },
+    {
+      "id": "69deca504e2d2a5b77edb717",
+      "note": "refusal"
+    },
+    {
+      "id": "69deca5d4e2d2a5b77edcd6f",
+      "note": "refusal"
+    },
+    {
+      "id": "69deca454e2d2a5b77ed98bd",
+      "note": "domain_not_in_theme:'Supply Chain & Operations Management'"
+    },
+    {
+      "id": "69deca234e2d2a5b77ed5285",
+      "note": "refusal"
+    },
+    {
+      "id": "69deca1c4e2d2a5b77ed3fb7",
+      "note": "refusal"
+    },
+    {
+      "id": "69deca1d4e2d2a5b77ed40b2",
+      "note": "refusal"
+    },
+    {
+      "id": "69deca504e2d2a5b77edb6bd",
+      "note": "refusal"
+    },
+    {
+      "id": "69deca0c4e2d2a5b77ed1951",
+      "note": "refusal"
+    },
+    {
+      "id": "69deca2b4e2d2a5b77ed6405",
+      "note": "refusal"
+    },
+    {
+      "id": "69deca2b4e2d2a5b77ed646d",
+      "note": "refusal"
+    },
+    {
+      "id": "69deca024e2d2a5b77ed0150",
+      "note": "refusal"
+    }
+  ]
+}

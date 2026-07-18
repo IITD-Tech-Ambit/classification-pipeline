@@ -1,0 +1,154 @@
+{
+  "facet_theme_counts_vs_jsonl": {
+    "Manufacturing & Industry 4.0": {
+      "facet": 9920,
+      "jsonl": 9920,
+      "match": true
+    },
+    "Advanced Materials & Devices": {
+      "facet": 9623,
+      "jsonl": 9623,
+      "match": true
+    },
+    "Energy, Sustainability & Climate Change": {
+      "facet": 9418,
+      "jsonl": 9418,
+      "match": true
+    },
+    "AI/ML, Supercomputing & Quantum Computing": {
+      "facet": 8787,
+      "jsonl": 8787,
+      "match": true
+    },
+    "Healthcare & MedTech": {
+      "facet": 7376,
+      "jsonl": 7376,
+      "match": true
+    },
+    "Smart & Sustainable Infrastructure": {
+      "facet": 6944,
+      "jsonl": 6944,
+      "match": true
+    },
+    "Quantum Technologies & Semiconductor Technology": {
+      "facet": 6404,
+      "jsonl": 6404,
+      "match": true
+    },
+    "Social Sciences, Humanities & Management": {
+      "facet": 5123,
+      "jsonl": 5123,
+      "match": true
+    },
+    "Next-Gen Communication": {
+      "facet": 4495,
+      "jsonl": 4495,
+      "match": true
+    }
+  },
+  "all_theme_facets_match": true,
+  "domain_level_facet_rows": 77,
+  "domain_facet_paper_sum": 68090,
+  "theme_domain_facet_rows": 77,
+  "facetcounts_total": 3339,
+  "facetmembers_total": 3339,
+  "subdomain_facet_rows": 0,
+  "theme_stats_sample": [
+    {
+      "name": "AI/ML, Supercomputing & Quantum Computing",
+      "paper_count": 8787,
+      "faculty_count": 498
+    },
+    {
+      "name": "Advanced Materials & Devices",
+      "paper_count": 9623,
+      "faculty_count": 425
+    },
+    {
+      "name": "Energy, Sustainability & Climate Change",
+      "paper_count": 9418,
+      "faculty_count": 458
+    },
+    {
+      "name": "Healthcare & MedTech",
+      "paper_count": 7376,
+      "faculty_count": 405
+    },
+    {
+      "name": "Manufacturing & Industry 4.0",
+      "paper_count": 9920,
+      "faculty_count": 438
+    },
+    {
+      "name": "Next-Gen Communication",
+      "paper_count": 4495,
+      "faculty_count": 182
+    },
+    {
+      "name": "Quantum Technologies & Semiconductor Technology",
+      "paper_count": 6404,
+      "faculty_count": 270
+    },
+    {
+      "name": "Smart & Sustainable Infrastructure",
+      "paper_count": 6944,
+      "faculty_count": 404
+    },
+    {
+      "name": "Social Sciences, Humanities & Management",
+      "paper_count": 5123,
+      "faculty_count": 319
+    }
+  ],
+  "domains_with_stats": 77,
+  "atlas": {
+    "active_version": "8a8f9abde489",
+    "point_count_meta": 66235,
+    "atlas_points": 66235,
+    "atlas_tiles": 78,
+    "dict_themes": 10,
+    "dict_domains": 78,
+    "dict_domains_nonempty": 77,
+    "dict_themes_nonunclassified": 9,
+    "dict_theme_anchors": 10,
+    "dict_domain_anchors": 78,
+    "themes": [
+      "AI/ML, Supercomputing & Quantum Computing",
+      "Advanced Materials & Devices",
+      "Energy, Sustainability & Climate Change",
+      "Healthcare & MedTech",
+      "Manufacturing & Industry 4.0",
+      "Next-Gen Communication",
+      "Quantum Technologies & Semiconductor Technology",
+      "Smart & Sustainable Infrastructure",
+      "Social Sciences, Humanities & Management",
+      "Unclassified"
+    ],
+    "kg_faculty_graphs": 968,
+    "kg_explore_terms": 86,
+    "kg_explore_details": 86,
+    "kg_indices": 3,
+    "prior_version_retained": true,
+    "sample_point": {
+      "domain": "Natural Language Processing & Information Retrieval",
+      "id": "69dec9f24e2d2a5b77ecde95",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "title": "Tagboards for video tagging"
+    }
+  },
+  "CHECKS": {
+    "all_theme_facets_match": true,
+    "domain_facet_rows_77": true,
+    "no_subdomain_facets": true,
+    "facetmembers_nonzero": true,
+    "domains_all_have_stats": true,
+    "atlas_points_66235": true,
+    "atlas_tiles_nonzero": true,
+    "atlas_dict_domains_77": true,
+    "atlas_dict_themes_9": true,
+    "atlas_kg_graphs_nonzero": true,
+    "atlas_kg_explore_86": true,
+    "prior_atlas_version_retained": true
+  },
+  "STAGE3_PASS": true
+}

@@ -1,0 +1,379 @@
+{
+  "version": "v2-draft",
+  "generated": "2026-07-17",
+  "embedding_model": "BAAI/bge-base-en-v1.5",
+  "themes": [
+    {
+      "id": "6a46ea5ece9a42a451a4714a",
+      "name": "AI/ML, Supercomputing & Quantum Computing",
+      "slug": "ai-ml-supercomputing-and-quantum-computing",
+      "scope_note": "This theme encompasses computational and algorithmic foundations for artificial intelligence, machine learning, and high-performance computing, including quantum computing theory and algorithms. It covers quantum algorithms, quantum information processing, and quantum error correction; classical and parallel algorithms for computational geometry, graph problems, and distributed systems; neural network architectures, deep learning methods, and physics-informed machine learning; natural language processing, semantic analysis, and information retrieval on text and network data; plasma physics simulations and computational fluid dynamics; and machine learning applications to materials science and physics for discovering property relationships and building interpretable models. Excluded are quantum device fabrication, quantum materials physics, and semiconductor engineering, which belong to Quantum Technologies & Semiconductor Technology; biomaterial synthesis for clinical applications, which belongs to Healthcare & MedTech; and energy generation, storage, and conversion technologies, which belong to Energy, Sustainability & Climate Change. The key tie-breaker with Quantum Technologies is algorithmic: papers on quantum algorithms, quantum computation, and quantum information processing belong here, while work on fabricating quantum devices, quantum dots, or developing quantum materials goes to the Quantum Technologies theme. Similarly, machine learning contributions are assigned here based on methodological novelty, whereas AI methods applied to communication systems or networks are assigned to Next-Gen Communication only if the system contribution (not the algorithm) is primary. Materials informatics research belongs here when the focus is on ML-driven discovery of material properties; if the focus is synthesis or novel material characterization without learning components, it goes to Advanced Materials & Devices.",
+      "domains": [
+        {
+          "name": "Quantum Computing & Algorithms",
+          "definition": "Quantum algorithms, quantum information processing, quantum computation, and quantum error correction; excludes quantum device fabrication and quantum materials (see Quantum Technologies theme).",
+          "estimated_share_of_theme": 0.116
+        },
+        {
+          "name": "Plasma Physics & Computational Fluid Dynamics",
+          "definition": "Simulation and analysis of plasma dynamics, relativistic particle behavior, turbulence, instabilities, and transport phenomena in high-energy physics and fluid mechanics.",
+          "estimated_share_of_theme": 0.102
+        },
+        {
+          "name": "Natural Language Processing & Information Retrieval",
+          "definition": "Language models, semantic analysis, graph-based querying, multiword expression detection, and information diffusion on text and network data.",
+          "estimated_share_of_theme": 0.135
+        },
+        {
+          "name": "Parallel & Distributed Algorithms",
+          "definition": "Design and analysis of parallel algorithms for computational geometry, graph problems, dynamic optimization, and efficient memory-aware computation.",
+          "estimated_share_of_theme": 0.138
+        },
+        {
+          "name": "Neural Networks & Deep Learning",
+          "definition": "Neural network architectures, physics-informed learning, generative models, neural operators, and applications to forecasting, classification, and segmentation tasks.",
+          "estimated_share_of_theme": 0.345
+        },
+        {
+          "name": "Materials Informatics & ML for Physics",
+          "definition": "Machine learning applied to materials science, glass composition-property relationships, superconductivity, and interpretable models for understanding physical properties.",
+          "estimated_share_of_theme": 0.091
+        }
+      ]
+    },
+    {
+      "id": "6a46ea5ece9a42a451a4714b",
+      "name": "Advanced Materials & Devices",
+      "slug": "advanced-materials-and-devices",
+      "scope_note": "Advanced Materials & Devices encompasses the discovery, synthesis, characterization, and fundamental structure-property relationships of novel materials and engineered material systems across six complementary domains: plasmonic nanostructures and optical materials (metallic nanoparticles for photonics and sensing); polymer nanocomposites with carbon-based fillers for enhanced functional properties; biomaterials and bioactive compounds; periodic metastructures and metamaterials for wave engineering; organic molecules and coordination complexes with photonic and optoelectronic functionality; and ferroelectric and multiferroic ceramics. The theme focuses on materials science, material property enhancement, and device-level material engineering—not on system integration, application-specific device optimization, or commercialization. Biomaterials designed for specific clinical or therapeutic applications (e.g., drug delivery systems, implants for tissue engineering with clinical intent) belong in Healthcare & MedTech; general biomaterial synthesis and bioactivity characterization without clinical specification remain here. Processing, joining, machining, or scale-up of materials for manufacturing goes to Manufacturing & Industry 4.0, while fundamental discovery and characterization stays here. Quantum devices, semiconductor fabrication, or quantum material systems go to Quantum Technologies & Semiconductor Technology; if a paper's primary contribution is a new algorithmic approach or computational method applied to materials (even for property prediction), route it to AI/ML, Supercomputing & Quantum Computing. Papers on catalytic materials for clean energy conversion or energy storage belong in Energy, Sustainability & Climate Change; those on structural materials and sustainability in buildings belong in Smart & Sustainable Infrastructure.",
+      "domains": [
+        {
+          "name": "Plasmonic Nanostructures & Optical Materials",
+          "definition": "Papers on metallic nanoparticles (Au, Ag) and their plasmonic properties for applications in solar cells, sensing, photocatalysis, and surface-enhanced Raman scattering (SERS). Includes transparent conducting materials and nanocomposites for optical and photonic devices.",
+          "estimated_share_of_theme": 0.242
+        },
+        {
+          "name": "Polymer Nanocomposites & Functional Coatings",
+          "definition": "Papers on carbon-based nanofillers (nanotubes, nanofibers, graphene) dispersed in polymers for enhanced electrical, mechanical, thermal, and electromagnetic properties. Covers processing routes, tribological performance, and EMI shielding applications.",
+          "estimated_share_of_theme": 0.138
+        },
+        {
+          "name": "Biomaterial Synthesis & Characterization",
+          "definition": "Discovery, synthesis, characterization, and structure-property relationships of biomaterials and bioactive materials; excludes materials designed for specific clinical applications (see Healthcare & MedTech theme).",
+          "estimated_share_of_theme": 0.142
+        },
+        {
+          "name": "Metamaterials & Wave Engineering",
+          "definition": "Papers on periodic metastructures, metamaterial design, and wave propagation phenomena for vibration suppression, energy harvesting, and electromagnetic mode analysis in engineered materials.",
+          "estimated_share_of_theme": 0.162
+        },
+        {
+          "name": "Molecular Photonics & Organic Optoelectronics",
+          "definition": "Papers on synthesis and characterization of organic molecules, porphyrins, and coordination complexes with nonlinear optical, photoemission, and photonic properties for optoelectronic applications.",
+          "estimated_share_of_theme": 0.096
+        },
+        {
+          "name": "Ferroelectric & Multiferroic Ceramics",
+          "definition": "Papers on perovskite oxides, ferroelectric ceramics, and multiferroic compounds for studying dielectric, magnetic, electrical, and magnetotransport properties in structural materials.",
+          "estimated_share_of_theme": 0.22
+        }
+      ]
+    },
+    {
+      "id": "6a46ea5ece9a42a451a4714c",
+      "name": "Energy, Sustainability & Climate Change",
+      "slug": "energy-sustainability-and-climate-change",
+      "scope_note": "This theme encompasses research on renewable energy systems, energy storage technologies, thermal efficiency, and atmospheric science in the service of climate mitigation and sustainable energy transitions. It includes grid integration of solar and wind systems with storage and microgrids; battery design and electrochemical optimization for stationary and mobile applications; techno-economic feasibility and policy analysis for renewable energy deployment; catalytic pathways for sustainable fuels and carbon utilization; thermodynamic optimization of solar thermal and heat recovery systems; and monitoring and modeling of atmospheric pollutants and greenhouse gases affecting India and Asia. Research should focus on the energy conversion, storage, utilization, or environmental characterization itself—not on the broader infrastructure or policy context in isolation. Papers addressing energy-efficient buildings, smart grid distribution networks as infrastructure systems, or urban energy planning belong instead in Smart & Sustainable Infrastructure; papers on general battery material synthesis without performance modeling for energy applications, or on materials discovery in catalysis, belong in Advanced Materials & Devices; pure economics or policy analysis disconnected from technology assessment belongs in Social Sciences, Humanities & Management. A paper on floating solar feasibility with techno-economic modeling stays here; one on grid modernization or demand-side management in cities goes to Smart Infrastructure. A paper optimizing Li-ion cell chemistry and cycling performance stays here; one on synthesizing a new nanostructured cathode material without energy application context goes to Advanced Materials. Catalysis papers on CO₂ reduction or biomass conversion for fuels and chemicals remain in this theme; catalysis for other industrial or pharmaceutical applications goes to Manufacturing or Healthcare.",
+      "domains": [
+        {
+          "name": "Grid-Integrated Solar & Wind Systems",
+          "definition": "Control, power quality, and integration technologies for grid-connected renewable energy systems (solar PV, wind) with battery storage, microgrids, and seamless operation under normal and abnormal grid conditions.",
+          "estimated_share_of_theme": 0.302
+        },
+        {
+          "name": "Energy Storage & Battery Technologies",
+          "definition": "Design, modeling, and performance optimization of battery systems (Li-ion, vanadium redox, K-ion) for energy storage, electric vehicles, and grid applications, including thermal management and electrochemical characterization.",
+          "estimated_share_of_theme": 0.149
+        },
+        {
+          "name": "Renewable Energy Economics & Policy",
+          "definition": "Techno-economic analysis, feasibility studies, policy instruments, and business models for renewable energy deployment (solar, wind, hybrid systems) with focus on India's energy transition and sustainable infrastructure.",
+          "estimated_share_of_theme": 0.089
+        },
+        {
+          "name": "Catalysis for Clean Energy & Carbon Utilization",
+          "definition": "Catalytic conversion and transformation technologies for sustainable fuels and chemicals, including CO₂ hydrogenation, biomass processing, and photocatalytic reactions for climate mitigation.",
+          "estimated_share_of_theme": 0.144
+        },
+        {
+          "name": "Thermal Systems & Heat Recovery",
+          "definition": "Exergetic analysis, thermodynamic optimization, and design of solar thermal systems, heat exchangers, waste heat recovery cycles, and concentrating solar power applications for improved energy efficiency.",
+          "estimated_share_of_theme": 0.125
+        },
+        {
+          "name": "Atmospheric Science & Air Quality",
+          "definition": "Monitoring, modeling, and source apportionment of atmospheric pollutants, aerosols, and greenhouse gases over India and Asia; impacts of monsoons and meteorology on air quality and climate.",
+          "estimated_share_of_theme": 0.067
+        }
+      ]
+    },
+    {
+      "id": "6a46ea5ece9a42a451a4714d",
+      "name": "Healthcare & MedTech",
+      "slug": "healthcare-and-medtech",
+      "scope_note": "Healthcare & MedTech encompasses translational and applied research aimed at disease diagnosis, treatment, and monitoring through biomedical innovation. This includes infectious disease research (viral/bacterial detection and drug repurposing), therapeutic delivery systems and tissue engineering, protein and molecular engineering for biomedical applications, biopharmaceutical manufacturing and quality control, medical devices and wearable sensors, diagnostic imaging and sensing platforms, cancer biology and molecular oncology, and the application of AI/ML to clinical decision-making and diagnosis. The theme covers work spanning from molecular mechanisms and computational biomechanics through clinical implementation, as exemplified by papers on SARS-CoV-2 surveillance, drug carrier design, protein aggregation studies, biosimilar characterization, wearable motion capture, and quantitative tissue imaging. Excluded from this theme: general biomaterial synthesis and characterization without a specific clinical/therapeutic endpoint (assign to Advanced Materials & Devices); machine learning methodology papers where the contribution is the algorithm itself rather than its clinical application (assign to AI/ML, Supercomputing & Quantum Computing); quantum computing and quantum information processing (assign to AI/ML theme); semiconductor device physics and fabrication for non-biomedical applications (assign to Quantum Technologies & Semiconductor Technology); and bioprocess manufacturing at scale for non-therapeutic purposes (assign to Manufacturing & Industry 4.0). Operationally, if a paper develops a biomaterial, drug delivery carrier, or diagnostic device specifically for a therapeutic or clinical application, assign it to Healthcare & MedTech; if the paper's primary contribution is the biomaterial synthesis or characterization method itself without clinical context, assign to Advanced Materials. If a paper applies a known AI/ML algorithm to clinical diagnosis or treatment planning, assign to Healthcare & MedTech; if the paper's contribution is advancing the ML methodology, assign to AI/ML.",
+      "domains": [
+        {
+          "name": "Infectious Disease & Virology",
+          "definition": "Research on viral and bacterial pathogens, including COVID-19, tuberculosis, and other infectious agents; covers detection, molecular mechanisms, drug repurposing, and surveillance technologies.",
+          "estimated_share_of_theme": 0.065
+        },
+        {
+          "name": "Drug Delivery & Biomaterials",
+          "definition": "Design and development of polymeric carriers, hydrogels, scaffolds, and nanoparticles for controlled therapeutic delivery and tissue engineering applications.",
+          "estimated_share_of_theme": 0.076
+        },
+        {
+          "name": "Protein Engineering & Molecular Biophysics",
+          "definition": "Computational and experimental studies of protein structure, dynamics, aggregation, folding, and rational design of peptides and biomolecules.",
+          "estimated_share_of_theme": 0.116
+        },
+        {
+          "name": "Biopharmaceutical Manufacturing & Analytics",
+          "definition": "Quality control, analytical characterization, and process development for recombinant protein therapeutics, monoclonal antibodies, and biosimilars.",
+          "estimated_share_of_theme": 0.064
+        },
+        {
+          "name": "Medical Devices & Wearable Sensing",
+          "definition": "Development of wearable sensors, prosthetics, assistive technologies, and embedded devices for patient monitoring, rehabilitation, and mobility assistance.",
+          "estimated_share_of_theme": 0.149
+        },
+        {
+          "name": "Medical Imaging & Diagnostics",
+          "definition": "Non-invasive imaging technologies, optical coherence tomography, thermal imaging, and quantitative phase imaging for disease detection and biomarker assessment.",
+          "estimated_share_of_theme": 0.076
+        },
+        {
+          "name": "Clinical AI & Decision Support",
+          "definition": "Application of machine learning and AI algorithms to clinical diagnosis, treatment planning, prognosis, and healthcare system optimization; excludes general ML methodology (see AI/ML theme).",
+          "estimated_share_of_theme": 0.085
+        },
+        {
+          "name": "Electrochemical Biosensors & Lab-on-Chip",
+          "definition": "Miniaturized diagnostic platforms including impedance spectroscopy, electrochemical immunosensors, microfluidic devices, and point-of-care testing technologies.",
+          "estimated_share_of_theme": 0.04
+        },
+        {
+          "name": "Cancer Biology & Molecular Oncology",
+          "definition": "Molecular mechanisms of cancer, tumor biology, drug targets, gene expression profiling, and computational analysis of cancer pathogenesis and treatment.",
+          "estimated_share_of_theme": 0.102
+        },
+        {
+          "name": "Computational Biomechanics & Physiology",
+          "definition": "Mathematical modeling and simulation of biological systems including blood flow, tissue mechanics, and physiological dynamics in medical applications.",
+          "estimated_share_of_theme": 0.073
+        },
+        {
+          "name": "Microbiology & Genetic Engineering",
+          "definition": "Microbial characterization, gene expression, antibiotic resistance, biofilm formation, and metabolic engineering for recombinant protein production.",
+          "estimated_share_of_theme": 0.06
+        }
+      ]
+    },
+    {
+      "id": "6a46ea5ece9a42a451a4714f",
+      "name": "Manufacturing & Industry 4.0",
+      "slug": "manufacturing-and-industry-4-0",
+      "scope_note": "Manufacturing & Industry 4.0 encompasses the design, analysis, control, and optimization of manufacturing processes, production systems, and industrial operations across metals, composites, biologics, textiles, and electronics. This includes process engineering (forming, welding, additive manufacturing, finishing), equipment design and control (control systems, machinery dynamics, power electronics, drives), material behavior under manufacturing conditions (mechanical characterization, deformation analysis), production scale-up and bioprocess operations, and supply chain optimization for manufacturing and logistics networks. The theme explicitly excludes the discovery, synthesis, or fundamental characterization of new materials—those belong to Advanced Materials & Devices; however, processing, joining, machining, or manufacturing-specific behavior of materials is within scope. Similarly, biomaterial design for clinical/therapeutic applications belongs to Healthcare & MedTech, but engineering of fermentation and downstream processing as industrial manufacturing operations belongs here. Energy generation, storage, and conversion technologies are excluded to Energy, Sustainability & Climate Change; however, power electronics and motor drives for industrial machinery are included. When AI or machine learning methods are applied to manufacturing systems (e.g., condition monitoring, diagnostics, optimization), the work belongs here if the contribution is primarily the manufacturing system or process; if the contribution is primarily the learning algorithm or computational method itself, it belongs to AI/ML, Supercomputing & Quantum Computing. Supply chain and operations management research focused on manufacturing and logistics networks is included; broader economic policy or development economics belongs to Social Sciences, Humanities & Management.",
+      "domains": [
+        {
+          "name": "Control Systems & Dynamics",
+          "definition": "Design and analysis of control strategies for dynamic systems including adaptive control, robust control, observer design, and stability analysis of uncertain nonlinear systems and mechanical systems.",
+          "estimated_share_of_theme": 0.096
+        },
+        {
+          "name": "Metal Processing & Forming",
+          "definition": "Experimental and numerical studies of metal deformation, sheet forming, deep drawing, hydroforming, crushing behavior, and mechanical characterization under various loading conditions.",
+          "estimated_share_of_theme": 0.109
+        },
+        {
+          "name": "Composite Materials & Structures",
+          "definition": "Analysis and design of laminated composites, sandwich structures, functionally graded materials, and woven fabrics including their thermal, dynamic, and structural behavior.",
+          "estimated_share_of_theme": 0.098
+        },
+        {
+          "name": "Bioprocess Manufacturing & Scale-Up",
+          "definition": "Manufacturing and production scale-up of biopharmaceuticals and biological products; engineering of fermentation and downstream processing as industrial operations.",
+          "estimated_share_of_theme": 0.056
+        },
+        {
+          "name": "Power Electronics & Drives",
+          "definition": "Control and operation of electrical machines, motor drives, converters, and power system devices including induction motors, inverters, FACTS devices, and electromagnetic actuators.",
+          "estimated_share_of_theme": 0.055
+        },
+        {
+          "name": "Additive Manufacturing & Welding",
+          "definition": "Advanced joining and fabrication processes including laser-based additive manufacturing, powder bed fusion, laser welding, and friction stir-based techniques for metals and composites.",
+          "estimated_share_of_theme": 0.093
+        },
+        {
+          "name": "Rotordynamics & Machinery Diagnostics",
+          "definition": "Vibration analysis, fault detection, and diagnosis of rotating machinery systems including rotor-bearing dynamics, crack identification, and condition monitoring techniques.",
+          "estimated_share_of_theme": 0.06
+        },
+        {
+          "name": "Surface Finishing & Polishing",
+          "definition": "Advanced finishing processes for precision surface treatment including magnetorheological finishing, magnetic abrasive finishing, ultrasonic-assisted finishing, and surface integrity assessment.",
+          "estimated_share_of_theme": 0.098
+        },
+        {
+          "name": "Textile & Fiber Engineering",
+          "definition": "Yarn and fabric engineering including spinning, texturing, blending, weaving, and characterization of textile properties, comfort, and mechanical behavior.",
+          "estimated_share_of_theme": 0.089
+        },
+        {
+          "name": "Supply Chain & Operations Management",
+          "definition": "Supply chain coordination, vendor selection, inventory management, lean and agile strategies, and performance optimization for manufacturing and logistics networks.",
+          "estimated_share_of_theme": 0.064
+        }
+      ]
+    },
+    {
+      "id": "6a46ea5ece9a42a451a47150",
+      "name": "Next-Gen Communication",
+      "slug": "next-gen-communication",
+      "scope_note": "Next-Gen Communication encompasses the physical layer, system-level design, and signal processing foundations of wireless and mobile communication systems. This includes antenna and RF component design across microwave and millimeter-wave frequencies; theoretical analysis and optimization of multi-antenna systems, beamforming, and relay networks; electromagnetic wave interactions in plasma media; medium access control, channel access, and resource allocation in wireless networks (IoT, cellular, ad hoc); and signal processing, filtering, and wavelet methods applied specifically to wireless transmission and reception. Papers in this theme typically focus on optimizing communication system performance, improving spectral efficiency, designing hardware components, or analyzing physical propagation phenomena. Research on general signal processing methodology, machine learning algorithms, or AI methods should be assigned to the AI/ML theme, even when applied to networks—the Next-Gen Communication theme receives contributions where the novelty lies in the communication system or signal transmission itself, not the algorithmic method. Quantum devices, semiconductor fabrication, and photonic device physics belong in Quantum Technologies & Semiconductor Technology. Biomaterials or drug delivery systems for clinical applications belong in Healthcare & MedTech. Communication network policy, economic models, or management aspects belong in Social Sciences, Humanities & Management.",
+      "domains": [
+        {
+          "name": "Antenna & RF Engineering",
+          "definition": "Design, development, and optimization of passive and active antennas, RF circuits, and components for microwave and millimeter-wave frequencies, including beam steering, frequency reconfigurability, and integrated antenna systems.",
+          "estimated_share_of_theme": 0.156
+        },
+        {
+          "name": "MIMO & Beamforming Systems",
+          "definition": "Theoretical analysis and optimization of multi-antenna communication systems, beamforming techniques, relay networks, and advanced modulation schemes for improved capacity and performance in fading channels.",
+          "estimated_share_of_theme": 0.231
+        },
+        {
+          "name": "Plasma Wave & Electromagnetic Phenomena",
+          "definition": "Nonlinear interactions of electromagnetic waves and laser beams with plasma media, including wave generation, self-focusing, solitons, and acceleration mechanisms in plasma-filled structures.",
+          "estimated_share_of_theme": 0.147
+        },
+        {
+          "name": "Wireless Network Access & MAC Protocols",
+          "definition": "Analysis and optimization of medium access control, channel access mechanisms, traffic modeling, and resource allocation for wireless networks including IoT, cellular, and ad hoc systems.",
+          "estimated_share_of_theme": 0.182
+        },
+        {
+          "name": "Signal Processing for Communications",
+          "definition": "Signal processing, wavelets, and filtering methods applied to wireless transmission, reception, and communication systems; excludes general signal processing methodology (see AI/ML theme).",
+          "estimated_share_of_theme": 0.107
+        }
+      ]
+    },
+    {
+      "id": "6a46ea5ece9a42a451a47151",
+      "name": "Quantum Technologies & Semiconductor Technology",
+      "slug": "quantum-technologies-and-semiconductor-technology",
+      "scope_note": "This theme encompasses the design, fabrication, characterization, and physics of quantum devices, semiconductors, and photonic systems—covering quantum optics and photonic quantum materials, semiconductor thin films and nanostructures, nanoscale transistor engineering, quantum dots and nanocrystals, magnetic materials and spintronics, and photonic sensing platforms. Research here focuses on material synthesis and device engineering, electrical and optical property characterization, and the demonstration of functional devices such as photodetectors, sensors, and memory elements. Explicitly excluded are quantum algorithms, quantum information processing, and quantum computing frameworks, which belong to the AI/ML, Supercomputing & Quantum Computing theme; the boundary is that quantum algorithms and quantum computing *software* go to AI/ML while quantum *devices* and quantum *materials* stay here. Also excluded are biomaterials developed for specific clinical applications (which go to Healthcare & MedTech), general-purpose plasmonic nanostructures studied primarily for optical materials science (which go to Advanced Materials & Devices), and energy harvesting or storage devices viewed primarily as energy conversion systems (which go to the Energy theme); by contrast, quantum dot photovoltaics, photodetectors, and colloidal nanocrystal light emitters belong here because the focus is device physics and material properties rather than energy system performance. Papers demonstrating semiconductor device physics, optical properties of nanocrystals, magnetic ordering in heterostructures, or sensor transduction mechanisms exemplify this theme.",
+      "domains": [
+        {
+          "name": "Quantum Devices & Photonics",
+          "definition": "Quantum device engineering, quantum optics, photonic quantum systems, and quantum-optical materials; excludes quantum algorithms and quantum information processing (see AI/ML theme).",
+          "estimated_share_of_theme": 0.238
+        },
+        {
+          "name": "Semiconductor Materials & Devices",
+          "definition": "Semiconductor thin films, nanostructures, and heterostructures; characterization of electrical and optical properties; photodetectors and device physics in III-V and wide-bandgap semiconductors.",
+          "estimated_share_of_theme": 0.236
+        },
+        {
+          "name": "CMOS & Device Engineering",
+          "definition": "Nanoscale transistor design, modeling, and characterization; CMOS technology at advanced nodes and cryogenic temperatures; memory devices and analog integrated circuits.",
+          "estimated_share_of_theme": 0.116
+        },
+        {
+          "name": "Quantum Dots & Nanocrystals",
+          "definition": "Colloidal and epitaxial quantum dot synthesis, optical properties, and excitonic interactions; applications in photovoltaics, sensing, and light emission.",
+          "estimated_share_of_theme": 0.067
+        },
+        {
+          "name": "Magnetic Materials & Spintronics",
+          "definition": "Magnetic ordering and phase transitions in alloys and heterostructures; spin-orbit torques, spin pumping, and magnetization dynamics in ferromagnetic and magnonic devices.",
+          "estimated_share_of_theme": 0.14
+        },
+        {
+          "name": "Photonic Sensing & Biosensors",
+          "definition": "Fiber optic and plasmonic sensors; gas sensing using nanostructured materials; surface plasmon resonance and spectroscopic detection techniques.",
+          "estimated_share_of_theme": 0.053
+        }
+      ]
+    },
+    {
+      "id": "6a46ea5ece9a42a451a47152",
+      "name": "Smart & Sustainable Infrastructure",
+      "slug": "smart-and-sustainable-infrastructure",
+      "scope_note": "Smart & Sustainable Infrastructure encompasses research on the design, analysis, resilience, and optimization of built and engineered systems—buildings, water networks, power grids, and urban environments—with emphasis on structural safety under dynamic loads, material durability and environmental impact, system-level optimization and control, circular economy principles in construction and supply chains, urban environmental quality monitoring, and smart energy distribution. The theme integrates multi-disciplinary approaches including seismic analysis, materials science, algorithms, sustainability frameworks, air quality assessment, and smart grid technologies to address infrastructure challenges at the system level. Research on energy generation, storage, conversion technologies, and renewable energy systems belongs in Energy, Sustainability & Climate Change; if a paper focuses on how buildings use energy efficiently or how smart grids distribute energy as infrastructure, it belongs here. Research on new material discovery, synthesis, and characterization belongs in Advanced Materials & Devices; if the focus is on construction material durability, waste valorization, or thermal performance in buildings, it belongs here. Machine learning and optimization algorithms applied to infrastructure systems (grids, networks, air quality forecasting, supply chains) belong here if the contribution is the application to infrastructure; if the primary contribution is the algorithm or learning method itself, it belongs in AI/ML, Supercomputing & Quantum Computing. General supply chain management and organizational sustainability belong in Manufacturing & Industry 4.0 and Social Sciences, Humanities & Management; supply chain work specific to construction, waste, and circular economy in the built environment context belongs here.",
+      "domains": [
+        {
+          "name": "Structural Resilience & Seismic Design",
+          "definition": "Research on structural analysis, seismic performance, foundation dynamics, damping systems, and multi-hazard resilience of buildings and infrastructure under dynamic loads and environmental stresses.",
+          "estimated_share_of_theme": 0.255
+        },
+        {
+          "name": "Materials & Sustainability in Construction",
+          "definition": "Studies on cement, concrete, composite materials, durability, corrosion resistance, waste valorization, thermal performance, and environmental impact of construction materials and practices.",
+          "estimated_share_of_theme": 0.24
+        },
+        {
+          "name": "Optimization & Network Systems",
+          "definition": "Algorithms and analytical methods for optimization, pathfinding, uncertainty quantification, system modeling, and control in complex networks including water distribution and power systems.",
+          "estimated_share_of_theme": 0.113
+        },
+        {
+          "name": "Sustainable Supply Chain & Circular Economy",
+          "definition": "Frameworks and strategies for sustainable supply chain management, waste management, circular economy adoption, Industry 4.0 integration, and organizational sustainability performance.",
+          "estimated_share_of_theme": 0.144
+        },
+        {
+          "name": "Urban Air Quality & Environmental Monitoring",
+          "definition": "Assessment, forecasting, and source characterization of air pollutants, particulate matter, and their health impacts in urban environments using statistical and machine learning methods.",
+          "estimated_share_of_theme": 0.149
+        },
+        {
+          "name": "Smart Grids & Energy Networks",
+          "definition": "Grid integration, demand management, microgrid control, and energy distribution networks as infrastructure systems; excludes energy generation and storage technologies (see Energy, Sustainability & Climate Change theme).",
+          "estimated_share_of_theme": 0.1
+        }
+      ]
+    },
+    {
+      "id": "6a46ea5ece9a42a451a47153",
+      "name": "Social Sciences, Humanities & Management",
+      "slug": "social-sciences-humanities-and-management",
+      "scope_note": "This theme encompasses research in economics, management, and linguistics focused on social and organizational phenomena. It includes empirical and theoretical work on international business strategy, development economics and social welfare, game-theoretic models and market design, and computational/theoretical linguistics—particularly on Indian languages and contexts. Papers studying firm internationalization, poverty and inequality, welfare program implementation, Nash equilibrium, auction mechanisms, and dependency parsing for Indian languages all belong here. Work on biomaterial synthesis or discovery belongs instead in Advanced Materials & Devices unless it targets a specific therapeutic application, which goes to Healthcare & MedTech. Computational linguistics and NLP tools for Indian languages stay in this theme; however, general natural language processing algorithms and deep learning methods developed primarily as AI/ML contributions belong in AI/ML, Supercomputing & Quantum Computing. Similarly, if a paper's primary contribution is an AI algorithm applied to a business or economic problem, it is classified by the algorithm's theme unless the managerial or economic insight is the core contribution. Education policy, design studies, and pure humanities work also belong here. The theme serves as the disciplinary home for social science, management, and humanities research distinct from STEM-focused technological or scientific advancement.",
+      "domains": [
+        {
+          "name": "International Business & Strategy",
+          "definition": "Research on firm internationalization, cross-border ventures, joint ventures, foreign direct investment, and strategic management in emerging economies. Covers MNE strategies, market entry, institutional adaptation, and performance in international contexts.",
+          "estimated_share_of_theme": 0.316
+        },
+        {
+          "name": "Development Economics & Social Welfare",
+          "definition": "Empirical studies on poverty, inequality, social protection schemes, health and education access, gender disparities, and welfare program implementation in India. Focuses on distributional outcomes and vulnerable populations.",
+          "estimated_share_of_theme": 0.216
+        },
+        {
+          "name": "Game Theory & Market Design",
+          "definition": "Theoretical and applied work on non-cooperative games, Nash equilibrium, chance-constrained optimization, market mechanisms, auctions, and pricing equilibria. Includes agricultural market analysis and economic implementation.",
+          "estimated_share_of_theme": 0.104
+        },
+        {
+          "name": "Language, Linguistics & Computation",
+          "definition": "Computational and theoretical linguistics research on Indian languages, including dependency annotation, parsing, syntax, morphology, code-mixing, and natural language processing tools and corpora.",
+          "estimated_share_of_theme": 0.087
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "connection": {
+    "connected_host": "10.184.47.156",
+    "resolved_ip": "10.184.47.156",
+    "mongo_me": null,
+    "set_name": "(standalone)",
+    "mongo_version": "7.0.37",
+    "server_address": [
+      "10.184.47.156:27017"
+    ]
+  },
+  "collections": {
+    "analytics": 5,
+    "atlas_meta": 2,
+    "atlas_points": 66235,
+    "atlas_tiles": 78,
+    "contentanalytics": 0,
+    "contents": 4,
+    "departments": 56,
+    "domains": 35,
+    "faculties": 1040,
+    "kg_explore": 101694,
+    "kg_faculty_graphs": 969,
+    "kg_indices": 3,
+    "phdtheses": 6586,
+    "researchmetadatascopus": 70298,
+    "subdomains": 177,
+    "suggestions": 1,
+    "taxonomyfacetcounts": 9254,
+    "taxonomyfacetmembers": 9254,
+    "thematicareas": 9,
+    "users": 14
+  },
+  "papers_total": 70298,
+  "papers_with_classification": 66235,
+  "papers_with_theme_id": 66235,
+  "papers_with_domain_id": 66235,
+  "papers_with_subdomain_id": 66235,
+  "papers_with_iitd_authors": 66235,
+  "sample_classified_paper": {
+    "_id": "69dec9f24e2d2a5b77ecde95",
+    "title": "Tagboards for video tagging",
+    "classification": {
+      "thematic_area_id": "6a46ea5ece9a42a451a4714a",
+      "domain_id": "6a46ea5ece9a42a451a4716a",
+      "subdomain_id": "6a46ea5ece9a42a451a471e7",
+      "topics": [
+        "Tagging"
+      ],
+      "classified_at": "2026-07-02 22:46:59.842000"
+    },
+    "iitd_authors": [
+      {
+        "kerberos": "45788",
+        "faculty_ref": "182c7fffc158429ffde821dd",
+        "department_ref": "693e95810e0b94953a88c04c",
+        "matched_via": "both",
+        "department_source": "faculty"
+      }
+    ]
+  },
+  "themes_count": 9,
+  "themes_sample": [
+    "AI/ML, Supercomputing & Quantum Computing",
+    "Advanced Materials & Devices",
+    "Energy, Sustainability & Climate Change",
+    "Healthcare & MedTech",
+    "Manufacturing & Industry 4.0"
+  ],
+  "domains_count": 35,
+  "domains_sample": [
+    "Acoustics & Vibration",
+    "Biomedical & Healthcare Engineering",
+    "Biotechnology & Bioprocess Engineering",
+    "Catalysis & Reaction Engineering",
+    "Chemical Process Engineering"
+  ],
+  "subdomains_count": 177,
+  "subdomains_sample": [
+    "Acoustic Physics",
+    "Algorithms and Complexity",
+    "Analytical Chemistry",
+    "Antennas and RF Engineering",
+    "Applied Mathematics"
+  ],
+  "atlas_active_version": "764fb17329f7",
+  "atlas_points_count": 66235,
+  "atlas_tiles_count": 78,
+  "kg_faculty_graphs_count": 969,
+  "kg_explore_count": 101694,
+  "kg_indices_count": 3
+}

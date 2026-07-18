@@ -1,0 +1,14 @@
+{
+  "npz": "C:\\Users\\Prem\\OneDrive - IIT Delhi\\Desktop\\Research Ambit\\classification-pipeline\\outputs\\work\\paper_embeddings_bge_large.npz",
+  "N": 68644,
+  "dim": 1024,
+  "dtype": "float16",
+  "unique_ids": true,
+  "norm_mean": 1.0,
+  "norm_min": 0.99994,
+  "norm_max": 1.00006,
+  "sample_join_found": 2000,
+  "sample_join_total": 2000,
+  "set_equal_to_export": true,
+  "passed": true
+}

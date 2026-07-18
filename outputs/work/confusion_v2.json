@@ -1,0 +1,222 @@
+{
+  "n_total_sampled": 5450,
+  "n_from_v1_themes": 4950,
+  "n_from_v1_unclassified": 500,
+  "moved_theme": 2157,
+  "stayed_theme": 2793,
+  "pct_moved": 0.436,
+  "n_unclassifiable": 192,
+  "biggest_migrations": [
+    {
+      "count": 141,
+      "from": "Quantum Technologies & Semiconductor Technology",
+      "to": "Advanced Materials & Devices"
+    },
+    {
+      "count": 92,
+      "from": "Advanced Materials & Devices",
+      "to": "Quantum Technologies & Semiconductor Technology"
+    },
+    {
+      "count": 89,
+      "from": "Healthcare & MedTech",
+      "to": "AI/ML, Supercomputing & Quantum Computing"
+    },
+    {
+      "count": 70,
+      "from": "Social Sciences, Humanities & Management",
+      "to": "AI/ML, Supercomputing & Quantum Computing"
+    },
+    {
+      "count": 67,
+      "from": "Manufacturing & Industry 4.0",
+      "to": "Advanced Materials & Devices"
+    },
+    {
+      "count": 66,
+      "from": "Smart & Sustainable Infrastructure",
+      "to": "Social Sciences, Humanities & Management"
+    },
+    {
+      "count": 58,
+      "from": "Energy, Sustainability & Climate Change",
+      "to": "Manufacturing & Industry 4.0"
+    },
+    {
+      "count": 58,
+      "from": "Advanced Materials & Devices",
+      "to": "Energy, Sustainability & Climate Change"
+    },
+    {
+      "count": 55,
+      "from": "Manufacturing & Industry 4.0",
+      "to": "AI/ML, Supercomputing & Quantum Computing"
+    },
+    {
+      "count": 49,
+      "from": "Smart & Sustainable Infrastructure",
+      "to": "Energy, Sustainability & Climate Change"
+    },
+    {
+      "count": 49,
+      "from": "Next-Gen Communication",
+      "to": "AI/ML, Supercomputing & Quantum Computing"
+    },
+    {
+      "count": 43,
+      "from": "Manufacturing & Industry 4.0",
+      "to": "Social Sciences, Humanities & Management"
+    },
+    {
+      "count": 42,
+      "from": "Smart & Sustainable Infrastructure",
+      "to": "Manufacturing & Industry 4.0"
+    },
+    {
+      "count": 42,
+      "from": "Advanced Materials & Devices",
+      "to": "Healthcare & MedTech"
+    },
+    {
+      "count": 41,
+      "from": "Energy, Sustainability & Climate Change",
+      "to": "Advanced Materials & Devices"
+    },
+    {
+      "count": 40,
+      "from": "Quantum Technologies & Semiconductor Technology",
+      "to": "AI/ML, Supercomputing & Quantum Computing"
+    },
+    {
+      "count": 38,
+      "from": "Smart & Sustainable Infrastructure",
+      "to": "Advanced Materials & Devices"
+    },
+    {
+      "count": 37,
+      "from": "AI/ML, Supercomputing & Quantum Computing",
+      "to": "Next-Gen Communication"
+    },
+    {
+      "count": 36,
+      "from": "Smart & Sustainable Infrastructure",
+      "to": "AI/ML, Supercomputing & Quantum Computing"
+    },
+    {
+      "count": 35,
+      "from": "Healthcare & MedTech",
+      "to": "Advanced Materials & Devices"
+    },
+    {
+      "count": 33,
+      "from": "Social Sciences, Humanities & Management",
+      "to": "Healthcare & MedTech"
+    },
+    {
+      "count": 33,
+      "from": "Next-Gen Communication",
+      "to": "Quantum Technologies & Semiconductor Technology"
+    },
+    {
+      "count": 33,
+      "from": "Next-Gen Communication",
+      "to": "Healthcare & MedTech"
+    },
+    {
+      "count": 33,
+      "from": "Manufacturing & Industry 4.0",
+      "to": "Smart & Sustainable Infrastructure"
+    },
+    {
+      "count": 32,
+      "from": "Next-Gen Communication",
+      "to": "Smart & Sustainable Infrastructure"
+    }
+  ],
+  "per_theme": [
+    {
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "id": "6a46ea5ece9a42a451a4714a",
+      "v1_sampled": 550,
+      "v2_pool_size": 767,
+      "kept_from_own_v1": 318,
+      "purity_v1": 0.578
+    },
+    {
+      "theme": "Advanced Materials & Devices",
+      "id": "6a46ea5ece9a42a451a4714b",
+      "v1_sampled": 550,
+      "v2_pool_size": 694,
+      "kept_from_own_v1": 276,
+      "purity_v1": 0.502
+    },
+    {
+      "theme": "Energy, Sustainability & Climate Change",
+      "id": "6a46ea5ece9a42a451a4714c",
+      "v1_sampled": 550,
+      "v2_pool_size": 605,
+      "kept_from_own_v1": 345,
+      "purity_v1": 0.627
+    },
+    {
+      "theme": "Healthcare & MedTech",
+      "id": "6a46ea5ece9a42a451a4714d",
+      "v1_sampled": 550,
+      "v2_pool_size": 600,
+      "kept_from_own_v1": 350,
+      "purity_v1": 0.636
+    },
+    {
+      "theme": "Manufacturing & Industry 4.0",
+      "id": "6a46ea5ece9a42a451a4714f",
+      "v1_sampled": 550,
+      "v2_pool_size": 557,
+      "kept_from_own_v1": 294,
+      "purity_v1": 0.535
+    },
+    {
+      "theme": "Next-Gen Communication",
+      "id": "6a46ea5ece9a42a451a47150",
+      "v1_sampled": 550,
+      "v2_pool_size": 415,
+      "kept_from_own_v1": 287,
+      "purity_v1": 0.522
+    },
+    {
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "id": "6a46ea5ece9a42a451a47151",
+      "v1_sampled": 550,
+      "v2_pool_size": 543,
+      "kept_from_own_v1": 291,
+      "purity_v1": 0.529
+    },
+    {
+      "theme": "Smart & Sustainable Infrastructure",
+      "id": "6a46ea5ece9a42a451a47152",
+      "v1_sampled": 550,
+      "v2_pool_size": 482,
+      "kept_from_own_v1": 283,
+      "purity_v1": 0.515
+    },
+    {
+      "theme": "Social Sciences, Humanities & Management",
+      "id": "6a46ea5ece9a42a451a47153",
+      "v1_sampled": 550,
+      "v2_pool_size": 595,
+      "kept_from_own_v1": 349,
+      "purity_v1": 0.635
+    }
+  ],
+  "unclassified_sample_routed_to": {
+    "UNCLASSIFIABLE": 99,
+    "Energy, Sustainability & Climate Change": 68,
+    "AI/ML, Supercomputing & Quantum Computing": 67,
+    "Quantum Technologies & Semiconductor Technology": 66,
+    "Smart & Sustainable Infrastructure": 50,
+    "Social Sciences, Humanities & Management": 39,
+    "Healthcare & MedTech": 36,
+    "Advanced Materials & Devices": 32,
+    "Manufacturing & Industry 4.0": 28,
+    "Next-Gen Communication": 15
+  }
+}

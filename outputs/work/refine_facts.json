@@ -1,0 +1,44 @@
+{
+  "total_rows": 70298,
+  "unique_ids": 70298,
+  "papers_with_text": 68644,
+  "classified": 68090,
+  "unclassifiable_total": 2208,
+  "unclassifiable_no_text_hygiene": 1654,
+  "unclassifiable_with_text": 554,
+  "classified_missing_text": 0,
+  "band_distribution": {
+    "0.5-0.8": 25824,
+    ">=0.8": 40564,
+    "<0.5": 1702
+  },
+  "lowconf_lt_0.8": 27526,
+  "hi_conf_in_sink_domains": 6511,
+  "repass_set_size": 34037,
+  "repass_set_with_text": 34037,
+  "repass_missing_text": 0,
+  "sink_domain_counts_total": {
+    "Power Systems & Grid Control": 2039,
+    "Algorithms & Computational Complexity": 3317,
+    "Materials, Joining & Mechanical Behavior": 2210,
+    "Grid Integration & Smart Microgrids": 1848,
+    "Semiconductor Photovoltaic & Photodetection Devices": 1626
+  },
+  "sink_domain_hi_conf": {
+    "Power Systems & Grid Control": 1754,
+    "Algorithms & Computational Complexity": 1683,
+    "Materials, Joining & Mechanical Behavior": 989,
+    "Grid Integration & Smart Microgrids": 1340,
+    "Semiconductor Photovoltaic & Photodetection Devices": 745
+  },
+  "source_model": {
+    "haiku": 62516,
+    "sonnet": 5574
+  },
+  "escalated": {
+    "False": 62441,
+    "True": 5649
+  },
+  "n_themes": 9,
+  "n_domains": 77
+}

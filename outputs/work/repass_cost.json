@@ -1,0 +1,13 @@
+{
+  "rows": 34037,
+  "input_tokens": 8414550,
+  "output_tokens": 2986663,
+  "cache_write": 8756,
+  "cache_read": 298991132,
+  "repass_cost_usd": 53.2579,
+  "model": "claude-haiku-4-5",
+  "verify_cost_usd": 7.6e-05,
+  "task_cost_so_far_usd": 53.258,
+  "cost_stop_usd": 56.0,
+  "updated": "2026-07-18 12:04:29"
+}

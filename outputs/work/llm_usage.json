@@ -1,0 +1,7 @@
+{
+  "input_tokens": 15022664,
+  "output_tokens": 54839,
+  "calls": 5509,
+  "est_cost_usd": 15.2969,
+  "theme_correction_cost_usd": 14.9823
+}

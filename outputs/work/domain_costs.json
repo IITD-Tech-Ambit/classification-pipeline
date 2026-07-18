@@ -1,0 +1,65 @@
+{
+  "disagreements_total": 70,
+  "within_theme": 39,
+  "cross_theme": 31,
+  "within_by_band": {
+    "0.5-0.8": 13,
+    "<0.5": 22,
+    ">=0.8": 4
+  },
+  "cross_by_band": {
+    ">=0.8": 6,
+    "0.5-0.8": 18,
+    "<0.5": 7
+  },
+  "corpus": {
+    "n_total_rows": 70298,
+    "n_unclassifiable": 2208,
+    "n_classified": 68090,
+    "band_counts": {
+      "0.5-0.8": 25824,
+      ">=0.8": 40564,
+      "<0.5": 1702
+    },
+    "n_lt08": 27526,
+    "pct_lt08": 40.4
+  },
+  "cost_model": {
+    "prices_per_million": {
+      "haiku": "in $1 / out $5 / cacheRead $0.10",
+      "sonnet": "in $3 / out $15 / cacheRead $0.30"
+    },
+    "token_assumptions": {
+      "low": {
+        "cache_read": 1200,
+        "input": 400,
+        "output": 80
+      },
+      "high": {
+        "cache_read": 1800,
+        "input": 650,
+        "output": 130
+      }
+    },
+    "rows": [
+      {
+        "model": "haiku",
+        "per_paper_low": 0.00092,
+        "per_paper_high": 0.00148,
+        "lt08_low": 25.3,
+        "lt08_high": 40.7,
+        "whole_low": 62.6,
+        "whole_high": 100.8
+      },
+      {
+        "model": "sonnet",
+        "per_paper_low": 0.00276,
+        "per_paper_high": 0.00444,
+        "lt08_low": 76.0,
+        "lt08_high": 122.2,
+        "whole_low": 187.9,
+        "whole_high": 302.3
+      }
+    ]
+  }
+}

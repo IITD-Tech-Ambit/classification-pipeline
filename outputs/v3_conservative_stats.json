@@ -1,0 +1,9 @@
+{
+  "total_rows": 70298,
+  "schema_violations": 0,
+  "changed_from_v2": 7189,
+  "accepted_repass_changes": 7189,
+  "unclassifiable_total": 2208,
+  "policy": "accept re-pass only for v2 mid-band (0.5-0.8), non-out_of_scope",
+  "note": "CANDIDATE only; needs a fresh independent gold re-test before adoption."
+}

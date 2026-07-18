@@ -1,0 +1,78 @@
+rank,domain,theme,count,pct_of_classified
+1,Algorithms & Computational Complexity,"AI/ML, Supercomputing & Quantum Computing",3317,4.8715
+2,"Materials, Joining & Mechanical Behavior",Manufacturing & Industry 4.0,2210,3.2457
+3,Power Systems & Grid Control,Smart & Sustainable Infrastructure,2039,2.9946
+4,Computational Fluid Dynamics & Flow Analysis,"AI/ML, Supercomputing & Quantum Computing",2000,2.9373
+5,Electric Motor Drives & Power Electronics,Manufacturing & Industry 4.0,1852,2.7199
+6,Grid Integration & Smart Microgrids,"Energy, Sustainability & Climate Change",1848,2.7141
+7,Machine Learning & Neural Networks,"AI/ML, Supercomputing & Quantum Computing",1753,2.5745
+8,Textile Manufacturing & Fabric Properties,Manufacturing & Industry 4.0,1702,2.4996
+9,Environmental Assessment & Land Use Management,"Energy, Sustainability & Climate Change",1657,2.4335
+10,Organometallic & Chalcogenide Synthesis,Advanced Materials & Devices,1651,2.4247
+11,Semiconductor Photovoltaic & Photodetection Devices,Quantum Technologies & Semiconductor Technology,1626,2.3880
+12,Structural Dynamics & Seismic Engineering,Smart & Sustainable Infrastructure,1613,2.3689
+13,Clinical Diagnostics & Biomarkers,Healthcare & MedTech,1565,2.2984
+14,Bio-based Materials & Polymers,Advanced Materials & Devices,1556,2.2852
+15,Cellular & Molecular Biology,Healthcare & MedTech,1388,2.0385
+16,Polymer Nanocomposites & Blends,Advanced Materials & Devices,1319,1.9371
+17,Ion Beam & Thin Film Engineering,Advanced Materials & Devices,1311,1.9254
+18,Ferroelectric & Magnetic Ceramics,Advanced Materials & Devices,1212,1.7800
+19,Supply Chain & Operations Management,"Social Sciences, Humanities & Management",1159,1.7022
+20,Control Systems & Linear Dynamical Systems,"AI/ML, Supercomputing & Quantum Computing",1116,1.6390
+21,Carbon Utilization & Chemical Conversion,"Energy, Sustainability & Climate Change",1081,1.5876
+22,Drug Delivery & Molecular Therapeutics,Healthcare & MedTech,1079,1.5847
+23,Energy Storage Materials,"Energy, Sustainability & Climate Change",983,1.4437
+24,Fluid-Particle Flow & Multiphase Systems,Manufacturing & Industry 4.0,972,1.4275
+25,Monsoon Dynamics & Regional Climate Modeling,"Energy, Sustainability & Climate Change",961,1.4114
+26,Digital Transformation & IT Applications,"Social Sciences, Humanities & Management",941,1.3820
+27,Fiber Photonic Devices & Engineering,Quantum Technologies & Semiconductor Technology,940,1.3805
+28,"Signal Modulation, Detection & Channel Equalization",Next-Gen Communication,934,1.3717
+29,Biomass & Biofuel Technologies,"Energy, Sustainability & Climate Change",926,1.3600
+30,Precision Manufacturing & Microfabrication,Manufacturing & Industry 4.0,881,1.2939
+31,Plasma-Wave & Electromagnetic Interactions,Next-Gen Communication,872,1.2807
+32,Wireless Network Access & Resource Allocation,Next-Gen Communication,865,1.2704
+33,Antenna Design & RF Systems,Next-Gen Communication,804,1.1808
+34,Plasmonic & Fiber Optic Sensors,Quantum Technologies & Semiconductor Technology,788,1.1573
+35,Solar Thermal Energy & Heat Transfer Systems,"Energy, Sustainability & Climate Change",777,1.1411
+36,Water Quality & Wastewater Management,Smart & Sustainable Infrastructure,700,1.0281
+37,Transportation Systems & Traffic Management,Smart & Sustainable Infrastructure,696,1.0222
+38,Composite & Laminate Structures,Advanced Materials & Devices,693,1.0178
+39,Biomanufacturing & Fermentation Processes,Manufacturing & Industry 4.0,689,1.0119
+40,Rotor Dynamics & Vibration Analysis,Manufacturing & Industry 4.0,683,1.0031
+41,Alloys & Structural Metals,Advanced Materials & Devices,680,0.9987
+42,Tribology & Bearing Performance,Manufacturing & Industry 4.0,670,0.9840
+43,Rare-Earth Doped Luminescent Materials,Advanced Materials & Devices,663,0.9737
+44,Electric Vehicle Battery & Charging Systems,"Energy, Sustainability & Climate Change",633,0.9297
+45,Structured Light & Polarization Engineering,Quantum Technologies & Semiconductor Technology,630,0.9252
+46,Wide Bandgap Semiconductors & Devices,Quantum Technologies & Semiconductor Technology,626,0.9194
+47,Natural Language Processing & Information Retrieval,"AI/ML, Supercomputing & Quantum Computing",601,0.8827
+48,Geotechnical Engineering & Soil Mechanics,Smart & Sustainable Infrastructure,599,0.8797
+49,Tissue Engineering & Regenerative Medicine,Healthcare & MedTech,591,0.8680
+50,Development Economics & Social Welfare,"Social Sciences, Humanities & Management",590,0.8665
+51,Quantum Photonics & Entanglement,Quantum Technologies & Semiconductor Technology,585,0.8592
+52,Digital Culture & Consumer Experience,"Social Sciences, Humanities & Management",581,0.8533
+53,Clinical AI & Medical Imaging Analytics,Healthcare & MedTech,580,0.8518
+54,Next-Generation Photovoltaic Materials,"Energy, Sustainability & Climate Change",552,0.8107
+55,Ionic Liquids & Soft Matter,Advanced Materials & Devices,538,0.7901
+56,Biopharmaceutical Manufacturing & Quality,Healthcare & MedTech,534,0.7843
+57,Clinical Biosensors & Point-of-Care Devices,Healthcare & MedTech,518,0.7608
+58,Spintronics & Magnetic Devices,Quantum Technologies & Semiconductor Technology,516,0.7578
+59,Biomechanics & Musculoskeletal Systems,Healthcare & MedTech,494,0.7255
+60,Urban Air Quality & Emissions Monitoring,Smart & Sustainable Infrastructure,494,0.7255
+61,Infectious Disease & Microbiology,Healthcare & MedTech,451,0.6624
+62,Ultra-Low Voltage Analog Circuits,Quantum Technologies & Semiconductor Technology,436,0.6403
+63,Agricultural Economics & Consumer Behavior,"Social Sciences, Humanities & Management",432,0.6345
+64,Building Energy & Thermal Performance,Smart & Sustainable Infrastructure,420,0.6168
+65,Hydrology & Water Resources Management,Smart & Sustainable Infrastructure,383,0.5625
+66,Cultural Studies & Ethnography,"Social Sciences, Humanities & Management",376,0.5522
+67,International Business & Finance,"Social Sciences, Humanities & Management",309,0.4538
+68,Cooperative & Relay Networks,Next-Gen Communication,305,0.4479
+69,Social Media Analytics & Online Networks,"Social Sciences, Humanities & Management",272,0.3995
+70,Free Space Optical Communication,Next-Gen Communication,267,0.3921
+71,Advanced Surface Finishing & Processing,Manufacturing & Industry 4.0,261,0.3833
+72,Resistive Memory & Neuromorphic Computing,Quantum Technologies & Semiconductor Technology,257,0.3774
+73,Direction of Arrival & Beamforming,Next-Gen Communication,233,0.3422
+74,Computational Linguistics & Language Processing,"Social Sciences, Humanities & Management",232,0.3407
+75,Library Science & Information Management,"Social Sciences, Humanities & Management",231,0.3393
+76,Microwave Photonic Systems,Next-Gen Communication,215,0.3158
+77,Neuroscience & Neurophysiology,Healthcare & MedTech,176,0.2585

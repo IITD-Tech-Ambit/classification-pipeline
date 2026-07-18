@@ -1,0 +1,1926 @@
+{
+  "n_disagreements": 70,
+  "n_comparable_pairs": 237,
+  "band_breakdown": {
+    "0.5-0.8": {
+      "disagree": 31,
+      "total": 75
+    },
+    ">=0.8": {
+      "disagree": 10,
+      "total": 73
+    },
+    "<0.5": {
+      "disagree": 29,
+      "total": 89
+    }
+  },
+  "top_domain_pairs": [
+    {
+      "prod_domain": "Power Systems & Grid Control",
+      "sonnet_domain": "Grid Integration & Smart Microgrids",
+      "prod_theme": "Smart & Sustainable Infrastructure",
+      "sonnet_theme": "Energy, Sustainability & Climate Change",
+      "kind": "cross-theme",
+      "count": 3
+    },
+    {
+      "prod_domain": "Next-Generation Photovoltaic Materials",
+      "sonnet_domain": "Grid Integration & Smart Microgrids",
+      "prod_theme": "Energy, Sustainability & Climate Change",
+      "sonnet_theme": "Energy, Sustainability & Climate Change",
+      "kind": "within-theme",
+      "count": 2
+    },
+    {
+      "prod_domain": "Materials, Joining & Mechanical Behavior",
+      "sonnet_domain": "Structural Dynamics & Seismic Engineering",
+      "prod_theme": "Manufacturing & Industry 4.0",
+      "sonnet_theme": "Smart & Sustainable Infrastructure",
+      "kind": "cross-theme",
+      "count": 2
+    },
+    {
+      "prod_domain": "Grid Integration & Smart Microgrids",
+      "sonnet_domain": "Solar Thermal Energy & Heat Transfer Systems",
+      "prod_theme": "Energy, Sustainability & Climate Change",
+      "sonnet_theme": "Energy, Sustainability & Climate Change",
+      "kind": "within-theme",
+      "count": 2
+    },
+    {
+      "prod_domain": "Clinical Diagnostics & Biomarkers",
+      "sonnet_domain": "Neuroscience & Neurophysiology",
+      "prod_theme": "Healthcare & MedTech",
+      "sonnet_theme": "Healthcare & MedTech",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Spintronics & Magnetic Devices",
+      "sonnet_domain": "Wide Bandgap Semiconductors & Devices",
+      "prod_theme": "Quantum Technologies & Semiconductor Technology",
+      "sonnet_theme": "Quantum Technologies & Semiconductor Technology",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Ferroelectric & Magnetic Ceramics",
+      "sonnet_domain": "Energy Storage Materials",
+      "prod_theme": "Advanced Materials & Devices",
+      "sonnet_theme": "Energy, Sustainability & Climate Change",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Digital Transformation & IT Applications",
+      "sonnet_domain": "Algorithms & Computational Complexity",
+      "prod_theme": "Social Sciences, Humanities & Management",
+      "sonnet_theme": "AI/ML, Supercomputing & Quantum Computing",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Hydrology & Water Resources Management",
+      "sonnet_domain": "Monsoon Dynamics & Regional Climate Modeling",
+      "prod_theme": "Smart & Sustainable Infrastructure",
+      "sonnet_theme": "Energy, Sustainability & Climate Change",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Fluid-Particle Flow & Multiphase Systems",
+      "sonnet_domain": "Transportation Systems & Traffic Management",
+      "prod_theme": "Manufacturing & Industry 4.0",
+      "sonnet_theme": "Smart & Sustainable Infrastructure",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Supply Chain & Operations Management",
+      "sonnet_domain": "Development Economics & Social Welfare",
+      "prod_theme": "Social Sciences, Humanities & Management",
+      "sonnet_theme": "Social Sciences, Humanities & Management",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Bio-based Materials & Polymers",
+      "sonnet_domain": "Rare-Earth Doped Luminescent Materials",
+      "prod_theme": "Advanced Materials & Devices",
+      "sonnet_theme": "Advanced Materials & Devices",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Plasma-Wave & Electromagnetic Interactions",
+      "sonnet_domain": "Antenna Design & RF Systems",
+      "prod_theme": "Next-Gen Communication",
+      "sonnet_theme": "Next-Gen Communication",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Building Energy & Thermal Performance",
+      "sonnet_domain": "Bio-based Materials & Polymers",
+      "prod_theme": "Smart & Sustainable Infrastructure",
+      "sonnet_theme": "Advanced Materials & Devices",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Environmental Assessment & Land Use Management",
+      "sonnet_domain": "Organometallic & Chalcogenide Synthesis",
+      "prod_theme": "Energy, Sustainability & Climate Change",
+      "sonnet_theme": "Advanced Materials & Devices",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Fiber Photonic Devices & Engineering",
+      "sonnet_domain": "Plasmonic & Fiber Optic Sensors",
+      "prod_theme": "Quantum Technologies & Semiconductor Technology",
+      "sonnet_theme": "Quantum Technologies & Semiconductor Technology",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Carbon Utilization & Chemical Conversion",
+      "sonnet_domain": "Biomass & Biofuel Technologies",
+      "prod_theme": "Energy, Sustainability & Climate Change",
+      "sonnet_theme": "Energy, Sustainability & Climate Change",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Algorithms & Computational Complexity",
+      "sonnet_domain": "Wireless Network Access & Resource Allocation",
+      "prod_theme": "AI/ML, Supercomputing & Quantum Computing",
+      "sonnet_theme": "Next-Gen Communication",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Algorithms & Computational Complexity",
+      "sonnet_domain": "Monsoon Dynamics & Regional Climate Modeling",
+      "prod_theme": "AI/ML, Supercomputing & Quantum Computing",
+      "sonnet_theme": "Energy, Sustainability & Climate Change",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Energy Storage Materials",
+      "sonnet_domain": "Grid Integration & Smart Microgrids",
+      "prod_theme": "Energy, Sustainability & Climate Change",
+      "sonnet_theme": "Energy, Sustainability & Climate Change",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Free Space Optical Communication",
+      "sonnet_domain": "Wireless Network Access & Resource Allocation",
+      "prod_theme": "Next-Gen Communication",
+      "sonnet_theme": "Next-Gen Communication",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Building Energy & Thermal Performance",
+      "sonnet_domain": "Structural Dynamics & Seismic Engineering",
+      "prod_theme": "Smart & Sustainable Infrastructure",
+      "sonnet_theme": "Smart & Sustainable Infrastructure",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Biomechanics & Musculoskeletal Systems",
+      "sonnet_domain": "Tissue Engineering & Regenerative Medicine",
+      "prod_theme": "Healthcare & MedTech",
+      "sonnet_theme": "Healthcare & MedTech",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Hydrology & Water Resources Management",
+      "sonnet_domain": "Computational Fluid Dynamics & Flow Analysis",
+      "prod_theme": "Smart & Sustainable Infrastructure",
+      "sonnet_theme": "AI/ML, Supercomputing & Quantum Computing",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Carbon Utilization & Chemical Conversion",
+      "sonnet_domain": "Grid Integration & Smart Microgrids",
+      "prod_theme": "Energy, Sustainability & Climate Change",
+      "sonnet_theme": "Energy, Sustainability & Climate Change",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Drug Delivery & Molecular Therapeutics",
+      "sonnet_domain": "Organometallic & Chalcogenide Synthesis",
+      "prod_theme": "Healthcare & MedTech",
+      "sonnet_theme": "Advanced Materials & Devices",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Composite & Laminate Structures",
+      "sonnet_domain": "Materials, Joining & Mechanical Behavior",
+      "prod_theme": "Advanced Materials & Devices",
+      "sonnet_theme": "Manufacturing & Industry 4.0",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Advanced Surface Finishing & Processing",
+      "sonnet_domain": "Bio-based Materials & Polymers",
+      "prod_theme": "Manufacturing & Industry 4.0",
+      "sonnet_theme": "Advanced Materials & Devices",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Environmental Assessment & Land Use Management",
+      "sonnet_domain": "Biomass & Biofuel Technologies",
+      "prod_theme": "Energy, Sustainability & Climate Change",
+      "sonnet_theme": "Energy, Sustainability & Climate Change",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Digital Transformation & IT Applications",
+      "sonnet_domain": "Supply Chain & Operations Management",
+      "prod_theme": "Social Sciences, Humanities & Management",
+      "sonnet_theme": "Social Sciences, Humanities & Management",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Algorithms & Computational Complexity",
+      "sonnet_domain": "Social Media Analytics & Online Networks",
+      "prod_theme": "AI/ML, Supercomputing & Quantum Computing",
+      "sonnet_theme": "Social Sciences, Humanities & Management",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Polymer Nanocomposites & Blends",
+      "sonnet_domain": "Rare-Earth Doped Luminescent Materials",
+      "prod_theme": "Advanced Materials & Devices",
+      "sonnet_theme": "Advanced Materials & Devices",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Transportation Systems & Traffic Management",
+      "sonnet_domain": "Urban Air Quality & Emissions Monitoring",
+      "prod_theme": "Smart & Sustainable Infrastructure",
+      "sonnet_theme": "Smart & Sustainable Infrastructure",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Rotor Dynamics & Vibration Analysis",
+      "sonnet_domain": "Advanced Surface Finishing & Processing",
+      "prod_theme": "Manufacturing & Industry 4.0",
+      "sonnet_theme": "Manufacturing & Industry 4.0",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Signal Modulation, Detection & Channel Equalization",
+      "sonnet_domain": "Wireless Network Access & Resource Allocation",
+      "prod_theme": "Next-Gen Communication",
+      "sonnet_theme": "Next-Gen Communication",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Transportation Systems & Traffic Management",
+      "sonnet_domain": "Machine Learning & Neural Networks",
+      "prod_theme": "Smart & Sustainable Infrastructure",
+      "sonnet_theme": "AI/ML, Supercomputing & Quantum Computing",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Biomanufacturing & Fermentation Processes",
+      "sonnet_domain": "Environmental Assessment & Land Use Management",
+      "prod_theme": "Manufacturing & Industry 4.0",
+      "sonnet_theme": "Energy, Sustainability & Climate Change",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Solar Thermal Energy & Heat Transfer Systems",
+      "sonnet_domain": "Grid Integration & Smart Microgrids",
+      "prod_theme": "Energy, Sustainability & Climate Change",
+      "sonnet_theme": "Energy, Sustainability & Climate Change",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Resistive Memory & Neuromorphic Computing",
+      "sonnet_domain": "Ultra-Low Voltage Analog Circuits",
+      "prod_theme": "Quantum Technologies & Semiconductor Technology",
+      "sonnet_theme": "Quantum Technologies & Semiconductor Technology",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Fluid-Particle Flow & Multiphase Systems",
+      "sonnet_domain": "Solar Thermal Energy & Heat Transfer Systems",
+      "prod_theme": "Manufacturing & Industry 4.0",
+      "sonnet_theme": "Energy, Sustainability & Climate Change",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Organometallic & Chalcogenide Synthesis",
+      "sonnet_domain": "Composite & Laminate Structures",
+      "prod_theme": "Advanced Materials & Devices",
+      "sonnet_theme": "Advanced Materials & Devices",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Tribology & Bearing Performance",
+      "sonnet_domain": "Polymer Nanocomposites & Blends",
+      "prod_theme": "Manufacturing & Industry 4.0",
+      "sonnet_theme": "Advanced Materials & Devices",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Carbon Utilization & Chemical Conversion",
+      "sonnet_domain": "Solar Thermal Energy & Heat Transfer Systems",
+      "prod_theme": "Energy, Sustainability & Climate Change",
+      "sonnet_theme": "Energy, Sustainability & Climate Change",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Semiconductor Photovoltaic & Photodetection Devices",
+      "sonnet_domain": "Next-Generation Photovoltaic Materials",
+      "prod_theme": "Quantum Technologies & Semiconductor Technology",
+      "sonnet_theme": "Energy, Sustainability & Climate Change",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Algorithms & Computational Complexity",
+      "sonnet_domain": "Control Systems & Linear Dynamical Systems",
+      "prod_theme": "AI/ML, Supercomputing & Quantum Computing",
+      "sonnet_theme": "AI/ML, Supercomputing & Quantum Computing",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Advanced Surface Finishing & Processing",
+      "sonnet_domain": "Biomanufacturing & Fermentation Processes",
+      "prod_theme": "Manufacturing & Industry 4.0",
+      "sonnet_theme": "Manufacturing & Industry 4.0",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Spintronics & Magnetic Devices",
+      "sonnet_domain": "Semiconductor Photovoltaic & Photodetection Devices",
+      "prod_theme": "Quantum Technologies & Semiconductor Technology",
+      "sonnet_theme": "Quantum Technologies & Semiconductor Technology",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Digital Transformation & IT Applications",
+      "sonnet_domain": "Digital Culture & Consumer Experience",
+      "prod_theme": "Social Sciences, Humanities & Management",
+      "sonnet_theme": "Social Sciences, Humanities & Management",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Clinical Diagnostics & Biomarkers",
+      "sonnet_domain": "Clinical AI & Medical Imaging Analytics",
+      "prod_theme": "Healthcare & MedTech",
+      "sonnet_theme": "Healthcare & MedTech",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Signal Modulation, Detection & Channel Equalization",
+      "sonnet_domain": "Ultra-Low Voltage Analog Circuits",
+      "prod_theme": "Next-Gen Communication",
+      "sonnet_theme": "Quantum Technologies & Semiconductor Technology",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Power Systems & Grid Control",
+      "sonnet_domain": "Wireless Network Access & Resource Allocation",
+      "prod_theme": "Smart & Sustainable Infrastructure",
+      "sonnet_theme": "Next-Gen Communication",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Organometallic & Chalcogenide Synthesis",
+      "sonnet_domain": "Drug Delivery & Molecular Therapeutics",
+      "prod_theme": "Advanced Materials & Devices",
+      "sonnet_theme": "Healthcare & MedTech",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Rotor Dynamics & Vibration Analysis",
+      "sonnet_domain": "Precision Manufacturing & Microfabrication",
+      "prod_theme": "Manufacturing & Industry 4.0",
+      "sonnet_theme": "Manufacturing & Industry 4.0",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Materials, Joining & Mechanical Behavior",
+      "sonnet_domain": "Composite & Laminate Structures",
+      "prod_theme": "Manufacturing & Industry 4.0",
+      "sonnet_theme": "Advanced Materials & Devices",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Quantum Photonics & Entanglement",
+      "sonnet_domain": "Spintronics & Magnetic Devices",
+      "prod_theme": "Quantum Technologies & Semiconductor Technology",
+      "sonnet_theme": "Quantum Technologies & Semiconductor Technology",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Rare-Earth Doped Luminescent Materials",
+      "sonnet_domain": "Ferroelectric & Magnetic Ceramics",
+      "prod_theme": "Advanced Materials & Devices",
+      "sonnet_theme": "Advanced Materials & Devices",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Clinical AI & Medical Imaging Analytics",
+      "sonnet_domain": "Machine Learning & Neural Networks",
+      "prod_theme": "Healthcare & MedTech",
+      "sonnet_theme": "AI/ML, Supercomputing & Quantum Computing",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Signal Modulation, Detection & Channel Equalization",
+      "sonnet_domain": "Machine Learning & Neural Networks",
+      "prod_theme": "Next-Gen Communication",
+      "sonnet_theme": "AI/ML, Supercomputing & Quantum Computing",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Electric Vehicle Battery & Charging Systems",
+      "sonnet_domain": "Electric Motor Drives & Power Electronics",
+      "prod_theme": "Energy, Sustainability & Climate Change",
+      "sonnet_theme": "Manufacturing & Industry 4.0",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Plasmonic & Fiber Optic Sensors",
+      "sonnet_domain": "Fiber Photonic Devices & Engineering",
+      "prod_theme": "Quantum Technologies & Semiconductor Technology",
+      "sonnet_theme": "Quantum Technologies & Semiconductor Technology",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Composite & Laminate Structures",
+      "sonnet_domain": "Ferroelectric & Magnetic Ceramics",
+      "prod_theme": "Advanced Materials & Devices",
+      "sonnet_theme": "Advanced Materials & Devices",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Biomass & Biofuel Technologies",
+      "sonnet_domain": "Grid Integration & Smart Microgrids",
+      "prod_theme": "Energy, Sustainability & Climate Change",
+      "sonnet_theme": "Energy, Sustainability & Climate Change",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Semiconductor Photovoltaic & Photodetection Devices",
+      "sonnet_domain": "Fiber Photonic Devices & Engineering",
+      "prod_theme": "Quantum Technologies & Semiconductor Technology",
+      "sonnet_theme": "Quantum Technologies & Semiconductor Technology",
+      "kind": "within-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Ultra-Low Voltage Analog Circuits",
+      "sonnet_domain": "Algorithms & Computational Complexity",
+      "prod_theme": "Quantum Technologies & Semiconductor Technology",
+      "sonnet_theme": "AI/ML, Supercomputing & Quantum Computing",
+      "kind": "cross-theme",
+      "count": 1
+    },
+    {
+      "prod_domain": "Semiconductor Photovoltaic & Photodetection Devices",
+      "sonnet_domain": "Quantum Photonics & Entanglement",
+      "prod_theme": "Quantum Technologies & Semiconductor Technology",
+      "sonnet_theme": "Quantum Technologies & Semiconductor Technology",
+      "kind": "within-theme",
+      "count": 1
+    }
+  ],
+  "trouble_domains": [
+    {
+      "domain": "Grid Integration & Smart Microgrids",
+      "theme": "Energy, Sustainability & Climate Change",
+      "total_involved": 11,
+      "as_prod_side": 2,
+      "as_sonnet_side": 9
+    },
+    {
+      "domain": "Algorithms & Computational Complexity",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "total_involved": 6,
+      "as_prod_side": 4,
+      "as_sonnet_side": 2
+    },
+    {
+      "domain": "Solar Thermal Energy & Heat Transfer Systems",
+      "theme": "Energy, Sustainability & Climate Change",
+      "total_involved": 5,
+      "as_prod_side": 1,
+      "as_sonnet_side": 4
+    },
+    {
+      "domain": "Organometallic & Chalcogenide Synthesis",
+      "theme": "Advanced Materials & Devices",
+      "total_involved": 4,
+      "as_prod_side": 2,
+      "as_sonnet_side": 2
+    },
+    {
+      "domain": "Wireless Network Access & Resource Allocation",
+      "theme": "Next-Gen Communication",
+      "total_involved": 4,
+      "as_prod_side": 0,
+      "as_sonnet_side": 4
+    },
+    {
+      "domain": "Power Systems & Grid Control",
+      "theme": "Smart & Sustainable Infrastructure",
+      "total_involved": 4,
+      "as_prod_side": 4,
+      "as_sonnet_side": 0
+    },
+    {
+      "domain": "Composite & Laminate Structures",
+      "theme": "Advanced Materials & Devices",
+      "total_involved": 4,
+      "as_prod_side": 2,
+      "as_sonnet_side": 2
+    },
+    {
+      "domain": "Materials, Joining & Mechanical Behavior",
+      "theme": "Manufacturing & Industry 4.0",
+      "total_involved": 4,
+      "as_prod_side": 3,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Semiconductor Photovoltaic & Photodetection Devices",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "total_involved": 4,
+      "as_prod_side": 3,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Spintronics & Magnetic Devices",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "total_involved": 3,
+      "as_prod_side": 2,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Ferroelectric & Magnetic Ceramics",
+      "theme": "Advanced Materials & Devices",
+      "total_involved": 3,
+      "as_prod_side": 1,
+      "as_sonnet_side": 2
+    },
+    {
+      "domain": "Digital Transformation & IT Applications",
+      "theme": "Social Sciences, Humanities & Management",
+      "total_involved": 3,
+      "as_prod_side": 3,
+      "as_sonnet_side": 0
+    },
+    {
+      "domain": "Transportation Systems & Traffic Management",
+      "theme": "Smart & Sustainable Infrastructure",
+      "total_involved": 3,
+      "as_prod_side": 2,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Bio-based Materials & Polymers",
+      "theme": "Advanced Materials & Devices",
+      "total_involved": 3,
+      "as_prod_side": 1,
+      "as_sonnet_side": 2
+    },
+    {
+      "domain": "Rare-Earth Doped Luminescent Materials",
+      "theme": "Advanced Materials & Devices",
+      "total_involved": 3,
+      "as_prod_side": 1,
+      "as_sonnet_side": 2
+    },
+    {
+      "domain": "Environmental Assessment & Land Use Management",
+      "theme": "Energy, Sustainability & Climate Change",
+      "total_involved": 3,
+      "as_prod_side": 2,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Fiber Photonic Devices & Engineering",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "total_involved": 3,
+      "as_prod_side": 1,
+      "as_sonnet_side": 2
+    },
+    {
+      "domain": "Carbon Utilization & Chemical Conversion",
+      "theme": "Energy, Sustainability & Climate Change",
+      "total_involved": 3,
+      "as_prod_side": 3,
+      "as_sonnet_side": 0
+    },
+    {
+      "domain": "Biomass & Biofuel Technologies",
+      "theme": "Energy, Sustainability & Climate Change",
+      "total_involved": 3,
+      "as_prod_side": 1,
+      "as_sonnet_side": 2
+    },
+    {
+      "domain": "Next-Generation Photovoltaic Materials",
+      "theme": "Energy, Sustainability & Climate Change",
+      "total_involved": 3,
+      "as_prod_side": 2,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Structural Dynamics & Seismic Engineering",
+      "theme": "Smart & Sustainable Infrastructure",
+      "total_involved": 3,
+      "as_prod_side": 0,
+      "as_sonnet_side": 3
+    },
+    {
+      "domain": "Advanced Surface Finishing & Processing",
+      "theme": "Manufacturing & Industry 4.0",
+      "total_involved": 3,
+      "as_prod_side": 2,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Signal Modulation, Detection & Channel Equalization",
+      "theme": "Next-Gen Communication",
+      "total_involved": 3,
+      "as_prod_side": 3,
+      "as_sonnet_side": 0
+    },
+    {
+      "domain": "Machine Learning & Neural Networks",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "total_involved": 3,
+      "as_prod_side": 0,
+      "as_sonnet_side": 3
+    },
+    {
+      "domain": "Ultra-Low Voltage Analog Circuits",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "total_involved": 3,
+      "as_prod_side": 1,
+      "as_sonnet_side": 2
+    },
+    {
+      "domain": "Clinical Diagnostics & Biomarkers",
+      "theme": "Healthcare & MedTech",
+      "total_involved": 2,
+      "as_prod_side": 2,
+      "as_sonnet_side": 0
+    },
+    {
+      "domain": "Energy Storage Materials",
+      "theme": "Energy, Sustainability & Climate Change",
+      "total_involved": 2,
+      "as_prod_side": 1,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Hydrology & Water Resources Management",
+      "theme": "Smart & Sustainable Infrastructure",
+      "total_involved": 2,
+      "as_prod_side": 2,
+      "as_sonnet_side": 0
+    },
+    {
+      "domain": "Monsoon Dynamics & Regional Climate Modeling",
+      "theme": "Energy, Sustainability & Climate Change",
+      "total_involved": 2,
+      "as_prod_side": 0,
+      "as_sonnet_side": 2
+    },
+    {
+      "domain": "Fluid-Particle Flow & Multiphase Systems",
+      "theme": "Manufacturing & Industry 4.0",
+      "total_involved": 2,
+      "as_prod_side": 2,
+      "as_sonnet_side": 0
+    },
+    {
+      "domain": "Supply Chain & Operations Management",
+      "theme": "Social Sciences, Humanities & Management",
+      "total_involved": 2,
+      "as_prod_side": 1,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Building Energy & Thermal Performance",
+      "theme": "Smart & Sustainable Infrastructure",
+      "total_involved": 2,
+      "as_prod_side": 2,
+      "as_sonnet_side": 0
+    },
+    {
+      "domain": "Plasmonic & Fiber Optic Sensors",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "total_involved": 2,
+      "as_prod_side": 1,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Drug Delivery & Molecular Therapeutics",
+      "theme": "Healthcare & MedTech",
+      "total_involved": 2,
+      "as_prod_side": 1,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Polymer Nanocomposites & Blends",
+      "theme": "Advanced Materials & Devices",
+      "total_involved": 2,
+      "as_prod_side": 1,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Rotor Dynamics & Vibration Analysis",
+      "theme": "Manufacturing & Industry 4.0",
+      "total_involved": 2,
+      "as_prod_side": 2,
+      "as_sonnet_side": 0
+    },
+    {
+      "domain": "Biomanufacturing & Fermentation Processes",
+      "theme": "Manufacturing & Industry 4.0",
+      "total_involved": 2,
+      "as_prod_side": 1,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Clinical AI & Medical Imaging Analytics",
+      "theme": "Healthcare & MedTech",
+      "total_involved": 2,
+      "as_prod_side": 1,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Quantum Photonics & Entanglement",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "total_involved": 2,
+      "as_prod_side": 1,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Neuroscience & Neurophysiology",
+      "theme": "Healthcare & MedTech",
+      "total_involved": 1,
+      "as_prod_side": 0,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Wide Bandgap Semiconductors & Devices",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "total_involved": 1,
+      "as_prod_side": 0,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Development Economics & Social Welfare",
+      "theme": "Social Sciences, Humanities & Management",
+      "total_involved": 1,
+      "as_prod_side": 0,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Plasma-Wave & Electromagnetic Interactions",
+      "theme": "Next-Gen Communication",
+      "total_involved": 1,
+      "as_prod_side": 1,
+      "as_sonnet_side": 0
+    },
+    {
+      "domain": "Antenna Design & RF Systems",
+      "theme": "Next-Gen Communication",
+      "total_involved": 1,
+      "as_prod_side": 0,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Free Space Optical Communication",
+      "theme": "Next-Gen Communication",
+      "total_involved": 1,
+      "as_prod_side": 1,
+      "as_sonnet_side": 0
+    },
+    {
+      "domain": "Biomechanics & Musculoskeletal Systems",
+      "theme": "Healthcare & MedTech",
+      "total_involved": 1,
+      "as_prod_side": 1,
+      "as_sonnet_side": 0
+    },
+    {
+      "domain": "Tissue Engineering & Regenerative Medicine",
+      "theme": "Healthcare & MedTech",
+      "total_involved": 1,
+      "as_prod_side": 0,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Computational Fluid Dynamics & Flow Analysis",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "total_involved": 1,
+      "as_prod_side": 0,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Social Media Analytics & Online Networks",
+      "theme": "Social Sciences, Humanities & Management",
+      "total_involved": 1,
+      "as_prod_side": 0,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Urban Air Quality & Emissions Monitoring",
+      "theme": "Smart & Sustainable Infrastructure",
+      "total_involved": 1,
+      "as_prod_side": 0,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Resistive Memory & Neuromorphic Computing",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "total_involved": 1,
+      "as_prod_side": 1,
+      "as_sonnet_side": 0
+    },
+    {
+      "domain": "Tribology & Bearing Performance",
+      "theme": "Manufacturing & Industry 4.0",
+      "total_involved": 1,
+      "as_prod_side": 1,
+      "as_sonnet_side": 0
+    },
+    {
+      "domain": "Control Systems & Linear Dynamical Systems",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "total_involved": 1,
+      "as_prod_side": 0,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Digital Culture & Consumer Experience",
+      "theme": "Social Sciences, Humanities & Management",
+      "total_involved": 1,
+      "as_prod_side": 0,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Precision Manufacturing & Microfabrication",
+      "theme": "Manufacturing & Industry 4.0",
+      "total_involved": 1,
+      "as_prod_side": 0,
+      "as_sonnet_side": 1
+    },
+    {
+      "domain": "Electric Vehicle Battery & Charging Systems",
+      "theme": "Energy, Sustainability & Climate Change",
+      "total_involved": 1,
+      "as_prod_side": 1,
+      "as_sonnet_side": 0
+    },
+    {
+      "domain": "Electric Motor Drives & Power Electronics",
+      "theme": "Manufacturing & Industry 4.0",
+      "total_involved": 1,
+      "as_prod_side": 0,
+      "as_sonnet_side": 1
+    }
+  ],
+  "trouble_by_band": {
+    "0.5-0.8": {
+      "Power Systems & Grid Control": 3,
+      "Spintronics & Magnetic Devices": 2,
+      "Environmental Assessment & Land Use Management": 2,
+      "Algorithms & Computational Complexity": 2,
+      "Next-Generation Photovoltaic Materials": 2,
+      "Materials, Joining & Mechanical Behavior": 2,
+      "Organometallic & Chalcogenide Synthesis": 2,
+      "Semiconductor Photovoltaic & Photodetection Devices": 2,
+      "Clinical Diagnostics & Biomarkers": 1,
+      "Digital Transformation & IT Applications": 1,
+      "Bio-based Materials & Polymers": 1,
+      "Building Energy & Thermal Performance": 1,
+      "Free Space Optical Communication": 1,
+      "Drug Delivery & Molecular Therapeutics": 1,
+      "Advanced Surface Finishing & Processing": 1,
+      "Polymer Nanocomposites & Blends": 1,
+      "Biomanufacturing & Fermentation Processes": 1,
+      "Fluid-Particle Flow & Multiphase Systems": 1,
+      "Quantum Photonics & Entanglement": 1,
+      "Clinical AI & Medical Imaging Analytics": 1,
+      "Signal Modulation, Detection & Channel Equalization": 1,
+      "Plasmonic & Fiber Optic Sensors": 1
+    },
+    ">=0.8": {
+      "Ferroelectric & Magnetic Ceramics": 1,
+      "Fiber Photonic Devices & Engineering": 1,
+      "Power Systems & Grid Control": 1,
+      "Biomechanics & Musculoskeletal Systems": 1,
+      "Hydrology & Water Resources Management": 1,
+      "Composite & Laminate Structures": 1,
+      "Tribology & Bearing Performance": 1,
+      "Digital Transformation & IT Applications": 1,
+      "Clinical Diagnostics & Biomarkers": 1,
+      "Electric Vehicle Battery & Charging Systems": 1
+    },
+    "<0.5": {
+      "Carbon Utilization & Chemical Conversion": 3,
+      "Algorithms & Computational Complexity": 2,
+      "Transportation Systems & Traffic Management": 2,
+      "Rotor Dynamics & Vibration Analysis": 2,
+      "Signal Modulation, Detection & Channel Equalization": 2,
+      "Grid Integration & Smart Microgrids": 2,
+      "Hydrology & Water Resources Management": 1,
+      "Fluid-Particle Flow & Multiphase Systems": 1,
+      "Supply Chain & Operations Management": 1,
+      "Plasma-Wave & Electromagnetic Interactions": 1,
+      "Energy Storage Materials": 1,
+      "Building Energy & Thermal Performance": 1,
+      "Digital Transformation & IT Applications": 1,
+      "Solar Thermal Energy & Heat Transfer Systems": 1,
+      "Resistive Memory & Neuromorphic Computing": 1,
+      "Advanced Surface Finishing & Processing": 1,
+      "Rare-Earth Doped Luminescent Materials": 1,
+      "Materials, Joining & Mechanical Behavior": 1,
+      "Composite & Laminate Structures": 1,
+      "Biomass & Biofuel Technologies": 1,
+      "Semiconductor Photovoltaic & Photodetection Devices": 1,
+      "Ultra-Low Voltage Analog Circuits": 1
+    }
+  },
+  "leverage_ranked": [
+    {
+      "domain": "Environmental Assessment & Land Use Management",
+      "theme": "Energy, Sustainability & Climate Change",
+      "corpus_papers": 1657,
+      "corpus_lt0.8": 985,
+      "corpus_mean_conf": 0.785,
+      "gold_prod_appearances": 2,
+      "gold_disagree_as_prod": 2,
+      "disagree_rate_as_prod": 1.0,
+      "leverage_est_papers": 1657.0
+    },
+    {
+      "domain": "Power Systems & Grid Control",
+      "theme": "Smart & Sustainable Infrastructure",
+      "corpus_papers": 2039,
+      "corpus_lt0.8": 285,
+      "corpus_mean_conf": 0.884,
+      "gold_prod_appearances": 7,
+      "gold_disagree_as_prod": 4,
+      "disagree_rate_as_prod": 0.571,
+      "leverage_est_papers": 1165.1
+    },
+    {
+      "domain": "Materials, Joining & Mechanical Behavior",
+      "theme": "Manufacturing & Industry 4.0",
+      "corpus_papers": 2210,
+      "corpus_lt0.8": 1221,
+      "corpus_mean_conf": 0.802,
+      "gold_prod_appearances": 6,
+      "gold_disagree_as_prod": 3,
+      "disagree_rate_as_prod": 0.5,
+      "leverage_est_papers": 1105.0
+    },
+    {
+      "domain": "Algorithms & Computational Complexity",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "corpus_papers": 3317,
+      "corpus_lt0.8": 1634,
+      "corpus_mean_conf": 0.796,
+      "gold_prod_appearances": 15,
+      "gold_disagree_as_prod": 4,
+      "disagree_rate_as_prod": 0.267,
+      "leverage_est_papers": 884.5
+    },
+    {
+      "domain": "Organometallic & Chalcogenide Synthesis",
+      "theme": "Advanced Materials & Devices",
+      "corpus_papers": 1651,
+      "corpus_lt0.8": 1135,
+      "corpus_mean_conf": 0.754,
+      "gold_prod_appearances": 5,
+      "gold_disagree_as_prod": 2,
+      "disagree_rate_as_prod": 0.4,
+      "leverage_est_papers": 660.4
+    },
+    {
+      "domain": "Polymer Nanocomposites & Blends",
+      "theme": "Advanced Materials & Devices",
+      "corpus_papers": 1319,
+      "corpus_lt0.8": 428,
+      "corpus_mean_conf": 0.846,
+      "gold_prod_appearances": 2,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 0.5,
+      "leverage_est_papers": 659.5
+    },
+    {
+      "domain": "Carbon Utilization & Chemical Conversion",
+      "theme": "Energy, Sustainability & Climate Change",
+      "corpus_papers": 1081,
+      "corpus_lt0.8": 577,
+      "corpus_mean_conf": 0.791,
+      "gold_prod_appearances": 5,
+      "gold_disagree_as_prod": 3,
+      "disagree_rate_as_prod": 0.6,
+      "leverage_est_papers": 648.6
+    },
+    {
+      "domain": "Fluid-Particle Flow & Multiphase Systems",
+      "theme": "Manufacturing & Industry 4.0",
+      "corpus_papers": 972,
+      "corpus_lt0.8": 611,
+      "corpus_mean_conf": 0.779,
+      "gold_prod_appearances": 3,
+      "gold_disagree_as_prod": 2,
+      "disagree_rate_as_prod": 0.667,
+      "leverage_est_papers": 648.0
+    },
+    {
+      "domain": "Quantum Photonics & Entanglement",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "corpus_papers": 585,
+      "corpus_lt0.8": 271,
+      "corpus_mean_conf": 0.813,
+      "gold_prod_appearances": 1,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 1.0,
+      "leverage_est_papers": 585.0
+    },
+    {
+      "domain": "Semiconductor Photovoltaic & Photodetection Devices",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "corpus_papers": 1626,
+      "corpus_lt0.8": 881,
+      "corpus_mean_conf": 0.802,
+      "gold_prod_appearances": 9,
+      "gold_disagree_as_prod": 3,
+      "disagree_rate_as_prod": 0.333,
+      "leverage_est_papers": 542.0
+    },
+    {
+      "domain": "Clinical Diagnostics & Biomarkers",
+      "theme": "Healthcare & MedTech",
+      "corpus_papers": 1565,
+      "corpus_lt0.8": 796,
+      "corpus_mean_conf": 0.804,
+      "gold_prod_appearances": 6,
+      "gold_disagree_as_prod": 2,
+      "disagree_rate_as_prod": 0.333,
+      "leverage_est_papers": 521.7
+    },
+    {
+      "domain": "Biomechanics & Musculoskeletal Systems",
+      "theme": "Healthcare & MedTech",
+      "corpus_papers": 494,
+      "corpus_lt0.8": 239,
+      "corpus_mean_conf": 0.812,
+      "gold_prod_appearances": 1,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 1.0,
+      "leverage_est_papers": 494.0
+    },
+    {
+      "domain": "Energy Storage Materials",
+      "theme": "Energy, Sustainability & Climate Change",
+      "corpus_papers": 983,
+      "corpus_lt0.8": 458,
+      "corpus_mean_conf": 0.823,
+      "gold_prod_appearances": 2,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 0.5,
+      "leverage_est_papers": 491.5
+    },
+    {
+      "domain": "Fiber Photonic Devices & Engineering",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "corpus_papers": 940,
+      "corpus_lt0.8": 406,
+      "corpus_mean_conf": 0.817,
+      "gold_prod_appearances": 2,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 0.5,
+      "leverage_est_papers": 470.0
+    },
+    {
+      "domain": "Signal Modulation, Detection & Channel Equalization",
+      "theme": "Next-Gen Communication",
+      "corpus_papers": 934,
+      "corpus_lt0.8": 317,
+      "corpus_mean_conf": 0.842,
+      "gold_prod_appearances": 6,
+      "gold_disagree_as_prod": 3,
+      "disagree_rate_as_prod": 0.5,
+      "leverage_est_papers": 467.0
+    },
+    {
+      "domain": "Grid Integration & Smart Microgrids",
+      "theme": "Energy, Sustainability & Climate Change",
+      "corpus_papers": 1848,
+      "corpus_lt0.8": 508,
+      "corpus_mean_conf": 0.839,
+      "gold_prod_appearances": 8,
+      "gold_disagree_as_prod": 2,
+      "disagree_rate_as_prod": 0.25,
+      "leverage_est_papers": 462.0
+    },
+    {
+      "domain": "Ferroelectric & Magnetic Ceramics",
+      "theme": "Advanced Materials & Devices",
+      "corpus_papers": 1212,
+      "corpus_lt0.8": 381,
+      "corpus_mean_conf": 0.843,
+      "gold_prod_appearances": 3,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 0.333,
+      "leverage_est_papers": 404.0
+    },
+    {
+      "domain": "Digital Transformation & IT Applications",
+      "theme": "Social Sciences, Humanities & Management",
+      "corpus_papers": 941,
+      "corpus_lt0.8": 533,
+      "corpus_mean_conf": 0.779,
+      "gold_prod_appearances": 7,
+      "gold_disagree_as_prod": 3,
+      "disagree_rate_as_prod": 0.429,
+      "leverage_est_papers": 403.3
+    },
+    {
+      "domain": "Solar Thermal Energy & Heat Transfer Systems",
+      "theme": "Energy, Sustainability & Climate Change",
+      "corpus_papers": 777,
+      "corpus_lt0.8": 196,
+      "corpus_mean_conf": 0.85,
+      "gold_prod_appearances": 2,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 0.5,
+      "leverage_est_papers": 388.5
+    },
+    {
+      "domain": "Supply Chain & Operations Management",
+      "theme": "Social Sciences, Humanities & Management",
+      "corpus_papers": 1159,
+      "corpus_lt0.8": 540,
+      "corpus_mean_conf": 0.8,
+      "gold_prod_appearances": 3,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 0.333,
+      "leverage_est_papers": 386.3
+    },
+    {
+      "domain": "Next-Generation Photovoltaic Materials",
+      "theme": "Energy, Sustainability & Climate Change",
+      "corpus_papers": 552,
+      "corpus_lt0.8": 254,
+      "corpus_mean_conf": 0.824,
+      "gold_prod_appearances": 3,
+      "gold_disagree_as_prod": 2,
+      "disagree_rate_as_prod": 0.667,
+      "leverage_est_papers": 368.0
+    },
+    {
+      "domain": "Drug Delivery & Molecular Therapeutics",
+      "theme": "Healthcare & MedTech",
+      "corpus_papers": 1079,
+      "corpus_lt0.8": 314,
+      "corpus_mean_conf": 0.856,
+      "gold_prod_appearances": 3,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 0.333,
+      "leverage_est_papers": 359.7
+    },
+    {
+      "domain": "Transportation Systems & Traffic Management",
+      "theme": "Smart & Sustainable Infrastructure",
+      "corpus_papers": 696,
+      "corpus_lt0.8": 283,
+      "corpus_mean_conf": 0.818,
+      "gold_prod_appearances": 4,
+      "gold_disagree_as_prod": 2,
+      "disagree_rate_as_prod": 0.5,
+      "leverage_est_papers": 348.0
+    },
+    {
+      "domain": "Composite & Laminate Structures",
+      "theme": "Advanced Materials & Devices",
+      "corpus_papers": 693,
+      "corpus_lt0.8": 300,
+      "corpus_mean_conf": 0.788,
+      "gold_prod_appearances": 4,
+      "gold_disagree_as_prod": 2,
+      "disagree_rate_as_prod": 0.5,
+      "leverage_est_papers": 346.5
+    },
+    {
+      "domain": "Spintronics & Magnetic Devices",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "corpus_papers": 516,
+      "corpus_lt0.8": 124,
+      "corpus_mean_conf": 0.866,
+      "gold_prod_appearances": 3,
+      "gold_disagree_as_prod": 2,
+      "disagree_rate_as_prod": 0.667,
+      "leverage_est_papers": 344.0
+    },
+    {
+      "domain": "Biomass & Biofuel Technologies",
+      "theme": "Energy, Sustainability & Climate Change",
+      "corpus_papers": 926,
+      "corpus_lt0.8": 254,
+      "corpus_mean_conf": 0.845,
+      "gold_prod_appearances": 3,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 0.333,
+      "leverage_est_papers": 308.7
+    },
+    {
+      "domain": "Plasma-Wave & Electromagnetic Interactions",
+      "theme": "Next-Gen Communication",
+      "corpus_papers": 872,
+      "corpus_lt0.8": 237,
+      "corpus_mean_conf": 0.854,
+      "gold_prod_appearances": 3,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 0.333,
+      "leverage_est_papers": 290.7
+    },
+    {
+      "domain": "Building Energy & Thermal Performance",
+      "theme": "Smart & Sustainable Infrastructure",
+      "corpus_papers": 420,
+      "corpus_lt0.8": 200,
+      "corpus_mean_conf": 0.807,
+      "gold_prod_appearances": 3,
+      "gold_disagree_as_prod": 2,
+      "disagree_rate_as_prod": 0.667,
+      "leverage_est_papers": 280.0
+    },
+    {
+      "domain": "Free Space Optical Communication",
+      "theme": "Next-Gen Communication",
+      "corpus_papers": 267,
+      "corpus_lt0.8": 39,
+      "corpus_mean_conf": 0.901,
+      "gold_prod_appearances": 1,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 1.0,
+      "leverage_est_papers": 267.0
+    },
+    {
+      "domain": "Plasmonic & Fiber Optic Sensors",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "corpus_papers": 788,
+      "corpus_lt0.8": 302,
+      "corpus_mean_conf": 0.833,
+      "gold_prod_appearances": 3,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 0.333,
+      "leverage_est_papers": 262.7
+    },
+    {
+      "domain": "Bio-based Materials & Polymers",
+      "theme": "Advanced Materials & Devices",
+      "corpus_papers": 1556,
+      "corpus_lt0.8": 884,
+      "corpus_mean_conf": 0.783,
+      "gold_prod_appearances": 6,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 0.167,
+      "leverage_est_papers": 259.3
+    },
+    {
+      "domain": "Resistive Memory & Neuromorphic Computing",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "corpus_papers": 257,
+      "corpus_lt0.8": 93,
+      "corpus_mean_conf": 0.837,
+      "gold_prod_appearances": 1,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 1.0,
+      "leverage_est_papers": 257.0
+    },
+    {
+      "domain": "Tribology & Bearing Performance",
+      "theme": "Manufacturing & Industry 4.0",
+      "corpus_papers": 670,
+      "corpus_lt0.8": 90,
+      "corpus_mean_conf": 0.882,
+      "gold_prod_appearances": 3,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 0.333,
+      "leverage_est_papers": 223.3
+    },
+    {
+      "domain": "Advanced Surface Finishing & Processing",
+      "theme": "Manufacturing & Industry 4.0",
+      "corpus_papers": 261,
+      "corpus_lt0.8": 93,
+      "corpus_mean_conf": 0.837,
+      "gold_prod_appearances": 3,
+      "gold_disagree_as_prod": 2,
+      "disagree_rate_as_prod": 0.667,
+      "leverage_est_papers": 174.0
+    },
+    {
+      "domain": "Biomanufacturing & Fermentation Processes",
+      "theme": "Manufacturing & Industry 4.0",
+      "corpus_papers": 689,
+      "corpus_lt0.8": 359,
+      "corpus_mean_conf": 0.787,
+      "gold_prod_appearances": 4,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 0.25,
+      "leverage_est_papers": 172.2
+    },
+    {
+      "domain": "Rotor Dynamics & Vibration Analysis",
+      "theme": "Manufacturing & Industry 4.0",
+      "corpus_papers": 683,
+      "corpus_lt0.8": 422,
+      "corpus_mean_conf": 0.75,
+      "gold_prod_appearances": 9,
+      "gold_disagree_as_prod": 2,
+      "disagree_rate_as_prod": 0.222,
+      "leverage_est_papers": 151.8
+    },
+    {
+      "domain": "Ultra-Low Voltage Analog Circuits",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "corpus_papers": 436,
+      "corpus_lt0.8": 218,
+      "corpus_mean_conf": 0.795,
+      "gold_prod_appearances": 3,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 0.333,
+      "leverage_est_papers": 145.3
+    },
+    {
+      "domain": "Clinical AI & Medical Imaging Analytics",
+      "theme": "Healthcare & MedTech",
+      "corpus_papers": 580,
+      "corpus_lt0.8": 149,
+      "corpus_mean_conf": 0.868,
+      "gold_prod_appearances": 4,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 0.25,
+      "leverage_est_papers": 145.0
+    },
+    {
+      "domain": "Electric Vehicle Battery & Charging Systems",
+      "theme": "Energy, Sustainability & Climate Change",
+      "corpus_papers": 633,
+      "corpus_lt0.8": 162,
+      "corpus_mean_conf": 0.866,
+      "gold_prod_appearances": 5,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 0.2,
+      "leverage_est_papers": 126.6
+    },
+    {
+      "domain": "Rare-Earth Doped Luminescent Materials",
+      "theme": "Advanced Materials & Devices",
+      "corpus_papers": 663,
+      "corpus_lt0.8": 271,
+      "corpus_mean_conf": 0.781,
+      "gold_prod_appearances": 6,
+      "gold_disagree_as_prod": 1,
+      "disagree_rate_as_prod": 0.167,
+      "leverage_est_papers": 110.5
+    },
+    {
+      "domain": "Hydrology & Water Resources Management",
+      "theme": "Smart & Sustainable Infrastructure",
+      "corpus_papers": 383,
+      "corpus_lt0.8": 154,
+      "corpus_mean_conf": 0.827,
+      "gold_prod_appearances": 7,
+      "gold_disagree_as_prod": 2,
+      "disagree_rate_as_prod": 0.286,
+      "leverage_est_papers": 109.4
+    },
+    {
+      "domain": "Wireless Network Access & Resource Allocation",
+      "theme": "Next-Gen Communication",
+      "corpus_papers": 865,
+      "corpus_lt0.8": 443,
+      "corpus_mean_conf": 0.804,
+      "gold_prod_appearances": 6,
+      "gold_disagree_as_prod": 0,
+      "disagree_rate_as_prod": 0.0,
+      "leverage_est_papers": 0.0
+    },
+    {
+      "domain": "Structural Dynamics & Seismic Engineering",
+      "theme": "Smart & Sustainable Infrastructure",
+      "corpus_papers": 1613,
+      "corpus_lt0.8": 621,
+      "corpus_mean_conf": 0.836,
+      "gold_prod_appearances": 2,
+      "gold_disagree_as_prod": 0,
+      "disagree_rate_as_prod": 0.0,
+      "leverage_est_papers": 0.0
+    },
+    {
+      "domain": "Machine Learning & Neural Networks",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "corpus_papers": 1753,
+      "corpus_lt0.8": 483,
+      "corpus_mean_conf": 0.858,
+      "gold_prod_appearances": 2,
+      "gold_disagree_as_prod": 0,
+      "disagree_rate_as_prod": 0.0,
+      "leverage_est_papers": 0.0
+    },
+    {
+      "domain": "Monsoon Dynamics & Regional Climate Modeling",
+      "theme": "Energy, Sustainability & Climate Change",
+      "corpus_papers": 961,
+      "corpus_lt0.8": 291,
+      "corpus_mean_conf": 0.844,
+      "gold_prod_appearances": 1,
+      "gold_disagree_as_prod": 0,
+      "disagree_rate_as_prod": 0.0,
+      "leverage_est_papers": 0.0
+    },
+    {
+      "domain": "Wide Bandgap Semiconductors & Devices",
+      "theme": "Quantum Technologies & Semiconductor Technology",
+      "corpus_papers": 626,
+      "corpus_lt0.8": 198,
+      "corpus_mean_conf": 0.835,
+      "gold_prod_appearances": 1,
+      "gold_disagree_as_prod": 0,
+      "disagree_rate_as_prod": 0.0,
+      "leverage_est_papers": 0.0
+    },
+    {
+      "domain": "Antenna Design & RF Systems",
+      "theme": "Next-Gen Communication",
+      "corpus_papers": 804,
+      "corpus_lt0.8": 150,
+      "corpus_mean_conf": 0.884,
+      "gold_prod_appearances": 5,
+      "gold_disagree_as_prod": 0,
+      "disagree_rate_as_prod": 0.0,
+      "leverage_est_papers": 0.0
+    },
+    {
+      "domain": "Tissue Engineering & Regenerative Medicine",
+      "theme": "Healthcare & MedTech",
+      "corpus_papers": 591,
+      "corpus_lt0.8": 186,
+      "corpus_mean_conf": 0.856,
+      "gold_prod_appearances": 1,
+      "gold_disagree_as_prod": 0,
+      "disagree_rate_as_prod": 0.0,
+      "leverage_est_papers": 0.0
+    },
+    {
+      "domain": "Computational Fluid Dynamics & Flow Analysis",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "corpus_papers": 2000,
+      "corpus_lt0.8": 600,
+      "corpus_mean_conf": 0.858,
+      "gold_prod_appearances": 5,
+      "gold_disagree_as_prod": 0,
+      "disagree_rate_as_prod": 0.0,
+      "leverage_est_papers": 0.0
+    },
+    {
+      "domain": "Social Media Analytics & Online Networks",
+      "theme": "Social Sciences, Humanities & Management",
+      "corpus_papers": 272,
+      "corpus_lt0.8": 128,
+      "corpus_mean_conf": 0.818,
+      "gold_prod_appearances": 1,
+      "gold_disagree_as_prod": 0,
+      "disagree_rate_as_prod": 0.0,
+      "leverage_est_papers": 0.0
+    },
+    {
+      "domain": "Urban Air Quality & Emissions Monitoring",
+      "theme": "Smart & Sustainable Infrastructure",
+      "corpus_papers": 494,
+      "corpus_lt0.8": 197,
+      "corpus_mean_conf": 0.827,
+      "gold_prod_appearances": 2,
+      "gold_disagree_as_prod": 0,
+      "disagree_rate_as_prod": 0.0,
+      "leverage_est_papers": 0.0
+    },
+    {
+      "domain": "Control Systems & Linear Dynamical Systems",
+      "theme": "AI/ML, Supercomputing & Quantum Computing",
+      "corpus_papers": 1116,
+      "corpus_lt0.8": 310,
+      "corpus_mean_conf": 0.851,
+      "gold_prod_appearances": 7,
+      "gold_disagree_as_prod": 0,
+      "disagree_rate_as_prod": 0.0,
+      "leverage_est_papers": 0.0
+    },
+    {
+      "domain": "Digital Culture & Consumer Experience",
+      "theme": "Social Sciences, Humanities & Management",
+      "corpus_papers": 581,
+      "corpus_lt0.8": 445,
+      "corpus_mean_conf": 0.733,
+      "gold_prod_appearances": 3,
+      "gold_disagree_as_prod": 0,
+      "disagree_rate_as_prod": 0.0,
+      "leverage_est_papers": 0.0
+    },
+    {
+      "domain": "Electric Motor Drives & Power Electronics",
+      "theme": "Manufacturing & Industry 4.0",
+      "corpus_papers": 1852,
+      "corpus_lt0.8": 1008,
+      "corpus_mean_conf": 0.809,
+      "gold_prod_appearances": 3,
+      "gold_disagree_as_prod": 0,
+      "disagree_rate_as_prod": 0.0,
+      "leverage_est_papers": 0.0
+    },
+    {
+      "domain": "Neuroscience & Neurophysiology",
+      "theme": "Healthcare & MedTech",
+      "corpus_papers": 176,
+      "corpus_lt0.8": 66,
+      "corpus_mean_conf": 0.837,
+      "gold_prod_appearances": 0,
+      "gold_disagree_as_prod": 0,
+      "disagree_rate_as_prod": null,
+      "leverage_est_papers": null
+    },
+    {
+      "domain": "Development Economics & Social Welfare",
+      "theme": "Social Sciences, Humanities & Management",
+      "corpus_papers": 590,
+      "corpus_lt0.8": 216,
+      "corpus_mean_conf": 0.834,
+      "gold_prod_appearances": 0,
+      "gold_disagree_as_prod": 0,
+      "disagree_rate_as_prod": null,
+      "leverage_est_papers": null
+    },
+    {
+      "domain": "Precision Manufacturing & Microfabrication",
+      "theme": "Manufacturing & Industry 4.0",
+      "corpus_papers": 881,
+      "corpus_lt0.8": 324,
+      "corpus_mean_conf": 0.83,
+      "gold_prod_appearances": 0,
+      "gold_disagree_as_prod": 0,
+      "disagree_rate_as_prod": null,
+      "leverage_est_papers": null
+    }
+  ],
+  "corpus_totals": {
+    "n_rows": 70298,
+    "n_classified": 68090,
+    "n_unclassifiable": 2208
+  },
+  "reconciliation": {
+    "computed": {
+      "theme_comparable_n": 239,
+      "theme_agree": 206,
+      "theme_pct": 86.2,
+      "domain_comparable_n": 237,
+      "domain_agree": 167,
+      "domain_pct": 70.5,
+      "refusals": 10,
+      "sonnet_unclassifiable": 1
+    },
+    "reported": {
+      "theme_comparable_n": 239,
+      "theme_pct": 86.2,
+      "domain_comparable_n": 237,
+      "domain_pct": 70.5,
+      "refusals": 10,
+      "sonnet_unclassifiable": 1
+    }
+  },
+  "disagreement_ids": {
+    "Clinical Diagnostics & Biomarkers -> Neuroscience & Neurophysiology": [],
+    "Spintronics & Magnetic Devices -> Wide Bandgap Semiconductors & Devices": [],
+    "Ferroelectric & Magnetic Ceramics -> Energy Storage Materials": [],
+    "Digital Transformation & IT Applications -> Algorithms & Computational Complexity": [],
+    "Hydrology & Water Resources Management -> Monsoon Dynamics & Regional Climate Modeling": [],
+    "Fluid-Particle Flow & Multiphase Systems -> Transportation Systems & Traffic Management": [],
+    "Supply Chain & Operations Management -> Development Economics & Social Welfare": [],
+    "Bio-based Materials & Polymers -> Rare-Earth Doped Luminescent Materials": [],
+    "Plasma-Wave & Electromagnetic Interactions -> Antenna Design & RF Systems": [],
+    "Building Energy & Thermal Performance -> Bio-based Materials & Polymers": [],
+    "Environmental Assessment & Land Use Management -> Organometallic & Chalcogenide Synthesis": [],
+    "Fiber Photonic Devices & Engineering -> Plasmonic & Fiber Optic Sensors": [],
+    "Carbon Utilization & Chemical Conversion -> Biomass & Biofuel Technologies": [],
+    "Algorithms & Computational Complexity -> Wireless Network Access & Resource Allocation": [],
+    "Power Systems & Grid Control -> Grid Integration & Smart Microgrids": [],
+    "Algorithms & Computational Complexity -> Monsoon Dynamics & Regional Climate Modeling": [],
+    "Next-Generation Photovoltaic Materials -> Grid Integration & Smart Microgrids": [],
+    "Energy Storage Materials -> Grid Integration & Smart Microgrids": [],
+    "Free Space Optical Communication -> Wireless Network Access & Resource Allocation": [],
+    "Building Energy & Thermal Performance -> Structural Dynamics & Seismic Engineering": [],
+    "Biomechanics & Musculoskeletal Systems -> Tissue Engineering & Regenerative Medicine": [],
+    "Hydrology & Water Resources Management -> Computational Fluid Dynamics & Flow Analysis": [],
+    "Carbon Utilization & Chemical Conversion -> Grid Integration & Smart Microgrids": [],
+    "Drug Delivery & Molecular Therapeutics -> Organometallic & Chalcogenide Synthesis": [],
+    "Composite & Laminate Structures -> Materials, Joining & Mechanical Behavior": [],
+    "Advanced Surface Finishing & Processing -> Bio-based Materials & Polymers": [],
+    "Environmental Assessment & Land Use Management -> Biomass & Biofuel Technologies": [],
+    "Materials, Joining & Mechanical Behavior -> Structural Dynamics & Seismic Engineering": [],
+    "Digital Transformation & IT Applications -> Supply Chain & Operations Management": [],
+    "Algorithms & Computational Complexity -> Social Media Analytics & Online Networks": [],
+    "Polymer Nanocomposites & Blends -> Rare-Earth Doped Luminescent Materials": [],
+    "Transportation Systems & Traffic Management -> Urban Air Quality & Emissions Monitoring": [],
+    "Rotor Dynamics & Vibration Analysis -> Advanced Surface Finishing & Processing": [],
+    "Signal Modulation, Detection & Channel Equalization -> Wireless Network Access & Resource Allocation": [],
+    "Transportation Systems & Traffic Management -> Machine Learning & Neural Networks": [],
+    "Biomanufacturing & Fermentation Processes -> Environmental Assessment & Land Use Management": [],
+    "Solar Thermal Energy & Heat Transfer Systems -> Grid Integration & Smart Microgrids": [],
+    "Resistive Memory & Neuromorphic Computing -> Ultra-Low Voltage Analog Circuits": [],
+    "Fluid-Particle Flow & Multiphase Systems -> Solar Thermal Energy & Heat Transfer Systems": [],
+    "Grid Integration & Smart Microgrids -> Solar Thermal Energy & Heat Transfer Systems": [],
+    "Organometallic & Chalcogenide Synthesis -> Composite & Laminate Structures": [],
+    "Tribology & Bearing Performance -> Polymer Nanocomposites & Blends": [],
+    "Carbon Utilization & Chemical Conversion -> Solar Thermal Energy & Heat Transfer Systems": [],
+    "Semiconductor Photovoltaic & Photodetection Devices -> Next-Generation Photovoltaic Materials": [],
+    "Algorithms & Computational Complexity -> Control Systems & Linear Dynamical Systems": [],
+    "Advanced Surface Finishing & Processing -> Biomanufacturing & Fermentation Processes": [],
+    "Spintronics & Magnetic Devices -> Semiconductor Photovoltaic & Photodetection Devices": [],
+    "Digital Transformation & IT Applications -> Digital Culture & Consumer Experience": [],
+    "Clinical Diagnostics & Biomarkers -> Clinical AI & Medical Imaging Analytics": [],
+    "Signal Modulation, Detection & Channel Equalization -> Ultra-Low Voltage Analog Circuits": [],
+    "Power Systems & Grid Control -> Wireless Network Access & Resource Allocation": [],
+    "Organometallic & Chalcogenide Synthesis -> Drug Delivery & Molecular Therapeutics": [],
+    "Rotor Dynamics & Vibration Analysis -> Precision Manufacturing & Microfabrication": [],
+    "Materials, Joining & Mechanical Behavior -> Composite & Laminate Structures": [],
+    "Quantum Photonics & Entanglement -> Spintronics & Magnetic Devices": [],
+    "Rare-Earth Doped Luminescent Materials -> Ferroelectric & Magnetic Ceramics": [],
+    "Clinical AI & Medical Imaging Analytics -> Machine Learning & Neural Networks": [],
+    "Signal Modulation, Detection & Channel Equalization -> Machine Learning & Neural Networks": [],
+    "Electric Vehicle Battery & Charging Systems -> Electric Motor Drives & Power Electronics": [],
+    "Plasmonic & Fiber Optic Sensors -> Fiber Photonic Devices & Engineering": [],
+    "Composite & Laminate Structures -> Ferroelectric & Magnetic Ceramics": [],
+    "Biomass & Biofuel Technologies -> Grid Integration & Smart Microgrids": [],
+    "Semiconductor Photovoltaic & Photodetection Devices -> Fiber Photonic Devices & Engineering": [],
+    "Ultra-Low Voltage Analog Circuits -> Algorithms & Computational Complexity": [],
+    "Semiconductor Photovoltaic & Photodetection Devices -> Quantum Photonics & Entanglement": []
+  },
+  "ids_by_pair": {
+    "Clinical Diagnostics & Biomarkers => Neuroscience & Neurophysiology": [
+      "69deca284e2d2a5b77ed5d6c"
+    ],
+    "Spintronics & Magnetic Devices => Wide Bandgap Semiconductors & Devices": [
+      "69deca504e2d2a5b77edb4b8"
+    ],
+    "Ferroelectric & Magnetic Ceramics => Energy Storage Materials": [
+      "6a26bf1d2b6042b76389bc4d"
+    ],
+    "Digital Transformation & IT Applications => Algorithms & Computational Complexity": [
+      "69deca264e2d2a5b77ed59d4"
+    ],
+    "Hydrology & Water Resources Management => Monsoon Dynamics & Regional Climate Modeling": [
+      "6a26bf072b6042b76389bb89"
+    ],
+    "Fluid-Particle Flow & Multiphase Systems => Transportation Systems & Traffic Management": [
+      "69deca4d4e2d2a5b77edaeb4"
+    ],
+    "Supply Chain & Operations Management => Development Economics & Social Welfare": [
+      "69deca4c4e2d2a5b77edacc4"
+    ],
+    "Bio-based Materials & Polymers => Rare-Earth Doped Luminescent Materials": [
+      "69deca0c4e2d2a5b77ed19ae"
+    ],
+    "Plasma-Wave & Electromagnetic Interactions => Antenna Design & RF Systems": [
+      "6a26be772b6042b76389b6bb"
+    ],
+    "Building Energy & Thermal Performance => Bio-based Materials & Polymers": [
+      "69deca194e2d2a5b77ed398f"
+    ],
+    "Environmental Assessment & Land Use Management => Organometallic & Chalcogenide Synthesis": [
+      "69deca3d4e2d2a5b77ed86a4"
+    ],
+    "Fiber Photonic Devices & Engineering => Plasmonic & Fiber Optic Sensors": [
+      "69deca324e2d2a5b77ed7471"
+    ],
+    "Carbon Utilization & Chemical Conversion => Biomass & Biofuel Technologies": [
+      "69deca604e2d2a5b77edd4ac"
+    ],
+    "Algorithms & Computational Complexity => Wireless Network Access & Resource Allocation": [
+      "69deca0a4e2d2a5b77ed1477"
+    ],
+    "Power Systems & Grid Control => Grid Integration & Smart Microgrids": [
+      "69deca104e2d2a5b77ed2398",
+      "69deca5f4e2d2a5b77edd341",
+      "69deca5f4e2d2a5b77edd34b"
+    ],
+    "Algorithms & Computational Complexity => Monsoon Dynamics & Regional Climate Modeling": [
+      "69deca634e2d2a5b77eddd49"
+    ],
+    "Next-Generation Photovoltaic Materials => Grid Integration & Smart Microgrids": [
+      "69deca4e4e2d2a5b77edb227",
+      "69deca5f4e2d2a5b77edd31c"
+    ],
+    "Energy Storage Materials => Grid Integration & Smart Microgrids": [
+      "69deca154e2d2a5b77ed2dcd"
+    ],
+    "Free Space Optical Communication => Wireless Network Access & Resource Allocation": [
+      "69deca134e2d2a5b77ed2942"
+    ],
+    "Building Energy & Thermal Performance => Structural Dynamics & Seismic Engineering": [
+      "6a5418345ac95135d3b18763"
+    ],
+    "Biomechanics & Musculoskeletal Systems => Tissue Engineering & Regenerative Medicine": [
+      "69deca294e2d2a5b77ed5fee"
+    ],
+    "Hydrology & Water Resources Management => Computational Fluid Dynamics & Flow Analysis": [
+      "6a26bf2f2b6042b76389bd0b"
+    ],
+    "Carbon Utilization & Chemical Conversion => Grid Integration & Smart Microgrids": [
+      "69deca5e4e2d2a5b77edcfc4"
+    ],
+    "Drug Delivery & Molecular Therapeutics => Organometallic & Chalcogenide Synthesis": [
+      "69deca514e2d2a5b77edb869"
+    ],
+    "Composite & Laminate Structures => Materials, Joining & Mechanical Behavior": [
+      "69deca064e2d2a5b77ed0ac5"
+    ],
+    "Advanced Surface Finishing & Processing => Bio-based Materials & Polymers": [
+      "69deca144e2d2a5b77ed2b8d"
+    ],
+    "Environmental Assessment & Land Use Management => Biomass & Biofuel Technologies": [
+      "69dec9fe4e2d2a5b77ecf71c"
+    ],
+    "Materials, Joining & Mechanical Behavior => Structural Dynamics & Seismic Engineering": [
+      "69deca5e4e2d2a5b77edd13b",
+      "69deca5e4e2d2a5b77edd119"
+    ],
+    "Digital Transformation & IT Applications => Supply Chain & Operations Management": [
+      "69deca5b4e2d2a5b77edcac1"
+    ],
+    "Algorithms & Computational Complexity => Social Media Analytics & Online Networks": [
+      "69deca624e2d2a5b77edd973"
+    ],
+    "Polymer Nanocomposites & Blends => Rare-Earth Doped Luminescent Materials": [
+      "69deca384e2d2a5b77ed7e2f"
+    ],
+    "Transportation Systems & Traffic Management => Urban Air Quality & Emissions Monitoring": [
+      "69deca244e2d2a5b77ed5375"
+    ],
+    "Rotor Dynamics & Vibration Analysis => Advanced Surface Finishing & Processing": [
+      "69deca234e2d2a5b77ed50b9"
+    ],
+    "Signal Modulation, Detection & Channel Equalization => Wireless Network Access & Resource Allocation": [
+      "69deca4b4e2d2a5b77edaa6e"
+    ],
+    "Transportation Systems & Traffic Management => Machine Learning & Neural Networks": [
+      "69deca4b4e2d2a5b77edab7a"
+    ],
+    "Biomanufacturing & Fermentation Processes => Environmental Assessment & Land Use Management": [
+      "69deca504e2d2a5b77edb6fa"
+    ],
+    "Solar Thermal Energy & Heat Transfer Systems => Grid Integration & Smart Microgrids": [
+      "69dec9f64e2d2a5b77ece682"
+    ],
+    "Resistive Memory & Neuromorphic Computing => Ultra-Low Voltage Analog Circuits": [
+      "69dec9fd4e2d2a5b77ecf525"
+    ],
+    "Fluid-Particle Flow & Multiphase Systems => Solar Thermal Energy & Heat Transfer Systems": [
+      "69deca154e2d2a5b77ed2e2c"
+    ],
+    "Grid Integration & Smart Microgrids => Solar Thermal Energy & Heat Transfer Systems": [
+      "69deca264e2d2a5b77ed589c",
+      "69deca254e2d2a5b77ed5877"
+    ],
+    "Organometallic & Chalcogenide Synthesis => Composite & Laminate Structures": [
+      "69deca474e2d2a5b77eda10a"
+    ],
+    "Tribology & Bearing Performance => Polymer Nanocomposites & Blends": [
+      "69deca1c4e2d2a5b77ed3e54"
+    ],
+    "Carbon Utilization & Chemical Conversion => Solar Thermal Energy & Heat Transfer Systems": [
+      "69deca3c4e2d2a5b77ed85f7"
+    ],
+    "Semiconductor Photovoltaic & Photodetection Devices => Next-Generation Photovoltaic Materials": [
+      "69deca574e2d2a5b77edc768"
+    ],
+    "Algorithms & Computational Complexity => Control Systems & Linear Dynamical Systems": [
+      "69deca634e2d2a5b77edddb6"
+    ],
+    "Advanced Surface Finishing & Processing => Biomanufacturing & Fermentation Processes": [
+      "69deca454e2d2a5b77ed98d2"
+    ],
+    "Spintronics & Magnetic Devices => Semiconductor Photovoltaic & Photodetection Devices": [
+      "6a25fe522b6042b763867403"
+    ],
+    "Digital Transformation & IT Applications => Digital Culture & Consumer Experience": [
+      "69deca014e2d2a5b77ecfeb4"
+    ],
+    "Clinical Diagnostics & Biomarkers => Clinical AI & Medical Imaging Analytics": [
+      "69deca5f4e2d2a5b77edd3f5"
+    ],
+    "Signal Modulation, Detection & Channel Equalization => Ultra-Low Voltage Analog Circuits": [
+      "69deca4c4e2d2a5b77edac0b"
+    ],
+    "Power Systems & Grid Control => Wireless Network Access & Resource Allocation": [
+      "69deca144e2d2a5b77ed2d70"
+    ],
+    "Organometallic & Chalcogenide Synthesis => Drug Delivery & Molecular Therapeutics": [
+      "69deca024e2d2a5b77ed0078"
+    ],
+    "Rotor Dynamics & Vibration Analysis => Precision Manufacturing & Microfabrication": [
+      "69deca5e4e2d2a5b77edd128"
+    ],
+    "Materials, Joining & Mechanical Behavior => Composite & Laminate Structures": [
+      "69dec9f74e2d2a5b77ece743"
+    ],
+    "Quantum Photonics & Entanglement => Spintronics & Magnetic Devices": [
+      "69deca384e2d2a5b77ed7dc0"
+    ],
+    "Rare-Earth Doped Luminescent Materials => Ferroelectric & Magnetic Ceramics": [
+      "69deca384e2d2a5b77ed7da4"
+    ],
+    "Clinical AI & Medical Imaging Analytics => Machine Learning & Neural Networks": [
+      "69deca204e2d2a5b77ed4a80"
+    ],
+    "Signal Modulation, Detection & Channel Equalization => Machine Learning & Neural Networks": [
+      "69deca274e2d2a5b77ed5ba8"
+    ],
+    "Electric Vehicle Battery & Charging Systems => Electric Motor Drives & Power Electronics": [
+      "6a26bb922b6042b76389a04b"
+    ],
+    "Plasmonic & Fiber Optic Sensors => Fiber Photonic Devices & Engineering": [
+      "69deca604e2d2a5b77edd59b"
+    ],
+    "Composite & Laminate Structures => Ferroelectric & Magnetic Ceramics": [
+      "69deca504e2d2a5b77edb647"
+    ],
+    "Biomass & Biofuel Technologies => Grid Integration & Smart Microgrids": [
+      "69dec9f64e2d2a5b77ece58b"
+    ],
+    "Semiconductor Photovoltaic & Photodetection Devices => Fiber Photonic Devices & Engineering": [
+      "69deca274e2d2a5b77ed5bbf"
+    ],
+    "Ultra-Low Voltage Analog Circuits => Algorithms & Computational Complexity": [
+      "69dec9fe4e2d2a5b77ecf5c7"
+    ],
+    "Semiconductor Photovoltaic & Photodetection Devices => Quantum Photonics & Entanglement": [
+      "69deca184e2d2a5b77ed3729"
+    ]
+  }
+}

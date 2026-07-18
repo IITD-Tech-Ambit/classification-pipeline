@@ -1,0 +1,11 @@
+{
+  "input_tokens": 27171,
+  "output_tokens": 12308,
+  "cache_write": 37800,
+  "cache_read": 718200,
+  "calls": 100,
+  "cached_calls": 95,
+  "est_cost_usd": 0.2078,
+  "elapsed_s": 35.8,
+  "caching_engaged": true
+}

@@ -1,0 +1,10 @@
+{
+  "rows": 250,
+  "input_tokens": 128766,
+  "output_tokens": 33007,
+  "cache_write": 23559,
+  "cache_read": 3172612,
+  "cost_usd": 1.9215,
+  "model": "claude-sonnet-4-5",
+  "updated": "2026-07-18 09:23:19"
+}

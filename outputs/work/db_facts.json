@@ -1,0 +1,1126 @@
+{
+  "n_papers": 70298,
+  "n_unclassified": 4063,
+  "themes": [
+    {
+      "id": "6a46ea5ece9a42a451a4714a",
+      "name": "AI/ML, Supercomputing & Quantum Computing",
+      "slug": "ai-ml-supercomputing-and-quantum-computing",
+      "assigned_papers_v1": 5259
+    },
+    {
+      "id": "6a46ea5ece9a42a451a4714b",
+      "name": "Advanced Materials & Devices",
+      "slug": "advanced-materials-and-devices",
+      "assigned_papers_v1": 10372
+    },
+    {
+      "id": "6a46ea5ece9a42a451a4714c",
+      "name": "Energy, Sustainability & Climate Change",
+      "slug": "energy-sustainability-and-climate-change",
+      "assigned_papers_v1": 14031
+    },
+    {
+      "id": "6a46ea5ece9a42a451a4714d",
+      "name": "Healthcare & MedTech",
+      "slug": "healthcare-and-medtech",
+      "assigned_papers_v1": 7720
+    },
+    {
+      "id": "6a46ea5ece9a42a451a4714f",
+      "name": "Manufacturing & Industry 4.0",
+      "slug": "manufacturing-and-industry-4-0",
+      "assigned_papers_v1": 8602
+    },
+    {
+      "id": "6a46ea5ece9a42a451a47150",
+      "name": "Next-Gen Communication",
+      "slug": "next-gen-communication",
+      "assigned_papers_v1": 5736
+    },
+    {
+      "id": "6a46ea5ece9a42a451a47151",
+      "name": "Quantum Technologies & Semiconductor Technology",
+      "slug": "quantum-technologies-and-semiconductor-technology",
+      "assigned_papers_v1": 3540
+    },
+    {
+      "id": "6a46ea5ece9a42a451a47152",
+      "name": "Smart & Sustainable Infrastructure",
+      "slug": "smart-and-sustainable-infrastructure",
+      "assigned_papers_v1": 8189
+    },
+    {
+      "id": "6a46ea5ece9a42a451a47153",
+      "name": "Social Sciences, Humanities & Management",
+      "slug": "social-sciences-humanities-and-management",
+      "assigned_papers_v1": 2786
+    }
+  ],
+  "vocab": {
+    "domains": [
+      {
+        "id": "6a46ea5ece9a42a451a47157",
+        "name": "Acoustics & Vibration",
+        "slug": "acoustics-and-vibration"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47158",
+        "name": "Biomedical & Healthcare Engineering",
+        "slug": "biomedical-and-healthcare-engineering"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47159",
+        "name": "Biotechnology & Bioprocess Engineering",
+        "slug": "biotechnology-and-bioprocess-engineering"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4715a",
+        "name": "Catalysis & Reaction Engineering",
+        "slug": "catalysis-and-reaction-engineering"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4715b",
+        "name": "Chemical Process Engineering",
+        "slug": "chemical-process-engineering"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4715c",
+        "name": "Chemistry & Molecular Science",
+        "slug": "chemistry-and-molecular-science"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4715d",
+        "name": "Civil & Geotechnical Engineering",
+        "slug": "civil-and-geotechnical-engineering"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4715e",
+        "name": "Computational Methods & Simulation",
+        "slug": "computational-methods-and-simulation"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4715f",
+        "name": "Computer Systems & Networks",
+        "slug": "computer-systems-and-networks"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47160",
+        "name": "Control Systems & Automation",
+        "slug": "control-systems-and-automation"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47161",
+        "name": "Design & Human-Centered Engineering",
+        "slug": "design-and-human-centered-engineering"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47162",
+        "name": "Economics & Social Sciences",
+        "slug": "economics-and-social-sciences"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47163",
+        "name": "Electrochemistry & Energy Storage",
+        "slug": "electrochemistry-and-energy-storage"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47165",
+        "name": "Electronics & Microelectronics",
+        "slug": "electronics-and-microelectronics"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47166",
+        "name": "Energy & Petroleum Engineering",
+        "slug": "energy-and-petroleum-engineering"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47167",
+        "name": "Energy Storage & Renewable Energy",
+        "slug": "energy-storage-and-renewable-energy"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47168",
+        "name": "Environmental & Water Engineering",
+        "slug": "environmental-and-water-engineering"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47169",
+        "name": "Fluid Mechanics & Aerodynamics",
+        "slug": "fluid-mechanics-and-aerodynamics"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4716a",
+        "name": "Machine Learning & Artificial Intelligence",
+        "slug": "machine-learning-and-artificial-intelligence"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4716b",
+        "name": "Management & Business",
+        "slug": "management-and-business"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4716c",
+        "name": "Manufacturing & Industrial Engineering",
+        "slug": "manufacturing-and-industrial-engineering"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4716d",
+        "name": "Materials Science & Nanomaterials",
+        "slug": "materials-science-and-nanomaterials"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4716e",
+        "name": "Mathematics & Statistics",
+        "slug": "mathematics-and-statistics"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4716f",
+        "name": "Optics & Photonics",
+        "slug": "optics-and-photonics"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47170",
+        "name": "Polymer & Composite Materials",
+        "slug": "polymer-and-composite-materials"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47171",
+        "name": "Power & Energy Systems",
+        "slug": "power-and-energy-systems"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47172",
+        "name": "Quantum & Condensed Matter Physics",
+        "slug": "quantum-and-condensed-matter-physics"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47174",
+        "name": "Remote Sensing & GIS",
+        "slug": "remote-sensing-and-gis"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47175",
+        "name": "Robotics & Mechatronics",
+        "slug": "robotics-and-mechatronics"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47176",
+        "name": "Software & Cybersecurity",
+        "slug": "software-and-cybersecurity"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47177",
+        "name": "Solid & Structural Mechanics",
+        "slug": "solid-and-structural-mechanics"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47178",
+        "name": "Telecommunications & Signal Processing",
+        "slug": "telecommunications-and-signal-processing"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47179",
+        "name": "Textile & Fibre Engineering",
+        "slug": "textile-and-fibre-engineering"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4717a",
+        "name": "Thermal & Heat Transfer",
+        "slug": "thermal-and-heat-transfer"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4717b",
+        "name": "Transportation & Infrastructure",
+        "slug": "transportation-and-infrastructure"
+      }
+    ],
+    "subdomains": [
+      {
+        "id": "6a46ea5ece9a42a451a4717f",
+        "name": "Acoustic Physics",
+        "domain_id": "6a46ea5ece9a42a451a47157"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47180",
+        "name": "Algorithms and Complexity",
+        "domain_id": "6a46ea5ece9a42a451a4716e"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47181",
+        "name": "Analytical Chemistry",
+        "domain_id": "6a46ea5ece9a42a451a4715c"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47182",
+        "name": "Antennas and RF Engineering",
+        "domain_id": "6a46ea5ece9a42a451a47178"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47183",
+        "name": "Applied Mathematics",
+        "domain_id": "6a46ea5ece9a42a451a4716e"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47184",
+        "name": "Applied Mechanics",
+        "domain_id": "6a46ea5ece9a42a451a47177"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47185",
+        "name": "Astrophysics and Cosmology",
+        "domain_id": "6a46ea5ece9a42a451a47172"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47186",
+        "name": "Automotive Engineering",
+        "domain_id": "6a46ea5ece9a42a451a4716c"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47187",
+        "name": "Behavioral Economics",
+        "domain_id": "6a46ea5ece9a42a451a47162"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47188",
+        "name": "Biochemical Engineering and Biotechnology",
+        "domain_id": "6a46ea5ece9a42a451a47159"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47189",
+        "name": "Bioenergy and Biomass",
+        "domain_id": "6a46ea5ece9a42a451a47167"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4718a",
+        "name": "Bioinformatics",
+        "domain_id": "6a46ea5ece9a42a451a4716a"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4718b",
+        "name": "Biomaterials",
+        "domain_id": "6a46ea5ece9a42a451a47158"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4718c",
+        "name": "Biomechanics",
+        "domain_id": "6a46ea5ece9a42a451a47158"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4718d",
+        "name": "Biophysics",
+        "domain_id": "6a46ea5ece9a42a451a47158"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4718e",
+        "name": "Bioprocess Engineering",
+        "domain_id": "6a46ea5ece9a42a451a47159"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4718f",
+        "name": "Bioreactor Design",
+        "domain_id": "6a46ea5ece9a42a451a47159"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47190",
+        "name": "Biosensors",
+        "domain_id": "6a46ea5ece9a42a451a47158"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47191",
+        "name": "Carbon Capture and Storage",
+        "domain_id": "6a46ea5ece9a42a451a47168"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47192",
+        "name": "Catalysis",
+        "domain_id": "6a46ea5ece9a42a451a4715a"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47193",
+        "name": "Catalysis and Reaction Engineering",
+        "domain_id": "6a46ea5ece9a42a451a4715a"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47194",
+        "name": "Cell Culture and Tissue Engineering",
+        "domain_id": "6a46ea5ece9a42a451a47158"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47195",
+        "name": "Ceramics and Glass",
+        "domain_id": "6a46ea5ece9a42a451a4716d"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47196",
+        "name": "Chemical Engineering",
+        "domain_id": "6a46ea5ece9a42a451a4715b"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47197",
+        "name": "Chemistry",
+        "domain_id": "6a46ea5ece9a42a451a4715c"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47198",
+        "name": "Civil and Environmental Engineering",
+        "domain_id": "6a46ea5ece9a42a451a4715d"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47199",
+        "name": "Cognitive and Social Psychology",
+        "domain_id": "6a46ea5ece9a42a451a47162"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4719a",
+        "name": "Composite Materials",
+        "domain_id": "6a46ea5ece9a42a451a47170"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4719b",
+        "name": "Computational Chemistry",
+        "domain_id": "6a46ea5ece9a42a451a4715e"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4719c",
+        "name": "Computational Fluid Dynamics",
+        "domain_id": "6a46ea5ece9a42a451a47169"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4719d",
+        "name": "Computational Mechanics",
+        "domain_id": "6a46ea5ece9a42a451a4715e"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4719e",
+        "name": "Computer Architecture",
+        "domain_id": "6a46ea5ece9a42a451a47165"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4719f",
+        "name": "Computer Networks",
+        "domain_id": "6a46ea5ece9a42a451a4715f"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471a0",
+        "name": "Computer Science and Engineering",
+        "domain_id": "6a46ea5ece9a42a451a4716a"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471a1",
+        "name": "Computer Vision",
+        "domain_id": "6a46ea5ece9a42a451a4716a"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471a2",
+        "name": "Condensed Matter Physics",
+        "domain_id": "6a46ea5ece9a42a451a47172"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471a3",
+        "name": "Construction Management",
+        "domain_id": "6a46ea5ece9a42a451a4717b"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471a4",
+        "name": "Control Systems",
+        "domain_id": "6a46ea5ece9a42a451a47160"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471a5",
+        "name": "Corporate Governance",
+        "domain_id": "6a46ea5ece9a42a451a4716b"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471a6",
+        "name": "Cybersecurity",
+        "domain_id": "6a46ea5ece9a42a451a47176"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471a7",
+        "name": "Databases and Information Systems",
+        "domain_id": "6a46ea5ece9a42a451a4715f"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471a8",
+        "name": "Design",
+        "domain_id": "6a46ea5ece9a42a451a47161"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471a9",
+        "name": "Design Thinking and Innovation",
+        "domain_id": "6a46ea5ece9a42a451a47161"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471aa",
+        "name": "Design for Manufacturing",
+        "domain_id": "6a46ea5ece9a42a451a4716c"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471ab",
+        "name": "Differential Equations",
+        "domain_id": "6a46ea5ece9a42a451a4716e"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471ac",
+        "name": "Distributed and Cloud Computing",
+        "domain_id": "6a46ea5ece9a42a451a4715f"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471ad",
+        "name": "Drug Delivery Systems",
+        "domain_id": "6a46ea5ece9a42a451a47158"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471ae",
+        "name": "Earthquake Engineering",
+        "domain_id": "6a46ea5ece9a42a451a47177"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471af",
+        "name": "Economics and Development",
+        "domain_id": "6a46ea5ece9a42a451a47162"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471b0",
+        "name": "Electrical Engineering",
+        "domain_id": "6a46ea5ece9a42a451a47171"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471b1",
+        "name": "Electrochemical Engineering",
+        "domain_id": "6a46ea5ece9a42a451a47163"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471b2",
+        "name": "Electrochemistry",
+        "domain_id": "6a46ea5ece9a42a451a47163"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471b3",
+        "name": "Electromagnetism",
+        "domain_id": "6a46ea5ece9a42a451a47172"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471b4",
+        "name": "Electronic and Energy Materials",
+        "domain_id": "6a46ea5ece9a42a451a4716d"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471b5",
+        "name": "Embedded Systems",
+        "domain_id": "6a46ea5ece9a42a451a47165"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471b6",
+        "name": "Energy Policy and Economics",
+        "domain_id": "6a46ea5ece9a42a451a47162"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471b7",
+        "name": "Energy Science and Engineering",
+        "domain_id": "6a46ea5ece9a42a451a47167"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471b8",
+        "name": "Energy Storage and Batteries",
+        "domain_id": "6a46ea5ece9a42a451a47163"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471b9",
+        "name": "Entrepreneurship and Innovation",
+        "domain_id": "6a46ea5ece9a42a451a4716b"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471ba",
+        "name": "Environmental Engineering",
+        "domain_id": "6a46ea5ece9a42a451a47168"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471bb",
+        "name": "Environmental Process Engineering",
+        "domain_id": "6a46ea5ece9a42a451a47168"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471bc",
+        "name": "Enzyme Engineering",
+        "domain_id": "6a46ea5ece9a42a451a47159"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471bd",
+        "name": "Ergonomics and Human Factors",
+        "domain_id": "6a46ea5ece9a42a451a47161"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471be",
+        "name": "Fabric Engineering",
+        "domain_id": "6a46ea5ece9a42a451a47179"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471bf",
+        "name": "Fermentation Technology",
+        "domain_id": "6a46ea5ece9a42a451a47159"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471c0",
+        "name": "Fibre Science",
+        "domain_id": "6a46ea5ece9a42a451a47179"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471c1",
+        "name": "Finance and Investment",
+        "domain_id": "6a46ea5ece9a42a451a4716b"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471c2",
+        "name": "Fluid Mechanics",
+        "domain_id": "6a46ea5ece9a42a451a47169"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471c3",
+        "name": "Fluid Mechanics and Aerodynamics",
+        "domain_id": "6a46ea5ece9a42a451a47169"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471c4",
+        "name": "Fracture and Fatigue",
+        "domain_id": "6a46ea5ece9a42a451a47177"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471c5",
+        "name": "Fuel Cells and Hydrogen Energy",
+        "domain_id": "6a46ea5ece9a42a451a47167"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471c6",
+        "name": "Geomechanics",
+        "domain_id": "6a46ea5ece9a42a451a4715d"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471c7",
+        "name": "Geotechnical Engineering",
+        "domain_id": "6a46ea5ece9a42a451a4715d"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471c8",
+        "name": "Graph Theory and Combinatorics",
+        "domain_id": "6a46ea5ece9a42a451a4716e"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471c9",
+        "name": "Green Chemistry",
+        "domain_id": "6a46ea5ece9a42a451a4715a"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471ca",
+        "name": "History and Culture",
+        "domain_id": "6a46ea5ece9a42a451a47162"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471cb",
+        "name": "Human Resource Management",
+        "domain_id": "6a46ea5ece9a42a451a4716b"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471cc",
+        "name": "Human-Computer Interaction",
+        "domain_id": "6a46ea5ece9a42a451a47161"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471cd",
+        "name": "Humanities and Social Sciences",
+        "domain_id": "6a46ea5ece9a42a451a47162"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471ce",
+        "name": "Impact and Wave Propagation",
+        "domain_id": "6a46ea5ece9a42a451a47177"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471cf",
+        "name": "Industrial Design",
+        "domain_id": "6a46ea5ece9a42a451a47161"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471d0",
+        "name": "Industrial Engineering",
+        "domain_id": "6a46ea5ece9a42a451a4716c"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471d1",
+        "name": "Information Systems Management",
+        "domain_id": "6a46ea5ece9a42a451a4716b"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471d2",
+        "name": "Inorganic Chemistry",
+        "domain_id": "6a46ea5ece9a42a451a4715c"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471d3",
+        "name": "Interaction and UX Design",
+        "domain_id": "6a46ea5ece9a42a451a47161"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471d4",
+        "name": "Internet of Things",
+        "domain_id": "6a46ea5ece9a42a451a4715f"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471d5",
+        "name": "Linguistics and Language",
+        "domain_id": "6a46ea5ece9a42a451a47162"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471d6",
+        "name": "Literature and Media Studies",
+        "domain_id": "6a46ea5ece9a42a451a47162"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471d7",
+        "name": "MEMS and Microsystems",
+        "domain_id": "6a46ea5ece9a42a451a47165"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471d8",
+        "name": "Machine Design",
+        "domain_id": "6a46ea5ece9a42a451a4716c"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471d9",
+        "name": "Machine Learning and AI",
+        "domain_id": "6a46ea5ece9a42a451a4716a"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471da",
+        "name": "Magnetic Materials",
+        "domain_id": "6a46ea5ece9a42a451a47172"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471db",
+        "name": "Management Studies",
+        "domain_id": "6a46ea5ece9a42a451a4716b"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471dc",
+        "name": "Manufacturing and Production",
+        "domain_id": "6a46ea5ece9a42a451a4716c"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471dd",
+        "name": "Marketing",
+        "domain_id": "6a46ea5ece9a42a451a4716b"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471de",
+        "name": "Materials Science and Engineering",
+        "domain_id": "6a46ea5ece9a42a451a4716d"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471df",
+        "name": "Mathematical Biology",
+        "domain_id": "6a46ea5ece9a42a451a47159"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471e0",
+        "name": "Mathematical Physics",
+        "domain_id": "6a46ea5ece9a42a451a47172"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471e1",
+        "name": "Mathematics",
+        "domain_id": "6a46ea5ece9a42a451a4716e"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471e2",
+        "name": "Mechanical Engineering",
+        "domain_id": "6a46ea5ece9a42a451a4716c"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471e3",
+        "name": "Metabolic Engineering",
+        "domain_id": "6a46ea5ece9a42a451a47159"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471e4",
+        "name": "Metal Alloys and Metallurgy",
+        "domain_id": "6a46ea5ece9a42a451a4716d"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471e5",
+        "name": "Nanomaterials",
+        "domain_id": "6a46ea5ece9a42a451a4716d"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471e6",
+        "name": "Nanotechnology",
+        "domain_id": "6a46ea5ece9a42a451a4716d"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471e7",
+        "name": "Natural Language Processing",
+        "domain_id": "6a46ea5ece9a42a451a4716a"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471e8",
+        "name": "Nonlinear Dynamics and Chaos",
+        "domain_id": "6a46ea5ece9a42a451a4716e"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471e9",
+        "name": "Nuclear Energy",
+        "domain_id": "6a46ea5ece9a42a451a47167"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471ea",
+        "name": "Nuclear Physics",
+        "domain_id": "6a46ea5ece9a42a451a47172"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471eb",
+        "name": "Numerical Analysis",
+        "domain_id": "6a46ea5ece9a42a451a4715e"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471ec",
+        "name": "Operations Management",
+        "domain_id": "6a46ea5ece9a42a451a4716b"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471ed",
+        "name": "Optical and Photonic Materials",
+        "domain_id": "6a46ea5ece9a42a451a4716f"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471ee",
+        "name": "Optics and Photonics",
+        "domain_id": "6a46ea5ece9a42a451a4716f"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471ef",
+        "name": "Optimization",
+        "domain_id": "6a46ea5ece9a42a451a4716e"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471f0",
+        "name": "Organic Chemistry",
+        "domain_id": "6a46ea5ece9a42a451a4715c"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471f1",
+        "name": "Particle Physics",
+        "domain_id": "6a46ea5ece9a42a451a47172"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471f2",
+        "name": "Pavement Engineering",
+        "domain_id": "6a46ea5ece9a42a451a4717b"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471f3",
+        "name": "Petroleum and Gas Engineering",
+        "domain_id": "6a46ea5ece9a42a451a47166"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471f4",
+        "name": "Philosophy and Ethics",
+        "domain_id": "6a46ea5ece9a42a451a47162"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471f5",
+        "name": "Photonics and Optoelectronics",
+        "domain_id": "6a46ea5ece9a42a451a4716f"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471f6",
+        "name": "Physical Chemistry",
+        "domain_id": "6a46ea5ece9a42a451a4715c"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471f7",
+        "name": "Physics",
+        "domain_id": "6a46ea5ece9a42a451a47172"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471f8",
+        "name": "Plasma Physics",
+        "domain_id": "6a46ea5ece9a42a451a47172"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471f9",
+        "name": "Political Science and Policy",
+        "domain_id": "6a46ea5ece9a42a451a47162"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471fa",
+        "name": "Polymer Chemistry",
+        "domain_id": "6a46ea5ece9a42a451a47170"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471fb",
+        "name": "Polymer Engineering",
+        "domain_id": "6a46ea5ece9a42a451a47170"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471fc",
+        "name": "Polymers",
+        "domain_id": "6a46ea5ece9a42a451a47170"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471fd",
+        "name": "Power Electronics",
+        "domain_id": "6a46ea5ece9a42a451a47171"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471fe",
+        "name": "Power Systems and Smart Grid",
+        "domain_id": "6a46ea5ece9a42a451a47171"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a471ff",
+        "name": "Process Control and Optimization",
+        "domain_id": "6a46ea5ece9a42a451a47160"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47200",
+        "name": "Product Design",
+        "domain_id": "6a46ea5ece9a42a451a47161"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47201",
+        "name": "Protective Textiles",
+        "domain_id": "6a46ea5ece9a42a451a47179"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47202",
+        "name": "Protein Engineering",
+        "domain_id": "6a46ea5ece9a42a451a47159"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47203",
+        "name": "Pure Mathematics",
+        "domain_id": "6a46ea5ece9a42a451a4716e"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47204",
+        "name": "Quantum Physics and Quantum Computing",
+        "domain_id": "6a46ea5ece9a42a451a47172"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47205",
+        "name": "Remote Sensing and GIS",
+        "domain_id": "6a46ea5ece9a42a451a47174"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47206",
+        "name": "Robotics",
+        "domain_id": "6a46ea5ece9a42a451a47175"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47207",
+        "name": "Robotics and Automation",
+        "domain_id": "6a46ea5ece9a42a451a47175"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47208",
+        "name": "Robotics and Mechatronics",
+        "domain_id": "6a46ea5ece9a42a451a47175"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47209",
+        "name": "Semiconductors",
+        "domain_id": "6a46ea5ece9a42a451a47165"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4720a",
+        "name": "Separation Processes",
+        "domain_id": "6a46ea5ece9a42a451a4715b"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4720b",
+        "name": "Signal and Image Processing",
+        "domain_id": "6a46ea5ece9a42a451a47178"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4720c",
+        "name": "Smart Grid and Energy Systems",
+        "domain_id": "6a46ea5ece9a42a451a47171"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4720d",
+        "name": "Smart and Functional Textiles",
+        "domain_id": "6a46ea5ece9a42a451a47179"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4720e",
+        "name": "Sociology and Anthropology",
+        "domain_id": "6a46ea5ece9a42a451a47162"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4720f",
+        "name": "Software Engineering",
+        "domain_id": "6a46ea5ece9a42a451a47176"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47210",
+        "name": "Solar Energy",
+        "domain_id": "6a46ea5ece9a42a451a47167"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47211",
+        "name": "Solid Mechanics",
+        "domain_id": "6a46ea5ece9a42a451a47177"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47212",
+        "name": "Spectroscopy and Characterization",
+        "domain_id": "6a46ea5ece9a42a451a4715c"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47213",
+        "name": "Statistics and Probability",
+        "domain_id": "6a46ea5ece9a42a451a4716e"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47214",
+        "name": "Strategic Management",
+        "domain_id": "6a46ea5ece9a42a451a4716b"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47215",
+        "name": "Structural Dynamics",
+        "domain_id": "6a46ea5ece9a42a451a47177"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47216",
+        "name": "Structural Engineering",
+        "domain_id": "6a46ea5ece9a42a451a47177"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47217",
+        "name": "Structural Materials",
+        "domain_id": "6a46ea5ece9a42a451a47177"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47218",
+        "name": "Supply Chain and Logistics",
+        "domain_id": "6a46ea5ece9a42a451a4716b"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47219",
+        "name": "Supramolecular Chemistry",
+        "domain_id": "6a46ea5ece9a42a451a4715c"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4721a",
+        "name": "Sustainable Design",
+        "domain_id": "6a46ea5ece9a42a451a47161"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4721b",
+        "name": "Technical Textiles",
+        "domain_id": "6a46ea5ece9a42a451a47179"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4721c",
+        "name": "Telecommunications",
+        "domain_id": "6a46ea5ece9a42a451a47178"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4721d",
+        "name": "Textile Composites",
+        "domain_id": "6a46ea5ece9a42a451a47170"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4721e",
+        "name": "Textile Processing and Finishing",
+        "domain_id": "6a46ea5ece9a42a451a47179"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4721f",
+        "name": "Textile and Fibre Engineering",
+        "domain_id": "6a46ea5ece9a42a451a47179"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47220",
+        "name": "Thermal Engineering and Heat Transfer",
+        "domain_id": "6a46ea5ece9a42a451a4717a"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47221",
+        "name": "Thermodynamics and Heat Transfer",
+        "domain_id": "6a46ea5ece9a42a451a4717a"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47222",
+        "name": "Thin Films and Coatings",
+        "domain_id": "6a46ea5ece9a42a451a4716d"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47223",
+        "name": "Topology and Geometry",
+        "domain_id": "6a46ea5ece9a42a451a4716e"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47224",
+        "name": "Transport Phenomena",
+        "domain_id": "6a46ea5ece9a42a451a47169"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47225",
+        "name": "Transportation Engineering",
+        "domain_id": "6a46ea5ece9a42a451a4717b"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47226",
+        "name": "Tribology and Wear",
+        "domain_id": "6a46ea5ece9a42a451a4716c"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47227",
+        "name": "Turbomachinery",
+        "domain_id": "6a46ea5ece9a42a451a47169"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47228",
+        "name": "Urban Infrastructure",
+        "domain_id": "6a46ea5ece9a42a451a4717b"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a47229",
+        "name": "VLSI and Microelectronics",
+        "domain_id": "6a46ea5ece9a42a451a47165"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4722a",
+        "name": "Vibration and Acoustics",
+        "domain_id": "6a46ea5ece9a42a451a47157"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4722b",
+        "name": "Visual Communication",
+        "domain_id": "6a46ea5ece9a42a451a47161"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4722c",
+        "name": "Water Resources and Hydraulics",
+        "domain_id": "6a46ea5ece9a42a451a47168"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4722d",
+        "name": "Welding and Joining",
+        "domain_id": "6a46ea5ece9a42a451a4716c"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4722e",
+        "name": "Wind Energy",
+        "domain_id": "6a46ea5ece9a42a451a47167"
+      },
+      {
+        "id": "6a46ea5ece9a42a451a4722f",
+        "name": "Yarn Technology",
+        "domain_id": "6a46ea5ece9a42a451a47179"
+      }
+    ]
+  }
+}

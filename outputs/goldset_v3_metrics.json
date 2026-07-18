@@ -1,0 +1,236 @@
+{
+  "sample_size": 250,
+  "sonnet_labeled": 250,
+  "theme_comparable_n": 246,
+  "domain_comparable_n": 245,
+  "refusals": [],
+  "sonnet_unclassifiable": [
+    "69deca654e2d2a5b77ede2e2",
+    "69deca3a4e2d2a5b77ed80f3"
+  ],
+  "theme_agreement": {
+    "n": 246,
+    "agree": 196,
+    "pct": 79.7
+  },
+  "domain_agreement": {
+    "n": 245,
+    "agree": 144,
+    "pct": 58.8
+  },
+  "theme_by_band": {
+    "<0.5": {
+      "n": 83,
+      "agree": 53,
+      "pct": 63.9
+    },
+    "0.5-0.8": {
+      "n": 85,
+      "agree": 70,
+      "pct": 82.4
+    },
+    ">=0.8": {
+      "n": 78,
+      "agree": 73,
+      "pct": 93.6
+    }
+  },
+  "domain_by_band": {
+    "<0.5": {
+      "n": 83,
+      "agree": 21,
+      "pct": 25.3
+    },
+    "0.5-0.8": {
+      "n": 84,
+      "agree": 57,
+      "pct": 67.9
+    },
+    ">=0.8": {
+      "n": 78,
+      "agree": 66,
+      "pct": 84.6
+    }
+  },
+  "theme_by_source": {
+    "haiku": {
+      "n": 60,
+      "agree": 57,
+      "pct": 95.0
+    },
+    "haiku_repass_v3": {
+      "n": 183,
+      "agree": 136,
+      "pct": 74.3
+    },
+    "sonnet": {
+      "n": 3,
+      "agree": 3,
+      "pct": 100.0
+    }
+  },
+  "domain_by_source": {
+    "haiku": {
+      "n": 60,
+      "agree": 53,
+      "pct": 88.3
+    },
+    "haiku_repass_v3": {
+      "n": 182,
+      "agree": 90,
+      "pct": 49.5
+    },
+    "sonnet": {
+      "n": 3,
+      "agree": 1,
+      "pct": 33.3
+    }
+  },
+  "theme_right_domain_wrong": {
+    "count": 52,
+    "pct_of_theme_matches": 26.5,
+    "theme_match_n": 196
+  },
+  "top_theme_confusions": [
+    {
+      "from": "Manufacturing & Industry 4.0",
+      "to": "Energy, Sustainability & Climate Change",
+      "count": 7
+    },
+    {
+      "from": "Advanced Materials & Devices",
+      "to": "Energy, Sustainability & Climate Change",
+      "count": 6
+    },
+    {
+      "from": "Healthcare & MedTech",
+      "to": "Advanced Materials & Devices",
+      "count": 3
+    },
+    {
+      "from": "Manufacturing & Industry 4.0",
+      "to": "Advanced Materials & Devices",
+      "count": 3
+    },
+    {
+      "from": "Energy, Sustainability & Climate Change",
+      "to": "Smart & Sustainable Infrastructure",
+      "count": 3
+    },
+    {
+      "from": "Smart & Sustainable Infrastructure",
+      "to": "Energy, Sustainability & Climate Change",
+      "count": 3
+    },
+    {
+      "from": "Advanced Materials & Devices",
+      "to": "Quantum Technologies & Semiconductor Technology",
+      "count": 2
+    },
+    {
+      "from": "Manufacturing & Industry 4.0",
+      "to": "AI/ML, Supercomputing & Quantum Computing",
+      "count": 2
+    },
+    {
+      "from": "Healthcare & MedTech",
+      "to": "Quantum Technologies & Semiconductor Technology",
+      "count": 2
+    },
+    {
+      "from": "Smart & Sustainable Infrastructure",
+      "to": "Next-Gen Communication",
+      "count": 2
+    },
+    {
+      "from": "AI/ML, Supercomputing & Quantum Computing",
+      "to": "Quantum Technologies & Semiconductor Technology",
+      "count": 2
+    },
+    {
+      "from": "Quantum Technologies & Semiconductor Technology",
+      "to": "Next-Gen Communication",
+      "count": 2
+    }
+  ],
+  "top_domain_disagreements": [
+    {
+      "current_domain": "Thermal Systems, Engines & Energy Harvesting",
+      "count": 9
+    },
+    {
+      "current_domain": "Ion Beam & Thin Film Engineering",
+      "count": 7
+    },
+    {
+      "current_domain": "Electric Motor Drives & Power Electronics",
+      "count": 5
+    },
+    {
+      "current_domain": "Biomanufacturing & Fermentation Processes",
+      "count": 5
+    },
+    {
+      "current_domain": "Semiconductor Photovoltaic & Photodetection Devices",
+      "count": 4
+    },
+    {
+      "current_domain": "Building Energy & Thermal Performance",
+      "count": 4
+    },
+    {
+      "current_domain": "Clinical Biosensors & Point-of-Care Devices",
+      "count": 4
+    },
+    {
+      "current_domain": "Structured Light & Polarization Engineering",
+      "count": 4
+    },
+    {
+      "current_domain": "Next-Generation Photovoltaic Materials",
+      "count": 3
+    },
+    {
+      "current_domain": "Clinical Diagnostics & Biomarkers",
+      "count": 3
+    },
+    {
+      "current_domain": "Drug Delivery & Molecular Therapeutics",
+      "count": 3
+    },
+    {
+      "current_domain": "Clinical AI & Medical Imaging Analytics",
+      "count": 3
+    }
+  ],
+  "changed_from_v2_in_sample": 69,
+  "cost_usd": 1.4471,
+  "baseline": {
+    "theme_pct": 86.2,
+    "domain_pct": 70.5,
+    "theme_by_band": {
+      "<0.5": 90.1,
+      "0.5-0.8": 76.0,
+      ">=0.8": 91.8
+    },
+    "domain_by_band": {
+      "<0.5": 67.4,
+      "0.5-0.8": 58.7,
+      ">=0.8": 86.3
+    }
+  },
+  "delta_vs_baseline": {
+    "theme_pct": -6.5,
+    "domain_pct": -11.7,
+    "theme_by_band": {
+      "<0.5": -26.2,
+      "0.5-0.8": 6.4,
+      ">=0.8": 1.8
+    },
+    "domain_by_band": {
+      "<0.5": -42.1,
+      "0.5-0.8": 9.2,
+      ">=0.8": -1.7
+    }
+  }
+}

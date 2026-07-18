@@ -141,3 +141,16 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Python local/runtime artifacts
+.venv/
+pipeline/__pycache__/
+
+# Classification pipeline generated artifacts (keep local, don't commit)
+outputs/db_backup_pre_v2_ingest/
+outputs/work/paper_embeddings*.npz
+outputs/work/papers_source.jsonl
+outputs/work/papers_for_embedding.jsonl
+outputs/work/emb/
+outputs/work/*.npy
+outputs/work/*.npz

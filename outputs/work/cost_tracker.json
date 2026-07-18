@@ -1,0 +1,25 @@
+{
+  "haiku": {
+    "rows": 68644,
+    "cost_usd": 117.1976,
+    "usage": {
+      "input_tokens": 19784828,
+      "output_tokens": 8571746,
+      "cache_write": 298414,
+      "cache_read": 541809882
+    }
+  },
+  "sonnet": {
+    "rows": 6158,
+    "cost_usd": 32.9837,
+    "usage": {
+      "input_tokens": 1848600,
+      "output_tokens": 723098,
+      "cache_write": 274855,
+      "cache_read": 51869065
+    }
+  },
+  "total_cost_usd": 150.1813,
+  "cost_stop_usd": 255.0,
+  "updated": "2026-07-18 02:28:07"
+}

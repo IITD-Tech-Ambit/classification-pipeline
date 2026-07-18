@@ -1,0 +1,31 @@
+{
+  "db": {
+    "ok": true,
+    "estimated_docs": 70298
+  },
+  "haiku": {
+    "ok": true,
+    "stop_reason": "max_tokens",
+    "in": 15,
+    "out": 1
+  },
+  "sonnet_selected": "claude-sonnet-4-5",
+  "sonnet_tries": {
+    "claude-sonnet-4-5": {
+      "ok": true,
+      "stop_reason": "max_tokens",
+      "in": 15,
+      "out": 1
+    },
+    "claude-sonnet-4-5-20250929": {
+      "ok": true,
+      "stop_reason": "max_tokens",
+      "in": 15,
+      "out": 1
+    },
+    "claude-sonnet-4-20250514": {
+      "ok": false,
+      "error": "NotFoundError(\"Error code: 404 - {'type': 'error', 'error': {'type': 'not_found_error', 'message': 'model: claude-sonnet-4-20250514'}, 'request_id': 'req_011Cd8AngkgDywPhNK7jHZgg'}\")"
+    }
+  }
+}
