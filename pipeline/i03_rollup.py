@@ -68,14 +68,25 @@ def members_pipeline(mask, with_dept):
     author_match = {"iitd_authors.faculty_ref": {"$ne": None}}
     if with_dept:
         author_match["iitd_authors.department_ref"] = {"$ne": None}
-    group_key = mask_key(mask)
+    per_author = {**mask_key(mask), "kerberos": "$iitd_authors.kerberos"}
     if with_dept:
-        group_key["department_id"] = "$iitd_authors.department_ref"
+        per_author["department_id"] = "$iitd_authors.department_ref"
+    combo_id = lift_from_id(mask)
+    if with_dept:
+        combo_id["department_id"] = "$_id.department_id"
+    author_id = {f: f"$_id.{f}" for f in mask}
+    author_id["kerberos"] = "$_id.kerberos"
+    if with_dept:
+        author_id["department_id"] = "$_id.department_id"
     return [
         {"$match": mask_match(mask)},
         {"$unwind": "$iitd_authors"},
         {"$match": author_match},
-        {"$group": {"_id": group_key, "kerberos_set": {"$addToSet": "$iitd_authors.kerberos"}}},
+        {"$group": {"_id": {**per_author, "paper": "$_id"}}},
+        {"$group": {"_id": author_id, "paper_count": {"$sum": 1}}},
+        {"$group": {"_id": combo_id, "member_paper_counts": {
+            "$push": {"kerberos": "$_id.kerberos", "paper_count": "$paper_count"}
+        }}},
     ]
 
 
@@ -98,11 +109,6 @@ def main():
     now = datetime.now(timezone.utc)
 
     dept_by_id = {x["_id"]: x for x in d.departments.find({})}
-    h_index = {}
-    for f in d.faculties.find({}, {"email": 1, "h_index": 1}):
-        kerb = str(f.get("email") or "").split("@")[0].lower().strip()
-        if kerb:
-            h_index[kerb] = f.get("h_index") or 0
 
     rows = {}
 
@@ -117,7 +123,7 @@ def main():
                 "department_id": _id.get("department_id"),
                 "department_name": (dep or {}).get("name"),
                 "department_code": (dep or {}).get("code"),
-                "paper_count": 0, "faculty_count": 0, "kerberos_set": [],
+                "paper_count": 0, "faculty_count": 0, "member_paper_counts": [],
             }
         return rows[key]
 
@@ -128,7 +134,7 @@ def main():
             for r in R.aggregate(faculty_count_pipeline(mask, with_dept), allowDiskUse=True):
                 combo_row(r["_id"])["faculty_count"] = r["faculty_count"]
             for r in R.aggregate(members_pipeline(mask, with_dept), allowDiskUse=True):
-                combo_row(r["_id"])["kerberos_set"] = r["kerberos_set"]
+                combo_row(r["_id"])["member_paper_counts"] = r["member_paper_counts"]
         print(f"aggregated mask {mask}")
 
     all_rows = [r for r in rows.values() if r["paper_count"] > 0]
@@ -158,16 +164,20 @@ def main():
                               for r in sub_counts])
 
     # --- facet cube + members (rebuild from scratch) ---
-    count_docs = [{k: v for k, v in r.items() if k != "kerberos_set"} | {"updated_at": now} for r in all_rows]
+    count_docs = [{k: v for k, v in r.items() if k != "member_paper_counts"} | {"updated_at": now} for r in all_rows]
     member_docs = []
     for r in all_rows:
-        if not r["kerberos_set"]:
+        if not r["member_paper_counts"]:
             continue
-        srt = sorted(r["kerberos_set"], key=lambda k: h_index.get(k, 0), reverse=True)
+        srt = sorted(
+            r["member_paper_counts"],
+            key=lambda m: (-m["paper_count"], str(m["kerberos"])),
+        )
         member_docs.append({
             "thematic_area_id": r["thematic_area_id"], "domain_id": r["domain_id"],
             "subdomain_id": r["subdomain_id"], "department_id": r["department_id"],
-            "kerberos_list": srt[:MEMBERS_CAP], "faculty_total": len(srt), "updated_at": now})
+            "kerberos_list": [m["kerberos"] for m in srt[:MEMBERS_CAP]],
+            "faculty_total": len(srt), "updated_at": now})
 
     d.taxonomyfacetcounts.delete_many({})
     d.taxonomyfacetcounts.insert_many(count_docs, ordered=False)
