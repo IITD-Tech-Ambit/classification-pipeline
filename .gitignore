@@ -144,13 +144,28 @@ vite.config.ts.timestamp-*
 
 # Python local/runtime artifacts
 .venv/
-pipeline/__pycache__/
+venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+
+# Accidental Windows NUL device artifacts
+/nul
+nul
 
 # Classification pipeline generated artifacts (keep local, don't commit)
-outputs/db_backup_pre_v2_ingest/
+outputs/db_backup_pre_*_ingest/
 outputs/work/paper_embeddings*.npz
 outputs/work/papers_source.jsonl
 outputs/work/papers_for_embedding.jsonl
 outputs/work/emb/
 outputs/work/*.npy
 outputs/work/*.npz
+outputs/work/haiku_full.jsonl
+outputs/work/repass_haiku.jsonl
+outputs/work/sonnet_escalation.jsonl
+outputs/work/*.log
+
+# Crash dumps
+*.stackdump
