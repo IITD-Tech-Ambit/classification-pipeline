@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-07-18 21:42:00",
+  "files": {
+    "classification_v2_final": {
+      "src": "C:\\Users\\Prem\\OneDrive - IIT Delhi\\Desktop\\Research Ambit\\classification-pipeline\\outputs\\classification_v2_final.jsonl",
+      "snapshot": "C:\\Users\\Prem\\OneDrive - IIT Delhi\\Desktop\\Research Ambit\\classification-pipeline\\outputs\\safe_baseline\\classification_v2_final.jsonl",
+      "sha256": "a6f04898c2588c81fccb3d7fc4edaa5e470fd6501ae739f280e57ccfb3bcedce",
+      "bytes": 37131033
+    },
+    "goldset_metrics": {
+      "src": "C:\\Users\\Prem\\OneDrive - IIT Delhi\\Desktop\\Research Ambit\\classification-pipeline\\outputs\\work\\goldset_metrics.json",
+      "snapshot": "C:\\Users\\Prem\\OneDrive - IIT Delhi\\Desktop\\Research Ambit\\classification-pipeline\\outputs\\safe_baseline\\goldset_metrics.json",
+      "sha256": "cf4ec1e4bdb024195df48f964f09a78e554aa91af579363cb9b5a809fc2104b3",
+      "bytes": 6337
+    },
+    "taxonomy_v2": {
+      "src": "C:\\Users\\Prem\\OneDrive - IIT Delhi\\Desktop\\Research Ambit\\classification-pipeline\\outputs\\taxonomy-draft-v2-prefix.json",
+      "snapshot": "C:\\Users\\Prem\\OneDrive - IIT Delhi\\Desktop\\Research Ambit\\classification-pipeline\\outputs\\safe_baseline\\taxonomy_v2.json",
+      "sha256": "2f901836e6d07200c1892fb4cea48fc8b4e4e2248a0626778ded2edcff8aa059",
+      "bytes": 95225
+    }
+  }
+}

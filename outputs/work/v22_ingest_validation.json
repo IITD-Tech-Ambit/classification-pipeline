@@ -1,0 +1,61 @@
+{
+  "papers_total_db": 70298,
+  "papers_total_file": 70298,
+  "classified_db": 67802,
+  "classified_file": 67802,
+  "unclassifiable_db": 2496,
+  "unclassifiable_file": 2496,
+  "themes_db": 9,
+  "domains_db": 80,
+  "theme_match": {
+    "AI/ML, Supercomputing & Quantum Computing": true,
+    "Social Sciences, Humanities & Management": true,
+    "Energy, Sustainability & Climate Change": true,
+    "Healthcare & MedTech": true,
+    "Advanced Materials & Devices": true,
+    "Quantum Technologies & Semiconductor Technology": true,
+    "Next-Gen Communication": true,
+    "Smart & Sustainable Infrastructure": true,
+    "Manufacturing & Industry 4.0": true
+  },
+  "all_themes_match": true,
+  "counts_match": true,
+  "per_theme": {
+    "Manufacturing & Industry 4.0": {
+      "db": 9862,
+      "file": 9862
+    },
+    "Advanced Materials & Devices": {
+      "db": 9584,
+      "file": 9584
+    },
+    "Energy, Sustainability & Climate Change": {
+      "db": 9453,
+      "file": 9453
+    },
+    "AI/ML, Supercomputing & Quantum Computing": {
+      "db": 8570,
+      "file": 8570
+    },
+    "Healthcare & MedTech": {
+      "db": 7388,
+      "file": 7388
+    },
+    "Smart & Sustainable Infrastructure": {
+      "db": 6916,
+      "file": 6916
+    },
+    "Quantum Technologies & Semiconductor Technology": {
+      "db": 6409,
+      "file": 6409
+    },
+    "Social Sciences, Humanities & Management": {
+      "db": 5126,
+      "file": 5126
+    },
+    "Next-Gen Communication": {
+      "db": 4494,
+      "file": 4494
+    }
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "target_db": "10.184.47.156:27017",
+  "mongo_version": "7.0.37",
+  "candidate_totals": {
+    "rows": 70298,
+    "classified": 68080,
+    "unclassifiable": 2218,
+    "themes": 9,
+    "domains": 77
+  },
+  "db_totals": {
+    "papers_total": 70298,
+    "with_theme_id": 68080,
+    "with_domain_id": 68080,
+    "with_subdomain_id": 0,
+    "unclassifiable_true": 2218,
+    "with_iitd_authors": 66235,
+    "themes_nodes": 9,
+    "domains_nodes": 77,
+    "subdomains_nodes": 0
+  },
+  "rollup": {
+    "facetcounts_total": 3351,
+    "facetmembers_total": 3351,
+    "domain_level_rows": 77,
+    "subdomain_rows": 0
+  },
+  "atlas": {
+    "active_version": "45d5192e51b3",
+    "atlas_points": 66235,
+    "atlas_tiles": 78,
+    "kg_faculty_graphs": 968,
+    "kg_explore_terms": 86,
+    "kg_explore_details": 86,
+    "kg_indices": 3,
+    "dict_themes": 10,
+    "dict_domains_nonempty": 77,
+    "retained_versions": 2
+  },
+  "theme_distribution_check": {
+    "Manufacturing & Industry 4.0": {
+      "db_theme_count": 9915,
+      "file": 9915,
+      "facet": 9915,
+      "match_db_file": true,
+      "match_facet_file": true
+    },
+    "Advanced Materials & Devices": {
+      "db_theme_count": 9605,
+      "file": 9605,
+      "facet": 9605,
+      "match_db_file": true,
+      "match_facet_file": true
+    },
+    "Energy, Sustainability & Climate Change": {
+      "db_theme_count": 9424,
+      "file": 9424,
+      "facet": 9424,
+      "match_db_file": true,
+      "match_facet_file": true
+    },
+    "AI/ML, Supercomputing & Quantum Computing": {
+      "db_theme_count": 8795,
+      "file": 8795,
+      "facet": 8795,
+      "match_db_file": true,
+      "match_facet_file": true
+    },
+    "Healthcare & MedTech": {
+      "db_theme_count": 7387,
+      "file": 7387,
+      "facet": 7387,
+      "match_db_file": true,
+      "match_facet_file": true
+    },
+    "Smart & Sustainable Infrastructure": {
+      "db_theme_count": 6932,
+      "file": 6932,
+      "facet": 6932,
+      "match_db_file": true,
+      "match_facet_file": true
+    },
+    "Quantum Technologies & Semiconductor Technology": {
+      "db_theme_count": 6399,
+      "file": 6399,
+      "facet": 6399,
+      "match_db_file": true,
+      "match_facet_file": true
+    },
+    "Social Sciences, Humanities & Management": {
+      "db_theme_count": 5122,
+      "file": 5122,
+      "facet": 5122,
+      "match_db_file": true,
+      "match_facet_file": true
+    },
+    "Next-Gen Communication": {
+      "db_theme_count": 4501,
+      "file": 4501,
+      "facet": 4501,
+      "match_db_file": true,
+      "match_facet_file": true
+    }
+  },
+  "checks": {
+    "rows_match": true,
+    "classified_match": true,
+    "unclassifiable_match": true,
+    "subdomain_zero": true,
+    "theme_distribution_db_match": true,
+    "theme_distribution_facet_match": true,
+    "themes_9": true,
+    "domains_77": true,
+    "domain_facet_rows_77": true,
+    "facetmembers_nonzero": true,
+    "atlas_points_nonzero": true,
+    "atlas_tiles_nonzero": true,
+    "atlas_dict_domains_77": true,
+    "atlas_dict_themes_9_plus_unclassified": true
+  },
+  "pass": true
+}

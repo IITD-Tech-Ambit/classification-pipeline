@@ -1,0 +1,24 @@
+{
+  "pass": true,
+  "per_theme_domain_counts": {
+    "AI/ML, Supercomputing & Quantum Computing": 6,
+    "Advanced Materials & Devices": 9,
+    "Energy, Sustainability & Climate Change": 10,
+    "Healthcare & MedTech": 10,
+    "Manufacturing & Industry 4.0": 9,
+    "Next-Gen Communication": 8,
+    "Quantum Technologies & Semiconductor Technology": 10,
+    "Smart & Sustainable Infrastructure": 8,
+    "Social Sciences, Humanities & Management": 10
+  },
+  "total_domains": 80,
+  "n_themes": 9,
+  "duplicate_domain_names": [],
+  "missing_required": [],
+  "checks": {
+    "all_themes_5_to_10_domains": true,
+    "no_duplicate_domain_names": true,
+    "required_gap_domains_present": true,
+    "global_rules_count": 8
+  }
+}

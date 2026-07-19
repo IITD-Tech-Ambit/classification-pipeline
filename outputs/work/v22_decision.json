@@ -1,0 +1,7 @@
+{
+  "accepted": true,
+  "status": "ACCEPT_v2_2",
+  "recommended_file": "C:\\Users\\Prem\\OneDrive - IIT Delhi\\Desktop\\Research Ambit\\classification-pipeline\\outputs\\classification_v2_2_candidate.jsonl",
+  "reason": "net_margin=59 (required>=5), changed_margin=59, theme_non_regression=True, domain_signal=True",
+  "papers_updated": 1608
+}

@@ -1,0 +1,275 @@
+{
+  "sample_size": 250,
+  "sonnet_labeled": 250,
+  "theme_comparable_n": 239,
+  "domain_comparable_n": 237,
+  "refusals": [
+    "69deca504e2d2a5b77edb717",
+    "69deca5d4e2d2a5b77edcd6f",
+    "69deca234e2d2a5b77ed5285",
+    "69deca1c4e2d2a5b77ed3fb7",
+    "69deca1d4e2d2a5b77ed40b2",
+    "69deca504e2d2a5b77edb6bd",
+    "69deca0c4e2d2a5b77ed1951",
+    "69deca2b4e2d2a5b77ed6405",
+    "69deca2b4e2d2a5b77ed646d",
+    "69deca024e2d2a5b77ed0150"
+  ],
+  "sonnet_unclassifiable": [
+    "69deca544e2d2a5b77edc14c"
+  ],
+  "theme_agreement": {
+    "n": 239,
+    "agree": 206,
+    "pct": 86.2
+  },
+  "domain_agreement": {
+    "n": 237,
+    "agree": 167,
+    "pct": 70.5
+  },
+  "theme_by_band": {
+    "<0.5": {
+      "n": 91,
+      "agree": 82,
+      "pct": 90.1
+    },
+    "0.5-0.8": {
+      "n": 75,
+      "agree": 57,
+      "pct": 76.0
+    },
+    ">=0.8": {
+      "n": 73,
+      "agree": 67,
+      "pct": 91.8
+    }
+  },
+  "domain_by_band": {
+    "<0.5": {
+      "n": 89,
+      "agree": 60,
+      "pct": 67.4
+    },
+    "0.5-0.8": {
+      "n": 75,
+      "agree": 44,
+      "pct": 58.7
+    },
+    ">=0.8": {
+      "n": 73,
+      "agree": 63,
+      "pct": 86.3
+    }
+  },
+  "theme_by_source": {
+    "haiku": {
+      "n": 140,
+      "agree": 117,
+      "pct": 83.6
+    },
+    "sonnet": {
+      "n": 99,
+      "agree": 89,
+      "pct": 89.9
+    }
+  },
+  "domain_by_source": {
+    "haiku": {
+      "n": 140,
+      "agree": 102,
+      "pct": 72.9
+    },
+    "sonnet": {
+      "n": 97,
+      "agree": 65,
+      "pct": 67.0
+    }
+  },
+  "theme_right_domain_wrong": {
+    "count": 39,
+    "pct_of_theme_matches": 18.9,
+    "pct_of_comparable": 16.5,
+    "theme_match_n": 206
+  },
+  "top_theme_confusions": [
+    {
+      "from": "Smart & Sustainable Infrastructure",
+      "to": "Energy, Sustainability & Climate Change",
+      "count": 4
+    },
+    {
+      "from": "Manufacturing & Industry 4.0",
+      "to": "Smart & Sustainable Infrastructure",
+      "count": 3
+    },
+    {
+      "from": "Manufacturing & Industry 4.0",
+      "to": "Advanced Materials & Devices",
+      "count": 3
+    },
+    {
+      "from": "Social Sciences, Humanities & Management",
+      "to": "Manufacturing & Industry 4.0",
+      "count": 2
+    },
+    {
+      "from": "Smart & Sustainable Infrastructure",
+      "to": "AI/ML, Supercomputing & Quantum Computing",
+      "count": 2
+    },
+    {
+      "from": "Manufacturing & Industry 4.0",
+      "to": "Energy, Sustainability & Climate Change",
+      "count": 2
+    },
+    {
+      "from": "Advanced Materials & Devices",
+      "to": "Energy, Sustainability & Climate Change",
+      "count": 1
+    },
+    {
+      "from": "Social Sciences, Humanities & Management",
+      "to": "AI/ML, Supercomputing & Quantum Computing",
+      "count": 1
+    },
+    {
+      "from": "Smart & Sustainable Infrastructure",
+      "to": "Advanced Materials & Devices",
+      "count": 1
+    },
+    {
+      "from": "Energy, Sustainability & Climate Change",
+      "to": "Advanced Materials & Devices",
+      "count": 1
+    },
+    {
+      "from": "AI/ML, Supercomputing & Quantum Computing",
+      "to": "Next-Gen Communication",
+      "count": 1
+    },
+    {
+      "from": "AI/ML, Supercomputing & Quantum Computing",
+      "to": "Energy, Sustainability & Climate Change",
+      "count": 1
+    }
+  ],
+  "top_domain_disagreements": [
+    {
+      "current_domain": "Algorithms & Computational Complexity",
+      "count": 4
+    },
+    {
+      "current_domain": "Power Systems & Grid Control",
+      "count": 4
+    },
+    {
+      "current_domain": "Digital Transformation & IT Applications",
+      "count": 3
+    },
+    {
+      "current_domain": "Carbon Utilization & Chemical Conversion",
+      "count": 3
+    },
+    {
+      "current_domain": "Materials, Joining & Mechanical Behavior",
+      "count": 3
+    },
+    {
+      "current_domain": "Signal Modulation, Detection & Channel Equalization",
+      "count": 3
+    },
+    {
+      "current_domain": "Semiconductor Photovoltaic & Photodetection Devices",
+      "count": 3
+    },
+    {
+      "current_domain": "Clinical Diagnostics & Biomarkers",
+      "count": 2
+    },
+    {
+      "current_domain": "Spintronics & Magnetic Devices",
+      "count": 2
+    },
+    {
+      "current_domain": "Hydrology & Water Resources Management",
+      "count": 2
+    },
+    {
+      "current_domain": "Fluid-Particle Flow & Multiphase Systems",
+      "count": 2
+    },
+    {
+      "current_domain": "Building Energy & Thermal Performance",
+      "count": 2
+    }
+  ],
+  "theme_disagree_by_curtheme": {
+    "AI/ML, Supercomputing & Quantum Computing": {
+      "disagree": 3,
+      "n": 30,
+      "pct": 10.0
+    },
+    "Advanced Materials & Devices": {
+      "disagree": 3,
+      "n": 32,
+      "pct": 9.4
+    },
+    "Energy, Sustainability & Climate Change": {
+      "disagree": 2,
+      "n": 31,
+      "pct": 6.5
+    },
+    "Healthcare & MedTech": {
+      "disagree": 2,
+      "n": 19,
+      "pct": 10.5
+    },
+    "Manufacturing & Industry 4.0": {
+      "disagree": 8,
+      "n": 33,
+      "pct": 24.2
+    },
+    "Next-Gen Communication": {
+      "disagree": 2,
+      "n": 21,
+      "pct": 9.5
+    },
+    "Quantum Technologies & Semiconductor Technology": {
+      "disagree": 2,
+      "n": 25,
+      "pct": 8.0
+    },
+    "Smart & Sustainable Infrastructure": {
+      "disagree": 8,
+      "n": 26,
+      "pct": 30.8
+    },
+    "Social Sciences, Humanities & Management": {
+      "disagree": 3,
+      "n": 22,
+      "pct": 13.6
+    }
+  },
+  "cost_usd": 1.9215,
+  "band_distribution": {
+    "0.5-0.8": 76,
+    ">=0.8": 73,
+    "<0.5": 101
+  },
+  "theme_distribution": {
+    "Healthcare & MedTech": 27,
+    "Next-Gen Communication": 21,
+    "Advanced Materials & Devices": 33,
+    "Quantum Technologies & Semiconductor Technology": 25,
+    "Manufacturing & Industry 4.0": 33,
+    "Energy, Sustainability & Climate Change": 32,
+    "Social Sciences, Humanities & Management": 22,
+    "AI/ML, Supercomputing & Quantum Computing": 31,
+    "Smart & Sustainable Infrastructure": 26
+  },
+  "source_distribution": {
+    "haiku": 150,
+    "sonnet": 100
+  }
+}

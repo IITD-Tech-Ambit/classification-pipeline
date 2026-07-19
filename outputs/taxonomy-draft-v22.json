@@ -1,0 +1,1122 @@
+{
+  "version": "v22-gapfill",
+  "generated": "2026-07-18",
+  "embedding_model": "BAAI/bge-base-en-v1.5",
+  "method": "v2 baseline + audit-driven gap fills (thermoelectric, optical metrology, implant bioelectronics sharpening, computer architecture) + explicit out_of_scope routing and strengthened tie-breaks",
+  "themes": [
+    {
+      "id": "6a46ea5ece9a42a451a4714a",
+      "name": "AI/ML, Supercomputing & Quantum Computing",
+      "slug": "ai-ml-supercomputing-and-quantum-computing",
+      "scope_note": "This theme encompasses foundational and applied research in artificial intelligence, machine learning, high-performance computing, and quantum computing. Core domains include machine learning algorithms and neural network architectures (from feature selection to deep learning), natural language processing and information retrieval systems (text analysis, entity resolution, summarization), theoretical computer science (algorithm design, complexity analysis, graph and parallel algorithms), and mathematical foundations for dynamical systems (control theory, Lyapunov stability, system identification). Also included are computational methods for solving differential equations and simulating complex physical phenomena, particularly in fluid mechanics and flow analysis. Papers in this theme typically present advances in learning algorithms, algorithmic techniques, NLP methods, or mathematical frameworks for analyzing dynamical systems—such as novel neural network architectures for color quantization, VC dimension bounds, latent Dirichlet allocation for selectional preferences, Lyapunov function computation, or numerical schemes for compressible flows. Explicitly excluded are: quantum devices, quantum materials, and semiconductor fabrication (assign to Quantum Technologies & Semiconductor Technology); biomaterial synthesis and characterization not tied to a specific clinical application (assign to Advanced Materials & Devices); and wireless communication systems, signal modulation, and electromagnetic wave propagation (assign to Next-Gen Communication). When a paper addresses quantum algorithms, quantum information theory, or quantum computing as a computational paradigm, it belongs in this theme; conversely, quantum photonic devices and quantum material systems belong in Quantum Technologies. When applying machine learning methods to a clinical problem, classify by the primary contribution: if the advance is in the learning algorithm itself, assign to this theme; if the advance is in medical imaging, diagnostics, or clinical application, assign to Healthcare & MedTech.  Computer architecture and systems (VLIW, interconnects, microarchitecture) belong here under Computer Architecture & Systems.",
+      "corrected_pool_size": 647,
+      "domains": [
+        {
+          "name": "Machine Learning & Neural Networks",
+          "definition": "Core ML algorithms, neural network architectures, feature selection, kernel methods, and learning theory. Includes supervised and unsupervised learning techniques.",
+          "estimated_share_of_theme": 0.187,
+          "example_titles": [
+            "Modified forward only counterpropogation network (MFOCPN) for improved color quantization by entropy based sub-clustering",
+            "QMCM: Minimizing Vapnik's bound on the VC dimension",
+            "On improving the efficiency of complex-valued ELM",
+            "Optimal kernel selection in twin support vector machines",
+            "Reconstruction-based recognition of scenes with translationally repeated quadrics"
+          ]
+        },
+        {
+          "name": "Natural Language Processing & Information Retrieval",
+          "definition": "NLP tasks including text summarization, entity resolution, selectional preferences, fact-checking, and graph-based information retrieval methods.",
+          "estimated_share_of_theme": 0.162,
+          "example_titles": [
+            "A latent dirichlet allocation method for selectional preferences",
+            "Entity-centric summarization: Generating text summaries for graph snippets",
+            "Towards a stratified learning approach to predict future citation counts",
+            "KlusTree: Clustering answer trees from keyword search on graphs",
+            "Entity resolution with Markov logic"
+          ]
+        },
+        {
+          "name": "Algorithms & Computational Complexity",
+          "definition": "Algorithm design, complexity analysis, graph algorithms, parallel algorithms, and optimization methods for computational problems.  EXCLUDES computer architecture / VLIW / interconnect microarchitecture (those → Computer Architecture & Systems). Mechanism-design and peer-prediction algorithms STAY here (NOT Digital Culture).",
+          "estimated_share_of_theme": 0.232,
+          "example_titles": [
+            "Deterministic Sensitivity Oracles for Diameter, Eccentricities and All Pairs Distances",
+            "Lower bounds for parallel algebraic decision trees, complexity of convex hulls and related problems",
+            "An efficient parallel algorithm for computing bicompatible elimination ordering (BCO) of proper interval graphs",
+            "Faster and simpler algorithms for multicommodity flow and other fractional packing problems",
+            "Biased skip lists"
+          ]
+        },
+        {
+          "name": "Control Systems & Linear Dynamical Systems",
+          "definition": "Theory and algorithms for linear time-invariant systems, adaptive control, system identification, observer design, and Lyapunov stability analysis.",
+          "estimated_share_of_theme": 0.25,
+          "example_titles": [
+            "A procedure to compute a common Lyapunov function for a class of stable LTI systems",
+            "A recursive algorithm for identification of linear time-varying lumped systems via hermite polynomials",
+            "Computational framework for design of a pulse generating biomolecular circuit",
+            "On computing the distance to stability for matrices using linear dissipative Hamiltonian systems",
+            "Finding the nearest positive-real system"
+          ]
+        },
+        {
+          "name": "Computational Fluid Dynamics & Flow Analysis",
+          "definition": "Numerical methods for simulating fluid flows, turbulence modeling, stability analysis of flows, and solutions to PDEs in fluid mechanics.",
+          "estimated_share_of_theme": 0.168,
+          "example_titles": [
+            "Combined parabolic and elliptic velocity profile-based low-dimensional model in falling film",
+            "New scheme for the computation of compressible flows",
+            "Weakly nonlinear stability analysis of a flow past a neo-Hookean solid at arbitrary Reynolds numbers",
+            "Solution of biharmonic equation in complicated geometries with physics informed extreme learning machine",
+            "Wavelet-optimized compact finite difference method for convection-diffusion equations"
+          ]
+        },
+        {
+          "name": "Computer Architecture & Systems",
+          "definition": "Computer architecture and systems: VLIW/superscalar/microarchitecture, on-chip interconnects, memory hierarchy, ISA design, hardware/software co-design for processors, and related systems-level architecture papers. Prefer this over Algorithms & Computational Complexity when the novelty is architectural organization or system microarchitecture rather than abstract algorithm/complexity theory.",
+          "estimated_share_of_theme": 0.08,
+          "example_titles": [
+            "VLIW architecture design for high-performance embedded processors",
+            "On-chip interconnect architectures for many-core systems",
+            "Memory hierarchy optimization in modern computer architecture"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6a46ea5ece9a42a451a4714b",
+      "name": "Advanced Materials & Devices",
+      "slug": "advanced-materials-and-devices",
+      "scope_note": "Advanced Materials & Devices encompasses the discovery, synthesis, characterization, and fundamental property engineering of new and engineered materials across polymers, metals, ceramics, composites, and nanomaterials, spanning from bio-based polymers and sustainable synthesis methods to ferroelectric ceramics, rare-earth phosphors, and thin-film nanostructures. This theme covers microstructural analysis, structure-property relationships, mechanical and thermal behavior, optical and magnetic properties, and materials design—including examples such as green synthesis of bio-based nanoparticles, grain boundary behavior in metallic alloys, ion-beam modification of thin films, dielectric properties of ceramic composites, and polymer nanocomposite characterization via spectroscopy. Materials processing and joining techniques (machining, welding, additive manufacturing) belong instead to Manufacturing & Industry 4.0, while materials engineered for specific clinical or therapeutic applications (drug delivery vehicles, tissue scaffolds, diagnostic biosensors) go to Healthcare & MedTech. Biomaterials designed for general use without a targeted therapeutic application—such as cellulose-based foams or chitosan nanoparticles for adsorption or multifunctional characteristics—remain in Advanced Materials & Devices. If a paper's primary contribution is a quantum device, semiconductor fabrication process, or photodetection system, assign it to Quantum Technologies & Semiconductor Technology; if the contribution is quantum algorithms or quantum information science, assign it to AI/ML, Supercomputing & Quantum Computing. Energy-storage or energy-conversion materials (batteries, photovoltaic absorbers, thermoelectric materials) belong to Energy, Sustainability & Climate Change rather than this theme. Functional/antibacterial/antimicrobial nanomaterials and nanoparticle materials studied for their material properties—even when an antibacterial, antimicrobial, or other biological assay is used to characterize the material—belong in Advanced Materials & Devices (e.g., Bio-based Materials & Polymers or the relevant materials domain), NOT in Healthcare's clinical domains. Tie-break: antibacterial/antimicrobial or bioactivity testing of a material, where the contribution is the material itself, → Advanced Materials; only assign Healthcare when there is a specific clinical/therapeutic use in patients.",
+      "corrected_pool_size": 694,
+      "domains": [
+        {
+          "name": "Bio-based Materials & Polymers",
+          "definition": "Natural and synthetic polymers, biocomposites, and bio-inspired materials derived from renewable sources including cellulose, chitosan, proteins, and plant fibers. Includes green synthesis methods and sustainable material development.",
+          "estimated_share_of_theme": 0.062,
+          "example_titles": [
+            "Green synthesis of sodium lignosulfonate nanoparticles using chitosan for significantly enhanced multifunctional characteristics",
+            "Nano fibrillated cellulose-based foam by Pickering emulsion: Preparation, characterizations, and application as dye adsorbent",
+            "Development of clove oil based nanoencapsulated biopesticide employing mesoporous nanosilica synthesized from paddy straw via bioinspired sol-gel route",
+            "Characterization and morphology of natural dung polymer for potential industrial application as bio-based fillers",
+            "Studies on graft copolymerization of acrylic acid onto casein using potassium peroxodisulfate/ferrous sulfate redox pair"
+          ]
+        },
+        {
+          "name": "Alloys & Structural Metals",
+          "definition": "Microstructure, mechanical properties, and phase behavior of metallic alloys including high-entropy alloys, intermetallics, magnesium alloys, and related deformation mechanisms. Covers grain boundary behavior, creep, and fatigue performance.",
+          "estimated_share_of_theme": 0.081,
+          "example_titles": [
+            "Quantitative evaluation of grain boundary sliding and its dependence on orientation and temperature in pure Zn",
+            "High-Temperature Hardness Anomaly in Ti–Ni–Fe-Based Multiphase Intermetallic",
+            "Grain-size-dependent microstructure effects on cyclic deformation mechanisms in CoCrFeMnNi high-entropy-alloys",
+            "Miniaturized pattern formation in elastic films cast on sinusoidally patterned substrates",
+            "Identifying and characterising flexible crystals"
+          ]
+        },
+        {
+          "name": "Ion Beam & Thin Film Engineering",
+          "definition": "Synthesis and modification of thin films and nanostructures using ion irradiation, plasma processes, and high-energy particle treatments. Includes CVD, evaporation, and ion-track formation for structural and optical property engineering.",
+          "estimated_share_of_theme": 0.167,
+          "example_titles": [
+            "Evolution of nanotracks in silicon nitride under intense electronic excitation: Role of H evolution and a concomitant dynamic electronic energy loss",
+            "Narrow fluence window of hydrogen-implantation-induced exfoliation in ZnO",
+            "Ellipsometric studies of polycrystalline molybdenum silicide thin films",
+            "Modifying the nanocrystalline characteristics - Structure, size, and surface states of copper oxide thin films by high-energy heavy-ion irradiation",
+            "Synthesis of nanoscale copper nitride thin film and modification of the surface under high electronic excitation"
+          ]
+        },
+        {
+          "name": "Composite & Laminate Structures",
+          "definition": "Mechanical analysis and design of composite laminates, sandwich structures, and functionally graded materials including piezoelectric composites, shell structures, and impact behavior under thermal and mechanical loading.",
+          "estimated_share_of_theme": 0.094,
+          "example_titles": [
+            "Assessment of improved zigzag and smeared theories for smart cross-ply composite cylindrical shells including transverse normal extensibility under thermoelectric loading",
+            "Global-local and zigzag-local theories for direct transverse shear stress computation in piezolaminated plates under thermal loading",
+            "Three-dimensional solution for a hybrid cylindrical shell under axisymmetric thermoelectric load",
+            "Advances in multifunctional textile structural power composites: a review",
+            "An efficient finite element with layerwise mechanics for smart piezoelectric composite and sandwich shallow shells"
+          ]
+        },
+        {
+          "name": "Ferroelectric & Magnetic Ceramics",
+          "definition": "Dielectric, ferroelectric, and multiferroic ceramic materials including perovskites, relaxor systems, and composite ceramics. Covers structure-property relationships, impedance behavior, and magneto-transport phenomena.",
+          "estimated_share_of_theme": 0.138,
+          "example_titles": [
+            "Impedance spectroscopy and dielectric behavior in barium strontium titanate-nickel zinc ferrite composites",
+            "Dielectric, electrical conduction and magnetic properties of multiferroic Bi0.8Tb0.1Ba0.1Fe0.9Ti0.1O3 perovskite compound",
+            "Influence of GdFeO3 addition on the physical properties of NaKNbO3 lead free ferroelectric ceramics",
+            "Structure of Ba(Y+31/2Ta+5 1/2)O3 and its dielectric properties in the range 10 2-1014 Hz, 20-600 K",
+            "Ionic size effect in charge-ordered La0.5Ca 0.5MnO3"
+          ]
+        },
+        {
+          "name": "Polymer Nanocomposites & Blends",
+          "definition": "Synthesis, microstructure characterization, and properties of polymer composites with nanofillers (carbon nanotubes, graphene, nanographite) and block copolymer systems. Includes thermal, mechanical, and tribological property analysis via NMR and spectroscopy.",
+          "estimated_share_of_theme": 0.159,
+          "example_titles": [
+            "13C‐NMR studies of compositional and configurational sequence distribution in acrylonitrile–ethyl methacrylate copolymers",
+            "Cost ejficient PMMA/NG nanocomposites for electromagnetic interference shielding applications",
+            "Influence of Carbon Nanotubes on the Morphology and Properties of Styrene-Butadiene Based Block Copolymers",
+            "Physicomechanical properties of poly(methyl methacrylate‐co‐N‐arylmaleimides)",
+            "Analysis of compositional drift in methyl methacrylate and n-butyl acrylate copolymers synthesized by atom transfer radical polymerization using 13C{1H} NMR spectroscopy"
+          ]
+        },
+        {
+          "name": "Ionic Liquids & Soft Matter",
+          "definition": "Solvation dynamics, self-assembly, and microstructure of ionic liquids, deep eutectic solvents, and their mixtures. Covers surfactant behavior, dye aggregation, and fluorescence studies in ionic liquid systems.",
+          "estimated_share_of_theme": 0.075,
+          "example_titles": [
+            "Solvatochromic probe behavior within ternary room-temperature ionic liquid 1-butyl-3-methylimidazolium hexafluorophosphate + ethanol + water solutions",
+            "Evidence of water-in-ionic liquid microemulsion formation by nonionic surfactant brij-35",
+            "Self-aggregation of bio-surfactants within ionic liquid 1-ethyl-3-methylimidazolium bromide: A comparative study and potential application in antidepressants drug aggregation",
+            "Correlation between the fluorescent response of microfluidity probes and the water content and viscosity of ionic liquid and water mixtures",
+            "Contrasting behavior of classical salts versus ionic liquids toward aqueous phase J-aggregate dissociation of a cyanine dye"
+          ]
+        },
+        {
+          "name": "Organometallic & Chalcogenide Synthesis",
+          "definition": "Discovery and characterization of organometallic compounds and chalcogenide materials for new material platforms.",
+          "estimated_share_of_theme": 0.134,
+          "example_titles": [
+            "A novel (Te, S) donor, 2-(aryltelluro)benzylmercaptan. synthesis and reactions with mercury(II) and palladium(II)",
+            "Formation and role of palladium chalcogenide and other species in Suzuki-Miyaura and heck C-C coupling reactions catalyzed with palladium(II) complexes of organochalcogen ligands: Realities and speculations",
+            "Formation of a diazadiphosphetidine from the reactions of a bis(aminosilyl) ether with PCl3: Crystal structure of cis-[(ButNH)PNBut]2",
+            "2-(4-Ethoxyphenlytelluromethyl)tetrahydro-2H-pyran (L1) and 2-(2-{4-ethoxyphenyl}telluroethyl)-1,3-dioxane (L2)",
+            "Facile synthesis of mixed O, S or Se bearing hexasubstituted benzenes and their potential as Cu(ii) ion probe"
+          ]
+        },
+        {
+          "name": "Rare-Earth Doped Luminescent Materials",
+          "definition": "Synthesis and optical characterization of rare-earth-doped phosphors and nanocrystals for photonic and lighting applications. Covers upconversion, persistent luminescence, photoluminescence, and white-LED phosphors.",
+          "estimated_share_of_theme": 0.091,
+          "example_titles": [
+            "Synthesis, structure and optical studies of ZnO:Eu3+,Er3+,Yb3+ thin films: Enhanced up-conversion emission",
+            "Deep level defect correlated emission and Si diffusion in ZnO: Tb3+ thin films prepared by pulsed laser deposition",
+            "Disorder driven asymmetry and singular red emission in doped Lu2Hf2O7 nanocrystals with no charge compensating defects",
+            "Fluorescence Blinking and Photoactivation of All-Inorganic Perovskite Nanocrystals CsPbBr3 and CsPbBr2I",
+            "Molten-Salt-Assisted Annealing for Making Colloidal ZnGa2O4:Cr Nanocrystals with High Persistent Luminescence"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6a46ea5ece9a42a451a4714c",
+      "name": "Energy, Sustainability & Climate Change",
+      "slug": "energy-sustainability-and-climate-change",
+      "scope_note": "This theme encompasses research on energy generation, conversion, storage, and distribution technologies; sustainability assessment and natural resource management; and climate dynamics and regional modeling relevant to India's energy transition and environmental challenges. Core domains include biomass and biofuel conversion from agricultural residues, solar thermal and photovoltaic energy systems, grid integration and smart microgrids for renewable energy, carbon utilization and catalytic conversion of CO₂ and biomass, environmental assessment and land-use management, monsoon dynamics and regional climate modeling, and electric vehicle battery and charging systems. Research on the physics, chemistry, and engineering of energy materials and devices belongs here—such as perovskite solar cells, iron-cerium catalysts for hydrogen production, or battery management systems—whereas foundational discovery, synthesis, and characterization of novel materials without a specific energy application goes to Advanced Materials & Devices. Energy-efficient building design, urban energy systems, and smart grid infrastructure as critical infrastructure belong to Smart & Sustainable Infrastructure, not here. Machine learning applications to energy systems or climate modeling belong in AI/ML, Supercomputing & Quantum Computing if the methodological contribution (algorithm, model architecture) is the primary focus; conversely, if a paper develops a neural network model specifically to predict solar thermal performance or grid control, it is assigned here because the energy engineering problem is primary. Papers on agricultural sustainability, soil health, ecosystem services, and environmental remediation are included when linked to energy, land use, or climate; general soil mechanics or wastewater treatment as infrastructure belongs to Smart & Sustainable Infrastructure. Climate simulation, monsoon dynamics, and atmospheric modeling using regional climate models and satellite data are central to this theme, whereas broader atmospheric physics or plasma-electromagnetic phenomena unrelated to climate belong elsewhere.  Thermoelectric and solid-state energy-harvesting MATERIALS are in-theme under Thermoelectric & Energy-Harvesting Materials.",
+      "corrected_pool_size": 605,
+      "domains": [
+        {
+          "name": "Biomass & Biofuel Technologies",
+          "definition": "Conversion of agricultural and forestry residues into energy and fuels, including biomass gasification, bioethanol production, and sustainable bioenergy systems for addressing agricultural waste and energy security.",
+          "estimated_share_of_theme": 0.102,
+          "example_titles": [
+            "Sustainable bio-energy production models for eradicating open field burning of paddy straw in Punjab, India",
+            "Feasibility analysis for ethanol blended fuel in India",
+            "Electricity generation from rice husk in Indian rice mills: Potential and financial viability",
+            "Experimental assessment of producer gas generation using agricultural and forestry residues in a fixed bed downdraft gasifier",
+            "Analysis of Combustion and Cycle to Cycle Variations of an Ethanol (E100) Fueled Spark-Ignition Engine"
+          ]
+        },
+        {
+          "name": "Solar Thermal Energy & Heat Transfer Systems",
+          "definition": "Design and optimization of solar thermal collectors and heat transfer systems for thermal energy capture and conversion.",
+          "estimated_share_of_theme": 0.137,
+          "example_titles": [
+            "DEVELOPMENT OF ARTIFICIAL NEURAL NETWORK MODEL FOR THERMO-HYDRAULIC PERFORMANCE PREDICTION OF POROUS VOLUMETRIC SOLAR RECEIVERS",
+            "Investigations of thermo-hydrodynamics, structural stability, and thermal energy storage for direct steam generation in parabolic trough solar collector: A comprehensive review",
+            "Strategy for selection of elements for heat transfer enhancement",
+            "Heat transfer analysis of receiver for large aperture parabolic trough solar collector",
+            "Conventional hybrid photovoltaic/thermal (PV/T) air heating collectors: Steady-state simulation"
+          ]
+        },
+        {
+          "name": "Next-Generation Photovoltaic Materials",
+          "definition": "Development and characterization of advanced photovoltaic materials and devices including perovskites, dye-sensitized cells, organic solar cells, and nanostructured semiconductors for improved solar energy conversion efficiency.",
+          "estimated_share_of_theme": 0.136,
+          "example_titles": [
+            "Efficient room temperature aqueous Sb2S3 synthesis for inorganic-organic sensitized solar cells with 5.1% efficiencies",
+            "WO3/Ag2S type-II hierarchical heterojunction for improved charge carrier separation and photoelectrochemical water splitting performance",
+            "Band offset engineering in antimony sulfide (Sb2S3) solar cells, using SCAPS simulation: A route toward PCE > 10%",
+            "Photocurrent enhancement by surface plasmon resonance of gold nanoparticles in spray deposited large area dye sensitized solar cells",
+            "Nanoparticle synthesis and oxygen anion diffusion in double perovskite GdBaCo2-xFexO5+δ electrodes for SOFC"
+          ]
+        },
+        {
+          "name": "Grid Integration & Smart Microgrids",
+          "definition": "Control systems, power electronics, and management strategies for integrating renewable energy sources (solar PV, wind) with battery storage and grid infrastructure for reliable and efficient power distribution.",
+          "estimated_share_of_theme": 0.185,
+          "example_titles": [
+            "Weak Grid Integrated Improved Power Quality PV-Battery System with Feed-in Tariff Control and PV Intermittency Mitigation",
+            "Control and Implementation of a Multifunctional Solar PV-BES-DEGS Based Microgrid",
+            "Single phase multifunctional VSC interfaced with solar PV and bidirectional battery charger",
+            "NFLMS Algorithm for Solar PV-Battery Based Microgrid with Seamless Operation",
+            "Control of Three-Phase Grid Fed-BES-Based Multiple Solar Water Pumps"
+          ]
+        },
+        {
+          "name": "Carbon Utilization & Chemical Conversion",
+          "definition": "Catalytic processes for converting CO₂ and biomass-derived compounds into fuels, chemicals, and platform molecules, including hydrogenation reactions and sustainable chemical synthesis pathways.",
+          "estimated_share_of_theme": 0.122,
+          "example_titles": [
+            "Highly stable Fe/CeO2 catalyst for the reverse water gas shift reaction in the presence of H2S",
+            "Biomass-derived phenolics conversion to C10–C13 range fuel precursors over metal ion-exchanged zeolites: Physicochemical characterization of catalysts and process parameter optimization",
+            "Selective hydrogenation of CO2 to formic acid with higher yield in an aqueous medium with a nano-nickel-metal catalyst: reaction parameter optimization by response surface methodology (RSM)",
+            "Morphology-controlled Pd nanocrystals as catalysts in tandem dehydrogenation-hydrogenation reactions",
+            "Unravelling synergetic interaction over tandem Cu-ZnO-ZrO2/hierarchical ZSM5 catalyst for CO2 hydrogenation to methanol and DME"
+          ]
+        },
+        {
+          "name": "Environmental Assessment & Land Use Management",
+          "definition": "Terrestrial, watershed and ecosystem environmental assessment, land-use and land-cover change, natural-resource and water-resource management, ecosystem services, agricultural sustainability, and remediation of environmental contaminants including microplastics and heavy metals.",
+          "estimated_share_of_theme": 0.096,
+          "example_titles": [
+            "Effectiveness of Bacillus paramycoides for Improving Zinc Nutrition of Rice Irrigated with Alkali Water",
+            "Agricultural practices modulate the bacterial communities, and nitrogen cycling bacterial guild in rhizosphere: field experiment with soybean",
+            "Nematicidal activity of Paecilomyces lilacinus 6029 cultured on Karanja cake medium",
+            "Strategies for the Remediation of Micro- and Nanoplastics from Contaminated Food and Water: Advancements and Challenges",
+            "Microfibre pollution: An emerging contaminant, alarming threat to the global environment"
+          ]
+        },
+        {
+          "name": "Monsoon Dynamics & Regional Climate Modeling",
+          "definition": "Climate simulation and atmospheric monitoring of monsoon systems, aerosol transport, cloud radiative forcing, and precipitation patterns over India using regional climate models and satellite observations.",
+          "estimated_share_of_theme": 0.144,
+          "example_titles": [
+            "Simulation of Indian summer monsoon: Sensitivity to cumulus parameterization in a GCM",
+            "Influence of monsoons on atmospheric CO2 spatial variability and ground-based monitoring over India",
+            "A satellite-based 13-year climatology of net cloud radiative forcing over the Indian monsoon region",
+            "Examining mineral dust transport over the Indian subcontinent using the regional climate model, RegCM4.1",
+            "Drivers of PM2.5 Episodes and Exceedance in India: A Synthesis From the COALESCE Network"
+          ]
+        },
+        {
+          "name": "Electric Vehicle Battery & Charging Systems",
+          "definition": "Battery management systems, charger design, power electronics, and fast-charging architectures for light electric vehicles, including converter topologies and bidirectional power exchange technologies.",
+          "estimated_share_of_theme": 0.078,
+          "example_titles": [
+            "Design of Single-Stage Light Electric Vehicles Battery Charger Based on Isolated Bridgeless Modified SEPIC Converter With Reduced Switch Stress",
+            "A high power quality battery charger for light electric vehicle based on improved BL cuk converter with low component count",
+            "Improved Power Quality Transformerless Single-Stage Bridgeless Converter Based Charger for Light Electric Vehicles",
+            "Comparative Analysis of Resonant Converters for EV Charging Applications",
+            "Cloud-Battery management system based health-aware battery fast charging architecture using error-correction strategy for electric vehicles"
+          ]
+        },
+        {
+          "name": "Energy Storage Materials",
+          "definition": "Discovery, synthesis, characterization, and electrochemical performance of MATERIALS for electrochemical energy storage studied as materials: battery electrode materials (anodes, cathodes), Li-ion / Na-ion / Li-sulfur / Mg-ion electrode and active materials, supercapacitor electrode materials, and solid-state / polymer / gel electrolyte materials. The contribution is the storage material itself (its composition, structure, capacity, cycling, and charge-storage mechanism), NOT charger circuits or power-electronics systems (those are 'Electric Vehicle Battery & Charging Systems') and NOT renewable-source power distribution or battery-in-grid control (that is 'Grid Integration & Smart Microgrids').  EXCLUDES thermoelectric / Seebeck / energy-harvesting materials (those → Thermoelectric & Energy-Harvesting Materials).",
+          "estimated_share_of_theme": 0.05,
+          "example_titles": [
+            "Facile synthesis and electrochemical studies of Mn-Zn ferrite as anode for Li-ion batteries",
+            "Mg2+ storage behaviour in Mo5.5W0.5S8 cathode: Synthesis, characterization, electrochemistry and post-cycling insights in an APC electrolyte as a model system",
+            "Melt-diffused binary solid-solid ionic mixture in a porous polymeric host as free-standing solid electrolyte for lithium batteries",
+            "Improved electrochemical performance of supercapacitors by utilizing ternary Pd-AC-doped NiO nanostructure as an electrode material",
+            "Advances in Materials for High Energy Density Lithium-Sulfur Batteries"
+          ]
+        },
+        {
+          "name": "Thermoelectric & Energy-Harvesting Materials",
+          "definition": "Materials and material systems for solid-state thermoelectric conversion and related energy harvesting: Seebeck/Peltier materials, figure-of-merit (ZT) engineering, magnetically/compositionally tuned thermoelectrics, waste-heat-to-electricity material stacks. Distinct from Energy Storage Materials (batteries/supercapacitors/electrodes) and from Solar Thermal Energy & Heat Transfer Systems (collectors/thermodynamic heat transfer). Prefer this domain when the primary contribution is the thermoelectric or harvesting MATERIAL, not a grid inverter or storage electrode.",
+          "estimated_share_of_theme": 0.04,
+          "example_titles": [
+            "Magnetically tuned thermoelectric performance in Heusler alloys",
+            "High-ZT thermoelectric skutterudites for waste-heat recovery",
+            "Seebeck coefficient engineering in doped chalcogenide thermoelectrics"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6a46ea5ece9a42a451a4714d",
+      "name": "Healthcare & MedTech",
+      "slug": "healthcare-and-medtech",
+      "scope_note": "Healthcare & MedTech encompasses the design, development, and clinical application of therapeutic agents, medical devices, diagnostic systems, and regenerative constructs aimed at disease prevention, detection, and treatment in human health. This includes drug delivery systems and molecular therapeutics (e.g., engineered nanoparticles with platinum cargo for cancer treatment), clinical AI and medical imaging analytics for diagnosis and decision support, tissue engineering and biomaterial scaffolds for wound healing and organ repair, biomechanical analysis of human tissues and musculoskeletal systems, biomarkers and point-of-care diagnostics, cellular and molecular investigations of disease mechanisms, biosensors for clinical monitoring, infectious disease pathogenesis, biopharmaceutical manufacturing and quality control, and neuroscience research on neural signaling and neurological conditions. When a biomaterial or scaffold is designed and characterized specifically for a clinical or therapeutic application (e.g., agar-gelatin scaffolds for tissue engineering, composite scaffolds for hemostasis), it belongs in Healthcare & MedTech; discovery and synthesis of general-purpose biomaterials without explicit therapeutic intent belong in Advanced Materials & Devices instead. When machine learning or AI methods are applied to medical imaging, clinical decision-making, or disease prediction in a healthcare context, the work belongs here; if the primary contribution is a novel ML algorithm or computational method independent of healthcare application, it belongs in AI/ML, Supercomputing & Quantum Computing instead. Wearable sensors and biosensors developed for clinical monitoring (e.g., wrap-around coils for joint flexion monitoring) are included here, whereas general sensor device physics or semiconductor fabrication belongs in Quantum Technologies & Semiconductor Technology. Biomanufacturing and fermentation processes directed toward biopharmaceutical production belong here, while general fermentation and bioprocess engineering belong in Manufacturing & Industry 4.0.  Implant wireless power and IMD bioelectronics interfaces belong under Clinical Biosensors & Implant Bioelectronics. Downstream biopharma PAT/QC belongs under Biopharmaceutical Manufacturing & Quality.",
+      "corrected_pool_size": 600,
+      "domains": [
+        {
+          "name": "Drug Delivery & Molecular Therapeutics",
+          "definition": "Design, synthesis, and evaluation of drug delivery systems, nanoparticles, and molecular compounds for therapeutic applications, including computational drug design, ligand binding, and pharmacokinetics.",
+          "estimated_share_of_theme": 0.107,
+          "example_titles": [
+            "Genetically Engineered Nanoparticles of Asymmetric Triblock Polypeptide with a Platinum(IV) Cargo Outperforms a Platinum(II) Analog and Free Drug in a Murine Cancer Model",
+            "Sanjeevini: A comprehensive active site directed lead design software",
+            "An investigation of folic acid–protein association sites and the effect of this association on folic acid self-assembly",
+            "The elementary mass action rate constants of P-gp transport for a confluent monolayer of MDCKII-hMDR1 cells",
+            "Computational insights into the binding mechanisms of withaferin a, a herbal anticancer drug"
+          ]
+        },
+        {
+          "name": "Clinical AI & Medical Imaging Analytics",
+          "definition": "Application of machine learning, deep learning, and artificial intelligence algorithms for medical image analysis, disease detection, diagnosis support, and clinical decision-making systems.",
+          "estimated_share_of_theme": 0.085,
+          "example_titles": [
+            "Basic principles of AI simplified for a Medical Practitioner: Pearls and Pitfalls in Evaluating AI algorithms",
+            "Hybrid quantum–classical ensemble model for enhanced cardiovascular disease risk prediction using clinical data",
+            "MMBCD: Multimodal Breast Cancer Detection from Mammograms with Clinical History",
+            "A novel machine learning framework for stroke type identification in resource constrained settings with robustness to missing data",
+            "Integrating domain knowledge in supervised machine learning to assess the risk of breast cancer"
+          ]
+        },
+        {
+          "name": "Tissue Engineering & Regenerative Medicine",
+          "definition": "Fabrication and characterization of bioactive scaffolds, hydrogels, and biomaterial constructs for tissue regeneration, wound healing, and organ repair.",
+          "estimated_share_of_theme": 0.078,
+          "example_titles": [
+            "Fabrication of Three-Dimensional Bioactive Composite Scaffolds for Hemostasis and Wound Healing",
+            "Fabrication of agar-gelatin hybrid scaffolds using a novel entrapment method for in vitro tissue engineering applications",
+            "Rheology and direct write printing of chitosan - graphene oxide nanocomposite hydrogels for differentiation of neuroblastoma cells",
+            "Efficacy of antibiotics-loaded interpenetrating network (IPNs) hydrogel based on poly(acrylic acid) and gelatin for treatment of experimental osteomyelitis: In vivo study",
+            "A novel route to polycaprolactone scaffold for vascular tissue engineering"
+          ]
+        },
+        {
+          "name": "Biomechanics & Musculoskeletal Systems",
+          "definition": "Mechanical analysis of human tissues, joints, ligaments, and musculoskeletal structures under various loading conditions, including wearable sensors and impact biomechanics.",
+          "estimated_share_of_theme": 0.162,
+          "example_titles": [
+            "Wrap-Around Wearable Coils for Seamless Monitoring of Joint Flexion",
+            "Failure properties of passive human aortic tissue. II-Biaxial tension tests",
+            "Quantification of ex-vivo tissue activity by polarization dynamics imaging using jones matrix optical coherence tomography",
+            "Multi-Utility Wearable Sensors for Motion Capture and Tissue Imaging",
+            "A note on Gutierrez's kinetics model for oxygen delivery to tissue"
+          ]
+        },
+        {
+          "name": "Clinical Diagnostics & Biomarkers",
+          "definition": "Development and validation of non-invasive diagnostic methods, biomarkers, clinical assessments, and physiological measurements for disease detection and monitoring.",
+          "estimated_share_of_theme": 0.135,
+          "example_titles": [
+            "Antioxidant and Antimicrobial Activity in Some Indian Herbal Plants: Protective Effect against Free Radical Mediated DNA Damage",
+            "PHARMACOGNOSTIC STANDARDIZATION OF ANACYCLUS PYRETHRUM LINN AND ITS BIOLOGICAL STUDIES",
+            "Screening of neuropharmacological activities of viscum album and estimation of major flavonoid constituents using TLC Densitometry",
+            "Network Pharmacology and Molecular Docking-based Analysis of Berberis aristata DC. (Daruharidra): Elucidating Multitarget Mechanisms and Therapeutic Pathways in Type 2 Diabetes Mellitus",
+            "Screening of anticonvulsant activity of viscum album L. And estimation of hesperitin in plant using TLC densitometry"
+          ]
+        },
+        {
+          "name": "Cellular & Molecular Biology",
+          "definition": "Investigation of intracellular signaling pathways, protein function, gene expression, metabolic processes, and molecular mechanisms underlying disease and cellular responses.",
+          "estimated_share_of_theme": 0.092,
+          "example_titles": [
+            "Focal adhesion kinase negatively regulates neuronal insulin resistance",
+            "PHLPP isoforms differentially regulate Akt isoforms and AS160 affecting neuronal insulin signaling and insulin resistance via Scribble",
+            "In vivo inhibition of focal adhesion kinase causes insulin resistance",
+            "RNA profile of immuno-magnetically enriched exosomes isolated from Non-Small Cell Lung Cancer",
+            "Autophagosome-lysosome mediated secretion of the thrombopoietin receptor is modulated by distinct driver mutations of myeloproliferative neoplasm"
+          ]
+        },
+        {
+          "name": "Clinical Biosensors & Implant Bioelectronics",
+          "definition": "Clinical biosensing platforms, point-of-care diagnostic instruments, AND implantable medical-device (IMD) power/bioelectronics interfaces: wireless power transfer, inductive/magnetic coupling for implants, implant telemetry front-ends, and bioelectronic interfaces whose primary application is clinical implant hardware. Prefer this over Manufacturing power-electronics domains when the load is an implant/IMD. Pure biochemical POCT assays without implant power remain here as clinical biosensors.",
+          "estimated_share_of_theme": 0.078,
+          "example_titles": [
+            "Surface-plasmon-resonance-based fiber-optic sensor for the detection of low-density lipoprotein",
+            "A contemporary approach for design and characterization of fiber-optic-cortisol sensor tailoring LMR and ZnO/PPY molecularly imprinted film",
+            "A novel approach for simultaneous sensing of urea and glucose by SPR based optical fiber multianalyte sensor",
+            "Design and development of a portable resistive sensor based on α-MnO2/GQD nanocomposites for trace quantification of Pb(II) in water",
+            "Wireless inductive power transfer systems for implantable medical devices"
+          ]
+        },
+        {
+          "name": "Infectious Disease & Microbiology",
+          "definition": "Molecular pathogenesis, immunological responses, genetic characterization, and functional studies of pathogenic microorganisms including tuberculosis and other infections.",
+          "estimated_share_of_theme": 0.098,
+          "example_titles": [
+            "Expression and characterization of Rv2430c, a novel immunodominant antigen of Mycobacterium tuberculosis",
+            "Deciphering the functional roles of PE18 and PPE26 proteins in modulating Mycobacterium tuberculosis pathogenesis and immune response",
+            "The PGRS domain of Mycobacterium tuberculosis PE_PGRS protein Rv0297 is involved in Endoplasmic reticulum stress-mediated apoptosis through toll-like receptor 4",
+            "Functional characterization of the transcription regulator whib1 from gordonia sp. Iitr100",
+            "Mycobacterium tuberculosis: Molecular infection biology, pathogenesis, diagnostics and new interventions"
+          ]
+        },
+        {
+          "name": "Biopharmaceutical Manufacturing & Quality",
+          "definition": "Analytical methods, characterization, stability assessment, and quality control of biopharmaceutical products including monoclonal antibodies, biosimilars, and recombinant proteins.  TIE-BREAK: downstream PAT, mAb aggregation/glycosylation QC, biosimilar comparability → here (NOT Manufacturing / Biomanufacturing & Fermentation).",
+          "estimated_share_of_theme": 0.092,
+          "example_titles": [
+            "Impact of Initial Aggregate Level on Aggregation Potential of Monoclonal Antibodies in Different Buffer Systems",
+            "Assessment of Functional Characterization and Comparability of Biotherapeutics: a Review",
+            "Use of the design-of-experiments approach for the development of a refolding technology for progenipoietin-1, a recombinant human cytokine fusion protein from Escherichia coli inclusion bodies",
+            "Two-Dimensional Liquid Chromatography (2D-LC): Analysis of Size-Based Heterogeneities in Monoclonal Antibody–Based Biotherapeutic Products",
+            "Need for a risk-based control strategy for managing glycosylation profile for biosimilar products"
+          ]
+        },
+        {
+          "name": "Neuroscience & Neurophysiology",
+          "definition": "Cellular, molecular and systems neuroscience and neurophysiology, including neural signalling, brain injury and neurological-condition mechanisms, neural rehabilitation and neuromuscular assessment.",
+          "estimated_share_of_theme": 0.073,
+          "example_titles": [
+            "Clinical Effectiveness of Non-Immersive Virtual Reality Tasks for Post-Stroke Neuro-Rehabilitation of Distal Upper-Extremities: A Case Report",
+            "Effects of vibrotactile feedback on postural sway in trans-femoral amputees: A wavelet analysis",
+            "Multiple channel electrooculogram classification using automata",
+            "A Hybrid Multimodal Deep Learning Framework for Robust Diagnosis of Parkinson’s Disease Using Hand Tremor Analysis",
+            "Deep learning-based classification of dementia using image representation of subcortical signals"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6a46ea5ece9a42a451a4714f",
+      "name": "Manufacturing & Industry 4.0",
+      "slug": "manufacturing-and-industry-4-0",
+      "scope_note": "Manufacturing & Industry 4.0 encompasses the design, control, optimization, and characterization of industrial production processes and equipment, spanning electrical drives and power conversion, rotating machinery dynamics, precision machining and material joining, surface finishing, multiphase flow systems, and biomanufacturing. The theme covers experimental and computational studies of friction, wear, lubrication, vibration analysis, material mechanical behavior under manufacturing conditions, textile production, and fermentation scaling—as exemplified by research on harmonic mitigation in motor drives, bearing performance with nano-lubricants, hot embossing for microstructures, ultrasonic welding of dissimilar joints, yarn and fabric characterization, rotor dynamics diagnosis, and particle-laden flow manipulation. Explicitly excluded: discovery, synthesis, or fundamental characterization of new materials not tied to a specific manufacturing process belongs to Advanced Materials & Devices; energy generation, storage, or conversion technologies belong to Energy, Sustainability & Climate Change, while energy-efficient buildings and smart grids as infrastructure belong to Smart & Sustainable Infrastructure; CFD as a general computational method for non-manufacturing applications belongs to AI/ML, Supercomputing & Quantum Computing; and control systems theory in isolation belongs to AI/ML. Tie-break rule: if a paper's primary contribution is a processing or joining technique applied to materials, or characterization of material behavior during manufacturing, assign it here; if the primary contribution is synthesis or discovery of a new material or material class itself, assign it to Advanced Materials & Devices. Similarly, if research on bearings, shafts, or rotating equipment focuses on production, assembly, or operational diagnostics in industrial context, it belongs here; if it is fundamental materials science of bearing alloys, assign to Advanced Materials & Devices.",
+      "corrected_pool_size": 557,
+      "domains": [
+        {
+          "name": "Electric Motor Drives & Power Electronics",
+          "definition": "Design, control, and optimization of induction motor drives with power electronic converters, including harmonic mitigation, inverter topologies, and vector control techniques for industrial applications.",
+          "estimated_share_of_theme": 0.127,
+          "example_titles": [
+            "Pulse multiplication in AC-DC converters for harmonic mitigation in vector-controlled induction motor drives",
+            "Autotransformer based nine-phase ac-dc converter for harmonic mitigation in induction motor drives",
+            "A 24-pulse AC-DC converter employing a pulse doubling technique for vector-controlled induction motor drives",
+            "Single-phase grid-fed variable frequency high-efficiency induction motor drive for fan applications",
+            "Torque ripple minimization in DTC based induction motor drive using carrier space vector modulation technique"
+          ]
+        },
+        {
+          "name": "Tribology & Bearing Performance",
+          "definition": "Experimental and theoretical studies of friction, wear, lubrication, and bearing behavior including nano-lubricants, greases, micro-texturing, and brake material performance.",
+          "estimated_share_of_theme": 0.072,
+          "example_titles": [
+            "Experimental evaluation of ball bearing performance using nanoflake-blended greases",
+            "A new tribometer for friction drives",
+            "Effects of positioning of inner race micro-textures on the tribodynamic performances of radial ball bearings",
+            "Tribo-Dynamic Performance of Newly Developed Environmentally Friendly Lubricating Greases Containing Nano-CaCO3",
+            "Experimental exploration for the performance improvement of a thrust ball bearing using circumferential micro-grooved races"
+          ]
+        },
+        {
+          "name": "Precision Manufacturing & Microfabrication",
+          "definition": "Advanced manufacturing processes for creating micro and nanostructures, including hot embossing, chemical mechanical polishing, laser processing, and additive manufacturing at small scales.",
+          "estimated_share_of_theme": 0.066,
+          "example_titles": [
+            "Fabrication of Flexible Polymer Molds for Polymer Microstructuring by Roll-to-Roll Hot Embossing",
+            "Manipulating the three-phase contact line of an evaporating particle-laden droplet to get desirable microstructures: A lattice Boltzmann study",
+            "Carbon nanopillar-based hot embossing template for fabrication of nanoholes over a large area of thermoplastic polymer for light trapping application",
+            "Nanoscale tribological aspects of chemical mechanical polishing: A review",
+            "Engineering droplet navigation through tertiary-junction microchannels"
+          ]
+        },
+        {
+          "name": "Materials, Joining & Mechanical Behavior",
+          "definition": "Characterization of material properties, mechanical testing, welding processes, composite fabrication, and structural analysis under various loading conditions and manufacturing techniques.  Do NOT use for pure automotive fuel-additive engine-deposit screening with no joining/process contribution (prefer out_of_scope).",
+          "estimated_share_of_theme": 0.16,
+          "example_titles": [
+            "Process robustness and strength analysis of multi-layered dissimilar joints using ultrasonic metal welding",
+            "Dynamic tensile behavior of multi phase high yield strength steel",
+            "Effect of annealing, size and cut-outs on axial collapse behaviour of circular tubes",
+            "Three-dimensional macro-mechanical finite element model for machining of unidirectional-fiber reinforced polymer composites",
+            "Evaluation of High Strain Rate Characteristics of Metallic Sandwich Specimens"
+          ]
+        },
+        {
+          "name": "Textile Manufacturing & Fabric Properties",
+          "definition": "Production and characterization of yarns and fabrics including fiber properties, fabric mechanics, comfort characteristics, and textile processing technologies.",
+          "estimated_share_of_theme": 0.167,
+          "example_titles": [
+            "Studies on cotton-acrylic bulked yarns and fabrics. Part II: Fabric characteristics",
+            "Packing of micro-porous yarns. Part II: Optimization of fabric characteristics",
+            "Role of filament cross-section in properties of PET multifilament yarn and fabric. Part I: Effect of fibre cross-sectional shape on transmission behaviour of fabrics",
+            "Effect of fibre cross-sectional shape on bending behaviour of yarns and fabrics; part I",
+            "Draw Texturing of Cationic Dyeable Polyester Yarn"
+          ]
+        },
+        {
+          "name": "Rotor Dynamics & Vibration Analysis",
+          "definition": "Dynamic modeling, vibration analysis, and fault diagnosis of rotating machinery including rotors, shafts, bearings, and gearboxes in industrial equipment.",
+          "estimated_share_of_theme": 0.083,
+          "example_titles": [
+            "Dynamic response of an unbalanced rotor supported on ball bearings",
+            "Model based online diagnosis of unbalance and transverse fatigue crack in rotor systems",
+            "Design of optimum support parameters for minimum rotor response and maximum stability limit",
+            "Composite shaft rotor dynamics: An overview",
+            "Multi speed model updating of rotor systems"
+          ]
+        },
+        {
+          "name": "Fluid-Particle Flow & Multiphase Systems",
+          "definition": "Computational and experimental study of multiphase flows including slurries, particulate flows, fluidization, and mixing in industrial piping and processing equipment.",
+          "estimated_share_of_theme": 0.113,
+          "example_titles": [
+            "Development of a drag coefficient model for non-spherical particles using semi-empirical and machine learning approaches",
+            "Concentration field in a pipeline transporting multisized particulate slurries",
+            "Computational methodology for determination of head loss in both laminar and turbulent regimes for the flow of high concentration coal ash slurries through pipeline",
+            "Improving the mixing characteristics of coiled configurations by early flow inversion",
+            "Non-reactive in-cylinder flow simulation for a diesel engine"
+          ]
+        },
+        {
+          "name": "Advanced Surface Finishing & Processing",
+          "definition": "Precision surface finishing techniques including magnetic abrasive finishing, ultrasonic-assisted processes, EDM, ion beam milling, and additive manufacturing for surface quality enhancement.",
+          "estimated_share_of_theme": 0.131,
+          "example_titles": [
+            "Mechanism of surface finishing in ultrasonic-assisted magnetic abrasive finishing process",
+            "Experimental investigations into transient roughness reduction in ball-end magneto-rheological finishing process",
+            "Experimental investigations and optimization of ultrasonic assisted magnetic abrasive finishing process",
+            "Surface roughness study in cryogenic EDM of tool steel using novel copper electrode with channels fabricated by additive manufacturing",
+            "Closed Loop Ball End Magnetorheological Finishing Using In-situ Roughness Metrology"
+          ]
+        },
+        {
+          "name": "Biomanufacturing & Fermentation Processes",
+          "definition": "Scaling, optimization, and control of biological production processes including fermentation for biopharmaceutical and biochemical manufacturing.  Upstream fermentation/bioprocess scale-up. Downstream biopharma PAT/QC → Healthcare / Biopharmaceutical Manufacturing & Quality.",
+          "estimated_share_of_theme": 0.081,
+          "example_titles": [
+            "Productivity improvement in L-sorbose biosynthesis by fedbatch cultivation of Gluconobacter oxydans",
+            "Fed-batch propionic acid production by Propionibacterium acidipropionici",
+            "Computer coupled substrate feeding strategies for efficient conversion of D-sorbitol to L-sorbose in fed-batch culture",
+            "Performance evaluation of reactors designed for bioconversion of wheat straw to animal feed",
+            "Bioconversion of glycerol to 1,3-propanediol: A mathematical model-based nutrient feeding approach for high production using Clostridium diolis"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6a46ea5ece9a42a451a47150",
+      "name": "Next-Gen Communication",
+      "slug": "next-gen-communication",
+      "scope_note": "Next-Gen Communication encompasses the physical layer, signal processing, and network architecture of wireless and optical communication systems. This includes antenna and RF design for microwave and millimeter-wave frequencies; signal modulation, detection, and equalization techniques; beamforming and direction-of-arrival estimation using array signal processing; cooperative and relay-based multi-hop networks; free-space optical links addressing fading and atmospheric effects; microwave photonic subsystems for RF signal processing; MAC protocols and resource allocation in wireless networks; and nonlinear electromagnetic-plasma interactions for wave and wakefield generation. Papers addressing the design of beamforming algorithms, performance analysis of relay networks, atmospheric turbulence mitigation in FSO systems, Brillouin-based photonic filters, QPSK detection schemes, channel access delay modeling, and plasma-wave physics all belong here. Excluded are: machine learning methods for communication (route to AI/ML, Supercomputing & Quantum Computing); quantum algorithms and quantum information processing (route to AI/ML); quantum photonic devices and semiconductor fabrication (route to Quantum Technologies & Semiconductor Technology); and general information management or telecommunications policy (route to Social Sciences, Humanities & Management). If a paper's primary contribution is a learning algorithm or AI method applied to communication, assign it to AI/ML; if it concerns quantum devices, quantum materials, or semiconductor physics, assign it to Quantum Technologies. Plasma-wave and electromagnetic-plasma physics remains in Next-Gen Communication.",
+      "corrected_pool_size": 415,
+      "domains": [
+        {
+          "name": "Direction of Arrival & Beamforming",
+          "definition": "Signal processing techniques for estimating source directions and spatial filtering using antenna arrays, including DOA estimation, beamforming algorithms, and array signal processing methods.",
+          "estimated_share_of_theme": 0.099,
+          "example_titles": [
+            "Estimation of nominal directions of arrival and angular spreads of distributed sources",
+            "Data-dependent broad-band beamforming with many constraints using few sensors",
+            "DOA estimation of wideband sources using a harmonic source model and uniform linear array",
+            "TRANSFORM BASED COVARIANCE DIFFERENCING APPROACH TO BEARING ESTIMATION.",
+            "3rd-order cumulants-based DOA estimation in the presence of colored Gaussian noise"
+          ]
+        },
+        {
+          "name": "Cooperative & Relay Networks",
+          "definition": "Multi-hop communication systems using relays and device-to-device networks, including cooperative multiplexing, relay selection, and performance analysis of relay-aided transmission schemes.",
+          "estimated_share_of_theme": 0.125,
+          "example_titles": [
+            "Analysis of multi-hop device-to-device networks with half-duplex relays",
+            "A distributed beamforming-based cooperative multiplexing protocol and its outage performance",
+            "Ergodic capacity and beamforming optimality for multi-antenna relaying with statistical CSI",
+            "Performance evaluation and optimization for two-way relaying with multi-antenna sources",
+            "Optimality of beamforming for a correlated MISO relay channel"
+          ]
+        },
+        {
+          "name": "Free Space Optical Communication",
+          "definition": "Line-of-sight optical wireless communication systems addressing atmospheric turbulence, pointing errors, fading channels, and modulation schemes for FSO links.",
+          "estimated_share_of_theme": 0.089,
+          "example_titles": [
+            "Jamming in free space optical systems: Mitigation and performance evaluation",
+            "Performance analysis of BCH and repetition codes in gamma-gamma faded fso link",
+            "BER analysis of optical space shift keying with gamma-gamma fading and pointing error",
+            "Using differential signalling to mitigate pointing errors effect in FSO communication link",
+            "Performance analysis of free space optical links using multi-input ulti-output and aperture averaging in presence of turbulence and various weather conditions"
+          ]
+        },
+        {
+          "name": "Microwave Photonic Systems",
+          "definition": "Photonic devices and circuits for microwave signal processing, including Brillouin scattering-based filters, RF photonic components, and integrated photonic subsystems.",
+          "estimated_share_of_theme": 0.077,
+          "example_titles": [
+            "Design of Microwave Photonic Subsystems Using Brillouin Scattering",
+            "Chip-based Brillouin radio frequency photonic phase shifter and wideband time delay",
+            "Reconfigurable and frequency-agile on-chip microwave photonic bandpass and bandstop filters using stimulated Brillouin scattering",
+            "On-chip Brillouin processing for coherent optical communications",
+            "External defect immune high quality resonances in microwave topological ring resonator"
+          ]
+        },
+        {
+          "name": "Signal Modulation, Detection & Channel Equalization",
+          "definition": "Modulation schemes, receiver detection algorithms, and equalization techniques for wireless and wired communication systems.",
+          "estimated_share_of_theme": 0.147,
+          "example_titles": [
+            "Asymptotic performance of generalized selection combining in generic noise and fading",
+            "Blind detection of co-channel QPSK signals: A phase precoding-based approach",
+            "Structure of an optimum linear precoder and its application to ML equalizer",
+            "Maximum-likelihood decoding in decode-and-forward based MIMO cooperative communication systems",
+            "Approximate ML serial detector based on tomlinson-harashima pre-equalization"
+          ]
+        },
+        {
+          "name": "Wireless Network Access & Resource Allocation",
+          "definition": "MAC protocols, channel access mechanisms, frequency allocation, traffic modeling, and resource scheduling for wireless and cellular networks.",
+          "estimated_share_of_theme": 0.125,
+          "example_titles": [
+            "On modeling VoIP traffic in broadband networks",
+            "Analysis of GPRS radio channel access delay",
+            "A hybrid meshed multipath forwarding scheme in wireless ad hoc networks",
+            "Throughput enhancement through efficient channel assignment in multi-radio Ad hoc networks",
+            "A terminal-assisted bayesian broadcasting algorithm for S-ALOHA systems with finite population of multi-buffered terminals"
+          ]
+        },
+        {
+          "name": "Antenna Design & RF Systems",
+          "definition": "Design and development of antennas for microwave and millimeter-wave applications, including frequency reconfigurable antennas, patch antennas, and antenna arrays.",
+          "estimated_share_of_theme": 0.157,
+          "example_titles": [
+            "Design and development of high frequency passive and active micromachined antennas",
+            "Frequency Reconfigurable Passive and Active Planar Antennas",
+            "Beam scanning realized by coupled modes in a single-patch antenna",
+            "A Dual-Polarization-Switched Beam Patch Antenna Array for Millimeter-Wave Applications",
+            "Hertzian Magnetic Dipoles Model of a Quasi-isotropic radiation microstrip patch based Antenna-in-Package"
+          ]
+        },
+        {
+          "name": "Plasma-Wave & Electromagnetic Interactions",
+          "definition": "Nonlinear interaction of electromagnetic waves and intense laser beams with plasma media: plasma-wave and wakefield generation, self-focusing, filamentation, solitons and harmonic generation in plasma-filled structures.",
+          "estimated_share_of_theme": 0.181,
+          "example_titles": [
+            "Nonlinear interaction of an intense laser beam with an electron plasma wave: Generation of ion-acoustic wave",
+            "Growth of a Gaussian ripple on a uniform-plane wave front in plasmas",
+            "Wake field excitation and electron acceleration by triangular and sawtooth laser pulses in a plasma: An analytical approach",
+            "Fluid simulation of relativistic electron beam driven wakefield in a cold plasma",
+            "Plasma wave and second harmonic generation"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6a46ea5ece9a42a451a47151",
+      "name": "Quantum Technologies & Semiconductor Technology",
+      "slug": "quantum-technologies-and-semiconductor-technology",
+      "scope_note": "This theme encompasses the design, fabrication, characterization, and device physics of quantum and semiconductor technologies, spanning from ultrascale analog circuit design in nanoscale CMOS to advanced photonic and spintronic devices. Core research includes ultra-low voltage analog integrated circuits, semiconductor photovoltaic and photodetection devices, resistive memory and neuromorphic computing hardware, quantum light generation and integrated quantum photonic processors, structured light and polarization engineering, spintronics and magnetic devices, fiber photonic systems, wide bandgap semiconductors, and plasmonic and fiber optic sensors. The theme focuses on the physical mechanisms, device-level implementations, fabrication techniques, and experimental characterization of these technologies—for example, papers on photon pair sources, magnetic tunnel junctions, RRAM-based stochastic neurons, or polarization singularity generation all belong here. Excluded from this theme are quantum algorithms, quantum information theory, and quantum computing as computation models, which belong to AI/ML, Supercomputing & Quantum Computing; general material discovery and synthesis that is not tied to a specific device or technology demonstration, which belongs to Advanced Materials & Devices; and energy generation or storage systems intended primarily for grid integration or infrastructure applications, which belong to Energy, Sustainability & Climate Change. When a paper involves quantum materials or devices (e.g., photon sources, entanglement generation, quantum memory), assign it here; when it involves quantum algorithms or information-theoretic methods for computation, assign it to the AI/ML theme. When a paper combines semiconductor physics with energy conversion (e.g., photovoltaic cell design or characterization), assign it to this theme; only advanced grid-integrated solar systems or large-scale energy infrastructure applications go to the Energy theme.  Optical/interferometric metrology instrumentation belongs here under Optical Metrology & Interferometric Instrumentation.",
+      "corrected_pool_size": 543,
+      "domains": [
+        {
+          "name": "Ultra-Low Voltage Analog Circuits",
+          "definition": "Design and analysis of analog integrated circuits operating at reduced supply voltages (below 1V) for nanoscale CMOS technologies, including operational amplifiers, filters, ADCs, and image sensors.",
+          "estimated_share_of_theme": 0.066,
+          "example_titles": [
+            "0.5 v analog integrated circuits",
+            "Ultra-low voltage analog design techniques for nanoscale CMOS technologies",
+            "0.5-V analog circuit techniques and their application in OTA and filter design",
+            "Time-Domain Sensitivity Analysis of Dynamic Sense Amplifier of an n-MOS Dynamic RAM",
+            "A Low Power Readout Mechanism with Improved Low Light Performance in CMOS Image Sensors"
+          ]
+        },
+        {
+          "name": "Semiconductor Photovoltaic & Photodetection Devices",
+          "definition": "Device physics, fabrication, and performance of photovoltaic cells and photodetectors based on semiconductor materials and quantum phenomena.",
+          "estimated_share_of_theme": 0.173,
+          "example_titles": [
+            "Size and oxygen passivation induced reversal of photoconducting behaviour in CdS nanorods",
+            "Light Activated Charge-Ionic Transport in Cs2AgBi2I9 for Self-Powered Synaptic Photodetection",
+            "Benign mid-gap halide vacancy states in 2D-bismuth-based halide perovskite microcrystals for enhanced broadband photodetectors",
+            "Elucidation of barrier homogeneity in ZnO/P3HT:PCBM junctions through temperature dependent I-V characteristics",
+            "Si/Perovskite Heterojunction for Photodetector Application"
+          ]
+        },
+        {
+          "name": "Resistive Memory & Neuromorphic Computing",
+          "definition": "Non-volatile resistive memory technologies (RRAM, OXRAM) and their applications in stochastic neural networks, in-memory computing, random number generation, and hardware learning systems.",
+          "estimated_share_of_theme": 0.064,
+          "example_titles": [
+            "Stochastic neuron design using conductive bridge RAM",
+            "True Random Number Generation from Commodity NVM Chips",
+            "Exploiting Intrinsic Variability of Filamentary Resistive Memory for Extreme Learning Machine Architectures",
+            "Contrasting Advantages of Learning With Random Weights and Backpropagation in Non-Volatile Memory Neural Networks",
+            "Dual-configuration in-memory computing bitcells using SiOx RRAM for binary neural networks"
+          ]
+        },
+        {
+          "name": "Quantum Photonics & Entanglement",
+          "definition": "Quantum light generation, manipulation, and characterization including photon pair sources, squeezed states, entanglement, quantum memory, and integrated quantum photonic processors.",
+          "estimated_share_of_theme": 0.079,
+          "example_titles": [
+            "Spectral purity of telecom photon pairs from on-chip LNOI waveguides: comparison between analytical and numerical calculations",
+            "Optimal control fields for efficient quantum memory in cold atoms via EIT",
+            "Phase modulation at the few-photon level for weak-nonlinearity-based quantum computing",
+            "Quantum nanophotonic and nanoplasmonic sensing: Towards quantum optical bioscience laboratories on chip",
+            "Experimental generation of squeezed cat states with an operation allowing iterative growth"
+          ]
+        },
+        {
+          "name": "Structured Light & Polarization Engineering",
+          "definition": "Generation and characterization of structured optical fields including vortex beams, polarization singularities, Poincaré beams, and metasurface-based manipulation of light properties.",
+          "estimated_share_of_theme": 0.083,
+          "example_titles": [
+            "Synthesizing polarization singularity lattices using phase ramps",
+            "Detection of Poincaré beam coordinates on the hybrid-order Poincaré sphere via Stokes vortex mapping",
+            "Generation of V-point polarization singularity lattices",
+            "Full Poincaré beam delineation based on the Stokes vortex ring",
+            "Full Poincaré beam with all the Stokes vortices"
+          ]
+        },
+        {
+          "name": "Spintronics & Magnetic Devices",
+          "definition": "Magnetic thin films, heterostructures, and devices including magnetic tunnel junctions, spin pumping, spin torques, magnetic damping, and perpendicular magnetic anisotropy for data storage and spintronic applications.",
+          "estimated_share_of_theme": 0.136,
+          "example_titles": [
+            "Inelastic tunneling conductance and magnetoresistance investigations in dual ion-beam sputtered CoFeB(110)/MgO/CoFeB (110) magnetic tunnel junctions",
+            "Anisotropic magnetic damping studies in β-Ta/2D-epitaxial-Py bilayers",
+            "Reversal and thermal stability of ordered moments in nano-rings of perpendicular anisotropy Co/Pd multilayers",
+            "Anti-phase boundary free two-dimensional epitaxial Fe3O4 thin films: Evidence of an unquenched orbital magnetic moment at room temperature",
+            "Spin pumping and spin torques in interfacially tailored C o2FeAl/β -Ta layers"
+          ]
+        },
+        {
+          "name": "Fiber Photonic Devices & Engineering",
+          "definition": "Design and fabrication of photonic devices, waveguides, and fiber-based optical systems for quantum and classical applications.  TIGHTENED: fiber components, waveguides, and photonic-crystal fiber devices. Interferometric metrology instruments → Optical Metrology & Interferometric Instrumentation instead.",
+          "estimated_share_of_theme": 0.142,
+          "example_titles": [
+            "Improved analytical model for the field of index-guiding microstructured optical fibers",
+            "Optimizing Bendable 'ARC' Optical Fibers for Comparable Performance to Rod-Type Fibers in Ultra-High-Power Lasers",
+            "Large Mode Area Multi-Trench Fiber With Delocalization of Higher Order Modes",
+            "Coupling loss attributes of large mode-area hexagonal photonic crystal fibers in presence of misalignments: an alternative optical model",
+            "Design and fabrication of an asymmetric twin-core fiber directional coupler for gain-flattened EDFA"
+          ]
+        },
+        {
+          "name": "Wide Bandgap Semiconductors & Devices",
+          "definition": "High electron mobility transistors, Schottky diodes, and nanowire devices in III-V nitrides and wide bandgap materials with analysis of transport phenomena, thermal effects, and device modeling.",
+          "estimated_share_of_theme": 0.142,
+          "example_titles": [
+            "Velocity overshoot effects and transit times in III-V nitride HFETs: A Monte Carlo study",
+            "Investigation of blistering phenomena in hydrogen-implanted GaN and AlN for thin film layer transfer applications",
+            "Sources of transconductance collapse in III-V nitrides - Consequences of velocity-field relations and source/gate design",
+            "Notice of Removal: Interface study of high-k/InAs/n-GaSb MOSCAP structures",
+            "Analysis and Modeling of DC-IV and Flicker Noise Characteristics of 180-nm Bulk Planar NFETs at Cryogenic Temperatures"
+          ]
+        },
+        {
+          "name": "Plasmonic & Fiber Optic Sensors",
+          "definition": "Optical and plasmonic sensors based on surface plasmon resonance, fiber gratings, and tapered fibers for chemical, biological, and refractive index sensing applications.",
+          "estimated_share_of_theme": 0.114,
+          "example_titles": [
+            "Long period fiber grating based temperature-compensated high performance sensor for bio-chemical sensing applications",
+            "On the sensitivity and signal to noise ratio of a step-index fiber optic surface plasmon resonance sensor with bimetallic layers",
+            "Surface plasmon resonance based tapered fiber optic sensor with different taper profiles",
+            "A multitapered fiber-optic SPR sensor with enhanced sensitivity",
+            "Surface plasmon resonance based fiber optic refractive index sensor utilizing cobalt metal"
+          ]
+        },
+        {
+          "name": "Optical Metrology & Interferometric Instrumentation",
+          "definition": "Optical and interferometric metrology instruments and methods: white-light / laser interferometers, interferometric microscopes, displacement/phase metrology systems, precision optical measurement instrumentation. Prefer this over Fiber Photonic Devices & Engineering when the contribution is metrology instrumentation rather than a fiber component, and over Plasmonic & Fiber Optic Sensors when the core is interferometric measurement hardware/methods rather than chemical sensing.",
+          "estimated_share_of_theme": 0.04,
+          "example_titles": [
+            "White-light interferometric microscope for surface topography",
+            "Phase-shifting interferometry for precision displacement metrology",
+            "Compact Michelson interferometer instrumentation for dimensional measurement"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6a46ea5ece9a42a451a47152",
+      "name": "Smart & Sustainable Infrastructure",
+      "slug": "smart-and-sustainable-infrastructure",
+      "scope_note": "Smart & Sustainable Infrastructure encompasses the design, modeling, analysis, and optimization of engineered systems that support urban and regional development while minimizing environmental impact. The theme covers power systems and smart grids; geotechnical and structural engineering for foundations and dynamic systems; transportation networks and traffic management; water resources, hydrology, and wastewater treatment; building energy performance and thermal design; urban air quality monitoring; and seismic resilience of infrastructure. Papers in this theme typically address infrastructure performance, resilience, efficiency, and environmental quality at the systems or asset level—such as load flow analysis in grids, soil reinforcement behavior, traffic flow prediction, water quality simulation in rivers, thermal retrofit of buildings, or air pollutant modeling in cities. Excluded from this theme are energy generation, storage, and conversion technologies (e.g., photovoltaic materials, battery systems, biomass conversion), which belong in Energy, Sustainability & Climate Change; materials discovery and synthesis, which belong in Advanced Materials & Devices; AI/ML methods developed primarily as algorithmic contributions, which belong in AI/ML, Supercomputing & Quantum Computing; and policy, economics, or social aspects of infrastructure, which belong in Social Sciences, Humanities & Management. When a paper applies machine learning or computational methods to infrastructure problems (e.g., kriging for traffic speed estimation, machine learning for air pollutant factor analysis), assign it to Smart & Sustainable Infrastructure if the focus is on the infrastructure application and outcomes; assign it to AI/ML only if the contribution is methodological advancement in the algorithm itself. When a paper addresses energy efficiency in buildings or smart grid operations as infrastructure systems, it belongs in Smart & Sustainable Infrastructure; only assign to Energy theme if it concerns primary energy generation or storage technologies.",
+      "corrected_pool_size": 482,
+      "domains": [
+        {
+          "name": "Power Systems & Grid Control",
+          "definition": "Modeling, analysis, and control of power generation, transmission, and distribution systems including load flow analysis, stability assessment, voltage/frequency control, and smart grid operations.  Do NOT force particle-accelerator RF / LLRF / cavity control here; prefer out_of_scope when there is no applied power-grid contribution.",
+          "estimated_share_of_theme": 0.21,
+          "example_titles": [
+            "A multimachine Heffron-Phillips model for power systems with frequency- and voltage-dependent loads",
+            "Powerful and computationally efficient algorithm for transmission loss calculation",
+            "Epistemology of voltage control in DER-rich power system",
+            "State-space modelling of a series compensated long distance transmission system through graph-theoretic approach",
+            "Accurate modelling of discrete AGC controllers for interconnected power systems"
+          ]
+        },
+        {
+          "name": "Geotechnical Engineering & Soil Mechanics",
+          "definition": "Laboratory and field studies of soil behavior, soil-geosynthetic interactions, reinforcement techniques, and foundation performance under various loading conditions.",
+          "estimated_share_of_theme": 0.197,
+          "example_titles": [
+            "Comparison of Pullout Behaviour of Polyester Geogrid and Polyester Strip Soil Reinforcement",
+            "Effective stress behavior of quasi-saturated compacted cohesive soils",
+            "Characterization of soil-geosynthetic interaction based on surface roughness studies",
+            "The role of nature of particles on the behaviour of rockfill materials",
+            "Laboratory evaluation of dynamic shear response of sand-geomembrane interface"
+          ]
+        },
+        {
+          "name": "Transportation Systems & Traffic Management",
+          "definition": "Modeling, simulation, and optimization of transportation networks including traffic flow prediction, connected and automated vehicles, public transit, and sustainable mobility solutions.",
+          "estimated_share_of_theme": 0.068,
+          "example_titles": [
+            "Deployment and calibration considerations for large-scale regional dynamic traffic assignment: Case study for Sydney, Australia",
+            "Kriging-based approach for estimation of vehicular speed and passenger car units on an urban arterial",
+            "Analyzing and Modeling Network Travel Patterns During the Ukraine Invasion Using Crowd-Sourced Pervasive Traffic Data",
+            "Impact of Connected Automated Buses in a Mixed Fleet Scenario with Connected Automated Cars",
+            "Introduction to Dynamics of Transportation Ecosystem, Modeling, and Control"
+          ]
+        },
+        {
+          "name": "Water Quality & Wastewater Management",
+          "definition": "Treatment, monitoring, and quality assessment of municipal wastewater, stormwater, industrial effluent, and river systems including pollutant removal and safe water reuse.",
+          "estimated_share_of_theme": 0.091,
+          "example_titles": [
+            "Effects of urbanisation on the quality of the urban runoff for Delhi watershed",
+            "Simulating strategic measures for managing water quality in the Delhi stretch of the River Yamuna, India",
+            "Characterization of municipal solid waste in Jalandhar City, Punjab, India",
+            "Occurrence and fate of emerging trace organic chemicals in wastewater plants in Chennai, India",
+            "Release of Dark-Colored Leachate from Mined Aged Municipal Solid Waste from Landfills"
+          ]
+        },
+        {
+          "name": "Building Energy & Thermal Performance",
+          "definition": "Design and optimization of building envelopes, thermal insulation strategies, passive conditioning systems, and energy efficiency assessment for commercial and residential structures.",
+          "estimated_share_of_theme": 0.093,
+          "example_titles": [
+            "Thermal Performance Assessment of Envelope Retrofit Strategies for Office Spaces in Composite Climates",
+            "Development of design guidelines for thermal, visual, and noise insulation performance of building envelope of low-rise commercial office buildings in the Indian tropical climate",
+            "Role of insulation in energy consumption in commercial and office buildings",
+            "Thermal energy performance of an academic building with sustainable probing and optimization with evolutionary algorithm",
+            "Reduction of heat flux by a flowing water layer over an insulated roof"
+          ]
+        },
+        {
+          "name": "Urban Air Quality & Emissions Monitoring",
+          "definition": "Measurement, modeling, and management of atmospheric pollutants in urban environments as part of city-scale infrastructure resilience.",
+          "estimated_share_of_theme": 0.064,
+          "example_titles": [
+            "Impact of air pollutants from surface transport sources on human health: A modeling and epidemiological approach",
+            "Factors influencing ambient particulate matter in Delhi, India: Insights from machine learning",
+            "Real-time quantification and source apportionment of fine particulate matter including organics and elements in Delhi during summertime",
+            "Forecasts using Box-Jenkins models for the ambient air quality data of Delhi City",
+            "Comparative Evaluation of Air Quality Dispersion Models for PM2.5 at Air Quality Control Regions in Indian and UK Cities"
+          ]
+        },
+        {
+          "name": "Structural Dynamics & Seismic Engineering",
+          "definition": "Analysis of dynamic behavior and seismic performance of infrastructure including buildings, bridges, tanks, and foundations; vibration control and damping strategies.",
+          "estimated_share_of_theme": 0.203,
+          "example_titles": [
+            "Nonlinear elastodynamics of concrete water tanks with shaft-type staging",
+            "First order homogeneous dynamical systems 2: Application to cracked concrete beams",
+            "Seismic Performance of Self-Centering BRB Frames: A Study Under Near-Field Ground Motions",
+            "Seismic Protection of Structures Equipped with Eddy Current Damper",
+            "A method for damping matrix identification using frequency response data"
+          ]
+        },
+        {
+          "name": "Hydrology & Water Resources Management",
+          "definition": "Assessment of groundwater systems, surface water interactions, flood hazard mapping, watershed analysis, and climate-resilient water security planning.",
+          "estimated_share_of_theme": 0.073,
+          "example_titles": [
+            "In-situ Observation and Nitrate-N Load Assessment in Madhubani District, Bihar, India",
+            "Groundwater System Modelling and Sensitivity of Groundwater Level Prediction in Indo-Gangatic Alluvial Plains",
+            "Flood inundation mapping and hazard assessment of Baitarani River basin using hydrologic and hydraulic model",
+            "Determination of watershed features for surface runoff models",
+            "Understanding the extent of interactions between groundwater and surface water through major ion chemistry and multivariate statistical techniques"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6a46ea5ece9a42a451a47153",
+      "name": "Social Sciences, Humanities & Management",
+      "slug": "social-sciences-humanities-and-management",
+      "scope_note": "This theme encompasses research in economics, management science, information systems, library science, humanities, and cultural studies—focusing on organizational behavior, institutional practice, human experience, and social outcomes rather than technological innovation per se. Included domains span digital transformation adoption in enterprises and government, information management as professional practice, supply chain and operations management, development economics and poverty analysis, ethnographic studies of religion and identity, international business strategy, agricultural and consumer economics, digital culture and user experience, computational linguistics applied to language analysis, and social media analytics. Research on economic development and welfare schemes, caste and inequality in social programs, border studies and religious conversion, cross-border acquisitions and firm strategy, library digitization projects, and supply chain coordination all exemplify the scope. Excluded: machine learning and NLP algorithms developed primarily as computational methods (go to AI/ML theme); biomaterials designed for clinical therapeutic application (go to Healthcare & MedTech); energy generation and storage technologies (go to Energy theme); and general material synthesis and characterization (go to Advanced Materials). Tie-break rule for NLP: if the primary contribution is a computational linguistics method or parsing algorithm for processing Indian or classical languages, assign to this theme's Computational Linguistics domain; if the contribution is a machine learning algorithm whose application happens to be language, assign to AI/ML. Tie-break rule for digital systems: information systems and e-governance as organizational adoption and managerial practice belong here; the underlying AI/ML methods or infrastructure systems belong in their respective themes. Tie-break rule for economics and policy: empirical analysis of welfare schemes, development outcomes, agricultural value chains, and behavioral consumer research belong here; the statistical or experimental methodology used is secondary to the social/economic subject matter.",
+      "corrected_pool_size": 595,
+      "domains": [
+        {
+          "name": "Digital Transformation & IT Applications",
+          "definition": "Organizational adoption of information technology, information systems, e-governance, digital service delivery, and the managerial/social study of digital transformation in enterprises and public sectors.",
+          "estimated_share_of_theme": 0.21,
+          "example_titles": [
+            "Planning and implementation of e-governance projects: A SAP-LAP based gap analysis",
+            "Flexible framework for strategic information systems planning: A case study from banking sector",
+            "Unpacking the Penetration Gap: Stakeholder Perspectives Behind Low Penetration of Sustainability Measurement Scheme Among Indian Micro, Small and Medium Enterprises",
+            "What drives organisational performance: strategic thinking, technological change, strategic risks? A modified total interpretive structural modelling approach and MICMAC analysis",
+            "Modeling Drivers and Barriers of Artificial Intelligence Adoption: Insights from a Strategic Management Perspective"
+          ]
+        },
+        {
+          "name": "Library Science & Information Management",
+          "definition": "Library and information science, information organization and retrieval practice, scholarly communication, digital libraries, and knowledge/records management as a professional and institutional discipline.",
+          "estimated_share_of_theme": 0.029,
+          "example_titles": [
+            "An Exploratory Analysis of Online Discussion of Library and Information Science Professionals in India using Text Mining",
+            "Cloud computing in libraries: Its needs, applications, issues and best practices",
+            "Skilling the Library and Information Science Professionals",
+            "Research Data Management: An Evaluation of Indian Research Funding Agencies' Policies and Guidelines",
+            "Core Competencies for 21st Century Library and Information Science Professionals"
+          ]
+        },
+        {
+          "name": "Supply Chain & Operations Management",
+          "definition": "Supply chain coordination, logistics optimization, vendor management, and decision modeling for improving operational efficiency and sustainability across interconnected supply networks.",
+          "estimated_share_of_theme": 0.109,
+          "example_titles": [
+            "Design of fractal information coordination system in a supply chain network",
+            "A framework for evaluation of coordination by contracts: A case of two-level supply chains",
+            "Auction algorithms for market equilibrium",
+            "Integrated dynamic vendor selection and order allocation problem for the time dependent and stochastic data",
+            "Evolutionary framework design in formulation of decision support models for production emissions and net profit of firm: Implications on environmental concerns of supply chains"
+          ]
+        },
+        {
+          "name": "Development Economics & Social Welfare",
+          "definition": "Empirical analysis of economic development, poverty, inequality, social welfare schemes, health care utilization, and livelihood outcomes in India and developing economies.",
+          "estimated_share_of_theme": 0.111,
+          "example_titles": [
+            "Cash vs. in-kind transfers: Indian data meets theory",
+            "An In-depth Analysis of Caste-based Inequity in Welfare Allocation of the National Rural Employment Guarantee Scheme in India",
+            "Social connections and tertiary health‐care utilization",
+            "Who Gains More from Education? A Comparative Analysis of Business, Farm and Wage Workers in India",
+            "Travel Patterns in India: Association with Development and Development Pattern"
+          ]
+        },
+        {
+          "name": "Cultural Studies & Ethnography",
+          "definition": "Ethnographic and qualitative research on religious identity, social practices, cultural change, migration, citizenship, and material culture in Indian and South Asian contexts.",
+          "estimated_share_of_theme": 0.086,
+          "example_titles": [
+            "Border Transgressions and the Frontiers of Faith in Kachchh, Gujarat",
+            "Godroads: Modalities of Conversion in India",
+            "Carceral Entrapments Views from the Prison/Street Interface in India",
+            "Gender regimes, reproductive strategies and child sex preferences: A comparative study of villages in Jammu and Leh",
+            "Ethno-Religious Identity and Sectarian Civil Society: A Case from India"
+          ]
+        },
+        {
+          "name": "International Business & Finance",
+          "definition": "Corporate finance, foreign direct investment, cross-border acquisitions, internationalization strategy, and firm performance analysis in emerging economies.",
+          "estimated_share_of_theme": 0.123,
+          "example_titles": [
+            "Market response to internationalization strategies: Evidence from Indian cross-border acquisitions",
+            "Recognizing nonmonotonicity of exogenous determinants in a stochastic profit efficiency framework: have banks overinvested in IT capital?",
+            "Location choice and Indian outward foreign direct investment: Institutional thresholds and differentiating between institutional quality and institutional distance",
+            "Technological Diffusion, Bank Performance, and Solow’s Paradox: Insights from an Emerging Economy",
+            "Informativeness of Announcement Returns in Cross-border Acquisition Completion: A Perspective from Emerging Economies"
+          ]
+        },
+        {
+          "name": "Agricultural Economics & Consumer Behavior",
+          "definition": "Agricultural value chains, crop economics, consumer willingness-to-pay, food security, and biofortification from behavioral and experimental economics perspectives.",
+          "estimated_share_of_theme": 0.059,
+          "example_titles": [
+            "Information, branding, certification, and consumer willingness to pay for high-iron pearl millet: Evidence from experimental auctions in Maharashtra, India",
+            "Production of turmeric in north east hill region of India: A value chain analysis",
+            "Repeatability of different stability parameters for grain yield in chickpea",
+            "Information and consumer willingness to pay for biofortified yellow cassava: Evidence from experimental auctions in Nigeria",
+            "Characterization of wheat germplasm conserved in the Indian National Genebank and establishment of a composite core collection"
+          ]
+        },
+        {
+          "name": "Digital Culture & Consumer Experience",
+          "definition": "User behavior in digital environments, cross-cultural factors in technology adoption, e-commerce experience, platform multihoming, and organizational ethics in digital contexts.  EXCLUDES mechanism-design / peer-prediction / algorithmic game theory (those → AI/ML Algorithms & Computational Complexity).",
+          "estimated_share_of_theme": 0.136,
+          "example_titles": [
+            "Subscription fatigue - Are you for real? Studying cross-cultural factors for multihoming using consumption value theory",
+            "Observing the Influence of Cultural Differences Within India on User Experience of an E-Commerce Application: An Experimental Investigation",
+            "A dimensional analysis across India to study how national cultural diversity affects website designs",
+            "Unethical Pro-Organizational Behavior Across the Cultures: A Meta-Analysis of Antecedents From 16 Countries",
+            "Whether social media use differs across different personality types? Insights for managing human resources"
+          ]
+        },
+        {
+          "name": "Computational Linguistics & Language Processing",
+          "definition": "Natural language processing, linguistic annotation schemes, parsing, and computational analysis of Indian and classical languages.",
+          "estimated_share_of_theme": 0.067,
+          "example_titles": [
+            "Dependency annotation scheme for Indian languages",
+            "Two methods to incorporate local morphosyntactic features in Hindi dependency parsing",
+            "Identification of conjunct verbs in Hindi and its effect on parsing accuracy",
+            "Empty categories in hindi dependency treebank: Analysis and recovery",
+            "Dual Mechanism Priming Effects in Hindi Word Order"
+          ]
+        },
+        {
+          "name": "Social Media Analytics & Online Networks",
+          "definition": "Analysis of social media platforms, information credibility, user influence, online community dynamics, and digital trends in social networks.",
+          "estimated_share_of_theme": 0.071,
+          "example_titles": [
+            "A subjective credibility model for participatory media",
+            "The rich and middle classes on Twitter: Are popular users indeed different from regular users?",
+            "Bayesian credibility modeling for personalized recommendation in participatory media",
+            "Who makes trends? Understanding demographic biases in crowdsourced recommendations",
+            "Towards combating rumors in social networks: Models and metrics"
+          ]
+        }
+      ]
+    }
+  ],
+  "theme_correction": {
+    "n_sampled": 5450,
+    "moved_theme": 2157,
+    "stayed_theme": 2793,
+    "pct_moved": 0.436,
+    "n_unclassifiable": 192,
+    "biggest_migrations": [
+      {
+        "count": 141,
+        "from": "Quantum Technologies & Semiconductor Technology",
+        "to": "Advanced Materials & Devices"
+      },
+      {
+        "count": 92,
+        "from": "Advanced Materials & Devices",
+        "to": "Quantum Technologies & Semiconductor Technology"
+      },
+      {
+        "count": 89,
+        "from": "Healthcare & MedTech",
+        "to": "AI/ML, Supercomputing & Quantum Computing"
+      },
+      {
+        "count": 70,
+        "from": "Social Sciences, Humanities & Management",
+        "to": "AI/ML, Supercomputing & Quantum Computing"
+      },
+      {
+        "count": 67,
+        "from": "Manufacturing & Industry 4.0",
+        "to": "Advanced Materials & Devices"
+      },
+      {
+        "count": 66,
+        "from": "Smart & Sustainable Infrastructure",
+        "to": "Social Sciences, Humanities & Management"
+      },
+      {
+        "count": 58,
+        "from": "Energy, Sustainability & Climate Change",
+        "to": "Manufacturing & Industry 4.0"
+      },
+      {
+        "count": 58,
+        "from": "Advanced Materials & Devices",
+        "to": "Energy, Sustainability & Climate Change"
+      },
+      {
+        "count": 55,
+        "from": "Manufacturing & Industry 4.0",
+        "to": "AI/ML, Supercomputing & Quantum Computing"
+      },
+      {
+        "count": 49,
+        "from": "Smart & Sustainable Infrastructure",
+        "to": "Energy, Sustainability & Climate Change"
+      },
+      {
+        "count": 49,
+        "from": "Next-Gen Communication",
+        "to": "AI/ML, Supercomputing & Quantum Computing"
+      },
+      {
+        "count": 43,
+        "from": "Manufacturing & Industry 4.0",
+        "to": "Social Sciences, Humanities & Management"
+      }
+    ]
+  },
+  "global_rules": [
+    "OUT-OF-SCOPE: particle-accelerator RF / LLRF / cavity phase-locking / superconducting-accelerator instrumentation with no applied power-grid, communications, or manufacturing target → unclassifiable=true with reason starting 'out_of_scope: accelerator RF instrumentation'.",
+    "OUT-OF-SCOPE / EDGE: automotive fuel-additive screening for engine-deposit control with no materials-process or manufacturing contribution → unclassifiable=true with reason 'out_of_scope: fuel-additive engine-deposit screening' (do NOT force into Materials, Joining & Mechanical Behavior).",
+    "TIE-BREAK: downstream biopharma PAT / mAb / biosimilar quality, aggregation, glycosylation, 2D-LC characterization → Healthcare / Biopharmaceutical Manufacturing & Quality (NOT Manufacturing / Biomanufacturing & Fermentation).",
+    "TIE-BREAK: mechanism-design / peer-prediction / algorithmic game-theory / incentive-compatible algorithms → AI/ML / Algorithms & Computational Complexity (NOT Social Sciences / Digital Culture & Consumer Experience).",
+    "TIE-BREAK: thermoelectric / Seebeck / waste-heat-to-electricity MATERIALS → Energy / Thermoelectric & Energy-Harvesting Materials (NOT Energy Storage Materials; NOT Solar Thermal).",
+    "TIE-BREAK: optical / interferometric metrology instrumentation (white-light interferometry, interferometric microscopes, displacement metrology) → Quantum / Optical Metrology & Interferometric Instrumentation (NOT Fiber Photonic Devices unless the contribution is a fiber component).",
+    "TIE-BREAK: implantable medical device (IMD) wireless power transfer / inductive / magnetic coupling hardware for implants → Healthcare / Clinical Biosensors & Implant Bioelectronics (NOT general power electronics).",
+    "TIE-BREAK: computer architecture / VLIW / interconnect / microarchitecture / memory hierarchy / ISA → AI/ML / Computer Architecture & Systems (NOT Algorithms & Computational Complexity unless the novelty is pure algorithms)."
+  ]
+}

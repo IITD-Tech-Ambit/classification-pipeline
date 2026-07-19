@@ -1,0 +1,37 @@
+{
+  "target": "10.184.47.156:27017",
+  "mongo_version": "7.0.37",
+  "taxonomy_file": "C:\\Users\\Prem\\OneDrive - IIT Delhi\\Desktop\\Research Ambit\\classification-pipeline\\outputs\\taxonomy-draft-v3-baseline-backup.json",
+  "candidate_file": "C:\\Users\\Prem\\OneDrive - IIT Delhi\\Desktop\\Research Ambit\\classification-pipeline\\outputs\\classification_v2_1_candidate.jsonl",
+  "candidate_rows": 70298,
+  "classified_rows": 68080,
+  "unclassifiable_rows": 2218,
+  "missing_node_rows": 0,
+  "bulk_matched": 70298,
+  "bulk_modified": 70298,
+  "stale_themes_removed": 0,
+  "stale_domains_removed": 0,
+  "subdomains_removed": 0,
+  "post_counts": {
+    "papers_total": 70298,
+    "with_theme_id": 68080,
+    "with_domain_id": 68080,
+    "with_subdomain_id": 0,
+    "unclassifiable_true": 2218,
+    "themes_nodes": 9,
+    "domains_nodes": 77,
+    "subdomains_nodes": 0
+  },
+  "post_theme_distribution": {
+    "Manufacturing & Industry 4.0": 9915,
+    "Advanced Materials & Devices": 9605,
+    "Energy, Sustainability & Climate Change": 9424,
+    "AI/ML, Supercomputing & Quantum Computing": 8795,
+    "Healthcare & MedTech": 7387,
+    "Smart & Sustainable Infrastructure": 6932,
+    "Quantum Technologies & Semiconductor Technology": 6399,
+    "Social Sciences, Humanities & Management": 5122,
+    "Next-Gen Communication": 4501
+  },
+  "timestamp_utc": "2026-07-18T16:46:03.971741+00:00"
+}

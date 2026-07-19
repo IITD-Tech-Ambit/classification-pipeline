@@ -1,0 +1,200 @@
+{
+  "budget_cap_usd": 70.0,
+  "correction_soft_stop_usd": 55.0,
+  "validation_budget_reserve_usd": 15.0,
+  "correction_model": "claude-sonnet-4-5",
+  "judge_model": "claude-opus-4-5",
+  "workers_config": {
+    "start": 50,
+    "ramp": 65,
+    "max": 80
+  },
+  "workers_used": [
+    20,
+    50,
+    65,
+    80
+  ],
+  "peak_parallel_observed": 80,
+  "budget_stop_worked": true,
+  "budget_stop_note": "Correction finished at $52.42 under $55 soft-stop (soft-stop trigger not needed); hard cap held at total $57.39 / $70.",
+  "correction_rows_written": 7000,
+  "correction_unique_ids": 7000,
+  "queue_meta": {
+    "pre_cap_total": 10218,
+    "queue_hard_cap": 7000,
+    "priority_counts": {
+      "pri_1": 481,
+      "pri_2": 1247,
+      "pri_3": 6281,
+      "pri_4": 2209
+    },
+    "keyword_hits": {
+      "kw_accelerator_rf": 77,
+      "kw_architecture": 79,
+      "kw_fuel_additive": 18,
+      "kw_implant_power": 208,
+      "kw_mechanism_design": 20,
+      "kw_optical_metrology": 269,
+      "kw_pat_biopharma": 388,
+      "kw_thermoelectric": 683
+    },
+    "capped": true,
+    "dropped_due_hard_cap": 3218,
+    "written": 7000,
+    "avg_cost_per_row_usd": 0.007848,
+    "estimated_additional_under_budget": 6928,
+    "taxonomy_path": "C:\\Users\\Prem\\OneDrive - IIT Delhi\\Desktop\\Research Ambit\\classification-pipeline\\outputs\\taxonomy-draft-v22.json"
+  },
+  "correction_usage": {
+    "input_tokens": 10837220,
+    "output_tokens": 1109433,
+    "cache_write": 28700,
+    "cache_read": 10524700
+  },
+  "validation_usage": {
+    "input_tokens": 265643,
+    "output_tokens": 13114,
+    "cache_write": 0,
+    "cache_read": 0
+  },
+  "spend_usd": {
+    "correction": 52.4182,
+    "validation": 4.9682,
+    "verify": 0.0005,
+    "total": 57.3869
+  },
+  "decision": {
+    "accepted": true,
+    "status": "ACCEPT_v2_2",
+    "recommended_file": "C:\\Users\\Prem\\OneDrive - IIT Delhi\\Desktop\\Research Ambit\\classification-pipeline\\outputs\\classification_v2_2_candidate.jsonl",
+    "reason": "net_margin=59 (required>=5), changed_margin=59, theme_non_regression=True, domain_signal=True",
+    "papers_updated": 1608
+  },
+  "validation_summary": {
+    "n_judged": 180,
+    "overall_wins": {
+      "tie": 83,
+      "v2_2": 78,
+      "v2_1": 19
+    },
+    "theme_wins": {
+      "tie": 157,
+      "v2_2": 20,
+      "v2_1": 3
+    },
+    "domain_wins": {
+      "tie": 84,
+      "v2_2": 77,
+      "v2_1": 19
+    },
+    "n_non_tie": 97,
+    "net_margin_v2_2_minus_v2_1": 59,
+    "v2_2_win_rate_non_tie_pct": 80.41,
+    "theme_non_regression": true,
+    "domain_improvement_signal": true,
+    "changed_subset": {
+      "n": 99,
+      "wins": {
+        "v2_2": 78,
+        "v2_1": 19,
+        "tie": 2
+      },
+      "n_non_tie": 97,
+      "net_margin": 59
+    }
+  },
+  "acceptance_stats": {
+    "kept_no_targeted_row": 63298,
+    "kept_reject_no_label_change": 4617,
+    "kept_reject_unclass_weak_evidence": 577,
+    "accepted_total": 1608,
+    "accepted_domain_change": 1605,
+    "accepted_accept_domain_conf_nonregression": 484,
+    "kept_reject_theme_change_threshold": 165,
+    "accepted_accept_domain_gapfill": 623,
+    "accepted_theme_change": 437,
+    "accepted_accept_theme_change_gapfill": 102,
+    "kept_reject_domain_change_weak": 33,
+    "accepted_unclass_change": 302,
+    "accepted_accept_unclass_oos_evidence": 363,
+    "identity_rename_biosensor": 548,
+    "accepted_accept_theme_change_low_old_high_new": 30,
+    "accepted_accept_domain_tiebreak_reason": 6
+  },
+  "correction_phases": [
+    {
+      "rows_written": 80,
+      "api_calls": 94,
+      "rate_limit": 0,
+      "server_5xx": 0,
+      "timeout_conn": 0,
+      "changed_domain_raw": 61,
+      "changed_theme_raw": 8,
+      "full_reassess_calls": 10,
+      "elapsed_sec": 24.47,
+      "workers": 20,
+      "chunk_size": 80,
+      "rows_per_sec": 3.27,
+      "chunk_label": "pilot_cost_estimation",
+      "phase_cost_usd": 0.6278,
+      "peak_parallel_observed": 20,
+      "cost_stop_triggered": false
+    },
+    {
+      "rows_written": 2000,
+      "api_calls": 3986,
+      "rate_limit": 0,
+      "server_5xx": 0,
+      "timeout_conn": 0,
+      "changed_domain_raw": 846,
+      "changed_theme_raw": 355,
+      "full_reassess_calls": 452,
+      "elapsed_sec": 812.88,
+      "workers": 50,
+      "chunk_size": 2000,
+      "rows_per_sec": 2.46,
+      "chunk_label": "phase_start_50",
+      "phase_cost_usd": 21.3629,
+      "peak_parallel_observed": 50,
+      "cost_stop_triggered": false
+    },
+    {
+      "rows_written": 3000,
+      "changed_domain_raw": 835,
+      "api_calls": 3732,
+      "rate_limit": 0,
+      "server_5xx": 0,
+      "timeout_conn": 0,
+      "changed_theme_raw": 252,
+      "full_reassess_calls": 396,
+      "elapsed_sec": 509.39,
+      "workers": 65,
+      "chunk_size": 3000,
+      "rows_per_sec": 5.89,
+      "chunk_label": "phase_ramp_65",
+      "phase_cost_usd": 19.2961,
+      "peak_parallel_observed": 65,
+      "cost_stop_triggered": false
+    },
+    {
+      "rows_written": 1920,
+      "api_calls": 2128,
+      "rate_limit": 0,
+      "server_5xx": 0,
+      "timeout_conn": 0,
+      "changed_domain_raw": 235,
+      "full_reassess_calls": 63,
+      "changed_theme_raw": 28,
+      "elapsed_sec": 266.46,
+      "workers": 80,
+      "chunk_size": 1920,
+      "rows_per_sec": 7.21,
+      "chunk_label": "phase_max_80",
+      "phase_cost_usd": 11.1314,
+      "peak_parallel_observed": 80,
+      "cost_stop_triggered": false
+    }
+  ],
+  "updated": "2026-07-18 23:07:57"
+}

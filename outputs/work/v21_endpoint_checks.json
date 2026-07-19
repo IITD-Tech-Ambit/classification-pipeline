@@ -1,0 +1,3008 @@
+{
+  "checks": {
+    "themes": {
+      "ok": true,
+      "status": 200,
+      "url": "https://localhost/search/api/v1/taxonomy/themes",
+      "json": {
+        "themes": [
+          {
+            "id": "6a46ea5ece9a42a451a4714a",
+            "name": "AI/ML, Supercomputing & Quantum Computing",
+            "slug": "ai-ml-supercomputing-and-quantum-computing",
+            "paper_count": 8795,
+            "faculty_count": 499
+          },
+          {
+            "id": "6a46ea5ece9a42a451a4714b",
+            "name": "Advanced Materials & Devices",
+            "slug": "advanced-materials-and-devices",
+            "paper_count": 9605,
+            "faculty_count": 424
+          },
+          {
+            "id": "6a46ea5ece9a42a451a4714c",
+            "name": "Energy, Sustainability & Climate Change",
+            "slug": "energy-sustainability-and-climate-change",
+            "paper_count": 9424,
+            "faculty_count": 455
+          },
+          {
+            "id": "6a46ea5ece9a42a451a4714d",
+            "name": "Healthcare & MedTech",
+            "slug": "healthcare-and-medtech",
+            "paper_count": 7387,
+            "faculty_count": 405
+          },
+          {
+            "id": "6a46ea5ece9a42a451a4714f",
+            "name": "Manufacturing & Industry 4.0",
+            "slug": "manufacturing-and-industry-4-0",
+            "paper_count": 9915,
+            "faculty_count": 438
+          },
+          {
+            "id": "6a46ea5ece9a42a451a47150",
+            "name": "Next-Gen Communication",
+            "slug": "next-gen-communication",
+            "paper_count": 4501,
+            "faculty_count": 182
+          },
+          {
+            "id": "6a46ea5ece9a42a451a47151",
+            "name": "Quantum Technologies & Semiconductor Technology",
+            "slug": "quantum-technologies-and-semiconductor-technology",
+            "paper_count": 6399,
+            "faculty_count": 269
+          },
+          {
+            "id": "6a46ea5ece9a42a451a47152",
+            "name": "Smart & Sustainable Infrastructure",
+            "slug": "smart-and-sustainable-infrastructure",
+            "paper_count": 6932,
+            "faculty_count": 403
+          },
+          {
+            "id": "6a46ea5ece9a42a451a47153",
+            "name": "Social Sciences, Humanities & Management",
+            "slug": "social-sciences-humanities-and-management",
+            "paper_count": 5122,
+            "faculty_count": 318
+          }
+        ],
+        "meta": {
+          "took_ms": 1,
+          "cache_hit": true
+        }
+      },
+      "bytes": 1498
+    },
+    "domains": {
+      "ok": true,
+      "status": 200,
+      "url": "https://localhost/search/api/v1/taxonomy/domains",
+      "json": {
+        "domains": [
+          {
+            "id": "6a5b25c2520de4472c207592",
+            "name": "Advanced Surface Finishing & Processing",
+            "slug": "advanced-surface-finishing-and-processing",
+            "paper_count": 270,
+            "faculty_count": 69,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c207593",
+            "name": "Agricultural Economics & Consumer Behavior",
+            "slug": "agricultural-economics-and-consumer-behavior",
+            "paper_count": 421,
+            "faculty_count": 71,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c207594",
+            "name": "Algorithms & Computational Complexity",
+            "slug": "algorithms-and-computational-complexity",
+            "paper_count": 3392,
+            "faculty_count": 269,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c207595",
+            "name": "Alloys & Structural Metals",
+            "slug": "alloys-and-structural-metals",
+            "paper_count": 671,
+            "faculty_count": 98,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c207596",
+            "name": "Antenna Design & RF Systems",
+            "slug": "antenna-design-and-rf-systems",
+            "paper_count": 805,
+            "faculty_count": 62,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c207597",
+            "name": "Bio-based Materials & Polymers",
+            "slug": "bio-based-materials-and-polymers",
+            "paper_count": 1474,
+            "faculty_count": 209,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c207598",
+            "name": "Biomanufacturing & Fermentation Processes",
+            "slug": "biomanufacturing-and-fermentation-processes",
+            "paper_count": 676,
+            "faculty_count": 85,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c207599",
+            "name": "Biomass & Biofuel Technologies",
+            "slug": "biomass-and-biofuel-technologies",
+            "paper_count": 955,
+            "faculty_count": 129,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c20759a",
+            "name": "Biomechanics & Musculoskeletal Systems",
+            "slug": "biomechanics-and-musculoskeletal-systems",
+            "paper_count": 521,
+            "faculty_count": 99,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c20759b",
+            "name": "Biopharmaceutical Manufacturing & Quality",
+            "slug": "biopharmaceutical-manufacturing-and-quality",
+            "paper_count": 529,
+            "faculty_count": 51,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c20759c",
+            "name": "Building Energy & Thermal Performance",
+            "slug": "building-energy-and-thermal-performance",
+            "paper_count": 404,
+            "faculty_count": 95,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c20759d",
+            "name": "Carbon Utilization & Chemical Conversion",
+            "slug": "carbon-utilization-and-chemical-conversion",
+            "paper_count": 1056,
+            "faculty_count": 128,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c20759e",
+            "name": "Cellular & Molecular Biology",
+            "slug": "cellular-and-molecular-biology",
+            "paper_count": 1390,
+            "faculty_count": 143,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c20759f",
+            "name": "Clinical AI & Medical Imaging Analytics",
+            "slug": "clinical-ai-and-medical-imaging-analytics",
+            "paper_count": 590,
+            "faculty_count": 85,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075a0",
+            "name": "Clinical Biosensors & Point-of-Care Devices",
+            "slug": "clinical-biosensors-and-point-of-care-devices",
+            "paper_count": 548,
+            "faculty_count": 144,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075a1",
+            "name": "Clinical Diagnostics & Biomarkers",
+            "slug": "clinical-diagnostics-and-biomarkers",
+            "paper_count": 1488,
+            "faculty_count": 211,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075a2",
+            "name": "Composite & Laminate Structures",
+            "slug": "composite-and-laminate-structures",
+            "paper_count": 660,
+            "faculty_count": 120,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075a3",
+            "name": "Computational Fluid Dynamics & Flow Analysis",
+            "slug": "computational-fluid-dynamics-and-flow-analysis",
+            "paper_count": 1950,
+            "faculty_count": 213,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075a4",
+            "name": "Computational Linguistics & Language Processing",
+            "slug": "computational-linguistics-and-language-processing",
+            "paper_count": 228,
+            "faculty_count": 38,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075a5",
+            "name": "Control Systems & Linear Dynamical Systems",
+            "slug": "control-systems-and-linear-dynamical-systems",
+            "paper_count": 1108,
+            "faculty_count": 126,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075a6",
+            "name": "Cooperative & Relay Networks",
+            "slug": "cooperative-and-relay-networks",
+            "paper_count": 303,
+            "faculty_count": 23,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075a7",
+            "name": "Cultural Studies & Ethnography",
+            "slug": "cultural-studies-and-ethnography",
+            "paper_count": 392,
+            "faculty_count": 80,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075a8",
+            "name": "Development Economics & Social Welfare",
+            "slug": "development-economics-and-social-welfare",
+            "paper_count": 647,
+            "faculty_count": 133,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075a9",
+            "name": "Digital Culture & Consumer Experience",
+            "slug": "digital-culture-and-consumer-experience",
+            "paper_count": 548,
+            "faculty_count": 109,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075aa",
+            "name": "Digital Transformation & IT Applications",
+            "slug": "digital-transformation-and-it-applications",
+            "paper_count": 902,
+            "faculty_count": 132,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075ab",
+            "name": "Direction of Arrival & Beamforming",
+            "slug": "direction-of-arrival-and-beamforming",
+            "paper_count": 236,
+            "faculty_count": 32,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075ac",
+            "name": "Drug Delivery & Molecular Therapeutics",
+            "slug": "drug-delivery-and-molecular-therapeutics",
+            "paper_count": 1105,
+            "faculty_count": 156,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075ad",
+            "name": "Electric Motor Drives & Power Electronics",
+            "slug": "electric-motor-drives-and-power-electronics",
+            "paper_count": 1857,
+            "faculty_count": 67,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075ae",
+            "name": "Electric Vehicle Battery & Charging Systems",
+            "slug": "electric-vehicle-battery-and-charging-systems",
+            "paper_count": 613,
+            "faculty_count": 55,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075af",
+            "name": "Energy Storage Materials",
+            "slug": "energy-storage-materials",
+            "paper_count": 914,
+            "faculty_count": 128,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075b0",
+            "name": "Environmental Assessment & Land Use Management",
+            "slug": "environmental-assessment-and-land-use-management",
+            "paper_count": 1656,
+            "faculty_count": 215,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075b1",
+            "name": "Ferroelectric & Magnetic Ceramics",
+            "slug": "ferroelectric-and-magnetic-ceramics",
+            "paper_count": 1226,
+            "faculty_count": 122,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075b2",
+            "name": "Fiber Photonic Devices & Engineering",
+            "slug": "fiber-photonic-devices-and-engineering",
+            "paper_count": 975,
+            "faculty_count": 55,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075b3",
+            "name": "Fluid-Particle Flow & Multiphase Systems",
+            "slug": "fluid-particle-flow-and-multiphase-systems",
+            "paper_count": 947,
+            "faculty_count": 126,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075b4",
+            "name": "Free Space Optical Communication",
+            "slug": "free-space-optical-communication",
+            "paper_count": 259,
+            "faculty_count": 31,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075b5",
+            "name": "Geotechnical Engineering & Soil Mechanics",
+            "slug": "geotechnical-engineering-and-soil-mechanics",
+            "paper_count": 617,
+            "faculty_count": 54,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075b6",
+            "name": "Grid Integration & Smart Microgrids",
+            "slug": "grid-integration-and-smart-microgrids",
+            "paper_count": 1916,
+            "faculty_count": 117,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075b7",
+            "name": "Hydrology & Water Resources Management",
+            "slug": "hydrology-and-water-resources-management",
+            "paper_count": 396,
+            "faculty_count": 69,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075b8",
+            "name": "Infectious Disease & Microbiology",
+            "slug": "infectious-disease-and-microbiology",
+            "paper_count": 453,
+            "faculty_count": 72,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075b9",
+            "name": "International Business & Finance",
+            "slug": "international-business-and-finance",
+            "paper_count": 336,
+            "faculty_count": 49,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075ba",
+            "name": "Ion Beam & Thin Film Engineering",
+            "slug": "ion-beam-and-thin-film-engineering",
+            "paper_count": 1321,
+            "faculty_count": 166,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075bb",
+            "name": "Ionic Liquids & Soft Matter",
+            "slug": "ionic-liquids-and-soft-matter",
+            "paper_count": 590,
+            "faculty_count": 85,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075bc",
+            "name": "Library Science & Information Management",
+            "slug": "library-science-and-information-management",
+            "paper_count": 235,
+            "faculty_count": 34,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075bd",
+            "name": "Machine Learning & Neural Networks",
+            "slug": "machine-learning-and-neural-networks",
+            "paper_count": 1755,
+            "faculty_count": 233,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075be",
+            "name": "Materials, Joining & Mechanical Behavior",
+            "slug": "materials-joining-and-mechanical-behavior",
+            "paper_count": 2219,
+            "faculty_count": 229,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075bf",
+            "name": "Microwave Photonic Systems",
+            "slug": "microwave-photonic-systems",
+            "paper_count": 205,
+            "faculty_count": 20,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075c0",
+            "name": "Monsoon Dynamics & Regional Climate Modeling",
+            "slug": "monsoon-dynamics-and-regional-climate-modeling",
+            "paper_count": 949,
+            "faculty_count": 71,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075c1",
+            "name": "Natural Language Processing & Information Retrieval",
+            "slug": "natural-language-processing-and-information-retrieval",
+            "paper_count": 590,
+            "faculty_count": 70,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075c2",
+            "name": "Neuroscience & Neurophysiology",
+            "slug": "neuroscience-and-neurophysiology",
+            "paper_count": 181,
+            "faculty_count": 42,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075c3",
+            "name": "Next-Generation Photovoltaic Materials",
+            "slug": "next-generation-photovoltaic-materials",
+            "paper_count": 541,
+            "faculty_count": 93,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075c4",
+            "name": "Organometallic & Chalcogenide Synthesis",
+            "slug": "organometallic-and-chalcogenide-synthesis",
+            "paper_count": 1660,
+            "faculty_count": 138,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075c5",
+            "name": "Plasma-Wave & Electromagnetic Interactions",
+            "slug": "plasma-wave-and-electromagnetic-interactions",
+            "paper_count": 874,
+            "faculty_count": 48,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075c6",
+            "name": "Plasmonic & Fiber Optic Sensors",
+            "slug": "plasmonic-and-fiber-optic-sensors",
+            "paper_count": 799,
+            "faculty_count": 102,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075c7",
+            "name": "Polymer Nanocomposites & Blends",
+            "slug": "polymer-nanocomposites-and-blends",
+            "paper_count": 1447,
+            "faculty_count": 185,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075c8",
+            "name": "Power Systems & Grid Control",
+            "slug": "power-systems-and-grid-control",
+            "paper_count": 2036,
+            "faculty_count": 101,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075c9",
+            "name": "Precision Manufacturing & Microfabrication",
+            "slug": "precision-manufacturing-and-microfabrication",
+            "paper_count": 909,
+            "faculty_count": 153,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075ca",
+            "name": "Quantum Photonics & Entanglement",
+            "slug": "quantum-photonics-and-entanglement",
+            "paper_count": 575,
+            "faculty_count": 54,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075cb",
+            "name": "Rare-Earth Doped Luminescent Materials",
+            "slug": "rare-earth-doped-luminescent-materials",
+            "paper_count": 556,
+            "faculty_count": 81,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075cc",
+            "name": "Resistive Memory & Neuromorphic Computing",
+            "slug": "resistive-memory-and-neuromorphic-computing",
+            "paper_count": 262,
+            "faculty_count": 50,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075cd",
+            "name": "Rotor Dynamics & Vibration Analysis",
+            "slug": "rotor-dynamics-and-vibration-analysis",
+            "paper_count": 647,
+            "faculty_count": 90,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075ce",
+            "name": "Semiconductor Photovoltaic & Photodetection Devices",
+            "slug": "semiconductor-photovoltaic-and-photodetection-devices",
+            "paper_count": 1547,
+            "faculty_count": 159,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075cf",
+            "name": "Signal Modulation, Detection & Channel Equalization",
+            "slug": "signal-modulation-detection-and-channel-equalization",
+            "paper_count": 928,
+            "faculty_count": 80,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075d0",
+            "name": "Social Media Analytics & Online Networks",
+            "slug": "social-media-analytics-and-online-networks",
+            "paper_count": 272,
+            "faculty_count": 46,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075d1",
+            "name": "Solar Thermal Energy & Heat Transfer Systems",
+            "slug": "solar-thermal-energy-and-heat-transfer-systems",
+            "paper_count": 824,
+            "faculty_count": 85,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075d2",
+            "name": "Spintronics & Magnetic Devices",
+            "slug": "spintronics-and-magnetic-devices",
+            "paper_count": 530,
+            "faculty_count": 53,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075d3",
+            "name": "Structural Dynamics & Seismic Engineering",
+            "slug": "structural-dynamics-and-seismic-engineering",
+            "paper_count": 1584,
+            "faculty_count": 104,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075d4",
+            "name": "Structured Light & Polarization Engineering",
+            "slug": "structured-light-and-polarization-engineering",
+            "paper_count": 608,
+            "faculty_count": 57,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075d5",
+            "name": "Supply Chain & Operations Management",
+            "slug": "supply-chain-and-operations-management",
+            "paper_count": 1141,
+            "faculty_count": 122,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075d6",
+            "name": "Textile Manufacturing & Fabric Properties",
+            "slug": "textile-manufacturing-and-fabric-properties",
+            "paper_count": 1723,
+            "faculty_count": 77,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075d7",
+            "name": "Tissue Engineering & Regenerative Medicine",
+            "slug": "tissue-engineering-and-regenerative-medicine",
+            "paper_count": 582,
+            "faculty_count": 100,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075d8",
+            "name": "Transportation Systems & Traffic Management",
+            "slug": "transportation-systems-and-traffic-management",
+            "paper_count": 719,
+            "faculty_count": 109,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075d9",
+            "name": "Tribology & Bearing Performance",
+            "slug": "tribology-and-bearing-performance",
+            "paper_count": 667,
+            "faculty_count": 77,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075da",
+            "name": "Ultra-Low Voltage Analog Circuits",
+            "slug": "ultra-low-voltage-analog-circuits",
+            "paper_count": 429,
+            "faculty_count": 63,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075db",
+            "name": "Urban Air Quality & Emissions Monitoring",
+            "slug": "urban-air-quality-and-emissions-monitoring",
+            "paper_count": 486,
+            "faculty_count": 73,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075dc",
+            "name": "Water Quality & Wastewater Management",
+            "slug": "water-quality-and-wastewater-management",
+            "paper_count": 690,
+            "faculty_count": 134,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075dd",
+            "name": "Wide Bandgap Semiconductors & Devices",
+            "slug": "wide-bandgap-semiconductors-and-devices",
+            "paper_count": 674,
+            "faculty_count": 85,
+            "subdomain_count": 0
+          },
+          {
+            "id": "6a5b25c2520de4472c2075de",
+            "name": "Wireless Network Access & Resource Allocation",
+            "slug": "wireless-network-access-and-resource-allocation",
+            "paper_count": 891,
+            "faculty_count": 77,
+            "subdomain_count": 0
+          }
+        ],
+        "meta": {
+          "took_ms": 5,
+          "cache_hit": false
+        }
+      },
+      "bytes": 14514
+    },
+    "kg_health": {
+      "ok": true,
+      "status": 200,
+      "url": "https://localhost/api/kg/health",
+      "json": {
+        "success": true,
+        "message": "Success",
+        "data": {
+          "graphsReady": true,
+          "exploreReady": true,
+          "atlasReady": true,
+          "atlasCount": 66235,
+          "dataDir": "mongodb:45d5192e51b3",
+          "redisConnected": true,
+          "cacheTtlSeconds": 10800
+        },
+        "timestamp": "2026-07-18T16:49:30.289Z"
+      },
+      "bytes": 239
+    },
+    "kg_dict": {
+      "ok": true,
+      "status": 200,
+      "url": "https://localhost/api/kg/atlas/dict",
+      "json": {
+        "success": true,
+        "message": "Success",
+        "data": {
+          "version": "45d5192e51b3",
+          "themes": [
+            "AI/ML, Supercomputing & Quantum Computing",
+            "Advanced Materials & Devices",
+            "Energy, Sustainability & Climate Change",
+            "Healthcare & MedTech",
+            "Manufacturing & Industry 4.0",
+            "Next-Gen Communication",
+            "Quantum Technologies & Semiconductor Technology",
+            "Smart & Sustainable Infrastructure",
+            "Social Sciences, Humanities & Management",
+            "Unclassified"
+          ],
+          "domains": [
+            "",
+            "Advanced Surface Finishing & Processing",
+            "Agricultural Economics & Consumer Behavior",
+            "Algorithms & Computational Complexity",
+            "Alloys & Structural Metals",
+            "Antenna Design & RF Systems",
+            "Bio-based Materials & Polymers",
+            "Biomanufacturing & Fermentation Processes",
+            "Biomass & Biofuel Technologies",
+            "Biomechanics & Musculoskeletal Systems",
+            "Biopharmaceutical Manufacturing & Quality",
+            "Building Energy & Thermal Performance",
+            "Carbon Utilization & Chemical Conversion",
+            "Cellular & Molecular Biology",
+            "Clinical AI & Medical Imaging Analytics",
+            "Clinical Biosensors & Point-of-Care Devices",
+            "Clinical Diagnostics & Biomarkers",
+            "Composite & Laminate Structures",
+            "Computational Fluid Dynamics & Flow Analysis",
+            "Computational Linguistics & Language Processing",
+            "Control Systems & Linear Dynamical Systems",
+            "Cooperative & Relay Networks",
+            "Cultural Studies & Ethnography",
+            "Development Economics & Social Welfare",
+            "Digital Culture & Consumer Experience",
+            "Digital Transformation & IT Applications",
+            "Direction of Arrival & Beamforming",
+            "Drug Delivery & Molecular Therapeutics",
+            "Electric Motor Drives & Power Electronics",
+            "Electric Vehicle Battery & Charging Systems",
+            "Energy Storage Materials",
+            "Environmental Assessment & Land Use Management",
+            "Ferroelectric & Magnetic Ceramics",
+            "Fiber Photonic Devices & Engineering",
+            "Fluid-Particle Flow & Multiphase Systems",
+            "Free Space Optical Communication",
+            "Geotechnical Engineering & Soil Mechanics",
+            "Grid Integration & Smart Microgrids",
+            "Hydrology & Water Resources Management",
+            "Infectious Disease & Microbiology",
+            "International Business & Finance",
+            "Ion Beam & Thin Film Engineering",
+            "Ionic Liquids & Soft Matter",
+            "Library Science & Information Management",
+            "Machine Learning & Neural Networks",
+            "Materials, Joining & Mechanical Behavior",
+            "Microwave Photonic Systems",
+            "Monsoon Dynamics & Regional Climate Modeling",
+            "Natural Language Processing & Information Retrieval",
+            "Neuroscience & Neurophysiology",
+            "Next-Generation Photovoltaic Materials",
+            "Organometallic & Chalcogenide Synthesis",
+            "Plasma-Wave & Electromagnetic Interactions",
+            "Plasmonic & Fiber Optic Sensors",
+            "Polymer Nanocomposites & Blends",
+            "Power Systems & Grid Control",
+            "Precision Manufacturing & Microfabrication",
+            "Quantum Photonics & Entanglement",
+            "Rare-Earth Doped Luminescent Materials",
+            "Resistive Memory & Neuromorphic Computing",
+            "Rotor Dynamics & Vibration Analysis",
+            "Semiconductor Photovoltaic & Photodetection Devices",
+            "Signal Modulation, Detection & Channel Equalization",
+            "Social Media Analytics & Online Networks",
+            "Solar Thermal Energy & Heat Transfer Systems",
+            "Spintronics & Magnetic Devices",
+            "Structural Dynamics & Seismic Engineering",
+            "Structured Light & Polarization Engineering",
+            "Supply Chain & Operations Management",
+            "Textile Manufacturing & Fabric Properties",
+            "Tissue Engineering & Regenerative Medicine",
+            "Transportation Systems & Traffic Management",
+            "Tribology & Bearing Performance",
+            "Ultra-Low Voltage Analog Circuits",
+            "Urban Air Quality & Emissions Monitoring",
+            "Water Quality & Wastewater Management",
+            "Wide Bandgap Semiconductors & Devices",
+            "Wireless Network Access & Resource Allocation"
+          ],
+          "themeAnchors": [
+            {
+              "theme": "Manufacturing & Industry 4.0",
+              "x": -0.46368114303431246,
+              "y": 0.10147194708557275,
+              "z": -0.27879666597767777,
+              "count": 9676
+            },
+            {
+              "theme": "Advanced Materials & Devices",
+              "x": -0.23214659252953093,
+              "y": 0.33665877620517215,
+              "z": 0.14718034372672115,
+              "count": 9397
+            },
+            {
+              "theme": "Energy, Sustainability & Climate Change",
+              "x": -0.04577483189992174,
+              "y": 0.3162101976990959,
+              "z": -0.6184243013514992,
+              "count": 8953
+            },
+            {
+              "theme": "AI/ML, Supercomputing & Quantum Computing",
+              "x": -0.07349745264691587,
+              "y": 0.3223627209810605,
+              "z": -0.058575417678484905,
+              "count": 8236
+            },
+            {
+              "theme": "Healthcare & MedTech",
+              "x": 0.2530923554183039,
+              "y": 0.15767989612577268,
+              "z": 0.3674431541268942,
+              "count": 7124
+            },
+            {
+              "theme": "Smart & Sustainable Infrastructure",
+              "x": -0.3001310088331001,
+              "y": -0.2763106012707266,
+              "z": -0.4955435068960182,
+              "count": 6453
+            },
+            {
+              "theme": "Quantum Technologies & Semiconductor Technology",
+              "x": -0.18511612959719803,
+              "y": 0.11018134676007005,
+              "z": 0.32534153765324064,
+              "count": 5710
+            },
+            {
+              "theme": "Social Sciences, Humanities & Management",
+              "x": -0.10538624999999996,
+              "y": -0.3784517289518906,
+              "z": -0.22068603737113457,
+              "count": 4656
+            },
+            {
+              "theme": "Next-Gen Communication",
+              "x": 0.39985313689520835,
+              "y": -0.13503022701215345,
+              "z": -0.327317046548957,
+              "count": 4361
+            },
+            {
+              "theme": "Unclassified",
+              "x": -0.0808078550029959,
+              "y": 0.028584763331336083,
+              "z": -0.08872953864589567,
+              "count": 1669
+            }
+          ],
+          "domainAnchors": [
+            {
+              "theme": "AI/ML, Supercomputing & Quantum Computing",
+              "domain": "Algorithms & Computational Complexity",
+              "x": -0.03946932096720771,
+              "y": 0.25237735342828727,
+              "z": -0.003983868830738664,
+              "count": 3019
+            },
+            {
+              "theme": "Manufacturing & Industry 4.0",
+              "domain": "Materials, Joining & Mechanical Behavior",
+              "x": -0.5881106893382347,
+              "y": -0.05170176930147056,
+              "z": -0.1810164338235293,
+              "count": 2176
+            },
+            {
+              "theme": "Smart & Sustainable Infrastructure",
+              "domain": "Power Systems & Grid Control",
+              "x": -0.2182583916083915,
+              "y": -0.014712107892107891,
+              "z": -0.5570017632367623,
+              "count": 2002
+            },
+            {
+              "theme": "Energy, Sustainability & Climate Change",
+              "domain": "Grid Integration & Smart Microgrids",
+              "x": -0.15242328723404236,
+              "y": 0.3670657659574469,
+              "z": -0.7498917872340433,
+              "count": 1880
+            },
+            {
+              "theme": "AI/ML, Supercomputing & Quantum Computing",
+              "domain": "Computational Fluid Dynamics & Flow Analysis",
+              "x": -0.12616243445692882,
+              "y": 0.1545937560192618,
+              "z": -0.2445602140181917,
+              "count": 1869
+            },
+            {
+              "theme": "Manufacturing & Industry 4.0",
+              "domain": "Electric Motor Drives & Power Electronics",
+              "x": -0.2703163221550305,
+              "y": 0.28316485981308426,
+              "z": -0.5695408521165469,
+              "count": 1819
+            },
+            {
+              "theme": "AI/ML, Supercomputing & Quantum Computing",
+              "domain": "Machine Learning & Neural Networks",
+              "x": -0.01735285460992906,
+              "y": 0.6221642671394789,
+              "z": 0.03220844562647757,
+              "count": 1692
+            },
+            {
+              "theme": "Manufacturing & Industry 4.0",
+              "domain": "Textile Manufacturing & Fabric Properties",
+              "x": -0.4433080735032602,
+              "y": 0.24976378778897468,
+              "z": -0.21112694724362774,
+              "count": 1687
+            },
+            {
+              "theme": "Unclassified",
+              "domain": "",
+              "x": -0.0808078550029959,
+              "y": 0.028584763331336083,
+              "z": -0.08872953864589567,
+              "count": 1669
+            },
+            {
+              "theme": "Advanced Materials & Devices",
+              "domain": "Organometallic & Chalcogenide Synthesis",
+              "x": 0.0026711775818639718,
+              "y": 0.41773981108312364,
+              "z": 0.043276039042821186,
+              "count": 1588
+            },
+            {
+              "theme": "Smart & Sustainable Infrastructure",
+              "domain": "Structural Dynamics & Seismic Engineering",
+              "x": -0.4185044649933952,
+              "y": -0.3935714266842804,
+              "z": -0.4431202245706737,
+              "count": 1514
+            },
+            {
+              "theme": "Quantum Technologies & Semiconductor Technology",
+              "domain": "Semiconductor Photovoltaic & Photodetection Devices",
+              "x": -0.23655892712550658,
+              "y": 0.20883520917678813,
+              "z": 0.33939010796221314,
+              "count": 1482
+            },
+            {
+              "theme": "Energy, Sustainability & Climate Change",
+              "domain": "Environmental Assessment & Land Use Management",
+              "x": -0.06054039215686276,
+              "y": 0.09742822177146732,
+              "z": -0.5688110074374568,
+              "count": 1479
+            },
+            {
+              "theme": "Advanced Materials & Devices",
+              "domain": "Bio-based Materials & Polymers",
+              "x": -0.15221226074895985,
+              "y": 0.27475150485437,
+              "z": -0.02555320388349514,
+              "count": 1442
+            },
+            {
+              "theme": "Healthcare & MedTech",
+              "domain": "Clinical Diagnostics & Biomarkers",
+              "x": 0.3060530383275259,
+              "y": 0.11246778397212549,
+              "z": 0.39657367247386743,
+              "count": 1435
+            },
+            {
+              "theme": "Advanced Materials & Devices",
+              "domain": "Polymer Nanocomposites & Blends",
+              "x": -0.36108634887005653,
+              "y": 0.30922971045197745,
+              "z": 0.19390855225988726,
+              "count": 1416
+            },
+            {
+              "theme": "Healthcare & MedTech",
+              "domain": "Cellular & Molecular Biology",
+              "x": 0.29098293233082734,
+              "y": 0.12195321804511289,
+              "z": 0.1889697669172934,
+              "count": 1330
+            },
+            {
+              "theme": "Advanced Materials & Devices",
+              "domain": "Ion Beam & Thin Film Engineering",
+              "x": -0.28276974712643727,
+              "y": 0.36302237547892685,
+              "z": 0.36961373946360176,
+              "count": 1305
+            },
+            {
+              "theme": "Advanced Materials & Devices",
+              "domain": "Ferroelectric & Magnetic Ceramics",
+              "x": -0.27293893004115233,
+              "y": 0.4418570205761309,
+              "z": 0.29468768724279887,
+              "count": 1215
+            },
+            {
+              "theme": "Social Sciences, Humanities & Management",
+              "domain": "Supply Chain & Operations Management",
+              "x": -0.4140093818181818,
+              "y": -0.4038964636363637,
+              "z": -0.3209953818181819,
+              "count": 1100
+            },
+            {
+              "theme": "AI/ML, Supercomputing & Quantum Computing",
+              "domain": "Control Systems & Linear Dynamical Systems",
+              "x": -0.22995677509293672,
+              "y": 0.21644148698884735,
+              "z": -0.033499126394052024,
+              "count": 1076
+            },
+            {
+              "theme": "Healthcare & MedTech",
+              "domain": "Drug Delivery & Molecular Therapeutics",
+              "x": 0.3078279100281164,
+              "y": 0.1525183786316778,
+              "z": 0.45896981255857533,
+              "count": 1067
+            },
+            {
+              "theme": "Energy, Sustainability & Climate Change",
+              "domain": "Carbon Utilization & Chemical Conversion",
+              "x": 0.054310099700897264,
+              "y": 0.41298545363908246,
+              "z": -0.5954145563310073,
+              "count": 1003
+            },
+            {
+              "theme": "Manufacturing & Industry 4.0",
+              "domain": "Fluid-Particle Flow & Multiphase Systems",
+              "x": -0.2999960500544071,
+              "y": 0.020144439608269886,
+              "z": -0.4347331229597386,
+              "count": 919
+            },
+            {
+              "theme": "Energy, Sustainability & Climate Change",
+              "domain": "Biomass & Biofuel Technologies",
+              "x": -0.005391197339246109,
+              "y": 0.3343080266075389,
+              "z": -0.7373726274944573,
+              "count": 902
+            },
+            {
+              "theme": "Energy, Sustainability & Climate Change",
+              "domain": "Monsoon Dynamics & Regional Climate Modeling",
+              "x": 0.0865314492753623,
+              "y": 0.10353687848383504,
+              "z": -0.5847085953177258,
+              "count": 897
+            },
+            {
+              "theme": "Next-Gen Communication",
+              "domain": "Signal Modulation, Detection & Channel Equalization",
+              "x": 0.46189370949720665,
+              "y": -0.22739300558659187,
+              "z": -0.328913039106145,
+              "count": 895
+            },
+            {
+              "theme": "Manufacturing & Industry 4.0",
+              "domain": "Precision Manufacturing & Microfabrication",
+              "x": -0.7014756614349789,
+              "y": 0.019916098654708527,
+              "z": -0.13543371076233185,
+              "count": 892
+            },
+            {
+              "theme": "Energy, Sustainability & Climate Change",
+              "domain": "Energy Storage Materials",
+              "x": -0.03511379977246866,
+              "y": 0.45077564277588167,
+              "z": -0.4005203071672355,
+              "count": 879
+            },
+            {
+              "theme": "Next-Gen Communication",
+              "domain": "Wireless Network Access & Resource Allocation",
+              "x": 0.47298658592848897,
+              "y": -0.17758098039215697,
+              "z": -0.3934714648212221,
+              "count": 867
+            },
+            {
+              "theme": "Social Sciences, Humanities & Management",
+              "domain": "Digital Transformation & IT Applications",
+              "x": -0.02436713450292397,
+              "y": -0.3525671228070174,
+              "z": -0.16075760233918138,
+              "count": 855
+            },
+            {
+              "theme": "Next-Gen Communication",
+              "domain": "Plasma-Wave & Electromagnetic Interactions",
+              "x": 0.27489113207547194,
+              "y": 0.16260235849056606,
+              "z": -0.23276568396226377,
+              "count": 848
+            },
+            {
+              "theme": "Next-Gen Communication",
+              "domain": "Antenna Design & RF Systems",
+              "x": 0.3932457914572863,
+              "y": -0.16558454773869352,
+              "z": -0.3725120351758795,
+              "count": 796
+            },
+            {
+              "theme": "Energy, Sustainability & Climate Change",
+              "domain": "Solar Thermal Energy & Heat Transfer Systems",
+              "x": -0.009069872935196946,
+              "y": 0.3639343583227445,
+              "z": -0.7386981575603561,
+              "count": 787
+            },
+            {
+              "theme": "Quantum Technologies & Semiconductor Technology",
+              "domain": "Plasmonic & Fiber Optic Sensors",
+              "x": -0.36298250000000004,
+              "y": 0.33505476608187157,
+              "z": 0.377685014619883,
+              "count": 684
+            },
+            {
+              "theme": "Quantum Technologies & Semiconductor Technology",
+              "domain": "Wide Bandgap Semiconductors & Devices",
+              "x": -0.18632167673716013,
+              "y": 0.001528534743202385,
+              "z": 0.3947868429003019,
+              "count": 662
+            },
+            {
+              "theme": "Advanced Materials & Devices",
+              "domain": "Alloys & Structural Metals",
+              "x": -0.355318127853881,
+              "y": 0.15255675799086754,
+              "z": 0.16674062404870624,
+              "count": 657
+            },
+            {
+              "theme": "Quantum Technologies & Semiconductor Technology",
+              "domain": "Fiber Photonic Devices & Engineering",
+              "x": -0.10253579754601232,
+              "y": 0.04255081288343563,
+              "z": 0.11901121165644164,
+              "count": 652
+            },
+            {
+              "theme": "Manufacturing & Industry 4.0",
+              "domain": "Biomanufacturing & Fermentation Processes",
+              "x": -0.23295118279569926,
+              "y": 0.04281222734254994,
+              "z": -0.3661214746543776,
+              "count": 651
+            },
+            {
+              "theme": "Advanced Materials & Devices",
+              "domain": "Composite & Laminate Structures",
+              "x": -0.5119557076923081,
+              "y": 0.190404676923077,
+              "z": -0.00612824615384616,
+              "count": 650
+            },
+            {
+              "theme": "Manufacturing & Industry 4.0",
+              "domain": "Tribology & Bearing Performance",
+              "x": -0.6374693867924534,
+              "y": 0.11802844339622642,
+              "z": -0.014452531446540887,
+              "count": 636
+            },
+            {
+              "theme": "Manufacturing & Industry 4.0",
+              "domain": "Rotor Dynamics & Vibration Analysis",
+              "x": -0.5755298887122414,
+              "y": -0.023195246422893445,
+              "z": -0.16689435612082676,
+              "count": 629
+            },
+            {
+              "theme": "Smart & Sustainable Infrastructure",
+              "domain": "Transportation Systems & Traffic Management",
+              "x": -0.29288993485342013,
+              "y": -0.43047201954397385,
+              "z": -0.34713355048859923,
+              "count": 614
+            },
+            {
+              "theme": "Energy, Sustainability & Climate Change",
+              "domain": "Electric Vehicle Battery & Charging Systems",
+              "x": -0.08424542087542079,
+              "y": 0.39556356902356926,
+              "z": -0.7543379292929292,
+              "count": 594
+            },
+            {
+              "theme": "Smart & Sustainable Infrastructure",
+              "domain": "Geotechnical Engineering & Soil Mechanics",
+              "x": -0.32899388415672903,
+              "y": -0.5372575979557075,
+              "z": -0.402082010221465,
+              "count": 587
+            },
+            {
+              "theme": "AI/ML, Supercomputing & Quantum Computing",
+              "domain": "Natural Language Processing & Information Retrieval",
+              "x": 0.0455602931034483,
+              "y": 0.5491783275862068,
+              "z": -0.054773155172413726,
+              "count": 580
+            },
+            {
+              "theme": "Smart & Sustainable Infrastructure",
+              "domain": "Water Quality & Wastewater Management",
+              "x": -0.2797305181347154,
+              "y": -0.24551226252158895,
+              "z": -0.5491575302245247,
+              "count": 579
+            },
+            {
+              "theme": "Advanced Materials & Devices",
+              "domain": "Ionic Liquids & Soft Matter",
+              "x": 0.03837103626943005,
+              "y": 0.3094585319516408,
+              "z": -0.05171683937823836,
+              "count": 579
+            },
+            {
+              "theme": "Quantum Technologies & Semiconductor Technology",
+              "domain": "Structured Light & Polarization Engineering",
+              "x": -0.00935498269896196,
+              "y": 0.09033565743944631,
+              "z": 0.1670977854671281,
+              "count": 578
+            },
+            {
+              "theme": "Healthcare & MedTech",
+              "domain": "Clinical AI & Medical Imaging Analytics",
+              "x": 0.3493430985915492,
+              "y": 0.3104960387323944,
+              "z": 0.4858622711267607,
+              "count": 568
+            },
+            {
+              "theme": "Healthcare & MedTech",
+              "domain": "Tissue Engineering & Regenerative Medicine",
+              "x": 0.030988442477876087,
+              "y": 0.2974339292035398,
+              "z": 0.3857185663716814,
+              "count": 565
+            },
+            {
+              "theme": "Social Sciences, Humanities & Management",
+              "domain": "Development Economics & Social Welfare",
+              "x": -0.05211482142857148,
+              "y": -0.5832056249999998,
+              "z": -0.2736821785714288,
+              "count": 560
+            },
+            {
+              "theme": "Advanced Materials & Devices",
+              "domain": "Rare-Earth Doped Luminescent Materials",
+              "x": -0.38587394495412825,
+              "y": 0.4630843302752292,
+              "z": 0.2946640366972477,
+              "count": 545
+            },
+            {
+              "theme": "Energy, Sustainability & Climate Change",
+              "domain": "Next-Generation Photovoltaic Materials",
+              "x": -0.13705099624060157,
+              "y": 0.508635714285714,
+              "z": -0.22067796992481198,
+              "count": 532
+            },
+            {
+              "theme": "Healthcare & MedTech",
+              "domain": "Clinical Biosensors & Point-of-Care Devices",
+              "x": 0.1085113688212928,
+              "y": 0.28313131178707235,
+              "z": 0.5285312167300382,
+              "count": 526
+            },
+            {
+              "theme": "Healthcare & MedTech",
+              "domain": "Biopharmaceutical Manufacturing & Quality",
+              "x": 0.22731457854406148,
+              "y": 0.06630544061302682,
+              "z": 0.365084521072797,
+              "count": 522
+            },
+            {
+              "theme": "Quantum Technologies & Semiconductor Technology",
+              "domain": "Spintronics & Magnetic Devices",
+              "x": -0.12893457692307694,
+              "y": 0.014259942307692265,
+              "z": 0.5237538846153845,
+              "count": 520
+            },
+            {
+              "theme": "Social Sciences, Humanities & Management",
+              "domain": "Digital Culture & Consumer Experience",
+              "x": -0.08552154598825826,
+              "y": -0.19819013698630134,
+              "z": -0.1257034637964775,
+              "count": 511
+            },
+            {
+              "theme": "Healthcare & MedTech",
+              "domain": "Biomechanics & Musculoskeletal Systems",
+              "x": 0.11951001999999997,
+              "y": 0.05387856000000002,
+              "z": 0.3496992799999998,
+              "count": 500
+            },
+            {
+              "theme": "Quantum Technologies & Semiconductor Technology",
+              "domain": "Quantum Photonics & Entanglement",
+              "x": -0.12477057142857134,
+              "y": -0.24007547252747258,
+              "z": 0.4591802417582417,
+              "count": 455
+            },
+            {
+              "theme": "Healthcare & MedTech",
+              "domain": "Infectious Disease & Microbiology",
+              "x": 0.4007286956521742,
+              "y": 0.04584437070938214,
+              "z": 0.3149846453089242,
+              "count": 437
+            },
+            {
+              "theme": "Smart & Sustainable Infrastructure",
+              "domain": "Urban Air Quality & Emissions Monitoring",
+              "x": -0.3217366972477063,
+              "y": -0.37342655963302723,
+              "z": -0.5806529816513762,
+              "count": 436
+            },
+            {
+              "theme": "Quantum Technologies & Semiconductor Technology",
+              "domain": "Ultra-Low Voltage Analog Circuits",
+              "x": -0.20921174224343655,
+              "y": 0.027316420047732676,
+              "z": 0.22212007159904557,
+              "count": 419
+            },
+            {
+              "theme": "Social Sciences, Humanities & Management",
+              "domain": "Agricultural Economics & Consumer Behavior",
+              "x": 0.12056712158808945,
+              "y": -0.20608126550868489,
+              "z": -0.4039588089330028,
+              "count": 403
+            },
+            {
+              "theme": "Smart & Sustainable Infrastructure",
+              "domain": "Building Energy & Thermal Performance",
+              "x": -0.34291056410256393,
+              "y": -0.40129969230769236,
+              "z": -0.564903358974359,
+              "count": 390
+            },
+            {
+              "theme": "Social Sciences, Humanities & Management",
+              "domain": "Cultural Studies & Ethnography",
+              "x": -0.0626986857142857,
+              "y": -0.6838117142857139,
+              "z": -0.2359261999999999,
+              "count": 350
+            },
+            {
+              "theme": "Smart & Sustainable Infrastructure",
+              "domain": "Hydrology & Water Resources Management",
+              "x": -0.1729493051359516,
+              "y": -0.35214211480362556,
+              "z": -0.5170372809667673,
+              "count": 331
+            },
+            {
+              "theme": "Social Sciences, Humanities & Management",
+              "domain": "International Business & Finance",
+              "x": 0.06743800653594761,
+              "y": -0.6341121895424835,
+              "z": -0.14544215686274503,
+              "count": 306
+            },
+            {
+              "theme": "Next-Gen Communication",
+              "domain": "Cooperative & Relay Networks",
+              "x": 0.45797201342281874,
+              "y": -0.1824317449664429,
+              "z": -0.48282738255033564,
+              "count": 298
+            },
+            {
+              "theme": "Manufacturing & Industry 4.0",
+              "domain": "Advanced Surface Finishing & Processing",
+              "x": -0.5497417977528092,
+              "y": 0.12469018726591764,
+              "z": -0.1450889887640449,
+              "count": 267
+            },
+            {
+              "theme": "Social Sciences, Humanities & Management",
+              "domain": "Social Media Analytics & Online Networks",
+              "x": 0.044625287356321854,
+              "y": -0.05956590038314178,
+              "z": -0.05414816091954023,
+              "count": 261
+            },
+            {
+              "theme": "Quantum Technologies & Semiconductor Technology",
+              "domain": "Resistive Memory & Neuromorphic Computing",
+              "x": -0.19794945736434105,
+              "y": 0.3870884108527128,
+              "z": 0.3353233720930234,
+              "count": 258
+            },
+            {
+              "theme": "Next-Gen Communication",
+              "domain": "Free Space Optical Communication",
+              "x": 0.6079611952191232,
+              "y": -0.348529561752988,
+              "z": -0.4945562549800798,
+              "count": 251
+            },
+            {
+              "theme": "Next-Gen Communication",
+              "domain": "Direction of Arrival & Beamforming",
+              "x": 0.33562245689655157,
+              "y": -0.20886491379310354,
+              "z": -0.1841306034482759,
+              "count": 232
+            },
+            {
+              "theme": "Social Sciences, Humanities & Management",
+              "domain": "Computational Linguistics & Language Processing",
+              "x": -0.03354855140186917,
+              "y": -0.26924831775700925,
+              "z": -0.09864074766355144,
+              "count": 214
+            },
+            {
+              "theme": "Next-Gen Communication",
+              "domain": "Microwave Photonic Systems",
+              "x": 0.04146913793103449,
+              "y": -0.2710725862068967,
+              "z": 0.07314166666666663,
+              "count": 174
+            },
+            {
+              "theme": "Healthcare & MedTech",
+              "domain": "Neuroscience & Neurophysiology",
+              "x": 0.12551816091954027,
+              "y": 0.3566765517241379,
+              "z": 0.18707471264367823,
+              "count": 174
+            },
+            {
+              "theme": "Social Sciences, Humanities & Management",
+              "domain": "Library Science & Information Management",
+              "x": 0.06983125,
+              "y": 0.011657083333333334,
+              "z": 0.05876697916666666,
+              "count": 96
+            }
+          ]
+        },
+        "timestamp": "2026-07-18T16:49:30.364Z"
+      },
+      "bytes": 18858
+    },
+    "kg_tree": {
+      "ok": true,
+      "status": 200,
+      "url": "https://localhost/api/kg/atlas/tree",
+      "json": {
+        "success": true,
+        "message": "Success",
+        "data": {
+          "version": "45d5192e51b3",
+          "pointCount": 66235,
+          "root": "r",
+          "bbox": {
+            "min": [
+              -1.097166,
+              -1.09798,
+              -1.092349
+            ],
+            "max": [
+              1.064186,
+              1.09962,
+              1.094879
+            ]
+          },
+          "gridRes": 16,
+          "capacity": 4096,
+          "nodes": {
+            "r": {
+              "bounds": {
+                "min": [
+                  -1.097166,
+                  -1.09798,
+                  -1.092349
+                ],
+                "max": [
+                  1.064186,
+                  1.09962,
+                  1.094879
+                ]
+              },
+              "childMask": 255,
+              "pointCount": 1671,
+              "depth": 0
+            },
+            "r-4": {
+              "bounds": {
+                "min": [
+                  -1.097166,
+                  -1.09798,
+                  0.001265
+                ],
+                "max": [
+                  -0.01649,
+                  0.00082,
+                  1.094879
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 3342,
+              "depth": 1
+            },
+            "r-7": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  0.00082,
+                  0.001265
+                ],
+                "max": [
+                  1.064186,
+                  1.09962,
+                  1.094879
+                ]
+              },
+              "childMask": 255,
+              "pointCount": 1033,
+              "depth": 1
+            },
+            "r-7-3": {
+              "bounds": {
+                "min": [
+                  0.523848,
+                  0.55022,
+                  0.001265
+                ],
+                "max": [
+                  1.064186,
+                  1.09962,
+                  0.548072
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 6,
+              "depth": 2
+            },
+            "r-7-0": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  0.00082,
+                  0.001265
+                ],
+                "max": [
+                  0.523848,
+                  0.55022,
+                  0.548072
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 177,
+              "depth": 2
+            },
+            "r-7-7": {
+              "bounds": {
+                "min": [
+                  0.523848,
+                  0.55022,
+                  0.548072
+                ],
+                "max": [
+                  1.064186,
+                  1.09962,
+                  1.094879
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 20,
+              "depth": 2
+            },
+            "r-7-6": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  0.55022,
+                  0.548072
+                ],
+                "max": [
+                  0.523848,
+                  1.09962,
+                  1.094879
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 66,
+              "depth": 2
+            },
+            "r-7-2": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  0.55022,
+                  0.001265
+                ],
+                "max": [
+                  0.523848,
+                  1.09962,
+                  0.548072
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 789,
+              "depth": 2
+            },
+            "r-7-1": {
+              "bounds": {
+                "min": [
+                  0.523848,
+                  0.00082,
+                  0.001265
+                ],
+                "max": [
+                  1.064186,
+                  0.55022,
+                  0.548072
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 628,
+              "depth": 2
+            },
+            "r-7-5": {
+              "bounds": {
+                "min": [
+                  0.523848,
+                  0.00082,
+                  0.548072
+                ],
+                "max": [
+                  1.064186,
+                  0.55022,
+                  1.094879
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 1617,
+              "depth": 2
+            },
+            "r-7-4": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  0.00082,
+                  0.548072
+                ],
+                "max": [
+                  0.523848,
+                  0.55022,
+                  1.094879
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 2329,
+              "depth": 2
+            },
+            "r-5": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  -1.09798,
+                  0.001265
+                ],
+                "max": [
+                  1.064186,
+                  0.00082,
+                  1.094879
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 2984,
+              "depth": 1
+            },
+            "r-6": {
+              "bounds": {
+                "min": [
+                  -1.097166,
+                  0.00082,
+                  0.001265
+                ],
+                "max": [
+                  -0.01649,
+                  1.09962,
+                  1.094879
+                ]
+              },
+              "childMask": 255,
+              "pointCount": 1107,
+              "depth": 1
+            },
+            "r-6-4": {
+              "bounds": {
+                "min": [
+                  -1.097166,
+                  0.00082,
+                  0.548072
+                ],
+                "max": [
+                  -0.556828,
+                  0.55022,
+                  1.094879
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 87,
+              "depth": 2
+            },
+            "r-6-6": {
+              "bounds": {
+                "min": [
+                  -1.097166,
+                  0.55022,
+                  0.548072
+                ],
+                "max": [
+                  -0.556828,
+                  1.09962,
+                  1.094879
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 78,
+              "depth": 2
+            },
+            "r-6-1": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  0.00082,
+                  0.001265
+                ],
+                "max": [
+                  -0.01649,
+                  0.55022,
+                  0.548072
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 1100,
+              "depth": 2
+            },
+            "r-6-7": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  0.55022,
+                  0.548072
+                ],
+                "max": [
+                  -0.01649,
+                  1.09962,
+                  1.094879
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 1211,
+              "depth": 2
+            },
+            "r-6-5": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  0.00082,
+                  0.548072
+                ],
+                "max": [
+                  -0.01649,
+                  0.55022,
+                  1.094879
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 371,
+              "depth": 2
+            },
+            "r-6-2": {
+              "bounds": {
+                "min": [
+                  -1.097166,
+                  0.55022,
+                  0.001265
+                ],
+                "max": [
+                  -0.556828,
+                  1.09962,
+                  0.548072
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 1453,
+              "depth": 2
+            },
+            "r-6-3": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  0.55022,
+                  0.001265
+                ],
+                "max": [
+                  -0.01649,
+                  1.09962,
+                  0.548072
+                ]
+              },
+              "childMask": 255,
+              "pointCount": 2197,
+              "depth": 2
+            },
+            "r-6-3-6": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  0.82492,
+                  0.274668
+                ],
+                "max": [
+                  -0.286659,
+                  1.09962,
+                  0.548072
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 96,
+              "depth": 3
+            },
+            "r-6-3-7": {
+              "bounds": {
+                "min": [
+                  -0.286659,
+                  0.82492,
+                  0.274668
+                ],
+                "max": [
+                  -0.01649,
+                  1.09962,
+                  0.548072
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 60,
+              "depth": 3
+            },
+            "r-6-3-5": {
+              "bounds": {
+                "min": [
+                  -0.286659,
+                  0.55022,
+                  0.274668
+                ],
+                "max": [
+                  -0.01649,
+                  0.82492,
+                  0.548072
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 483,
+              "depth": 3
+            },
+            "r-6-3-2": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  0.82492,
+                  0.001265
+                ],
+                "max": [
+                  -0.286659,
+                  1.09962,
+                  0.274668
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 144,
+              "depth": 3
+            },
+            "r-6-3-1": {
+              "bounds": {
+                "min": [
+                  -0.286659,
+                  0.55022,
+                  0.001265
+                ],
+                "max": [
+                  -0.01649,
+                  0.82492,
+                  0.274668
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 372,
+              "depth": 3
+            },
+            "r-6-3-3": {
+              "bounds": {
+                "min": [
+                  -0.286659,
+                  0.82492,
+                  0.001265
+                ],
+                "max": [
+                  -0.01649,
+                  1.09962,
+                  0.274668
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 354,
+              "depth": 3
+            },
+            "r-6-3-0": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  0.55022,
+                  0.001265
+                ],
+                "max": [
+                  -0.286659,
+                  0.82492,
+                  0.274668
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 437,
+              "depth": 3
+            },
+            "r-6-3-4": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  0.55022,
+                  0.274668
+                ],
+                "max": [
+                  -0.286659,
+                  0.82492,
+                  0.548072
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 891,
+              "depth": 3
+            },
+            "r-6-0": {
+              "bounds": {
+                "min": [
+                  -1.097166,
+                  0.00082,
+                  0.001265
+                ],
+                "max": [
+                  -0.556828,
+                  0.55022,
+                  0.548072
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 950,
+              "depth": 2
+            },
+            "r-2": {
+              "bounds": {
+                "min": [
+                  -1.097166,
+                  0.00082,
+                  -1.092349
+                ],
+                "max": [
+                  -0.01649,
+                  1.09962,
+                  0.001265
+                ]
+              },
+              "childMask": 251,
+              "pointCount": 1146,
+              "depth": 1
+            },
+            "r-2-6": {
+              "bounds": {
+                "min": [
+                  -1.097166,
+                  0.55022,
+                  -0.545542
+                ],
+                "max": [
+                  -0.556828,
+                  1.09962,
+                  0.001265
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 16,
+              "depth": 2
+            },
+            "r-2-5": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  0.00082,
+                  -0.545542
+                ],
+                "max": [
+                  -0.01649,
+                  0.55022,
+                  0.001265
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 19,
+              "depth": 2
+            },
+            "r-2-0": {
+              "bounds": {
+                "min": [
+                  -1.097166,
+                  0.00082,
+                  -1.092349
+                ],
+                "max": [
+                  -0.556828,
+                  0.55022,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 88,
+              "depth": 2
+            },
+            "r-2-1": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  0.00082,
+                  -1.092349
+                ],
+                "max": [
+                  -0.01649,
+                  0.55022,
+                  -0.545542
+                ]
+              },
+              "childMask": 255,
+              "pointCount": 1402,
+              "depth": 2
+            },
+            "r-2-1-0": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  0.00082,
+                  -1.092349
+                ],
+                "max": [
+                  -0.286659,
+                  0.27552,
+                  -0.818945
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 3,
+              "depth": 3
+            },
+            "r-2-1-4": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  0.00082,
+                  -0.818945
+                ],
+                "max": [
+                  -0.286659,
+                  0.27552,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 7,
+              "depth": 3
+            },
+            "r-2-1-1": {
+              "bounds": {
+                "min": [
+                  -0.286659,
+                  0.00082,
+                  -1.092349
+                ],
+                "max": [
+                  -0.01649,
+                  0.27552,
+                  -0.818945
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 122,
+              "depth": 3
+            },
+            "r-2-1-5": {
+              "bounds": {
+                "min": [
+                  -0.286659,
+                  0.00082,
+                  -0.818945
+                ],
+                "max": [
+                  -0.01649,
+                  0.27552,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 290,
+              "depth": 3
+            },
+            "r-2-1-6": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  0.27552,
+                  -0.818945
+                ],
+                "max": [
+                  -0.286659,
+                  0.55022,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 47,
+              "depth": 3
+            },
+            "r-2-1-2": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  0.27552,
+                  -1.092349
+                ],
+                "max": [
+                  -0.286659,
+                  0.55022,
+                  -0.818945
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 141,
+              "depth": 3
+            },
+            "r-2-1-3": {
+              "bounds": {
+                "min": [
+                  -0.286659,
+                  0.27552,
+                  -1.092349
+                ],
+                "max": [
+                  -0.01649,
+                  0.55022,
+                  -0.818945
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 1554,
+              "depth": 3
+            },
+            "r-2-1-7": {
+              "bounds": {
+                "min": [
+                  -0.286659,
+                  0.27552,
+                  -0.818945
+                ],
+                "max": [
+                  -0.01649,
+                  0.55022,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 2492,
+              "depth": 3
+            },
+            "r-2-7": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  0.55022,
+                  -0.545542
+                ],
+                "max": [
+                  -0.01649,
+                  1.09962,
+                  0.001265
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 1669,
+              "depth": 2
+            },
+            "r-2-4": {
+              "bounds": {
+                "min": [
+                  -1.097166,
+                  0.00082,
+                  -0.545542
+                ],
+                "max": [
+                  -0.556828,
+                  0.55022,
+                  0.001265
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 3507,
+              "depth": 2
+            },
+            "r-2-3": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  0.55022,
+                  -1.092349
+                ],
+                "max": [
+                  -0.01649,
+                  1.09962,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 686,
+              "depth": 2
+            },
+            "r-1": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  -1.09798,
+                  -1.092349
+                ],
+                "max": [
+                  1.064186,
+                  0.00082,
+                  0.001265
+                ]
+              },
+              "childMask": 255,
+              "pointCount": 1015,
+              "depth": 1
+            },
+            "r-1-1": {
+              "bounds": {
+                "min": [
+                  0.523848,
+                  -1.09798,
+                  -1.092349
+                ],
+                "max": [
+                  1.064186,
+                  -0.54858,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 48,
+              "depth": 2
+            },
+            "r-1-0": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  -1.09798,
+                  -1.092349
+                ],
+                "max": [
+                  0.523848,
+                  -0.54858,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 61,
+              "depth": 2
+            },
+            "r-1-5": {
+              "bounds": {
+                "min": [
+                  0.523848,
+                  -1.09798,
+                  -0.545542
+                ],
+                "max": [
+                  1.064186,
+                  -0.54858,
+                  0.001265
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 58,
+              "depth": 2
+            },
+            "r-1-2": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  -0.54858,
+                  -1.092349
+                ],
+                "max": [
+                  0.523848,
+                  0.00082,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 382,
+              "depth": 2
+            },
+            "r-1-7": {
+              "bounds": {
+                "min": [
+                  0.523848,
+                  -0.54858,
+                  -0.545542
+                ],
+                "max": [
+                  1.064186,
+                  0.00082,
+                  0.001265
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 2327,
+              "depth": 2
+            },
+            "r-1-6": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  -0.54858,
+                  -0.545542
+                ],
+                "max": [
+                  0.523848,
+                  0.00082,
+                  0.001265
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 339,
+              "depth": 2
+            },
+            "r-1-3": {
+              "bounds": {
+                "min": [
+                  0.523848,
+                  -0.54858,
+                  -1.092349
+                ],
+                "max": [
+                  1.064186,
+                  0.00082,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 1507,
+              "depth": 2
+            },
+            "r-1-4": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  -1.09798,
+                  -0.545542
+                ],
+                "max": [
+                  0.523848,
+                  -0.54858,
+                  0.001265
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 838,
+              "depth": 2
+            },
+            "r-0": {
+              "bounds": {
+                "min": [
+                  -1.097166,
+                  -1.09798,
+                  -1.092349
+                ],
+                "max": [
+                  -0.01649,
+                  0.00082,
+                  0.001265
+                ]
+              },
+              "childMask": 255,
+              "pointCount": 1258,
+              "depth": 1
+            },
+            "r-0-4": {
+              "bounds": {
+                "min": [
+                  -1.097166,
+                  -1.09798,
+                  -0.545542
+                ],
+                "max": [
+                  -0.556828,
+                  -0.54858,
+                  0.001265
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 211,
+              "depth": 2
+            },
+            "r-0-2": {
+              "bounds": {
+                "min": [
+                  -1.097166,
+                  -0.54858,
+                  -1.092349
+                ],
+                "max": [
+                  -0.556828,
+                  0.00082,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 184,
+              "depth": 2
+            },
+            "r-0-0": {
+              "bounds": {
+                "min": [
+                  -1.097166,
+                  -1.09798,
+                  -1.092349
+                ],
+                "max": [
+                  -0.556828,
+                  -0.54858,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 90,
+              "depth": 2
+            },
+            "r-0-7": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  -0.54858,
+                  -0.545542
+                ],
+                "max": [
+                  -0.01649,
+                  0.00082,
+                  0.001265
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 832,
+              "depth": 2
+            },
+            "r-0-6": {
+              "bounds": {
+                "min": [
+                  -1.097166,
+                  -0.54858,
+                  -0.545542
+                ],
+                "max": [
+                  -0.556828,
+                  0.00082,
+                  0.001265
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 3412,
+              "depth": 2
+            },
+            "r-0-3": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  -0.54858,
+                  -1.092349
+                ],
+                "max": [
+                  -0.01649,
+                  0.00082,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 1127,
+              "depth": 2
+            },
+            "r-0-1": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  -1.09798,
+                  -1.092349
+                ],
+                "max": [
+                  -0.01649,
+                  -0.54858,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 1438,
+              "depth": 2
+            },
+            "r-0-5": {
+              "bounds": {
+                "min": [
+                  -0.556828,
+                  -1.09798,
+                  -0.545542
+                ],
+                "max": [
+                  -0.01649,
+                  -0.54858,
+                  0.001265
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 3698,
+              "depth": 2
+            },
+            "r-3": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  0.00082,
+                  -1.092349
+                ],
+                "max": [
+                  1.064186,
+                  1.09962,
+                  0.001265
+                ]
+              },
+              "childMask": 119,
+              "pointCount": 922,
+              "depth": 1
+            },
+            "r-3-4": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  0.00082,
+                  -0.545542
+                ],
+                "max": [
+                  0.523848,
+                  0.55022,
+                  0.001265
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 44,
+              "depth": 2
+            },
+            "r-3-2": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  0.55022,
+                  -1.092349
+                ],
+                "max": [
+                  0.523848,
+                  1.09962,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 680,
+              "depth": 2
+            },
+            "r-3-5": {
+              "bounds": {
+                "min": [
+                  0.523848,
+                  0.00082,
+                  -0.545542
+                ],
+                "max": [
+                  1.064186,
+                  0.55022,
+                  0.001265
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 67,
+              "depth": 2
+            },
+            "r-3-0": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  0.00082,
+                  -1.092349
+                ],
+                "max": [
+                  0.523848,
+                  0.55022,
+                  -0.545542
+                ]
+              },
+              "childMask": 255,
+              "pointCount": 1757,
+              "depth": 2
+            },
+            "r-3-0-1": {
+              "bounds": {
+                "min": [
+                  0.253679,
+                  0.00082,
+                  -1.092349
+                ],
+                "max": [
+                  0.523848,
+                  0.27552,
+                  -0.818945
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 13,
+              "depth": 3
+            },
+            "r-3-0-5": {
+              "bounds": {
+                "min": [
+                  0.253679,
+                  0.00082,
+                  -0.818945
+                ],
+                "max": [
+                  0.523848,
+                  0.27552,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 33,
+              "depth": 3
+            },
+            "r-3-0-4": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  0.00082,
+                  -0.818945
+                ],
+                "max": [
+                  0.253679,
+                  0.27552,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 290,
+              "depth": 3
+            },
+            "r-3-0-2": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  0.27552,
+                  -1.092349
+                ],
+                "max": [
+                  0.253679,
+                  0.55022,
+                  -0.818945
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 941,
+              "depth": 3
+            },
+            "r-3-0-7": {
+              "bounds": {
+                "min": [
+                  0.253679,
+                  0.27552,
+                  -0.818945
+                ],
+                "max": [
+                  0.523848,
+                  0.55022,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 257,
+              "depth": 3
+            },
+            "r-3-0-3": {
+              "bounds": {
+                "min": [
+                  0.253679,
+                  0.27552,
+                  -1.092349
+                ],
+                "max": [
+                  0.523848,
+                  0.55022,
+                  -0.818945
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 201,
+              "depth": 3
+            },
+            "r-3-0-6": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  0.27552,
+                  -0.818945
+                ],
+                "max": [
+                  0.253679,
+                  0.55022,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 1531,
+              "depth": 3
+            },
+            "r-3-0-0": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  0.00082,
+                  -1.092349
+                ],
+                "max": [
+                  0.253679,
+                  0.27552,
+                  -0.818945
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 209,
+              "depth": 3
+            },
+            "r-3-1": {
+              "bounds": {
+                "min": [
+                  0.523848,
+                  0.00082,
+                  -1.092349
+                ],
+                "max": [
+                  1.064186,
+                  0.55022,
+                  -0.545542
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 30,
+              "depth": 2
+            },
+            "r-3-6": {
+              "bounds": {
+                "min": [
+                  -0.01649,
+                  0.55022,
+                  -0.545542
+                ],
+                "max": [
+                  0.523848,
+                  1.09962,
+                  0.001265
+                ]
+              },
+              "childMask": 0,
+              "pointCount": 1193,
+              "depth": 2
+            }
+          }
+        },
+        "timestamp": "2026-07-18T16:49:30.454Z"
+      },
+      "bytes": 10621
+    },
+    "kg_points": {
+      "ok": true,
+      "status": 200,
+      "url": "https://localhost/api/kg/atlas/points?indices=0,1,2,3,4",
+      "json": {
+        "success": true,
+        "message": "Success",
+        "data": {
+          "points": [
+            {
+              "i": 0,
+              "x": 0.11219000071287155,
+              "y": 0.7997599840164185,
+              "z": -0.18855999410152435,
+              "id": "69dec9f24e2d2a5b77ecde95",
+              "title": "Tagboards for video tagging",
+              "theme": "AI/ML, Supercomputing & Quantum Computing",
+              "department": "Computer Science & Engineering"
+            },
+            {
+              "i": 1,
+              "x": -0.03945999965071678,
+              "y": -0.7297099828720093,
+              "z": -0.20361000299453735,
+              "id": "69dec9f24e2d2a5b77ecde96",
+              "title": "Editorial note",
+              "theme": "Unclassified",
+              "department": "Humanities & Social Sciences"
+            },
+            {
+              "i": 2,
+              "x": -0.0279300007969141,
+              "y": -0.9955599904060364,
+              "z": -0.20344999432563782,
+              "id": "69dec9f24e2d2a5b77ecde97",
+              "title": "Reverse Endowment Effect for a New Product",
+              "theme": "Social Sciences, Humanities & Management",
+              "department": "Humanities & Social Sciences"
+            },
+            {
+              "i": 3,
+              "x": 0.03294999897480011,
+              "y": -0.9388099908828735,
+              "z": -0.24677999317646027,
+              "id": "69dec9f24e2d2a5b77ecde98",
+              "title": "Eliciting Willingness-to-Pay through Multiple Experimental Procedures: Evidence from Lab-in-the-Field in Rural Ghana",
+              "theme": "Social Sciences, Humanities & Management",
+              "department": "Humanities & Social Sciences"
+            },
+            {
+              "i": 4,
+              "x": -0.08006999641656876,
+              "y": -0.8589699864387512,
+              "z": -0.06649000197649002,
+              "id": "69dec9f24e2d2a5b77ecde99",
+              "title": "Information, branding, certification, and consumer willingness to pay for high-iron pearl millet: Evidence from experimental auctions in Maharashtra, India",
+              "theme": "Social Sciences, Humanities & Management",
+              "department": "Humanities & Social Sciences"
+            }
+          ]
+        },
+        "timestamp": "2026-07-18T16:49:30.543Z"
+      },
+      "bytes": 1520
+    },
+    "kg_atlas_root_tile": {
+      "ok": true,
+      "status": 200,
+      "url": "https://localhost/api/kg/atlas/tile/r",
+      "json": null,
+      "bytes": 45121
+    }
+  },
+  "summary": {
+    "themes_count": 9,
+    "themes_total_papers": 68080,
+    "themes_cache_hit": true,
+    "theme_counts": {
+      "AI/ML, Supercomputing & Quantum Computing": 8795,
+      "Advanced Materials & Devices": 9605,
+      "Energy, Sustainability & Climate Change": 9424,
+      "Healthcare & MedTech": 7387,
+      "Manufacturing & Industry 4.0": 9915,
+      "Next-Gen Communication": 4501,
+      "Quantum Technologies & Semiconductor Technology": 6399,
+      "Smart & Sustainable Infrastructure": 6932,
+      "Social Sciences, Humanities & Management": 5122
+    },
+    "domains_count": 77,
+    "domains_cache_hit": false,
+    "kg_health": {
+      "graphsReady": true,
+      "exploreReady": true,
+      "atlasReady": true,
+      "atlasCount": 66235,
+      "dataDir": "mongodb:45d5192e51b3",
+      "redisConnected": true,
+      "cacheTtlSeconds": 10800
+    },
+    "atlas_dict_themes": 10,
+    "atlas_dict_domains_nonempty": 77,
+    "atlas_dict_version": "45d5192e51b3",
+    "atlas_tree_point_count": 66235,
+    "atlas_tree_version": "45d5192e51b3",
+    "atlas_points_sample_count": 5,
+    "all_core_200": true,
+    "status_codes": {
+      "themes": 200,
+      "domains": 200,
+      "kg_health": 200,
+      "kg_dict": 200,
+      "kg_tree": 200,
+      "kg_points": 200,
+      "kg_atlas_root_tile": 200
+    }
+  }
+}

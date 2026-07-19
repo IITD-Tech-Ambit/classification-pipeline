@@ -1,0 +1,68 @@
+{
+  "budget_cap_usd": 80.0,
+  "correction_budget_usd": 68.0,
+  "validation_budget_reserve_usd": 12.0,
+  "correction_model": "claude-sonnet-4-5",
+  "judge_model": "claude-opus-4-5",
+  "correction_rows_written": 6979,
+  "correction_unique_ids": 6979,
+  "queue_meta": {
+    "low_confidence_count": 27526,
+    "confusion_high_conf_count": 12423,
+    "pre_cap_total": 39949,
+    "queue_hard_cap": 45000,
+    "capped": false,
+    "dropped_due_hard_cap": 0,
+    "taxonomy_path": "C:\\Users\\Prem\\OneDrive - IIT Delhi\\Desktop\\Research Ambit\\classification-pipeline\\outputs\\taxonomy-draft-v2-prefix.json",
+    "pilot_rows": 120,
+    "avg_cost_per_row_usd": 0.009742,
+    "estimated_rows_under_budget": 6979,
+    "budget_capped_total": 6979
+  },
+  "correction_usage": {
+    "input_tokens": 9945345,
+    "output_tokens": 819684,
+    "cache_write": 39028,
+    "cache_read": 10413380
+  },
+  "validation_usage": {
+    "input_tokens": 329279,
+    "output_tokens": 16082,
+    "cache_write": 0,
+    "cache_read": 0
+  },
+  "spend_usd": {
+    "correction": 45.4017,
+    "validation": 6.1453,
+    "verify": 0.0005,
+    "total": 51.5475
+  },
+  "decision": {
+    "status": "recommended_v2_1",
+    "recommended_file": "C:\\Users\\Prem\\OneDrive - IIT Delhi\\Desktop\\Research Ambit\\classification-pipeline\\outputs\\classification_v2_1_candidate.jsonl",
+    "reason": "net_margin=74 (required>=8), theme_non_regression=True, domain_signal=True"
+  },
+  "validation_summary": {
+    "n_judged": 220,
+    "overall_wins": {
+      "tie": 130,
+      "v2": 8,
+      "v2_1": 82
+    },
+    "theme_wins": {
+      "tie": 215,
+      "v2_1": 5
+    },
+    "domain_wins": {
+      "tie": 130,
+      "v2": 8,
+      "v2_1": 82
+    },
+    "n_non_tie": 90,
+    "net_margin_v2_1_minus_v2": 74,
+    "v2_1_win_rate_non_tie_pct": 91.11,
+    "theme_non_regression": true,
+    "domain_improvement_signal": true
+  },
+  "updated": "2026-07-18 22:12:29"
+}
